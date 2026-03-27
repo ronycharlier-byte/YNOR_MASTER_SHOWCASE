@@ -1,0 +1,459 @@
+{
+  "node": "05_C_PRIME_VALIDATION_ET_TESTS",
+  "key": "C_PRIME",
+  "mirror": "C",
+  "role": "Retour miroir par validation, stress et reproductibilite",
+  "inventory_count": 75,
+  "inventory": [
+    {
+      "source": "MDL_Ynor_Framework\\tests\\test_mdl_robustness.py",
+      "size_bytes": 2224,
+      "sha256": "8221fcfa155ec60c355944eb6d18246d30f8fc1847fe29194ba39c11f233743b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\tests\\test_shareable_mu_audit.py",
+      "size_bytes": 1863,
+      "sha256": "21a59f0b553696fb1c649919772f7896ca564799fb7dcdd8051ccc2d56f278eb",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\tests\\__pycache__\\test_shareable_mu_audit.cpython-311-pytest-9.0.2.pyc",
+      "size_bytes": 8874,
+      "sha256": "966e5d6aa3ad7cdefa37f0a4b81f947a7fc7e797c129f3f8e9eae4418d501c97",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.pytest_cache\\.gitignore",
+      "size_bytes": 39,
+      "sha256": "e7c6bb30148cf667606dcd63e7ca77acaa3cfb0c8303bf09e6419e1e1669dc6d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.pytest_cache\\CACHEDIR.TAG",
+      "size_bytes": 191,
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.pytest_cache\\README.md",
+      "size_bytes": 310,
+      "sha256": "420e808d79a6c25d3cda0af33bc4782314a14949866682c68ce8149e89b66b70",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.pytest_cache\\v\\cache\\lastfailed",
+      "size_bytes": 60,
+      "sha256": "49359ec97f4ea9f9e9f690c3af83a2774a52026356f0804cb0f3057d88ac73b5",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.pytest_cache\\v\\cache\\nodeids",
+      "size_bytes": 104,
+      "sha256": "7cf3aa0c5f38b0d31b10766263d4570317927b3443f6ae5336a5f6a07c33f360",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.uv-cache\\.gitignore",
+      "size_bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.uv-cache\\.lock",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.uv-cache\\CACHEDIR.TAG",
+      "size_bytes": 43,
+      "sha256": "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.uv-cache\\sdists-v9\\.git",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.uv-cache\\sdists-v9\\.gitignore",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\.gitignore",
+      "size_bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\.lock",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\CACHEDIR.TAG",
+      "size_bytes": 43,
+      "sha256": "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\pyvenv.cfg",
+      "size_bytes": 209,
+      "sha256": "70e612bb7910ac574ceff596489c00711d822bd51882dfa388cc60cd8fa26b6e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\_virtualenv.pth",
+      "size_bytes": 18,
+      "sha256": "69ac3d8f27e679c81b94ab30b3b56e9cd138219b1ba94a1fa3606d5a76a1433d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\_virtualenv.py",
+      "size_bytes": 4342,
+      "sha256": "6cf30c56faf2a55228914dbbd17f8088ed371ebb08f5e7fa6fd931f913fcaf1d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\__editable__.mdl_ynor_framework-0.1.0.pth",
+      "size_bytes": 107,
+      "sha256": "b1c095c99498ecccecd01950b739dbbec8ca324c6228dcb13ad5dd3d1a02893d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\__editable___mdl_ynor_framework_0_1_0_finder.py",
+      "size_bytes": 3927,
+      "sha256": "9a5c760d8c2622d564885ccc8c9643e295e4fd002a3052fb8ebf7d50e8f393a5",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\mdl_ynor_framework-0.1.0.dist-info\\direct_url.json",
+      "size_bytes": 114,
+      "sha256": "4e49025cab6a5025474cc1ed9be590ac0e99f9e16fafd8ae415f7988fd7a171a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\mdl_ynor_framework-0.1.0.dist-info\\INSTALLER",
+      "size_bytes": 2,
+      "sha256": "e6184ce10e266134fdcfa401e8f1a95005bcd4f18d16b62b757323e2833fe9a9",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\mdl_ynor_framework-0.1.0.dist-info\\METADATA",
+      "size_bytes": 3505,
+      "sha256": "999ea2d13e79fe82dd877fe811955ec2619eec438084ee6601655cf6926f4f3a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\mdl_ynor_framework-0.1.0.dist-info\\RECORD",
+      "size_bytes": 1051,
+      "sha256": "4b770f1d2cfad0bfe4e4cfc390af05bafebf874a64767ff133e8153b7d747c6f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\mdl_ynor_framework-0.1.0.dist-info\\REQUESTED",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\mdl_ynor_framework-0.1.0.dist-info\\top_level.txt",
+      "size_bytes": 23,
+      "sha256": "87dce12b4bc39a37292752b5b661b0563f76b7500eea7d6089caacb1b488bc8f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\mdl_ynor_framework-0.1.0.dist-info\\uv_build.json",
+      "size_bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\mdl_ynor_framework-0.1.0.dist-info\\uv_cache.json",
+      "size_bytes": 137,
+      "sha256": "2269662b0d72b6c66e6d16dd839e0cf4f14f937c83c3a4182b32bee6739b9875",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\mdl_ynor_framework-0.1.0.dist-info\\WHEEL",
+      "size_bytes": 91,
+      "sha256": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Lib\\site-packages\\__pycache__\\__editable___mdl_ynor_framework_0_1_0_finder.cpython-311.pyc",
+      "size_bytes": 6198,
+      "sha256": "bb26ba1e3193380bab39f9664f93efc18dfafe792d65ccf694a802d5b14e19cc",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Scripts\\activate",
+      "size_bytes": 4162,
+      "sha256": "13271b5f80d7ba679e949c1ea6ff0c2104991e9a04d6d8ec95f107ca22e5593d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Scripts\\activate.bat",
+      "size_bytes": 2724,
+      "sha256": "831df39df1c765b819ff49153be5ed37841fb562d0d3cced23b9c359980ec2c2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Scripts\\activate.csh",
+      "size_bytes": 2692,
+      "sha256": "54c37784f0bce8697d3cbb9bd4964377f5230717471e87d9c807a325bee6793a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Scripts\\activate.fish",
+      "size_bytes": 4264,
+      "sha256": "7f239c38340c7151ec7c075b850e9c4e570a73f6db099d89e8ac4e8f243f9b31",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Scripts\\activate.nu",
+      "size_bytes": 3834,
+      "sha256": "fce3b262b3a5facad58004ef374cfae5a35d67da5baf806a980291b727752ff7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Scripts\\activate.ps1",
+      "size_bytes": 2802,
+      "sha256": "6fe10a72c48d654a324299128f0863c9b4dcade6a162452ef9e93c6f3c49ef86",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Scripts\\activate_this.py",
+      "size_bytes": 2396,
+      "sha256": "40ece917bd42a54e47c74e7d6224b4501b60580215956f2fb4bb7d7f8ccd8c18",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Scripts\\deactivate.bat",
+      "size_bytes": 1730,
+      "sha256": "13ea86073a9ee43a66e3549312599dd47ff315758b4ca5a0406faf041fb82300",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Scripts\\pydoc.bat",
+      "size_bytes": 1217,
+      "sha256": "2a8eb66d1bc7b73adcd3c6f59e2383e0a7fe9412609c1f9d1870e35035ee6fee",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Scripts\\python.exe",
+      "size_bytes": 262144,
+      "sha256": "c7b2b8c459a5388102fe844e146995f623baff71b35bf9bdd72bace705fd1428",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.venv\\Scripts\\pythonw.exe",
+      "size_bytes": 249856,
+      "sha256": "41b8124d43ec9de275ace462f5247a8906b8b1e8025f568a456ef3931bcd1d75",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_08_EXPERIMENTS_AND_DEMOS\\hardcore_validation.py",
+      "size_bytes": 1907,
+      "sha256": "30cdf279e2364120a586ca37b64ef330457a4d4f275ddf8a5fa5507c2af65169",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_08_EXPERIMENTS_AND_DEMOS\\mdl_ynor_ultimate_benchmark_v3.py",
+      "size_bytes": 7938,
+      "sha256": "c6e7d228ffede388191b125fc6c3a27964b8f8e69c01f963f4847e0a67814339",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_08_EXPERIMENTS_AND_DEMOS\\run_demo.bat",
+      "size_bytes": 1307,
+      "sha256": "3dcd933bb99a83e00ec2df7d3f8fefae13b87031a76de7fa8c565df9f251689a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_08_EXPERIMENTS_AND_DEMOS\\run_demo.sh",
+      "size_bytes": 1353,
+      "sha256": "8fa0db87478039b515f03cd161b3d3d7a3ac4b2aed252d5dd8271a9deb584973",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_08_EXPERIMENTS_AND_DEMOS\\run_experiment.py",
+      "size_bytes": 1478,
+      "sha256": "f284659376b032d35be0dbe87edcf976b0b5fbc9150e79b1ab46a71deeaec2d0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_08_EXPERIMENTS_AND_DEMOS\\ynor_core_demonstration.ipynb",
+      "size_bytes": 2863,
+      "sha256": "a2a1001c761d02b0db3a0a31e532789d007cc58e961f408f31bb9a125d1c6f88",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_08_EXPERIMENTS_AND_DEMOS\\experiments\\run_101_1774173708.json",
+      "size_bytes": 450,
+      "sha256": "f94a76ad5b13838e38c02f703fce0a6563c7258ddb87cf22e8c4885531369ac2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_08_EXPERIMENTS_AND_DEMOS\\experiments\\run_2026_1774173708.json",
+      "size_bytes": 574,
+      "sha256": "43ae7273cf58945fc954b0c93d1fa44c4a5ecfbfeab9cab514a5a98ad80a9c86",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_08_EXPERIMENTS_AND_DEMOS\\experiments\\run_42_1774173708.json",
+      "size_bytes": 449,
+      "sha256": "16659924f966de5a1affc7aedca4c6b92e8a3ab05400a3bad8a740bfbe842656",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_08_EXPERIMENTS_AND_DEMOS\\experiments\\run_and_log_experiments.py",
+      "size_bytes": 1332,
+      "sha256": "f457a600d279a1071b9117d4dfb3bcb9d759412b2576e2e72d2a9bec245fcc36",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_11_GEOMAGNETISM_AND_WMM\\OPERATIONAL_CHECKLIST.md",
+      "size_bytes": 1997,
+      "sha256": "c12935c691cf8d79c6cdf559ce3993c269f6bc705d506aed5c75dec07b206238",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_11_GEOMAGNETISM_AND_WMM\\output.txt",
+      "size_bytes": 1246,
+      "sha256": "94dfe6414b62b026a210877d40f9fc4b5d9442fefdaed0fd32a89871a6463295",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_11_GEOMAGNETISM_AND_WMM\\output_debug.txt",
+      "size_bytes": 3776,
+      "sha256": "b27491b9fa6406e9d288af5c822bfce231d4746ac2b611409be603592b343008",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_11_GEOMAGNETISM_AND_WMM\\output_debug_utf8.txt",
+      "size_bytes": 453,
+      "sha256": "3d4b5d130e1c7cece1d1899dcda3baa432c3aeb05cde202f05e7f43c6a190c0d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_11_GEOMAGNETISM_AND_WMM\\PEDAGOGICAL_MODULE.md",
+      "size_bytes": 2073,
+      "sha256": "5a4026f255c3c09135138966538660651de3d543e03eba90971edb79c528bee0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_11_GEOMAGNETISM_AND_WMM\\RESEARCH_NOTES.md",
+      "size_bytes": 2741,
+      "sha256": "37d8ca540723f6d767888d069fc9df398da6f8188683402547f97d60b38c141e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_11_GEOMAGNETISM_AND_WMM\\runway_renumber.py",
+      "size_bytes": 5334,
+      "sha256": "ced01e3ace6fb7eb82c76eb3c1e84b05df88fbb13ad7dad1b1027528d8afc519",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_11_GEOMAGNETISM_AND_WMM\\SCIENTIFIC_SUMMARY.md",
+      "size_bytes": 2651,
+      "sha256": "f27f5746f2010b7cd509dc3573723607c2aa16e3025695c74605fae19e0092be",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_11_GEOMAGNETISM_AND_WMM\\SOURCES.md",
+      "size_bytes": 2536,
+      "sha256": "022dd5b1a608866e5abbda795bc3d8faba03694bed60802207aa261a42f4ef48",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_11_GEOMAGNETISM_AND_WMM\\__pycache__\\runway_renumber.cpython-314.pyc",
+      "size_bytes": 5182,
+      "sha256": "6d10d589750e6250eefe990194637f55f3d09ffd2095942610f2125b421b0707",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_12_QUANT_FINANCE_MDL\\market_agi_adaptor.py",
+      "size_bytes": 3785,
+      "sha256": "71a30390891a4442be2798a3fd17da22abee1de40d736a21202524443a24f247",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_12_QUANT_FINANCE_MDL\\README_QUANT.md",
+      "size_bytes": 3121,
+      "sha256": "d51115a07d360e397c2e34ff5f6b01ed5f517ca2e6aec449b7a11ca6eae1327a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_12_QUANT_FINANCE_MDL\\requirements_quant.txt",
+      "size_bytes": 228,
+      "sha256": "1e502f81519c610fe0cda19bf2fb103cf0be088fe8e4d2a12459ed5f72128e0a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_12_QUANT_FINANCE_MDL\\RUN_QUANT_MASTER_AUDIT.py",
+      "size_bytes": 3058,
+      "sha256": "2770e6c264e283e60244796f19c234432c6a76e54b3aa56f1ca6ad3ef69f91ff",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_12_QUANT_FINANCE_MDL\\strategy_1_sp500_cluster_ml.py",
+      "size_bytes": 10496,
+      "sha256": "9dac72410bbdb3add0e7fd8c00b866fde49c27fd5df098f736e69a1956376cd1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_12_QUANT_FINANCE_MDL\\strategy_2_sentiment_nasdaq.py",
+      "size_bytes": 5804,
+      "sha256": "d79a704ba83a2c2362c03f9bda606a264d77cd99cf675bbf1d515f8800f5dfc8",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_12_QUANT_FINANCE_MDL\\strategy_3_intraday_garch.py",
+      "size_bytes": 6740,
+      "sha256": "56a95be7b11c751ff16ef3ae6f5cac1a355ccd18acebd63e6e1162742d367f9f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_12_QUANT_FINANCE_MDL\\ynor_quant_wrapper.py",
+      "size_bytes": 3610,
+      "sha256": "f5551c3f0f7beacadb89b3597839b88811afc0adfc16eb73dfcbaf2c06b637a3",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_12_QUANT_FINANCE_MDL\\__pycache__\\RUN_QUANT_MASTER_AUDIT.cpython-314.pyc",
+      "size_bytes": 3111,
+      "sha256": "e8b351be3e637598934ef7f11be5d12e3635610d1d9ed460601256de3bdd687e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_12_QUANT_FINANCE_MDL\\__pycache__\\strategy_1_sp500_cluster_ml.cpython-314.pyc",
+      "size_bytes": 16548,
+      "sha256": "abdbf101d7f9e49f83cefabc240868742a7fd410446a73211f10725fe4da9b4f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_12_QUANT_FINANCE_MDL\\__pycache__\\strategy_2_sentiment_nasdaq.cpython-314.pyc",
+      "size_bytes": 9209,
+      "sha256": "c3acf4bd62104bd7d658269ad869f7622cf11f59365910380364e73ed8650aea",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_12_QUANT_FINANCE_MDL\\__pycache__\\strategy_3_intraday_garch.cpython-314.pyc",
+      "size_bytes": 10074,
+      "sha256": "20d19e7ecf1f98eed6b404b3bd8f2c17f8f97cf3d93449dd245b7e85eaec490d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_12_QUANT_FINANCE_MDL\\__pycache__\\ynor_quant_wrapper.cpython-314.pyc",
+      "size_bytes": 5877,
+      "sha256": "a08b04afe7466f4264d1ea50dbbaa5de5255044b6879ab9bb647b7be14f74188",
+      "kind": "text"
+    }
+  ]
+}

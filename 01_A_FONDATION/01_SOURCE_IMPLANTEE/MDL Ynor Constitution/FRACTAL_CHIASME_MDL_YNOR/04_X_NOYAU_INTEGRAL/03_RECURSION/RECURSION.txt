@@ -1,0 +1,6 @@
+Recursion fractale du noeud X
+
+Regle 1 : lire la source.
+Regle 2 : identifier son miroir chiastique (X).
+Regle 3 : revenir au centre X.
+Regle 4 : rejouer la meme logique a l'interieur du corpus local.

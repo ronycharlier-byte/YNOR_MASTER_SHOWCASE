@@ -1,0 +1,135 @@
+{
+  "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
+  "key": "B_PRIME",
+  "mirror": "B",
+  "role": "Reprise normative, securitaire, commerciale et de soumission",
+  "inventory_count": 21,
+  "inventory": [
+    {
+      "source": "MDL_Ynor_Framework\\_05_MARKETING_AND_PITCH\\GTM_SALES_COPY.md",
+      "size_bytes": 4439,
+      "sha256": "d2939bd653e131ebc0885a8e7a49acb6b0cb08707327333dd85a7d4f7d9b92c1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_MARKETING_AND_PITCH\\landing_page_ynor.html",
+      "size_bytes": 6869,
+      "sha256": "580f42564331115e50645deee5eb458237869da4b0d1ea229d7228709297acd0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_MARKETING_AND_PITCH\\LIVE_PITCH_SCRIPT.md",
+      "size_bytes": 3028,
+      "sha256": "5379716cf96ffc3b221c87b989a040ac55828c91b707a5583b3c2fe9ca504441",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_MARKETING_AND_PITCH\\VC_PITCH_DECK.md",
+      "size_bytes": 4215,
+      "sha256": "3189c029aa717c7e8adb96f7e4f63336c0174c6c5bd80bce3e79f45cce788aa7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_MARKETING_AND_PITCH\\YNOR_DISTRIBUTION_PACKAGE.md",
+      "size_bytes": 2418,
+      "sha256": "258e933437abaab3ee7a82775f30590f48aa63478e84b5a42523bb3548db8764",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_MARKETING_AND_PITCH\\YNOR_IRREFUTABLE_PROOF_PAGE.md",
+      "size_bytes": 2140,
+      "sha256": "d1e11dd506a3d0f663cccde2172450f1fdbad2dad341d33efc5a6c8a0c8cccf9",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_MARKETING_AND_PITCH\\YNOR_LANDING_MANIFESTO.md",
+      "size_bytes": 2782,
+      "sha256": "00c0d5e40e942b872a730b24a0c43cbf7b75d073203c4c29bf733e4a7c546d44",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_MARKETING_AND_PITCH\\YNOR_SALES_PLAYBOOK.md",
+      "size_bytes": 2164,
+      "sha256": "afc0679fc1d49c99e767209d2a1c83d799a92232303dbe6436a932a87454b530",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_MARKETING_AND_PITCH\\YNOR_STRATEGIC_SALES_FUNNEL.md",
+      "size_bytes": 2218,
+      "sha256": "56eafe400868a10e343475a76108962d86ed26f3fc2043f89f0e65ae848f3638",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_MARKETING_AND_PITCH\\YNOR_SUBSCRIPTION_PROTOCOL.md",
+      "size_bytes": 2854,
+      "sha256": "2c7e5873d89aa59994603fbd98f676fa0f4c28cc344f0220913d7ba5ec9e275e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_07_ADMIN_LEGAL_GOVERNANCE\\CONTRIBUTING.md",
+      "size_bytes": 1603,
+      "sha256": "de74d0876eab66ff3087c74ef2d089e90321b89219f85a1e7bc6d29758116f8d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_07_ADMIN_LEGAL_GOVERNANCE\\GOVERNANCE_PROCEDURES.md",
+      "size_bytes": 1432,
+      "sha256": "ad26ed4c54642644a7db907eddff9f3f7b60beb36e27e8c3a442baabaf19e6ee",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_07_ADMIN_LEGAL_GOVERNANCE\\IP_AUDIT_POLICY.md",
+      "size_bytes": 2000,
+      "sha256": "6149e6da19944d16c8d3039a07bb1b72d4ea30945ecbd6bd3c03e5801f5fc890",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_07_ADMIN_LEGAL_GOVERNANCE\\MDL_YNOR_CONTRAT_LICENCE.md",
+      "size_bytes": 1715,
+      "sha256": "ed22cedbcbffbc1397781aad6ea45bfb6217f83b9d3281c190a5289484ae0c44",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_07_ADMIN_LEGAL_GOVERNANCE\\MDL_YNOR_IMPLEMENTATION_ABONNEMENT.md",
+      "size_bytes": 1462,
+      "sha256": "92f355111a6168605563e3df0d999dacdf8cd7bc4b9d53be2348cfb9e118a25d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_07_ADMIN_LEGAL_GOVERNANCE\\NDA_TEMPLATE.md",
+      "size_bytes": 1550,
+      "sha256": "5d411c61d685a487e653db9f19fb858d1ae6adde6d29e53d2fec7b521a9f89a0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_07_ADMIN_LEGAL_GOVERNANCE\\SECURITY_THREAT_MODEL.md",
+      "size_bytes": 2214,
+      "sha256": "12514f340eece1c2a41d71bbd48ea7b41776af58c42ca137cfde7cf0d9bdd9fc",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_09_SECURITY_AND_AUDIT\\request_audit_access.py",
+      "size_bytes": 1539,
+      "sha256": "f23e83bb01e389a0bc11f9a0658c47b91c372b5856aaa0f40f34c1f51b64cca2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_09_SECURITY_AND_AUDIT\\ynor_security_shield.py",
+      "size_bytes": 1811,
+      "sha256": "a30a8ae48cbec9dea81242536f01994aa9cc8b91a15fd03fcc2718eb745ed04d",
+      "kind": "text"
+    },
+    {
+      "source": "_SUBMISSIONS\\SUBMISSION_CHECKLIST.md",
+      "size_bytes": 1902,
+      "sha256": "6bac7f841f2d35d2572be3832123a9b50ce923f11bca8996aa5d27f6c8480186",
+      "kind": "text"
+    },
+    {
+      "source": "_SUBMISSIONS\\SUBMISSION_COVER_LETTER_CHARLIER_RONY.txt",
+      "size_bytes": 2197,
+      "sha256": "864d64cf7d76149121f597a1d2a9e0494be73a4221997efdb2c34d5ef4711e58",
+      "kind": "text"
+    }
+  ]
+}

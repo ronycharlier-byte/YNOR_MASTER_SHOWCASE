@@ -1,0 +1,10 @@
+{
+    "event": "CRITICAL_THRESHOLD_EXCEEDED",
+    "time": 0.0,
+    "mu": -1.0,
+    "state": [
+        2.0,
+        2.0
+    ],
+    "recommendation": "Requ\u00e9rir une mutation imm\u00e9diate de l'op\u00e9rateur D."
+}

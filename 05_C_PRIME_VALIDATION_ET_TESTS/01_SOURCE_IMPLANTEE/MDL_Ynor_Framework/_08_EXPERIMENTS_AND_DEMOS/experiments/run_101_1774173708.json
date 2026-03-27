@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-03-22 11:01:48",
+  "config": {
+    "alpha_weight": 0.2,
+    "beta_weight": 0.05,
+    "kappa_base": 0.01,
+    "seed": 101
+  },
+  "metrics": [
+    {
+      "step": 1,
+      "alpha": 0.3325,
+      "beta": 0.06,
+      "kappa": 0.01,
+      "mu": 0.2625
+    },
+    {
+      "step": 2,
+      "alpha": 0.089,
+      "beta": 0.07,
+      "kappa": 0.0214,
+      "mu": -0.0025
+    }
+  ],
+  "final_status": "SUCCESS"
+}

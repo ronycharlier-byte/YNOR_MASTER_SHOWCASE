@@ -1,0 +1,24 @@
+# STRUCTURE DE LIVRAISON
+
+## Niveaux
+- Niveau 1 : `../00_PUBLIC_BRIEF`
+- Niveau 2 : `../00_EXECUTIVE_DIGEST`
+- Niveau 3 : `../00_EDITION_CANONIQUE_FINALE`
+- Niveau 4 : `../00_SUBMISSION_PACK`
+- Niveau 5 : `../01_A_FONDATION` a `../07_A_PRIME_ARCHIVES_ET_RELEASES`
+
+## Fichiers De Reference
+- `../00_PUBLIC_BRIEF/PUBLIC_BRIEF.md`
+- `../00_PUBLIC_BRIEF/PRESENTATION_PUBLIQUE.md`
+- `../00_EXECUTIVE_DIGEST/EXECUTIVE_DIGEST.md`
+- `../00_EXECUTIVE_DIGEST/FICHE_UNE_PAGE.md`
+- `../00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md`
+- `../00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/INDEX_MAITRE_FRACTAL_CHIASTIQUE.md`
+- `../00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/CARTE_VISUELLE_FRACTALE_CHIASTIQUE.md`
+- `./MANUSCRIT_FINAL.md`
+- `./LETTRE_DE_COUVERTURE.md`
+- `./JOURNAL_TARGETING.md`
+- `./RESUME_DE_SOUMISSION.md`
+
+## Usage
+Cette structure permet une remise graduelle: lecture externe, lecture executive, audit canonique complet, puis constitution d'un dossier de soumission directement exploitable.

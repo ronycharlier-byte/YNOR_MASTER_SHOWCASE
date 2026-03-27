@@ -1,0 +1,4 @@
+Noeud : C_PRIME
+Paire miroir : C
+Centre : X / NOYAU_INTEGRAL
+Mouvement : aller -> centre -> retour

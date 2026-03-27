@@ -1,0 +1,1131 @@
+{
+  "node": "03_C_MOTEURS_ET_DEPLOIEMENT",
+  "key": "C",
+  "mirror": "C_PRIME",
+  "role": "Moteurs actifs, APIs et tableaux de bord",
+  "inventory_count": 187,
+  "inventory": [
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\autonomous_agent_irl_ynor.py",
+      "size_bytes": 5480,
+      "sha256": "9b764cf2d37ed8957f51a56b26d4e2e8d38c9fddac84f486a6bc047ca5601317",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\cultural_evolution_engine_ynor.py",
+      "size_bytes": 4612,
+      "sha256": "3dc81da359288582bfab8fac2f7a0ac08c12b8a825897f7b5183f4af8b576393",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\emergent_culture_ynor_simulator.py",
+      "size_bytes": 5128,
+      "sha256": "49dcad8e8e7e37f1f778714fa9caa25471937e2ec402efb5d81d5f9d240e6ca6",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\generate_ynor_graphs.py",
+      "size_bytes": 4113,
+      "sha256": "45c121c7a43e3c55c564e9ddb0a09bf1d5246711ca55a53c0b1c913a566f9e3b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\hardcore_validation.py",
+      "size_bytes": 3497,
+      "sha256": "cd2d3e3ad6f26cd29bc80b4ad4367d2bfffb4b34861f792ff98b28f0de7f395a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\hierarchical_ynor_agent.py",
+      "size_bytes": 4083,
+      "sha256": "cd2105aa765f961b644f4714249865bda31d54f4cebe91395a488ce59d535097",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\hierarchical_ynor_system_1_2.py",
+      "size_bytes": 6138,
+      "sha256": "e825193efea1a4f24123b518ddd69c2e020b731b96e92097c86f766375ce0328",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\identity_system_ynor_agent.py",
+      "size_bytes": 3316,
+      "sha256": "019840981c999b96dc3f0e3d4e7600604259053e072811a3557d4b0b5ae5a615",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\mdl_ynor_benchmark_audit.py",
+      "size_bytes": 4452,
+      "sha256": "058a19e05f27783ebb182edbd118d99e3bb59d1cf1dbd11330019441ffbf8c99",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\multi_agent_economy_ynor.py",
+      "size_bytes": 4013,
+      "sha256": "5edac57267178612c52eab25a459499fea0e2869a67c4023c9c08e785c9bebde",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\multi_agent_world_model_ynor.py",
+      "size_bytes": 5122,
+      "sha256": "778b027056e3037c5c94b95300bf0ea4e6d213e29d00903cec1127bae04eb11e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\multi_agent_ynor_simulation.py",
+      "size_bytes": 4236,
+      "sha256": "ddb6b4e124c9923467cf802f6b1a04f799b1f1082ea48f58f70205048bdbd110",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\narrative_self_ynor_agent.py",
+      "size_bytes": 4599,
+      "sha256": "73770c4700f99f92a2370fb1faaaf8a13edbcf3bd326901ba4c7be79aaca08c8",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\output.txt",
+      "size_bytes": 1592,
+      "sha256": "97e1f916df7e7692b5fe6064164ec8b3d93b6abb901b261fdfc6f13eb6bceea2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\output_utf8.txt",
+      "size_bytes": 803,
+      "sha256": "81213da4c80394f873c2cb7ab2f36afa456ff2fcc6a3f3ef2a842d8b9b13a0e4",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\ppo_world_model_ynor.py",
+      "size_bytes": 6973,
+      "sha256": "0df8e00f246af3f13b073bf2306752565bc66fb7666ffef27c5641704b58f0ab",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\README.md",
+      "size_bytes": 610,
+      "sha256": "93a11379916d7e12c48ac4acdb1eff57475bdcab7a1bd99321835c0c5b86ce3c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\real_environment_ynor_agent.py",
+      "size_bytes": 3410,
+      "sha256": "2851f90133aa0587669ef465f86468c0597ea7a64639f03968b7f8b575b625d9",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\run_experiment.py",
+      "size_bytes": 3857,
+      "sha256": "9cd3220569393ec5f790a30c9ebb479b921caf8909e5e49858dc338824987788",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\self_modifying_ynor_agent.py",
+      "size_bytes": 3916,
+      "sha256": "fba57ac704cadffd8aa22a94baa948cfa872d2c9a5b1069b76f32a543aa3221a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\train_world_model_ynor.py",
+      "size_bytes": 3894,
+      "sha256": "3ee9d83ec3dcd59e618073b3a5a33544bd474808ca2b27a31199330517d01afe",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\ynor_agi_prototype_v1.py",
+      "size_bytes": 8072,
+      "sha256": "628a6033d8fbdbe1ec93a9064a459c3a39343ec350fa4f0251415ab798ed88fc",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\ynor_omega_advanced_testbench.py",
+      "size_bytes": 3481,
+      "sha256": "ce1e2f8b92f4a67c69d927acec32ec23e305117cea161da0402f7a69c6cfc448",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\ynor_omega_heatmap_module.py",
+      "size_bytes": 5449,
+      "sha256": "67639c0912069be45d77ea576b3c29e1badee9c6806856d23ccb4331696b4ce2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\ynor_omega_infinity_live_agent.py",
+      "size_bytes": 5442,
+      "sha256": "118be96e5919e128cd53c07e48778abf28291ceaca0caad0fe77f682427b6961",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\ynor_omega_phase_portrait.py",
+      "size_bytes": 7145,
+      "sha256": "7d2193ccaac889d34ce481ba7206801ec6c24ea6a3d81cba63ad2b2e5ad2b35b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\ynor_omega_phase_space_simulator.py",
+      "size_bytes": 4443,
+      "sha256": "6881665074084ead2d9fcc40eee92bc02948d7c40e17afe6994dbc2c7a5ab8d7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\ynor_omega_plus_explicit_dynamics.py",
+      "size_bytes": 4498,
+      "sha256": "823c87b7ab204f93b7fa994af35d3620201cefe003deaaacede09ae724391955",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\ynor_omega_rk4_simulator.py",
+      "size_bytes": 4865,
+      "sha256": "c760a7b81152f31dbae3627a4ef304e5def2907e643ae0b480d3b75282a4ee7f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\ynor_omega_robustness_scan.py",
+      "size_bytes": 3762,
+      "sha256": "0b849eec5a4cff4850f2d1b7b273840f199da5087ee0a7b8647160a958e420f9",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\ynor_omega_ultimate_engine.py",
+      "size_bytes": 3754,
+      "sha256": "6028ef8ee20a1a0b9c82f19079a152d4dbef3ade98ac26a6ee18c6af414948aa",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\ynor_unified_equation_agent.py",
+      "size_bytes": 5542,
+      "sha256": "73723633abc4f03ce1f8d14bc1b30cb41aa1660251c783b36ee16c69bb9a24e3",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\ynor_vault.py",
+      "size_bytes": 2971,
+      "sha256": "92a90d7733d7d51e3ac9b238ae4440fdac020c46099249784e7cf24b543ed4b2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_GPT_KNOWLEDGE_PRODUCTION\\MDL_Constitution_v4_0_Millennium.md",
+      "size_bytes": 2178,
+      "sha256": "1dc5da6c4153fdb04e08761d0c7873d98465471e5652d4be529a19a28dfc30ef",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_GPT_KNOWLEDGE_PRODUCTION\\mdl_global_knowledge.json",
+      "size_bytes": 604654,
+      "sha256": "9a990e830222364d3ca703a469155903c31d28d338bae6751d7c33fa3c638b5e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_GPT_KNOWLEDGE_PRODUCTION\\MDL_YNOR_GPT_SETUP_GUIDE_FINAL.md",
+      "size_bytes": 4138,
+      "sha256": "80e1974bdde1661a1fac0b839a5d69fd5a7272140eb5806b66c19cdc48870d65",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_GPT_KNOWLEDGE_PRODUCTION\\MDL_YNOR_MASTER_PROMPT_COPY_ME.txt",
+      "size_bytes": 3505,
+      "sha256": "7ba644a5c9d6f95f5f8043db78af6ca35362dc19f65e1427299167df20531763",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_GPT_KNOWLEDGE_PRODUCTION\\MDL_YNOR_MILLENNIUM_DISSIPATIVE_STABILITY.tex",
+      "size_bytes": 18959,
+      "sha256": "6675b7dae71644345c7266a5dec75a2cacff53d7d30a6b1a4667cff47038965e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_GPT_KNOWLEDGE_PRODUCTION\\MDL_YNOR_POST_MILLENNIUM_DRAFT_v0.1.md",
+      "size_bytes": 1822,
+      "sha256": "050c0fc155d805f6e0730be12904fe5fd1f4b561e75f2f09bdd3fa11d2c9550a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_GPT_KNOWLEDGE_PRODUCTION\\MDL_YNOR_POST_MILLENNIUM_REPORT_PHASE_III.tex",
+      "size_bytes": 2303,
+      "sha256": "ef3bb2676800d80eb32af84385081451666f98e737662c50a72309f9ca5410c3",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_GPT_KNOWLEDGE_PRODUCTION\\MDL_YNOR_POST_MILLENNIUM_REPORT_PHASE_I_II.tex",
+      "size_bytes": 3088,
+      "sha256": "9572ba059b6cd2898184d129fbd8093ceb52e2929cb4b3821a8804062f07425a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_GPT_KNOWLEDGE_PRODUCTION\\MDL_YNOR_SCIENTIFIC_WHITE_PAPER.md",
+      "size_bytes": 3208,
+      "sha256": "2c123316229493bf1d873e97392849a030b37a45145b7972e8e96f4949fb1621",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\CHARTE_ETHIQUE_ET_TECHNIQUE_MDL.md",
+      "size_bytes": 2208,
+      "sha256": "60fc2a08722edfe924d041846fc72f83b1f4bd1ca8b28994c4b86f8990f5d21b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\CHARTE_ETHIQUE_ET_TECHNIQUE_MDL.zip",
+      "size_bytes": 47267,
+      "sha256": "44730d8aac8c3d90cce767fee615af16984144aad69eea8f2e9ec1fb3f887333",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\deep_sync_corpus.py",
+      "size_bytes": 1933,
+      "sha256": "06d47563daaa6d157f6cb8f2c952311ee0a4d99380355c3b137aaeafad217c41",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\full_update_knowledge.py",
+      "size_bytes": 5602,
+      "sha256": "dce8cb965301f43f3173066fd9e5434dd10e5059771c152ef9092b66a29f5123",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\GLOSSAIRE_MDL_SIMPLE.txt",
+      "size_bytes": 1291,
+      "sha256": "7e4dc80d0841e964a9a6be77463cfb2d90add7c55207ae1834a457d8410e1d4d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\mdl_global_knowledge.json",
+      "size_bytes": 602143,
+      "sha256": "55a2b340f7c3fdfd081464db530ba6548e5e33d4df3a7ec3c3a4628ba1bd961a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\mdl_theorique_mapping.json",
+      "size_bytes": 1023,
+      "sha256": "25a6ef68d4e10ed663e442312523c096b30ab65d3ea08649d3bc039aeb51e617",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\MDL_YNOR_CONTRAT_LICENCE.md",
+      "size_bytes": 1727,
+      "sha256": "b363781f22433a6eeba86177a506abafc89c8d2706ad5807bd567c791f24eb0c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\MDL_YNOR_COURS_UNIVERSITAIRE.md",
+      "size_bytes": 1847,
+      "sha256": "998715fc886e01c055b5495e694b74fadbab7ae72aee0988fe78d9b76a3bb77a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\mdl_ynor_gpt_instructions.txt",
+      "size_bytes": 1299,
+      "sha256": "ab80159320a78735713ab7651026cda30ced921e77decff3ea4d5cb442c1c2be",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\MDL_YNOR_MASTER_SYSTEMES_COMPLEXES.md",
+      "size_bytes": 2258,
+      "sha256": "cf6d9aa0827241f594e182f2336ad1480fdcacccca937a945de9dbab07742b3a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\MDL_YNOR_POST_MILLENNIUM_DRAFT_v0.1.md",
+      "size_bytes": 1822,
+      "sha256": "050c0fc155d805f6e0730be12904fe5fd1f4b561e75f2f09bdd3fa11d2c9550a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\MDL_YNOR_TECHNICAL_SPECIFICATIONS.md",
+      "size_bytes": 3012,
+      "sha256": "ed76890fbbbe2ee92901900f0cf463236d03bbe5e75a09a1c690d279253a285f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\MDL_Ynor_Unified_Architecture.py",
+      "size_bytes": 9575,
+      "sha256": "9cafffcb057173c270690a1f2e7fca71380414c4fe0ca200ef3d3ebd1854112e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\MDL_YNOR_VENDRE_MON_IA.md",
+      "size_bytes": 1608,
+      "sha256": "825866fc80c5aa2dd327b9d13d70107bce281ebbc05698f59fc6f3a3ddf3900a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\update_knowledge.py",
+      "size_bytes": 5624,
+      "sha256": "a20a787a7ec6549e4b130e78c2c342b0493d17ebc731fa85990013e44550ed85",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\ynor_agi_engine_core.py",
+      "size_bytes": 2619,
+      "sha256": "1aedb35cf0eacb8fe1f8944f63d813a238f8f30c3d1d178c9f3eeea49855d41e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\ynor_commercial_api.py",
+      "size_bytes": 2169,
+      "sha256": "67f08cc3dc0243e7643fbde99a89012abcff2e4659e1ed0c37cd71e33d5fe822",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\ynor_learning_experience_log.json",
+      "size_bytes": 12804,
+      "sha256": "b9e42b6fd12c0241fd60d126560b4d524a8466ce7e254d2b1203cec15d5d9763",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\ynor_social_algo_mdl.py",
+      "size_bytes": 2991,
+      "sha256": "ad2d64dce44d276def0eebd1d24815149a808e407dc79bbb5a97442cf2475121",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\_KNOWLEDGE_FINAL_EXPORT\\mdl_global_knowledge_CLEANED_EXPORT.json",
+      "size_bytes": 250026,
+      "sha256": "070e28f8a1e4d2951cf0e8a8a88547875c375e81d79676dd2abc58eea50e70c3",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\_KNOWLEDGE_FINAL_EXPORT\\mdl_global_knowledge_WORKSPACE_FINAL.json",
+      "size_bytes": 252455,
+      "sha256": "a2ef4482d3cde7284a57a04e99d1098c11d88422d79233f57912168ceae735b4",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\_KNOWLEDGE_FINAL_EXPORT\\MDL_YNOR_SCIENTIFIC_WHITE_PAPER.md",
+      "size_bytes": 3208,
+      "sha256": "2c123316229493bf1d873e97392849a030b37a45145b7972e8e96f4949fb1621",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\MDL_YNOR_GPT_KNOWLEDGE\\__pycache__\\full_update_knowledge.cpython-314.pyc",
+      "size_bytes": 5387,
+      "sha256": "19939a9fadec93f30cfd066d09242e6ad5ada7207793784f17d63fab689f402d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\NAV_STOKES\\ns_analysis_summary.json",
+      "size_bytes": 1565,
+      "sha256": "92ed3060473b8ac1fea8524e97473ca01134f62860a12ba8ee463699de86f52e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\NAV_STOKES\\ns_spectral_audit.json",
+      "size_bytes": 364,
+      "sha256": "e2727bbe98e432b331c3b3afa43c55d23a02a2c46b15fff28f46030740f1e860",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_03_CORE_AGI_ENGINES\\NAV_STOKES\\ns_spectral_solver.py",
+      "size_bytes": 6967,
+      "sha256": "870166cde4ac267014aaba58687022a85f5dd37711f467e9b6593ecf9e62f252",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.dockerignore",
+      "size_bytes": 132,
+      "sha256": "e489782406d4fdd1ce028fc197d8c1b0e482643fcc866f3cd549001fa4471168",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.env",
+      "size_bytes": 150,
+      "sha256": "326c9e3e1d1cbb435c6d51a1bdb51ae1f776ae5978bd3d70cf88f2f09172bfab",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.gitignore",
+      "size_bytes": 392,
+      "sha256": "c7f5feca3f2ff1c9f2f31de9a52e519e1a601b39a29a21c13a8e0c79c13a5f99",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\build_secure_sdk.py",
+      "size_bytes": 1142,
+      "sha256": "684ad6ddd95d2a6a8b9d0a79c38140ee21f532f645fd5e582969c3b64724408e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\Dockerfile",
+      "size_bytes": 871,
+      "sha256": "d5189bf523d7a6a3c9ed10b90b4fabf58503964b985b58087906e4749a6548c4",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\GPT_ACTION_SCHEMA.yaml",
+      "size_bytes": 2586,
+      "sha256": "e619e6c82db90087839494d0f290cd9981b8ede0982f97fe0e69273089ed20b9",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\mdl_knowledge_base.json.enc",
+      "size_bytes": 484,
+      "sha256": "318e8b870e31604cbb67879256484803517c754b0f35df9f4dfe3cf2ac761469",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\MDL_YNOR_GPT_SETUP_GUIDE_FINAL.md",
+      "size_bytes": 4109,
+      "sha256": "39efd249607152fe0e181bb47bafeced41f7079ba216451bb40475e222674fab",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\PUSH_TO_CLOUD.bat",
+      "size_bytes": 1591,
+      "sha256": "daf6013f14814a3999c0ea2d94374e6f3f74ddc54a4e680db4ef6735bb9444f8",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\README.md",
+      "size_bytes": 655,
+      "sha256": "3986e7fd1ba8c5d6ea596192a8f23b73c5b48ade5c486c3ce0dec240172235ef",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\requirements.txt",
+      "size_bytes": 184,
+      "sha256": "2c01eaa9575cd8c26ecaf186d75bbbd8aa609f75937732827bc00f1bc637b77a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\revocation_list.json",
+      "size_bytes": 24,
+      "sha256": "cf6e2070f431386435b0d55b27425cb60254493aeb0a666b2614c951b027590c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\secrets.local.example.json",
+      "size_bytes": 365,
+      "sha256": "08ac374c821da0a5125244f2d145f12db874e90285bc964e300ad4b8fdbf755f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\secrets.local.json",
+      "size_bytes": 470,
+      "sha256": "a42f1f1fab0414fe4e24226216b8a5e05a6388338f135df0ebb325d64d585e67",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\usage_stats.json",
+      "size_bytes": 112,
+      "sha256": "f647db81289a561d772befb7d96c99f2058a717d14df21fbbc872960569984b1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_api_server.py",
+      "size_bytes": 41094,
+      "sha256": "531908a27b827b1a4d6c7292a8b61acd6f8203bb0b02f13eb579862c8e435989",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_dashboard_ui.py",
+      "size_bytes": 10952,
+      "sha256": "6440b5c07fd05a015a39fc2314c1deee23436f348b98b40ae699437d6506f789",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\__init__.py",
+      "size_bytes": 61,
+      "sha256": "9967fcdba48ef2c83059116659b82927fdd0affd5683224f446a38d2941f1378",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\config",
+      "size_bytes": 130,
+      "sha256": "05becdb83bb897f6103c8d91439e2e9092144edf5b3955a746fce4975c12bfdc",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\description",
+      "size_bytes": 73,
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\HEAD",
+      "size_bytes": 21,
+      "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\index",
+      "size_bytes": 1954,
+      "sha256": "dac581741d4a2bf422fd2f630b2c6bf2b6a0a8ba16938143d58a7cd9865aa511",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\applypatch-msg.sample",
+      "size_bytes": 478,
+      "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\commit-msg.sample",
+      "size_bytes": 896,
+      "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\fsmonitor-watchman.sample",
+      "size_bytes": 4726,
+      "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\post-update.sample",
+      "size_bytes": 189,
+      "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\pre-applypatch.sample",
+      "size_bytes": 424,
+      "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\pre-commit.sample",
+      "size_bytes": 1649,
+      "sha256": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\pre-merge-commit.sample",
+      "size_bytes": 416,
+      "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\pre-push.sample",
+      "size_bytes": 1374,
+      "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\pre-rebase.sample",
+      "size_bytes": 4898,
+      "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\pre-receive.sample",
+      "size_bytes": 544,
+      "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\prepare-commit-msg.sample",
+      "size_bytes": 1492,
+      "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\push-to-checkout.sample",
+      "size_bytes": 2783,
+      "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\sendemail-validate.sample",
+      "size_bytes": 2308,
+      "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\hooks\\update.sample",
+      "size_bytes": 3650,
+      "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\info\\exclude",
+      "size_bytes": 240,
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\03\\9eaa4eb42db8067bc8a412057b3ac09987e586",
+      "size_bytes": 1431,
+      "sha256": "169a013d27452d4cc7a5ff1bb3d832364f08d84ce30f32dc589fdfad50d5ae26",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\0b\\3efcf6d6e42663b201b12a8bc5cb3b855b75f3",
+      "size_bytes": 8150,
+      "sha256": "384125e6f71f5745f246163114ff6f4984ce1079fedde40a8fbd7b9112bed5b6",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\0c\\483f409fbb94c8716ff08a59fc974a747f1e15",
+      "size_bytes": 979,
+      "sha256": "a8dad6891928600a7da83b9cecdaf0f9ed187f5c4da435278f7c87b40ef72daa",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\2b\\2b1857cd376da1764ed33aae77cc35b1807e9e",
+      "size_bytes": 736,
+      "sha256": "8a8b9a29a2c73656694b4177b54377c5dcd81d327c59d0f981e31099f899cf33",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\31\\b9106e19f8fe60b42da0300e171d0bffd3a8d6",
+      "size_bytes": 6894,
+      "sha256": "08ac22d86b3aeeb7002b69f43ecc0cd7826c90e728e6eebb0234f75c4a563686",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\35\\fec303684e9489ef13f6416648b42b8c1ff801",
+      "size_bytes": 1793,
+      "sha256": "dab4d3374045d1696c94e17c706f5d4d763443be1b65a0b0052bf881f3640323",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\38\\7e742014b49cc58e9671460e7b55fee33142a4",
+      "size_bytes": 146,
+      "sha256": "d2c3efdd90cee79c9137323b878525be263be3bb1a12495b5e670e166476a8ad",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\39\\77a915b10a18ca3f758e54e4d783a0324e7b87",
+      "size_bytes": 1414,
+      "sha256": "91c3fb852de1de0ba80e34ba7634746515ad7a0746faccc78f234c010275d2f7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\41\\d118c980fc9b309961b915d1690e60615e9581",
+      "size_bytes": 276,
+      "sha256": "ff1706caf7c7f62be2f3288a77d293915d915a8a9319b9c1a713855a5a89f3a5",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\51\\75fc1842aa7668b8f9c793aa00f8cf37e4d8ed",
+      "size_bytes": 133,
+      "sha256": "c8987310f4ea61a66009bc53249fcde32eae30117234eac1d0196f2679f98b41",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\58\\6dc8a5dfb93bdf16b1c68ef05cce530dfdea52",
+      "size_bytes": 719,
+      "sha256": "8e0b222e43c3ef55594624a96aa8f2181858a628b6dd7ad92a210f9551e080f7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\59\\d8c4aed2d33f0ba75b0c452f8110a48ee1bdd3",
+      "size_bytes": 46,
+      "sha256": "1dd948739c585e97050a0d74bfb596ab2cb32935523108ee02cd1f2e6195bd2b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\64\\f104527d0acdca3f70810c65d70342e19d12fb",
+      "size_bytes": 469,
+      "sha256": "d528cccd505a3a70c2c132a1f13e7e9076e9a23837f219bf403a166202231dc6",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\86\\8f9b41c99603f39d7e87e8036f8158bf20e6d5",
+      "size_bytes": 3716,
+      "sha256": "a70c81a3ede5947225918a1fc247682cfdc037e6d56a70a4c5e22ff067409e87",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\86\\a1ec5482727872f00b81ab8691704cc43184a5",
+      "size_bytes": 495,
+      "sha256": "2b1ae8e8f26fbe452ba63c59aa02ab55ebd4213c70ddada9c221b37090250ea8",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\8c\\d750df65430f6a0ccaa4dbe1659389b45bd720",
+      "size_bytes": 1183,
+      "sha256": "e35ce85be02c9d724df0c2c9f573f6b25dda04ab3425474775152d26bded8651",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\94\\a0127b145e03c5875b3d11b22552ad14936b66",
+      "size_bytes": 680,
+      "sha256": "6d0abf3cccaf412e2fe5272afe45191eb050981dc3124b954c32e9e4643d5311",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\97\\245421ef5843432e6915d602c3ea34d96b1622",
+      "size_bytes": 495,
+      "sha256": "3fa5ab8c8660d539abafc836d4445c027f3696b541bdd33aa7614cdd5b19e7dc",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\a0\\d30a4cf961194bd2c9138bfd1d20dfac1348d3",
+      "size_bytes": 186,
+      "sha256": "9f4de190d5748ecc6dc215dd12bc69d96baf5f5e5c7b0726f87420ba7e89e11c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\a7\\da002bf3a90d4ea5db54f59330fae1c7e86a08",
+      "size_bytes": 80,
+      "sha256": "8123305f67e51b32e974022c0742fb78afd169ffce676cba431fc02b71fab2aa",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\b3\\fd7aa6f9370d3cb55258afd8ef7486566f2373",
+      "size_bytes": 153,
+      "sha256": "08bac3091cbc202386defca69c3faf448d2da366d72f37b0bfc52fefc7f28cc7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\b5\\c4f0ea844ac33fd7473cf76938ad393153675c",
+      "size_bytes": 768,
+      "sha256": "c44137c51cdc538795c1c7a1d84b9b8a60e555694ea37ab24530eee7181efbd5",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\b9\\adbd2ea3aa355418beeb338caa4da7f3c69a30",
+      "size_bytes": 880,
+      "sha256": "cf8cd2c9f2aeb3a20373ab18a52df53d20972986979a840342ca705992aa10f4",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\c9\\ab16f3fb6eeba088c38313269259d324dc7ed1",
+      "size_bytes": 290,
+      "sha256": "ea6fb3c73e82a5e433dab7ff53ee415ca30f738e640b340447c51da8b9dfe597",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\cb\\eccca8ef290f6bea0ebd5a32475a2a8777dcb5",
+      "size_bytes": 52,
+      "sha256": "9eeea8b8931e171e3781d07c9462c65971f2c6e6e6bc998b5598348b55598ca8",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\e0\\dacd36395e786acc66ece4442a01e43be82f0a",
+      "size_bytes": 184,
+      "sha256": "e48057e036f85312cf8030d6a84f9e4d6f955af1083c128e66fc2f9c6d5c4568",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\f2\\a639d00e8ce62f60aa8bdaf4144533debde35d",
+      "size_bytes": 227,
+      "sha256": "6f2e751cb0e0347e9f8e09056337bda7484987bd43c20110411b7a9f36c62067",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\f3\\aae9916b1082dd7b978d1d2b83189ea711c0e8",
+      "size_bytes": 587,
+      "sha256": "dea28d29d813aa3ad80afb5a6a509c43371301bd02e7bb74125d88b64f6f765c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\.git\\objects\\f9\\f29b62de4605e7c6cbde15336b0ad0ae1ce5b5",
+      "size_bytes": 580,
+      "sha256": "2ac9945c329ac862b64ae1ccea359af432afc8d785860cf9f1acb22c45d9ee50",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\controller.py",
+      "size_bytes": 1395,
+      "sha256": "427db8998625577d8ac1a3bfe9fb1566add591b5f49938727795418a05738d2a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\engine.py",
+      "size_bytes": 3980,
+      "sha256": "b2cf689d38f90005bd3f4548821fe8c20bcda8e21128b42b9cd5cf9d9132aaed",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\metrics.py",
+      "size_bytes": 2478,
+      "sha256": "243320adda1e0d084cdc6b85ad136da0c78cbaa4b6eb7b5f9774643c10265b22",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\state.py",
+      "size_bytes": 1804,
+      "sha256": "0f67bdc5b38dba06a51bfd10ffeffa4c603b26c01e8643df9afc582c24fa2857",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\__init__.py",
+      "size_bytes": 528,
+      "sha256": "2bc8055ba1994b9cb457899aa896e5b70c07da9534bb1a9d0f664b35ec10e26e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\__pycache__\\controller.cpython-311.pyc",
+      "size_bytes": 1764,
+      "sha256": "fa4dd5c48c5ee646bffc1d430ca75f4aa1eb5e3c97e4fa2449d1955b247d19ff",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\__pycache__\\controller.cpython-314.pyc",
+      "size_bytes": 2023,
+      "sha256": "3c4104c8af38efe7111927c2b7da0dfbd3a21ad18775fc692f72ffe3a52ea2b4",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\__pycache__\\engine.cpython-311.pyc",
+      "size_bytes": 6597,
+      "sha256": "6643589aae3b4ac6ef860b4d364b6aadc8c03e7673f681b2f21a6f1c5f1a2f97",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\__pycache__\\engine.cpython-314.pyc",
+      "size_bytes": 4653,
+      "sha256": "7626750c6362e2180d28018e29ce72c4d18c84e13b5081de603a287d5e7e16a8",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\__pycache__\\metrics.cpython-311.pyc",
+      "size_bytes": 3793,
+      "sha256": "cdd68158aeb9df397300cc4d33b1f8d8fc7064f545f14bda7756d1b898fb0de4",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\__pycache__\\metrics.cpython-314.pyc",
+      "size_bytes": 3473,
+      "sha256": "d6bf455abbb95eb0b90b9ef13f73d5ea8dd28630735c9c02364bb7068cbc0815",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\__pycache__\\state.cpython-311.pyc",
+      "size_bytes": 3014,
+      "sha256": "7c006a57f32007721caeae039f0968cd664ce9b9d9d0c113c1eff00946f53c00",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\__pycache__\\state.cpython-314.pyc",
+      "size_bytes": 3859,
+      "sha256": "241f75601efa38247728ac90c3fcbb873801a5f682b4557dfdc64cb721c0ec5e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\__pycache__\\__init__.cpython-311.pyc",
+      "size_bytes": 870,
+      "sha256": "0e0a2012621252b9b43608becf4bac0c1ef097377766846ee040561d7a22f3d3",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_core\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 734,
+      "sha256": "4d5ccac631c01eed18b97dde18e93e74c9859ba21384c49816998bf41b231fcd",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_sdk\\ynor\\client.py",
+      "size_bytes": 1730,
+      "sha256": "fc8b56b84512845e1e5eb9fb8fcfed79e4423cac7ec97ccdbd05297acbb6cfb0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_sdk\\ynor\\core_mu.py",
+      "size_bytes": 3659,
+      "sha256": "fb502b54d048fc7a36225a9869456728da44b373a41a736e8e4fcab5ea54222b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_sdk\\ynor\\integrations.py",
+      "size_bytes": 2955,
+      "sha256": "9aa9b0437653ecfe083eed33c808b06b24297dcb56ae4c4d0f3fb2c744c33f49",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_sdk\\ynor\\models.py",
+      "size_bytes": 240,
+      "sha256": "03df64da0a32a2b7fad6076bb0f6ce72990c4e2ea1858b68bdd49afd86fc5488",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_sdk\\ynor\\__init__.py",
+      "size_bytes": 419,
+      "sha256": "d2f73173501c935a0510b9f80fc19a67d36c845a3b98015da000d3494cd6ace2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_sdk_dist\\ynor\\client.pyc",
+      "size_bytes": 2418,
+      "sha256": "871696b6191a3386abf46c501e72d77b9eae4db01f430ea12b02e5dc0f60df70",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_sdk_dist\\ynor\\core_mu.pyc",
+      "size_bytes": 6203,
+      "sha256": "6614899ba274fa6a43d36fd8fbd9a8d35d9c31fce8e6f2c32b7f295e021ec7ef",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_sdk_dist\\ynor\\models.pyc",
+      "size_bytes": 957,
+      "sha256": "8a5f292de2c1ece117abb37a5212664ab80b1b196222dd77fa7152f0a4ad985a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\ynor_sdk_dist\\ynor\\__init__.pyc",
+      "size_bytes": 508,
+      "sha256": "3e82e04a223425404be7314ba24f71993c91f08de0a26a54eaa01bb3e214ed36",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\__pycache__\\ynor_api_server.cpython-311.pyc",
+      "size_bytes": 52301,
+      "sha256": "a0a02b568351cd74998c56751b39ebf48ac252b423dc609ce306757f3c00925d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\__pycache__\\ynor_api_server.cpython-314.pyc",
+      "size_bytes": 49720,
+      "sha256": "c74d7124f92a6cbd66b52ccc31c303000ad7f2ca991d9a86baa4b294995fee99",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\__pycache__\\__init__.cpython-311.pyc",
+      "size_bytes": 275,
+      "sha256": "eeba8b7ce6dc425f384c028be5479454ef6428375e69dc899576112ff3547c6a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_04_DEPLOYMENT_AND_API\\__pycache__\\__init__.cpython-314.pyc",
+      "size_bytes": 266,
+      "sha256": "87fd47a97505f16778cec870066e6d163124b6c4ef9ca24c9029688d19b155c6",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\app.py",
+      "size_bytes": 5078,
+      "sha256": "19fc39ac24d4e3fa4d43048c58110c14965ca59868dc6f1f0a97825b3cf0a7e1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\benchmark_runtime_hotpaths.py",
+      "size_bytes": 5639,
+      "sha256": "ed6afe47a5a2e107f8654fbb4a4a33abc8959cc9980dca1e38be5ede1f6f0a40",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\demo_1_line_integration.py",
+      "size_bytes": 1933,
+      "sha256": "e2a2d3cca9518a0fc27186d8a77344b4a2ba208725f1f8530cf00fe6a19aa182",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\demo_2_multi_agent_network.py",
+      "size_bytes": 3733,
+      "sha256": "049ae23aca877c7241733935c65f44ef8a1360d4fec8150b06cc089c64303488",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\demo_3_encrypt_identity.py",
+      "size_bytes": 2306,
+      "sha256": "67b4a2228a9406c7661e1ff4c448e32090de8f8b62c2ee5d83f701efee511269",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\LANCER_MDL_NGROK.bat",
+      "size_bytes": 417,
+      "sha256": "53b6eac9cf949344316ca9d717e9eb02a72cc4741eb4d898a999bceb5f2e7462",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\mdl_ynor_dashboard.html",
+      "size_bytes": 20504,
+      "sha256": "0de7256b153ea12f38d77746f8d0f17d486812862188ec0b4a6735531a149835",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\mdl_ynor_portal.html",
+      "size_bytes": 3525,
+      "sha256": "d64687a0722450b3d1e4ce16517ad5c1f8c3c3c441a1a8081b64ed80f15a5ee2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\pentest_result.txt",
+      "size_bytes": 2724,
+      "sha256": "61ec2c3127500ce8c90abbbb8d2f744f862475f837324ef8f2680103383ff3ec",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\requirements_deploy.txt",
+      "size_bytes": 40,
+      "sha256": "df255acd228a82ccea32b5c244506c8c254ffc00b273f552833c91d33c3c32a9",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\run_ynor_core.py",
+      "size_bytes": 2133,
+      "sha256": "aad7b9deeee6e6205b1edd48af1508740de226765024a64137876ef38c38d40b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\secure_upload_obfuscator.py",
+      "size_bytes": 3232,
+      "sha256": "4bf11385459116dae24700c9032b68c25ae9db6e3a40940ffa6fb2f034448781",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\start_mdl_ngrok.ps1",
+      "size_bytes": 1155,
+      "sha256": "0e714b34e2a1816f58cfcaee3a72528cbdfdde88e5f3cf69d5626f16575fe4b0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\start_mdl_servers.ps1",
+      "size_bytes": 2987,
+      "sha256": "3d0e82d31179cdd7b30de180cbef4ee84654568fbc206f6381cec933aa0ef855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\start_mdl_servers_cf.ps1",
+      "size_bytes": 2864,
+      "sha256": "3877dfc718472425cf40e7064e42275b5df0916a63a560760c9aacddf8d15300",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\stop_mdl_servers.ps1",
+      "size_bytes": 1366,
+      "sha256": "6e6970b959d84e220137fe443335886301fe41fae80568d183b8f65072c13248",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\streamlit_dashboard.py",
+      "size_bytes": 1807,
+      "sha256": "499e21b9bfe3d0d87bc9188d989f56f910f7ab12cd27fbb8c6d2c467ae34e82a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\ynor_dashboard_v2.py",
+      "size_bytes": 7354,
+      "sha256": "9ef1fae70aef8d563c1b1fb7762dc196d8bf3d2e31aa1742d964b01c101e5980",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\ynor_live_real_openai_demo.py",
+      "size_bytes": 5256,
+      "sha256": "596118ff49d303fb9696a3637442971b64015064049768aa5bf912c4dfadab3c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\ynor_security_pentest.py",
+      "size_bytes": 2584,
+      "sha256": "9ebd66e2d2c0ec46fc4d87653cd27cf87a2b3aa31e60561bb48b9b886bddacad",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_06_SCRIPTS_AND_DASHBOARDS\\ynor_showcase_demo.py",
+      "size_bytes": 7540,
+      "sha256": "d8e7f0967814c7a673416f24e4d6dc51889063ed7d78b61dcad308e977f29f2d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ASSETS_UI\\mdl_ynor_logo_premium_1774001429533.png",
+      "size_bytes": 56047,
+      "sha256": "59eb408b1d52c488196124dc90f9ce4dfa71f7a09e4e3e41823d085e5e15d68b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.github\\workflows\\mdl_full_check.yml",
+      "size_bytes": 1543,
+      "sha256": "c8d002412d627afb253d30c4749633ee6196be3f0f753b330da43e8dcc300d0e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\.github\\workflows\\ynor_ci.yml",
+      "size_bytes": 1063,
+      "sha256": "4fadc6ad4957f05b06caf415b3798f05f871cf88d39e621f9899c3d24cd83057",
+      "kind": "text"
+    }
+  ]
+}

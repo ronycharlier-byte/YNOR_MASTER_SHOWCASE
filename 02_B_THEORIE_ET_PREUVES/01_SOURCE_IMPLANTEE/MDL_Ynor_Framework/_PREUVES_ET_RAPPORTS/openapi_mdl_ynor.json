@@ -1,0 +1,278 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "API Quantique MDL Ynor",
+    "description": "API de pilotage MDL Ynor — Audit dissipatif, analyse quantique et gouvernance autonome. Copyright (c) 2026 Charlier Rony.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://mdlynor.ngrok-free.app",
+      "description": "Serveur MDL Ynor"
+    }
+  ],
+  "paths": {
+    "/pricing": {
+      "get": {
+        "operationId": "getPricing",
+        "summary": "Plans et tarifs",
+        "description": "Affiche les plans disponibles (Gratuit, Pro, Entreprise) et leurs tarifs.",
+        "responses": {
+          "200": {
+            "description": "Liste des plans",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "plans": { "type": "object" },
+                    "payment_info": { "type": "string" },
+                    "free_tier": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/register": {
+      "post": {
+        "operationId": "registerFreeKey",
+        "summary": "Inscription gratuite",
+        "description": "Crée une clé API gratuite pour un nouvel utilisateur.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string",
+                    "description": "Adresse email de l'utilisateur."
+                  }
+                },
+                "required": ["email"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Clé API créée avec succès",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": { "type": "boolean" },
+                    "api_key": { "type": "string" },
+                    "tier": { "type": "object" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/audit_mu": {
+      "post": {
+        "operationId": "classicAuditMu",
+        "summary": "Audit Mu Classique",
+        "description": "Calcule la marge dissipative mu classique. Formule: mu = alpha - (beta + kappa). Disponible pour tous les plans.",
+        "parameters": [
+          {
+            "name": "X-API-Key",
+            "in": "header",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "Clé API de l'utilisateur."
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "alpha": { "type": "number", "description": "Coefficient d'énergie." },
+                  "beta": { "type": "number", "description": "Coefficient de dissipation." },
+                  "kappa": { "type": "number", "description": "Coefficient d'inertie." }
+                },
+                "required": ["alpha", "beta", "kappa"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Résultat de l'audit",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "mu": { "type": "number" },
+                    "status": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/quantum_audit_mu": {
+      "post": {
+        "operationId": "quantumAuditMu",
+        "summary": "Audit Mu Quantique (Pro+)",
+        "description": "Calcule la marge mu basée sur l'Entropie de von Neumann et la Pureté. Requiert le plan Pro ou Entreprise.",
+        "parameters": [
+          {
+            "name": "X-API-Key",
+            "in": "header",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "Clé API Pro ou Entreprise."
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "alpha_q": { "type": "number", "description": "Coefficient quantique alpha (0.5 à 5.0)." },
+                  "system_dims": { "type": "integer", "default": 2, "description": "Dimensions du système." }
+                },
+                "required": ["alpha_q"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Résultat de l'audit quantique",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "mu_quantum": { "type": "number" },
+                    "entropy": { "type": "number" },
+                    "purity": { "type": "number" },
+                    "status": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/trigger_decoherence_shock": {
+      "post": {
+        "operationId": "triggerDecoherenceShock",
+        "summary": "Choc de Décohérence (Pro+)",
+        "description": "Simule un effondrement de la fonction d'onde. Requiert le plan Pro ou Entreprise.",
+        "parameters": [
+          {
+            "name": "X-API-Key",
+            "in": "header",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "Clé API Pro ou Entreprise."
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "intensity": { "type": "number", "description": "Intensité entre 0.0 et 1.0." }
+                },
+                "required": ["intensity"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Résultat du choc",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": { "type": "string" },
+                    "decoherence_rate": { "type": "number" },
+                    "mu_after_shock": { "type": "number" },
+                    "warning": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/full_system_audit": {
+      "post": {
+        "operationId": "fullSystemAudit",
+        "summary": "Audit Systémique Complet (Entreprise)",
+        "description": "Audit combiné classique + quantique avec score composite. Requiert le plan Entreprise.",
+        "parameters": [
+          {
+            "name": "X-API-Key",
+            "in": "header",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "Clé API Entreprise."
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "alpha": { "type": "number" },
+                  "beta": { "type": "number" },
+                  "kappa": { "type": "number" },
+                  "alpha_q": { "type": "number" },
+                  "system_dims": { "type": "integer", "default": 2 }
+                },
+                "required": ["alpha", "beta", "kappa", "alpha_q"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Audit complet",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "classic_audit": { "type": "object" },
+                    "quantum_audit": { "type": "object" },
+                    "composite_score": { "type": "number" },
+                    "recommendation": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

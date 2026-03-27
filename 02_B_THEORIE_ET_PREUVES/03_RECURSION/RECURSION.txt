@@ -1,0 +1,4 @@
+Noeud : B / THEORIE_ET_PREUVES
+Miroir : B_PRIME
+Regle fractale : chaque fichier est replie en source, miroir textuel et index.
+Regle chiastique : tout noeud renvoie a son miroir et au centre X.

@@ -1,0 +1,4 @@
+Noeud : C / MOTEURS_ET_DEPLOIEMENT
+Miroir : C_PRIME
+Regle fractale : chaque fichier est replie en source, miroir textuel et index.
+Regle chiastique : tout noeud renvoie a son miroir et au centre X.

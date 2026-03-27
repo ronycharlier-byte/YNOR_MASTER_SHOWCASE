@@ -1,0 +1,22 @@
+# MIROIR TEXTUEL - obfuscation_mapping_PRIVATE.json
+
+Source : MDL_Ynor_Framework\_05_DATA_AND_MEMORY\obfuscation_mapping_PRIVATE.json
+Taille : 743 octets
+SHA256 : 441078f21f5ef7dfc3d73912554c759a488dbde923b910f5b689353c28056e26
+
+```text
+{
+    "ynor_logic_f1a4703a.bin": "DATA_PROVENANCE.json",
+    "ynor_node_b2fc5604.yaml": "GPT_ACTION_SCHEMA.yaml",
+    "ynor_logic_7538ede2.bin": "mdl_global_knowledge.json",
+    "ynor_logic_ca1d1aee.bin": "MDL_YNOR_CONTRAT_LICENCE.json",
+    "ynor_logic_420ee36b.bin": "mdl_ynor_manifesto_governance.json",
+    "ynor_logic_51aa5004.bin": "MU_SPECIFICATION_ABSTRACT.json",
+    "ynor_logic_13e86a66.bin": "TEST_COVERAGE_REPORT.json",
+    "ynor_node_c1f868f2.md": "YNOR_ACADEMY_MASTER_CURRICULUM.md",
+    "ynor_logic_13404597.bin": "YNOR_AUDIT_TEMPLATES.json",
+    "ynor_logic_5b537288.bin": "YNOR_OPERATIONAL_HANDBOOK.json",
+    "ynor_node_b05a3e37.md": "YNOR_SALES_RESOURCES.md",
+    "ynor_node_5775e09f.md": "YNOR_USER_GUIDE.md"
+}
+```

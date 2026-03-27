@@ -1,0 +1,1281 @@
+{
+  "node": "04_X_NOYAU_MEMOIRE",
+  "key": "X",
+  "mirror": "X",
+  "role": "Centre chiastique de connaissance, memoire et intelligence",
+  "inventory_count": 212,
+  "inventory": [
+    {
+      "source": "MDL_Ynor_Framework\\_05_DATA_AND_MEMORY\\DATA_PROVENANCE.md",
+      "size_bytes": 1652,
+      "sha256": "af1aedc8b303fa3292f07241ca0be9ad272e1a648cc7f8fd6320f129632b6e25",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_DATA_AND_MEMORY\\hardcore_dataset.json",
+      "size_bytes": 209737,
+      "sha256": "7338229d311da1c6e60a42c0ecfdc55642a0321dd228ab916c6983139a8b1e2f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_DATA_AND_MEMORY\\mdl_global_knowledge.json",
+      "size_bytes": 604654,
+      "sha256": "9a990e830222364d3ca703a469155903c31d28d338bae6751d7c33fa3c638b5e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_DATA_AND_MEMORY\\mdl_ynor_manifesto_governance.json",
+      "size_bytes": 8582,
+      "sha256": "14662dd10138b50bfc2e3acec7ae806ffb3578c062315c0fdf775c94307b64aa",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_DATA_AND_MEMORY\\obfuscation_mapping_PRIVATE.json",
+      "size_bytes": 743,
+      "sha256": "441078f21f5ef7dfc3d73912554c759a488dbde923b910f5b689353c28056e26",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_DATA_AND_MEMORY\\server_pids.json",
+      "size_bytes": 105,
+      "sha256": "7e1bee8de0569f6846f12f44448da10a25c6a6d97bb856d8d46302df7a477317",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_DATA_AND_MEMORY\\target_sandbox.txt",
+      "size_bytes": 29,
+      "sha256": "27120479038aceb150a5f1fd899371542639b540602444b4edf611a2f88cb535",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_DATA_AND_MEMORY\\YNOR_FRACTAL_ULTIMATE_FRAMEWORK.json",
+      "size_bytes": 39067,
+      "sha256": "e6b58b86e0b347ec985eb91e39e44f1ccdb069d5958a1cd3d737e03a27d9eaa1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_05_DATA_AND_MEMORY\\ynor_unified_prompts.json",
+      "size_bytes": 4848,
+      "sha256": "cd6103a0beb75cd4423208cabae04da33ec9ca77221f9fb8be3a2adc94703e99",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\!_SOURCES_AI_KNOWLEDGE.txt",
+      "size_bytes": 97,
+      "sha256": "2318d3a3fd2d9afae443efa2329b4f2c2d6867cba646cb21da42d546dde0dd23",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\BENCHMARK_ULTRA_HARDCORE_ULTIMATE_10_10.md",
+      "size_bytes": 10994,
+      "sha256": "a8deef923b03ab66457c410af3961597bd7ad197e68cdab1e0417d0b07db2ad9",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\MDL_YNOR_CUSTOMER_EXPERIENCE_LOGS.md",
+      "size_bytes": 2231,
+      "sha256": "0462a309aa7051925ab6947290cfac8be3e7982260197a4e7568fbce9fccb153",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\MDL_Ynor_Dynamic_Systems_Paper.tex",
+      "size_bytes": 4035,
+      "sha256": "0fb2817ecb0834d6b4af197ae93af05ec0a7b2af68c20b90f3a9c7df89189135",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\MDL_YNOR_LEGAL_COMPLIANCE.md",
+      "size_bytes": 896,
+      "sha256": "fd125ab49c49f116a472e17430baff82e722c72322ed2528c2da37c10437b5c9",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\mdl_ynor_manifesto_governance.json",
+      "size_bytes": 8924,
+      "sha256": "e122d0c60a6ae5225b049f059d30a17e2eb0e655af962256d2f667076e3e1eb2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\MDL_Ynor_NeurIPS_Paper.md",
+      "size_bytes": 11001,
+      "sha256": "78fee1bb67fdce41fbaec4b49b8080d4f3c28b355a31c1ae6e61577485ec5710",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\MDL_Ynor_NeurIPS_Submission.tex",
+      "size_bytes": 6995,
+      "sha256": "7a11347af4593b99a436645890b3e1ad5f2d60af06b280bcdb2192d8aa693217",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\MDL_YNOR_SCIENTIFIC_WHITE_PAPER.md",
+      "size_bytes": 3208,
+      "sha256": "2c123316229493bf1d873e97392849a030b37a45145b7972e8e96f4949fb1621",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\MDL_YNOR_TECHNICAL_SPECIFICATIONS.md",
+      "size_bytes": 3012,
+      "sha256": "ed76890fbbbe2ee92901900f0cf463236d03bbe5e75a09a1c690d279253a285f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\MODE_D_EMPLOI_YNOR.md",
+      "size_bytes": 2899,
+      "sha256": "de6d1f1f54429b37bebd66e1763862fd41b09f32c646a4c5c4a108fb8d219d39",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\YNOR_LANDING_MANIFESTO.md",
+      "size_bytes": 2782,
+      "sha256": "00c0d5e40e942b872a730b24a0c43cbf7b75d073203c4c29bf733e4a7c546d44",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\YNOR_OPERATIONAL_HANDBOOK.md",
+      "size_bytes": 2476,
+      "sha256": "42139675d7e55a9a8711cc84f32e11e1c12d7b35654339a19e608fa0fb77216a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\YNOR_SALES_PLAYBOOK.md",
+      "size_bytes": 2164,
+      "sha256": "afc0679fc1d49c99e767209d2a1c83d799a92232303dbe6436a932a87454b530",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre Fusionné — Article 1.pdf",
+      "size_bytes": 393872,
+      "sha256": "8ff51f9ff6873265bcb6f388dab81638ca4b53fae220a918b202ae174c7eefc0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre I — Article 1.pdf",
+      "size_bytes": 366711,
+      "sha256": "777b790dd08cda40607015b7605cfd7200fd6e1019c88414531d8d3f494d8ad4",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre II — Article 1.pdf",
+      "size_bytes": 453755,
+      "sha256": "d0be40823e01507fae9fa9e0cb6d97a9722095dae1648883a7180f49d0109984",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre III — Article 1.pdf",
+      "size_bytes": 518099,
+      "sha256": "5b4166f75d586c0e1152354db888fba26d7a713fec01d4edb8e9f459dae06c8f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre IV — Article 1.pdf",
+      "size_bytes": 535328,
+      "sha256": "da069f40ae3f6fef7674777a2e2b6cbf00d2bced76fbb9305b7af4999bd86b8d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre IX — Classification canonique des régimes critiques.pdf",
+      "size_bytes": 264694,
+      "sha256": "ee4ca9f2a27e7506acc3447428bdb25584495ff8a4ea0f59a13c15f83c593c88",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre V — Article 1.pdf",
+      "size_bytes": 450203,
+      "sha256": "a964abee777d7b34c8110d18abdc659cc57cd0df29c9227a0657f2ad019f7259",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre VI — Article 1.pdf",
+      "size_bytes": 475066,
+      "sha256": "1bde388fe40c72e69e5ef4fd2781c169ea3bb5c6a8feea235c156cb6c21260c2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre VII — Article 1.pdf",
+      "size_bytes": 465937,
+      "sha256": "65bed3cb35dfbc7c0d47cb83f54489a78378d07389b4d1906452e40f77df3b12",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre VIII — Article 1.pdf",
+      "size_bytes": 488240,
+      "sha256": "abd45b3c0e2bfd5330d0458d721157d95baf5a97e13964ecbac9d2671f4a9a60",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre X — Article 1.pdf",
+      "size_bytes": 539306,
+      "sha256": "9b93ace26ae93d57f0c1a84c8901ed96ea07903e4b629c7bfd8dee83c7ee781c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XI — Statut scientifique et validation du cadre MDL Ynor.pdf",
+      "size_bytes": 92365,
+      "sha256": "55da01b71caf76c03cea207740864c3566ea09c501758e0d68f2bb7bf4b62539",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XII — Article 1.pdf",
+      "size_bytes": 513812,
+      "sha256": "ebcee93024bafbc64bb29e2f2c13ebdd6ec2caea2648a3d7cded3d441e10dec0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XIII — Article 1.pdf",
+      "size_bytes": 469092,
+      "sha256": "ba55e43ac76e3f8f1a7f78c7fd46275b594b9fc24dea1a4424328d595f529cdf",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XIV — Article 1.pdf",
+      "size_bytes": 555204,
+      "sha256": "e4c6216bb4a239f3d909b3071dd32d89bad400ce7bc0acb383054e80dee1da7b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XIX — Article 1.pdf",
+      "size_bytes": 416127,
+      "sha256": "31937524e307508116ea60ef34a27b526781067b0cee434a204a1e90fce54884",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XV — Article 1.pdf",
+      "size_bytes": 751434,
+      "sha256": "bd2162991b59587259915de1de1189d4deae8e6e5ead411785c87b1d7fac8dfe",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XVI — Article 1.pdf",
+      "size_bytes": 375903,
+      "sha256": "0d01b926393f44bf99accf898dfd966b68f439ce470d105362d8753d663fd424",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XVII — Article 1.pdf",
+      "size_bytes": 340309,
+      "sha256": "cd6322c135e2115890803b8efcd57c9273c065c9e0a0f2882f69dcbff5a6cff2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XVIII — Article 1.pdf",
+      "size_bytes": 308666,
+      "sha256": "a1c916c96e224827d0f50e64c6eb4189e60dcea3b1000dd2ceaceaa8e24d13f7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XX — Article 1.pdf",
+      "size_bytes": 357525,
+      "sha256": "217046a5c076d201e670d90596b1e6a46dd7f7165a4711d28f3171dbd28898bd",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXI — Article 1.pdf",
+      "size_bytes": 337944,
+      "sha256": "99dfa902c31b74978431d52a2ba84a632b8ec34efad9f215ca0d1961ea0175ce",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXII — Article 1.pdf",
+      "size_bytes": 301745,
+      "sha256": "b98779391eabcd455fb6a4c6ad8cb8b71ed7407ba80498ef235a9ef1321fce65",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXIII — Article 1.pdf",
+      "size_bytes": 324431,
+      "sha256": "388b6b57d819149569198a195953c376ca31ec45dbd6cd720f0df82c3a842e93",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXIV — Article 1.pdf",
+      "size_bytes": 299047,
+      "sha256": "75044dcde98c6d8e1f83f089c0348b3a1156b5933f29cf42aba7fe7cfe9b5ee2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXIX — Article 1.pdf",
+      "size_bytes": 279787,
+      "sha256": "ba7c69480582c7f9bf01458c3c7671df379fd019128565e651eb8b58d5a25d9d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXV — Article 1.pdf",
+      "size_bytes": 284074,
+      "sha256": "cdb479ae9d79169dffe9470ed1720980338947d07961884d938595b0357c4030",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXVI — Article 1.pdf",
+      "size_bytes": 284418,
+      "sha256": "75d5e75cb4b64bcd9e4221004aeec9b4e6189ad815b804aeaba9512f65a1ec05",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXVII — Article 1.pdf",
+      "size_bytes": 256946,
+      "sha256": "9a0f32eef9c0f046d05a8529f5011a623979232cbfdda427b0a7c2d8a3ef321c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXVIII — Article 1.pdf",
+      "size_bytes": 313737,
+      "sha256": "166a2f864d0517db9e3965bad011f1cb0175ab0613b8b14075a3b1c9d6bb0a4b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXX — Article 1.pdf",
+      "size_bytes": 341734,
+      "sha256": "b471f3e9dfb10f9a8d928874d68c91ae65ff1dce5603053ab076bb4a78b50443",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXXI – Article 1.pdf",
+      "size_bytes": 266226,
+      "sha256": "8b41239e44aefd4559b39d55f47479ee7169306767ad6ea9a87e4fe15b18661c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXXII — Article 1.pdf",
+      "size_bytes": 222113,
+      "sha256": "2745794e332dbd378c897f249f41b794b5cb01bdd2ade7f5981af06bcbb5a99c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXXIII — Article 1.pdf",
+      "size_bytes": 164294,
+      "sha256": "2324796e25097a157cbd1650178f62ef5ea3c16c0d30c7463fc8868b0bf0b1af",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Chapitre XXXVII — Article 1.pdf",
+      "size_bytes": 291110,
+      "sha256": "b038a9d33142aec5d9bf26c829ec28c2bf3ffc933704a74ba859ad8fc6bb9bc0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_01_THEORY_PDFS\\Universal_Dissipative_Stability_Numerical_Proofs_General_Relativity_2026.pdf",
+      "size_bytes": 313974,
+      "sha256": "f944b36b38dea94deaf1389cbce4e6678c23f5dcbab415c995ebb636d93b3261",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\Chapitre I — Formalisation axiomatique minimale.pdf",
+      "size_bytes": 1748407,
+      "sha256": "b010b2f6e9356cf5e1fae0a7e29767ff183bddf0d5e70067432708343674d56e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\Chapitre I — Formalisation mathématique intégrale du noyau MDL Ynor.pdf",
+      "size_bytes": 984813,
+      "sha256": "31cd02b234ffc0534704ce181ba6c52aef84e747113dc63dc9c5279cb2f37b9a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\Chapitre XLVIII — Article 1.pdf",
+      "size_bytes": 416617,
+      "sha256": "5317bdbc755645d7f392bfc9fbb1c2192ee40990889ab7f4d0f3ff016db149c6",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\Constitution Structurelle des Systèmes Dissipatifs à Amplification Bornée — Version 1.0.pdf",
+      "size_bytes": 258787,
+      "sha256": "d4422353b85deb75af66f3bead15da13f9ab77ef5caed41947db3fe51393894c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor — Constitution Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf",
+      "size_bytes": 258787,
+      "sha256": "d4422353b85deb75af66f3bead15da13f9ab77ef5caed41947db3fe51393894c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor — Théorie Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf",
+      "size_bytes": 763936,
+      "sha256": "e6b25c58afb91a8d4c78a4975533ea363fcf113b504db311c618c3027b9f9f4b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor — Théorèmes fondamentaux de la marge dissipative.pdf",
+      "size_bytes": 433741,
+      "sha256": "3f225f470eb7dda633bc61ed9aeb5a2b787bf333e462f207a878c6a98ed55b4b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor — Traité des dynamiques dissipatives et de la stabilité structurelle.pdf",
+      "size_bytes": 716205,
+      "sha256": "10531611e1975cd3a743999d0749a086bb05b057b25862147f03dc16edadab7b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL_YNOR_MILLENNIUM_TRAITE_UPDATE.md",
+      "size_bytes": 1959,
+      "sha256": "95ca263a26e068d19e9d3b12ad84817a8794d248d46dde400a148de1b8535e52",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\Théorie Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf",
+      "size_bytes": 763936,
+      "sha256": "e6b25c58afb91a8d4c78a4975533ea363fcf113b504db311c618c3027b9f9f4b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre I — Article 1.pdf",
+      "size_bytes": 366711,
+      "sha256": "777b790dd08cda40607015b7605cfd7200fd6e1019c88414531d8d3f494d8ad4",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre II — Article 1.pdf",
+      "size_bytes": 453755,
+      "sha256": "d0be40823e01507fae9fa9e0cb6d97a9722095dae1648883a7180f49d0109984",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre III — Article 1.pdf",
+      "size_bytes": 518099,
+      "sha256": "5b4166f75d586c0e1152354db888fba26d7a713fec01d4edb8e9f459dae06c8f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre IV — Article 1.pdf",
+      "size_bytes": 535328,
+      "sha256": "da069f40ae3f6fef7674777a2e2b6cbf00d2bced76fbb9305b7af4999bd86b8d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre IX — Article 1.pdf",
+      "size_bytes": 565951,
+      "sha256": "8e27f998e4b03cc6c9db5d04c52d75bdf1c94531c24aa6e7860fc93cf00ba4f2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre V — Article 1.pdf",
+      "size_bytes": 450203,
+      "sha256": "a964abee777d7b34c8110d18abdc659cc57cd0df29c9227a0657f2ad019f7259",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre VI — Article 1.pdf",
+      "size_bytes": 475066,
+      "sha256": "1bde388fe40c72e69e5ef4fd2781c169ea3bb5c6a8feea235c156cb6c21260c2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre VII — Article 1.pdf",
+      "size_bytes": 465937,
+      "sha256": "65bed3cb35dfbc7c0d47cb83f54489a78378d07389b4d1906452e40f77df3b12",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre VIII — Article 1.pdf",
+      "size_bytes": 488240,
+      "sha256": "abd45b3c0e2bfd5330d0458d721157d95baf5a97e13964ecbac9d2671f4a9a60",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre X — Article 1.pdf",
+      "size_bytes": 539306,
+      "sha256": "9b93ace26ae93d57f0c1a84c8901ed96ea07903e4b629c7bfd8dee83c7ee781c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XI — Article 1.pdf",
+      "size_bytes": 629610,
+      "sha256": "5a1eaf3e8bfb8efd944755b0a957fa53f8b0a7b8c431a6b497c50332ee1359e0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XII — Article 1.pdf",
+      "size_bytes": 263553,
+      "sha256": "4e889acd9fdd8ed01788cf869886fb30215b9cf9c274c309aa743c350da982d4",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XIII — Article 1.pdf",
+      "size_bytes": 347583,
+      "sha256": "ce989964638f9390e3588e5bfcb7f3db63cf519d4b5206ac3cba7c4fb81e7bb0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XIV — Article 1.pdf",
+      "size_bytes": 555204,
+      "sha256": "e4c6216bb4a239f3d909b3071dd32d89bad400ce7bc0acb383054e80dee1da7b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XIX — Article 1.pdf",
+      "size_bytes": 416127,
+      "sha256": "31937524e307508116ea60ef34a27b526781067b0cee434a204a1e90fce54884",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XV — Article 1.pdf",
+      "size_bytes": 354289,
+      "sha256": "4fbeb4421c35556c080dbcf2be6324710905df9e439962cd6e67c440bac590b6",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XVI — Article 1.pdf",
+      "size_bytes": 375903,
+      "sha256": "0d01b926393f44bf99accf898dfd966b68f439ce470d105362d8753d663fd424",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XVII — Article 1.pdf",
+      "size_bytes": 340309,
+      "sha256": "cd6322c135e2115890803b8efcd57c9273c065c9e0a0f2882f69dcbff5a6cff2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XVIII — Article 1.pdf",
+      "size_bytes": 308666,
+      "sha256": "a1c916c96e224827d0f50e64c6eb4189e60dcea3b1000dd2ceaceaa8e24d13f7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XX — Article 1.pdf",
+      "size_bytes": 357525,
+      "sha256": "217046a5c076d201e670d90596b1e6a46dd7f7165a4711d28f3171dbd28898bd",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XXI — Article 1.pdf",
+      "size_bytes": 337944,
+      "sha256": "99dfa902c31b74978431d52a2ba84a632b8ec34efad9f215ca0d1961ea0175ce",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XXII — Article 1.pdf",
+      "size_bytes": 301745,
+      "sha256": "b98779391eabcd455fb6a4c6ad8cb8b71ed7407ba80498ef235a9ef1321fce65",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XXIII — Article 1.pdf",
+      "size_bytes": 324431,
+      "sha256": "388b6b57d819149569198a195953c376ca31ec45dbd6cd720f0df82c3a842e93",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XXIV — Article 1.pdf",
+      "size_bytes": 299047,
+      "sha256": "75044dcde98c6d8e1f83f089c0348b3a1156b5933f29cf42aba7fe7cfe9b5ee2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\Chapitre XXV — Article 1.pdf",
+      "size_bytes": 284074,
+      "sha256": "cdb479ae9d79169dffe9470ed1720980338947d07961884d938595b0357c4030",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre L — Article 1.pdf",
+      "size_bytes": 123728,
+      "sha256": "018318307485db3314742e3f97da53a1261719748daa418a672c3d162dd7088f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XL — Article 1.pdf",
+      "size_bytes": 68405,
+      "sha256": "291a5161ab180b9836d7a8ac227a52407ccb9bac44b9a9bd6ac5925a80735261",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XLI — Article 1.pdf",
+      "size_bytes": 449399,
+      "sha256": "d84b05ff55a1f0abe4f566575b2ac85d2cf3910ab47f0d89a99cacfdb430c8cc",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XLII — Article 1.pdf",
+      "size_bytes": 460379,
+      "sha256": "8c741dd07918eb45749ecf2410833c9c103995fdff8e4d31661629accdc2c158",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XLIII — Article 1.pdf",
+      "size_bytes": 463254,
+      "sha256": "c994ad046070f409d62101832308ce0ffb9e17c032e59ce010f30847776355ab",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XLIV — Article 1.pdf",
+      "size_bytes": 467141,
+      "sha256": "318479dedee42afda166b05c74be2550bf64228c412f124b1ccd7027b78bddd7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XLIX — Article 1.pdf",
+      "size_bytes": 482801,
+      "sha256": "ecdeb141d03ef8bd2e9c54ee1cdfc0480164f02b4298a2e5bceb89e5d02c0004",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XLV — Article 1.pdf",
+      "size_bytes": 468033,
+      "sha256": "eb333f0908efeafecf5538367d3af275fb101476d4650477bad11f8d07e506a6",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XLVI — Article 1.pdf",
+      "size_bytes": 508857,
+      "sha256": "da91dc8ebda08b79f13a4202e9fcf6a1747d4ec48ba04c5ca8f0bd7cd1f96b1c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XLVII — Article 1.pdf",
+      "size_bytes": 442270,
+      "sha256": "94dbd0ddb07d2034c9c1cba74d26ee55564a6ea05471148405cd37bb03447e34",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXIX — Article 1.pdf",
+      "size_bytes": 279787,
+      "sha256": "ba7c69480582c7f9bf01458c3c7671df379fd019128565e651eb8b58d5a25d9d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXVI — Article 1.pdf",
+      "size_bytes": 284418,
+      "sha256": "75d5e75cb4b64bcd9e4221004aeec9b4e6189ad815b804aeaba9512f65a1ec05",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXVII — Article 1.pdf",
+      "size_bytes": 256946,
+      "sha256": "9a0f32eef9c0f046d05a8529f5011a623979232cbfdda427b0a7c2d8a3ef321c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXVIII — Article 1.pdf",
+      "size_bytes": 313737,
+      "sha256": "166a2f864d0517db9e3965bad011f1cb0175ab0613b8b14075a3b1c9d6bb0a4b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXX — Article 1.pdf",
+      "size_bytes": 341734,
+      "sha256": "b471f3e9dfb10f9a8d928874d68c91ae65ff1dce5603053ab076bb4a78b50443",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXXI – Article 1.pdf",
+      "size_bytes": 266226,
+      "sha256": "8b41239e44aefd4559b39d55f47479ee7169306767ad6ea9a87e4fe15b18661c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXXII — Article 1.pdf",
+      "size_bytes": 222113,
+      "sha256": "2745794e332dbd378c897f249f41b794b5cb01bdd2ade7f5981af06bcbb5a99c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXXIII — Article 1.pdf",
+      "size_bytes": 164294,
+      "sha256": "2324796e25097a157cbd1650178f62ef5ea3c16c0d30c7463fc8868b0bf0b1af",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXXIV — Article 1.pdf",
+      "size_bytes": 163585,
+      "sha256": "39ff20cc8f44873b651b194f8440bfeb43991a8be48b0d4bf49f0d1b7eaa997c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXXIX — Article 1.pdf",
+      "size_bytes": 140823,
+      "sha256": "c8b355ee4382269fa8ee03a1b05c726cd63c3df1404e3f512fe571bd5d5f3e2c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXXV — Article 1.pdf",
+      "size_bytes": 153562,
+      "sha256": "26b8b7c3865741fd724199e4fb92904590c5db709a9acc9cef6b63d82f1335e0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXXVI — Article 1.pdf",
+      "size_bytes": 163514,
+      "sha256": "5a42720ca84081e976b4881eb9204dca519264fb560705bc5f7672924e7114c0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXXVII — Article 1.pdf",
+      "size_bytes": 291110,
+      "sha256": "b038a9d33142aec5d9bf26c829ec28c2bf3ffc933704a74ba859ad8fc6bb9bc0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor Archtecture_\\MDL Ynor Architecture 2\\Chapitre XXXVIII — Article 1.pdf",
+      "size_bytes": 324320,
+      "sha256": "beea2278387f3caef31f2d6d54613d9d44b8ffdf7c26c01a43decb3278bd5cfd",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor MATH\\Chapitre I — Formalisation axiomatique minimale.pdf",
+      "size_bytes": 1748407,
+      "sha256": "b010b2f6e9356cf5e1fae0a7e29767ff183bddf0d5e70067432708343674d56e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_02_DOCS_ET_ANNEXES\\MDL Ynor MATH\\Chapitre XVI — Formalisation mathématique intégrale du noyau MDL Ynor.pdf",
+      "size_bytes": 984813,
+      "sha256": "31cd02b234ffc0534704ce181ba6c52aef84e747113dc63dc9c5279cb2f37b9a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_03_VERSION_CANONIQUE\\Mdl Ynor — Version Canonique Unifiée V1.pdf",
+      "size_bytes": 37459,
+      "sha256": "4a7ad77de016a1e47ad859ff0ea6a66a6bc2a71aaf056c78a5ba96bbe62bdba0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\ AUDIT PERSONNEL — MDL MODE A.docx",
+      "size_bytes": 1008136,
+      "sha256": "cc1a6cb88cd9442bb34e49d6fe39ce9a7a545d6b0dcfb1872388fd2bff727aa8",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\LIVRABLE 1 — MDL-VALIDATION.docx",
+      "size_bytes": 9306,
+      "sha256": "6e4d3289cd799f09327702f6eff33aa60450e67bfccf9e149685732e425bb891",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL Positionnement Comparatif v1.0",
+      "size_bytes": 31178,
+      "sha256": "34a91d83ce1b0fa35c96f514bc026ea80438dba237b5f9ed8020d1faaace04c3",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Charte_Foi_Officielle.pdf",
+      "size_bytes": 4534,
+      "sha256": "9ca275bc06f809914a036d3c086ec9128d8453aba0bb3b7d82a4e2cc483fe596",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Prospectus_v7_1.pdf",
+      "size_bytes": 21518,
+      "sha256": "ec0bf7adc084ab92c50eeba7d36d3518c15e95880b9656062664a508c2a3562b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\PHASE 3 — CERTIFICATION & ÉCOSYSTÈME MDL.docx",
+      "size_bytes": 1010102,
+      "sha256": "359e3750fcfe9b39623c03c279849eb56fcc813db881933a5b8f33599a26e1bb",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\Prospectus-Evaluation-MDL.docx",
+      "size_bytes": 233632,
+      "sha256": "2fc63008c18243344a566beb030b1a6b2a631b2abeee3e0c60584c7e4f581308",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\Prospectus-Evaluation-MDL.docx.pdf",
+      "size_bytes": 282693,
+      "sha256": "ea3c2c104087f23f2f950080833168ea0eb6aba95c303434735ca5d460a49feb",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\🧨 STRESS TEST ORGANISATIONNEL MDL.docx",
+      "size_bytes": 11351,
+      "sha256": "399c29ba438680161833d10a8e9993fe132c108677bfeccfd870bb65758a6484",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL Audit_\\MDL Audit International Structurel v1.0",
+      "size_bytes": 31660,
+      "sha256": "b59c87d6b96b6b24c2660b2d32558c909ac4a8d6e6e472c9624e3422a279dfc0",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL Audit_\\MDL Audit Structurel Benelux v1.0",
+      "size_bytes": 25718,
+      "sha256": "9ba46de343b3559dd57fbea8ac6c8b5aa50ef7caa29d5b8ea11fcd89f508fa8a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL Audit_\\MDL_Audit_International_Structurel_v2_0.md",
+      "size_bytes": 3061,
+      "sha256": "3f43a34d67abc0c305c2b283878db748ce8abbc5dd16dcd5910b72b681809862",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL Audit_\\MDL_Audit_Structurel_Benelux_v2_0.md",
+      "size_bytes": 2284,
+      "sha256": "df63ccaa576b092b32f62914b5a459b97b94ad4b904cf411bede09345bee5ff7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).pdf",
+      "size_bytes": 100293,
+      "sha256": "02e8b174669959e47538ccc030e4412246e46604cc3eed8043a99574ae4f8a82",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE.pdf",
+      "size_bytes": 100293,
+      "sha256": "02e8b174669959e47538ccc030e4412246e46604cc3eed8043a99574ae4f8a82",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\Corpus_MDL_Depot_2026.pdf",
+      "size_bytes": 9251,
+      "sha256": "999070b084c041d5d8dd9281d68999e90f8fd75f3ff8e522ee2344316387a732",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\Corpus_MDL_Depot_2026_VERSION_10_10_HISTORIQUE.pdf",
+      "size_bytes": 9301,
+      "sha256": "8bef7d96be4b25fb19319da82d58fdb5596a4a2a442942b50059c9581c3e2e05",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\Corpus_MDL_Depot_2026_VERSION_CONSTITUTIONNELLE_9_5.pdf",
+      "size_bytes": 8232,
+      "sha256": "5d3be75e8301ac06ae61b5bc8e5f599033e1c03f8f3bf57ecbf629b2c44cdce7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.pdf",
+      "size_bytes": 10175,
+      "sha256": "40c09ca1b2fc74f9541c003071d70286448714a3ce55eeacca0e7585d27d3633",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\Corpus_MDL_Depot_2026_VERSION_ULTIME_9_10.pdf",
+      "size_bytes": 11673,
+      "sha256": "8540baedbce1e79dea5a4775536d4c08117089ae2d20ed56574ee6afadf277e2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_Constitution_v3.0_COMPLETE.pdf",
+      "size_bytes": 9002,
+      "sha256": "031245d3a186beba2687867e24ea32567d1d131995e7252ca848036f19b31f93",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_Constitution_v3.0_Officielle_Consolidee.pdf",
+      "size_bytes": 4901,
+      "sha256": "6cdc123012fc0a0c28805871767eb8bd1beb25aa805ddb230c8841d358ef9325",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_Constitution_v4_0_Millennium.md",
+      "size_bytes": 2178,
+      "sha256": "1dc5da6c4153fdb04e08761d0c7873d98465471e5652d4be529a19a28dfc30ef",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_Foi_Integration_Comprehensive_Pack(1).pdf",
+      "size_bytes": 5250,
+      "sha256": "9deb10b196c5584614232bec92088022bb87a8514fe9798107516df3e67e80b5",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_Foi_Integration_Comprehensive_Pack.pdf",
+      "size_bytes": 5250,
+      "sha256": "9deb10b196c5584614232bec92088022bb87a8514fe9798107516df3e67e80b5",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_Foi_Responsabilite_Liberte.pdf",
+      "size_bytes": 1910,
+      "sha256": "bfadf0352fcc5929c33137c02a88a74a287b2f6e6afc85348f8b7849e3f4414f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_Identite_Fracturee_Reconstruction.pdf",
+      "size_bytes": 2001,
+      "sha256": "1688f51ab9321854507991f109bce3bff62cc98483a46d31d383dbdc24969643",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_VOLUME_III_NEURO_ARCHITECTURE_MONUMENTALE_2026.pdf",
+      "size_bytes": 81730,
+      "sha256": "475db9d608da2b46fa49dfa3605d99f3a503ff1fd1342a44c00c786cd559e29c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_VOLUME_II_PDHU_MONUMENTAL_2026.pdf",
+      "size_bytes": 91534,
+      "sha256": "a73d347766dd303a4b9a7ec182565e8bf48114f51bff06cb8412b7ff2c8f12e7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_VOLUME_IV_ASIC_MONUMENTAL_2026.pdf",
+      "size_bytes": 84732,
+      "sha256": "b944cb270189548470d1d3c5c40148e13285d912d5f4e2ef2fa8df75450a14b7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.pdf",
+      "size_bytes": 22089,
+      "sha256": "e39f063d12aa976d84f2b6156e4ae4244ae72c869e64e5bf8037e9b159073932",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE(1).pdf",
+      "size_bytes": 68588,
+      "sha256": "560ebd8facc97feae27835a6ee92a2f4842fd74f4068e9f936cf654a704acf49",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE.pdf",
+      "size_bytes": 109104,
+      "sha256": "1a7093e1115452e3d56ec0925983425a994a7af788018d4d906470784dfabfa1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_VOLUME_VI_PROTECTION_ANNEXES_MONUMENTALE_2026.pdf",
+      "size_bytes": 42678,
+      "sha256": "1a3b85e5f1378095d2809506308ef7b8f2040877ace7c38df9cea184ce8a80e4",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\\STATIC_CORPUS\\_04_ADMIN_ET_LEGAL\\MDL_Legal_Pack\\MDL_VOLUME_V_DOCTRINE_STRATEGIQUE_CUMULATIVE_2026.pdf",
+      "size_bytes": 88673,
+      "sha256": "284ae4249c2a52b37835b6e1292d429539dc7119bf8af039a51c573f42b31d75",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\mdl_intelligence_report.json",
+      "size_bytes": 1184,
+      "sha256": "1301c92ee31f442199a063bb5c484d388c44dfab8bb104b43d17dcec0e0ec567",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\benchmark_perf.tmp",
+      "size_bytes": 1000000,
+      "sha256": "e23c0cda5bcdecddec446b54439995c7260c8cdcf2953eec9f5cdb6948e5898d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\benchmark_runtime_hotpaths.json",
+      "size_bytes": 1674,
+      "sha256": "d1e5dded93c8278e1996cfa3885a2859375b155ca3e2c4c36dc25d60f4685532",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\benchmark_ultimate_report.json",
+      "size_bytes": 351,
+      "sha256": "a233c2d8b18e1dc6476f828178e3ed696cb44e7d60f46f52fa82996dd42de259",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\cloudflare_2026-03-20_16-17-07.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\cloudflare_2026-03-20_18-36-08.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\cloudflare_2026-03-21_03-43-25.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\cloudflare_2026-03-21_04-37-37.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\cloudflare_2026-03-21_13-29-38.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\cloudflare_errors_2026-03-20_18-36-08.log",
+      "size_bytes": 76,
+      "sha256": "d2ac4b3363c9386a7f69455fff55bf738485bf47936b45e74e30e9c98166fced",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\cloudflare_errors_2026-03-21_03-43-25.log",
+      "size_bytes": 76,
+      "sha256": "d2ac4b3363c9386a7f69455fff55bf738485bf47936b45e74e30e9c98166fced",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\cloudflare_errors_2026-03-21_04-37-37.log",
+      "size_bytes": 76,
+      "sha256": "d2ac4b3363c9386a7f69455fff55bf738485bf47936b45e74e30e9c98166fced",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\cloudflare_errors_2026-03-21_13-29-38.log",
+      "size_bytes": 76,
+      "sha256": "d2ac4b3363c9386a7f69455fff55bf738485bf47936b45e74e30e9c98166fced",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\mdl_security_audit.log",
+      "size_bytes": 135,
+      "sha256": "abdfcc0c97e43b92b1bb5da603a63b7fb0a3adb73b3283445662bc9f30299d0f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_2026-03-20_15-31-54.log",
+      "size_bytes": 2143,
+      "sha256": "cd6d6724ddef45a1dabe64097f4ca9f2e10c812c10a6e3369af4293a529e2006",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_2026-03-20_19-11-25.log",
+      "size_bytes": 906,
+      "sha256": "b49f40e5af1d15df3725bfbc0fca2a553b500266d29d49a135a5adcbf8a9b422",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_2026-03-20_19-33-40.log",
+      "size_bytes": 1027,
+      "sha256": "8d214e33be5833234ff2ed1cf3b67988b9f0e5ca35dea52d37d75d3a71ecb71c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_2026-03-20_19-46-03.log",
+      "size_bytes": 1398,
+      "sha256": "e5b1221c2487056eb6c0fcd5724f65fee130633dad1e451c36b22fb49f811c64",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_2026-03-21_00-31-58.log",
+      "size_bytes": 1029,
+      "sha256": "88f3ac65ffebc8439ee6e9eb9a1d4533b2163132aed3d2571b2f74dfb57d6f39",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_2026-03-21_05-18-41.log",
+      "size_bytes": 1028,
+      "sha256": "f2af9df00d3c4d62c4c370427a56e7eacc5559ed60b0b60d41bea862afa20ff7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_2026-03-21_05-21-35.log",
+      "size_bytes": 977,
+      "sha256": "9804baf2db1d03e0990cbbf504a69d441f069efa8c34410ea57889baed69b516",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_2026-03-21_17-13-41.log",
+      "size_bytes": 1322,
+      "sha256": "cb380b23ba85fab6c156e5a35f7d4854a4abaa59f45680394b6c854111e9200a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_errors_2026-03-20_15-31-54.log",
+      "size_bytes": 336,
+      "sha256": "3f0a4add7701a37104a9b0dadc3a4d4d9120cef9f61b78b9d04c521c0e19d816",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_errors_2026-03-20_19-11-25.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_errors_2026-03-20_19-33-40.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_errors_2026-03-20_19-46-03.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_errors_2026-03-21_00-31-58.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_errors_2026-03-21_05-18-41.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_errors_2026-03-21_05-21-35.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ngrok_errors_2026-03-21_17-13-41.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_2026-03-20_15-31-54.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_2026-03-20_16-17-07.log",
+      "size_bytes": 1076,
+      "sha256": "d61aed6e7bcbfdfe5a76d4d0e31eb2d1fef7d31d30fbbadb20ecbf86b90dc883",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_2026-03-20_18-36-08.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_2026-03-20_19-11-25.log",
+      "size_bytes": 262,
+      "sha256": "268db32079bc969aa1b7da373a44b8a1e22c4f4e8646de1eff08cef840b388b6",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_2026-03-20_19-33-40.log",
+      "size_bytes": 60,
+      "sha256": "c107736e26596adb69e7e3b4d35127cb91cca9019e4f3efc8188cf760463ab75",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_2026-03-20_19-46-03.log",
+      "size_bytes": 82261,
+      "sha256": "263e358b2caa6b6ae8063cf5af14e622ca00dd4a76a2db83f30129c4f3e5861b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_2026-03-21_00-31-58.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_2026-03-21_03-43-25.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_2026-03-21_04-37-37.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_2026-03-21_05-18-41.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_2026-03-21_05-21-35.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_2026-03-21_13-29-38.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_2026-03-21_17-13-41.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_errors_2026-03-20_15-31-54.log",
+      "size_bytes": 428,
+      "sha256": "ecc4f53be5bd8f5d16663ed8ecea8ca6ba9c9839bfdebba967c131d1a4b8d5c6",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_errors_2026-03-20_18-36-08.log",
+      "size_bytes": 428,
+      "sha256": "e4983f412c431ddc2ae9a3ff0bcfe7dafeda7ecbfd779a1ebb7f3e7f6cd5e824",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_errors_2026-03-20_19-11-25.log",
+      "size_bytes": 200,
+      "sha256": "b604522edf0f06bf55eace34d55ce8778ae5807eb0b00e7e655ec081ce69aa48",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_errors_2026-03-20_19-33-40.log",
+      "size_bytes": 200,
+      "sha256": "3520c9a0d6236b99e5ad72b9dbdb27fea7dc218c8e544fcdc1d8e2d7a9b54096",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_errors_2026-03-20_19-46-03.log",
+      "size_bytes": 198,
+      "sha256": "4df9b2c3087b88808cbe4cf2be72f134d53f39250cb32abc50fe3277fc0396dc",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_errors_2026-03-21_00-31-58.log",
+      "size_bytes": 78,
+      "sha256": "f5bda261fddcfb25b9df9af57caca3d8d7535ca46c7a2c48335ca92fb95c8781",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_errors_2026-03-21_03-43-25.log",
+      "size_bytes": 78,
+      "sha256": "f5bda261fddcfb25b9df9af57caca3d8d7535ca46c7a2c48335ca92fb95c8781",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_errors_2026-03-21_04-37-37.log",
+      "size_bytes": 78,
+      "sha256": "f5bda261fddcfb25b9df9af57caca3d8d7535ca46c7a2c48335ca92fb95c8781",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_errors_2026-03-21_05-18-41.log",
+      "size_bytes": 78,
+      "sha256": "f5bda261fddcfb25b9df9af57caca3d8d7535ca46c7a2c48335ca92fb95c8781",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_errors_2026-03-21_05-21-35.log",
+      "size_bytes": 78,
+      "sha256": "f5bda261fddcfb25b9df9af57caca3d8d7535ca46c7a2c48335ca92fb95c8781",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_errors_2026-03-21_13-29-38.log",
+      "size_bytes": 78,
+      "sha256": "f5bda261fddcfb25b9df9af57caca3d8d7535ca46c7a2c48335ca92fb95c8781",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\uvicorn_errors_2026-03-21_17-13-41.log",
+      "size_bytes": 78,
+      "sha256": "f5bda261fddcfb25b9df9af57caca3d8d7535ca46c7a2c48335ca92fb95c8781",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\logs\\ynor_learning_experience_log.json",
+      "size_bytes": 15346,
+      "sha256": "4403b7ec7d67166a76bd02f3c0d9a40e115104f6a00e9c9fcc5e1b015dbc173f",
+      "kind": "text"
+    }
+  ]
+}

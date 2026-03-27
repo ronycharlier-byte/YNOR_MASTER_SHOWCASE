@@ -1,0 +1,747 @@
+{
+  "node": "07_A_PRIME_ARCHIVES_ET_RELEASES",
+  "key": "A_PRIME",
+  "mirror": "A",
+  "role": "Cloture recursive par archives, commandes et distributions",
+  "inventory_count": 123,
+  "inventory": [
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\mdl_global_knowledge.json",
+      "size_bytes": 604654,
+      "sha256": "9a990e830222364d3ca703a469155903c31d28d338bae6751d7c33fa3c638b5e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_UPLOAD_V3.zip",
+      "size_bytes": 176032,
+      "sha256": "c112a6d0e8abe1dcc9c7fe892008fcda8dada48580be507196439205ba995f56",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_RELEASE_ULTIMATE_V16_SILENT.zip",
+      "size_bytes": 109410,
+      "sha256": "56c91a657ea72739b0e8d0100e792a2a0bb07f78bd8cf659038a86c1a85da298",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_RELEASE_ULTIMATE_V3_SECURE.zip",
+      "size_bytes": 108839,
+      "sha256": "182ea199e33371d96c6313c45521f558a916dabf8c47e43505fc8b3126d4e8d8",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_RELEASE_ULTIMATE_V3_TITANIUM.zip",
+      "size_bytes": 109607,
+      "sha256": "25d9ef914597f29d608a7f66994161c70a1698bd852699dca86c38cb9e557f13",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_RELEASE_ULTIMATE_V5_DARK_SHIELD.zip",
+      "size_bytes": 109410,
+      "sha256": "56c91a657ea72739b0e8d0100e792a2a0bb07f78bd8cf659038a86c1a85da298",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_ULTIMATE_SHIPMENT_V19_2.zip",
+      "size_bytes": 185675,
+      "sha256": "af961d772432eead85b3344f4cc74b416ca24ee0316894ffb4b7d576f2a1487d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_COMMERCIAL_PACKAGE\\MDL_YNOR_CONTRAT_LICENCE.md",
+      "size_bytes": 1727,
+      "sha256": "b363781f22433a6eeba86177a506abafc89c8d2706ad5807bd567c791f24eb0c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_COMMERCIAL_PACKAGE\\mdl_ynor_dashboard.html",
+      "size_bytes": 7095,
+      "sha256": "3b921261aa60c4a649a841d7269bd2bb597b940729057ef4875add7ab7612ced",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_COMMERCIAL_PACKAGE\\MDL_YNOR_IMPLEMENTATION_ABONNEMENT.md",
+      "size_bytes": 1462,
+      "sha256": "92f355111a6168605563e3df0d999dacdf8cd7bc4b9d53be2348cfb9e118a25d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_COMMERCIAL_PACKAGE\\MDL_YNOR_VENDRE_MON_IA.md",
+      "size_bytes": 1608,
+      "sha256": "825866fc80c5aa2dd327b9d13d70107bce281ebbc05698f59fc6f3a3ddf3900a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_COMMERCIAL_PACKAGE\\ynor_agi_engine_core.py",
+      "size_bytes": 2619,
+      "sha256": "1aedb35cf0eacb8fe1f8944f63d813a238f8f30c3d1d178c9f3eeea49855d41e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_COMMERCIAL_PACKAGE\\ynor_agi_engine_core.zip",
+      "size_bytes": 10134,
+      "sha256": "f69db7d08c0c21f41eef9f7444875ffb9a1d72fe6b5819c58266298f6f4b237a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_COMMERCIAL_PACKAGE\\ynor_commercial_api.py",
+      "size_bytes": 2169,
+      "sha256": "67f08cc3dc0243e7643fbde99a89012abcff2e4659e1ed0c37cd71e33d5fe822",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_COMMERCIAL_PACKAGE\\ynor_social_algo_mdl.py",
+      "size_bytes": 2991,
+      "sha256": "ad2d64dce44d276def0eebd1d24815149a808e407dc79bbb5a97442cf2475121",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_index_root.bin",
+      "size_bytes": 2538,
+      "sha256": "368361aefc717bc217c67cd8d4aac4fcbe488cc8b5b0080a5668173cfcb2b4f7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_logic_13404597.bin",
+      "size_bytes": 690,
+      "sha256": "f1e2cddba4eac983adb15f2d4b1463768d171726583232c9c08a56306a961494",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_logic_13e86a66.bin",
+      "size_bytes": 1049,
+      "sha256": "05cbc97d54eb3155c26cbb5f7ca6778db24f4494f1d51d54bd1419881c4b21e1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_logic_420ee36b.bin",
+      "size_bytes": 8591,
+      "sha256": "a862462d5500b9bed8947857d78a70a44f75cea5169314598e1b9693ec18c01b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_logic_51aa5004.bin",
+      "size_bytes": 1381,
+      "sha256": "453de183ee0b8c272b318d586bc378e1fe781c155c2bffa949bd39fc56c5050d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_logic_5b537288.bin",
+      "size_bytes": 1690,
+      "sha256": "a54b17cb19039e54655346cb4db526e7aa9fe1a545bcb9ddef69e6c6f334deb5",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_logic_7538ede2.bin",
+      "size_bytes": 344008,
+      "sha256": "e6cc158d4764f968d774e442ee9079d4b5432fa81ef4c0d2bef0fd49f57bbe9f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_logic_ca1d1aee.bin",
+      "size_bytes": 968,
+      "sha256": "22a20345749fd1c9ad432dc5c7ef2093b67d6b4a082ff572eb8fc0909f14ec31",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_logic_f1a4703a.bin",
+      "size_bytes": 1360,
+      "sha256": "549a65fdc4de07f3f6a61d5194734b0cc4452b1514965003935fde9fdae8944c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_node_5775e09f.md",
+      "size_bytes": 779,
+      "sha256": "5f96f6c2ff4f9c3b31e6d8e2cfa5ffa7756d4805de0632767f33de497ef171d1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_node_b05a3e37.md",
+      "size_bytes": 1155,
+      "sha256": "e582e7f162736424e7cf4a3c30efb7bdce6c986d666a00518cd8064340e164b4",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_node_b2fc5604.yaml",
+      "size_bytes": 4294,
+      "sha256": "a78b854d07b6a21e32b8038eb6aea9fc9dd32e70c94620605057a1b362c24bbd",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_node_c1f868f2.md",
+      "size_bytes": 1466,
+      "sha256": "1c7bacf379a9077e904e09176a72154e903da43c453ec38edf672c999abf8218",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_FINAL_DIST\\ynor_trap_node.bin",
+      "size_bytes": 556,
+      "sha256": "297ace87b3845cd5a12043dac982110a5d8971508f0641212ac63f8c15c80ea7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\BENCHMARK_HARDCORE_ANALYSE_FONCTIONNELLE.md",
+      "size_bytes": 3888,
+      "sha256": "612476af2a2b28cdcc75a05e92712d9ecdb711504e42126a1ddd197d027ad3d3",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\BENCHMARK_HARDCORE_THEORIE_NOMBRES_V2.md",
+      "size_bytes": 3080,
+      "sha256": "fe419d8a66c1b13b59a0802eb15412c665717334f731910f1a3eb0d661a425b2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\DATA_PROVENANCE.json",
+      "size_bytes": 1316,
+      "sha256": "260677a8704a2cec6a8a5fbbee014467a64f03e7cd9f3bae2397af1bb994a664",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\GPT_ACTION_SCHEMA.yaml",
+      "size_bytes": 4165,
+      "sha256": "5cd6f5cbf9ce1fa214ae15edfda3b668c75f7b05beb0641c6e16f88b3a562aff",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\INSTRUCTIONS_DEPLOIEMENT.txt",
+      "size_bytes": 1629,
+      "sha256": "e254adab5990fcd156cd1003e80c700598c8452e90225f145d05afb409bf5f85",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\MASTER_PROMPT_V19_5_FINAL_SHIELD.txt",
+      "size_bytes": 2364,
+      "sha256": "249477928b6e01b71a661cd72a08bd9956b62bddac15d60f513f2b5b4fff0392",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\mdl_global_knowledge.json",
+      "size_bytes": 603017,
+      "sha256": "e4788b8d0426d7328837f1830be042808fc6e80ed82f14c3a00ecb30c23abf33",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\MDL_YNOR_CONTRAT_LICENCE.json",
+      "size_bytes": 941,
+      "sha256": "fbb294860691dba80803e465462ce50bbf1099324e4a3c511769cca2cc7222d5",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\mdl_ynor_manifesto_governance.json",
+      "size_bytes": 8591,
+      "sha256": "a862462d5500b9bed8947857d78a70a44f75cea5169314598e1b9693ec18c01b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\MDL_YNOR_MASTER_PROMPT_COMPRESSED.txt",
+      "size_bytes": 409,
+      "sha256": "94419eb207f04d1b880208e616e207aa1d0313dd7c52dafbccaf554a7370947b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\MDL_YNOR_MASTER_SYSTEMES_COMPLEXES.md",
+      "size_bytes": 2258,
+      "sha256": "cf6d9aa0827241f594e182f2336ad1480fdcacccca937a945de9dbab07742b3a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\MDL_YNOR_MATHEMATICAL_CORE_PROOF.md",
+      "size_bytes": 2660,
+      "sha256": "8dc9af70a0c7f6dc18b6d84c299d00aa8431841b2bbfe4c163b3469846d915ad",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\MU_SPECIFICATION_ABSTRACT.json",
+      "size_bytes": 1349,
+      "sha256": "f0e857f8efa2eee1a91909c2053a9ffb2c9ff6dee0779f07e40bff82a61bb47c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\TEST_COVERAGE_REPORT.json",
+      "size_bytes": 1003,
+      "sha256": "b2d3c00361583cd532711331092f8a6c4f3bba30bddca83ee68fb7ac8fee0a28",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\YNOR_ACADEMY_MASTER_CURRICULUM.md",
+      "size_bytes": 1444,
+      "sha256": "92dea262c4e78f8c10884f5bb3e27434d54cdb40a535736191f9266ca05dbe15",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\YNOR_AUDIT_TEMPLATES.json",
+      "size_bytes": 680,
+      "sha256": "71c5efd8106634c70f81d9af8b81979d63b50f1ed9ee09866b787f77bab69435",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\YNOR_OPERATIONAL_HANDBOOK.json",
+      "size_bytes": 1653,
+      "sha256": "9e6ea3bf491216af4879b5027cf96a8608ff3066824525bf2d00cd76c485e161",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\YNOR_RAG_OPTIMIZER_SNIPPET.py",
+      "size_bytes": 735,
+      "sha256": "724b7c38584dfbe56b59eb98a99fe3c9b26bd6ebf0267ce42033a7f28b0af9b2",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\YNOR_SALES_RESOURCES.md",
+      "size_bytes": 1136,
+      "sha256": "efa57bbab221c8f858edfae8f0765a6338a026ace67984f04837ca2229cf25e7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\YNOR_SALES_SCRIPT_B_FINTECH.md",
+      "size_bytes": 2806,
+      "sha256": "245877540cb47a70578c66ae86fcba3c9d66b210e6d77413026e79c157952d9e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\\YNOR_USER_GUIDE.md",
+      "size_bytes": 765,
+      "sha256": "87c6b49ad7e4fdfbfb5afa9ed24cfc0d29cc7c3fbdb3b929c9f6ed46b97e8e1c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_UPLOAD_V3\\DATA_PROVENANCE.json",
+      "size_bytes": 1316,
+      "sha256": "260677a8704a2cec6a8a5fbbee014467a64f03e7cd9f3bae2397af1bb994a664",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_UPLOAD_V3\\GPT_ACTION_SCHEMA.yaml",
+      "size_bytes": 4167,
+      "sha256": "d6121ed5f40c1df6a2c1e61cb9bc26de0fe3c38b684093e51f1560893b1719a3",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_UPLOAD_V3\\mdl_global_knowledge.json",
+      "size_bytes": 604654,
+      "sha256": "9a990e830222364d3ca703a469155903c31d28d338bae6751d7c33fa3c638b5e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_UPLOAD_V3\\MDL_YNOR_CONTRAT_LICENCE.json",
+      "size_bytes": 941,
+      "sha256": "fbb294860691dba80803e465462ce50bbf1099324e4a3c511769cca2cc7222d5",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_UPLOAD_V3\\mdl_ynor_manifesto_governance.json",
+      "size_bytes": 8591,
+      "sha256": "a862462d5500b9bed8947857d78a70a44f75cea5169314598e1b9693ec18c01b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_UPLOAD_V3\\MU_SPECIFICATION_ABSTRACT.json",
+      "size_bytes": 1349,
+      "sha256": "f0e857f8efa2eee1a91909c2053a9ffb2c9ff6dee0779f07e40bff82a61bb47c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_UPLOAD_V3\\TEST_COVERAGE_REPORT.json",
+      "size_bytes": 1003,
+      "sha256": "b2d3c00361583cd532711331092f8a6c4f3bba30bddca83ee68fb7ac8fee0a28",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_UPLOAD_V3\\YNOR_ACADEMY_MASTER_CURRICULUM.md",
+      "size_bytes": 1444,
+      "sha256": "92dea262c4e78f8c10884f5bb3e27434d54cdb40a535736191f9266ca05dbe15",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_UPLOAD_V3\\YNOR_AUDIT_TEMPLATES.json",
+      "size_bytes": 680,
+      "sha256": "71c5efd8106634c70f81d9af8b81979d63b50f1ed9ee09866b787f77bab69435",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_UPLOAD_V3\\YNOR_OPERATIONAL_HANDBOOK.json",
+      "size_bytes": 1653,
+      "sha256": "9e6ea3bf491216af4879b5027cf96a8608ff3066824525bf2d00cd76c485e161",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_UPLOAD_V3\\YNOR_SALES_RESOURCES.md",
+      "size_bytes": 1136,
+      "sha256": "efa57bbab221c8f858edfae8f0765a6338a026ace67984f04837ca2229cf25e7",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_DISTS_AND_RELEASES\\MDL_YNOR_GPT_UPLOAD_V3\\YNOR_USER_GUIDE.md",
+      "size_bytes": 765,
+      "sha256": "87c6b49ad7e4fdfbfb5afa9ed24cfc0d29cc7c3fbdb3b929c9f6ed46b97e8e1c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\!_ACCES_DIRECT_EMPIRE_YNOR.txt",
+      "size_bytes": 74,
+      "sha256": "187d93c4008dd995aee03deaeb465469faa2da3b8313c8ae3f83b7e746bb0d2c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\mdl_global_knowledge.json",
+      "size_bytes": 344013,
+      "sha256": "b402d709ae5be2fe9dedf185ce54468b5d4627b997d87a59fbd44c508701c8e1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\mdl_global_knowledge.json.backup",
+      "size_bytes": 233365,
+      "sha256": "ae2640fe134750c6d7363d4f251c1e415d7259c30f1c3902a5bc874eefc14e85",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\mdl_ynor_manifesto_governance.json",
+      "size_bytes": 8663,
+      "sha256": "23b777a8bbf641e72850d3a9663b487eee066f8e56947d4baff5923ab52e8ab6",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\silent_start.bat",
+      "size_bytes": 239,
+      "sha256": "4e35a7567d4f8dddb14a53fdaee13d670f3094e746aa606fad941e24a52e9c0c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\ynor_integrity_audit.ps1",
+      "size_bytes": 3137,
+      "sha256": "f1c1db7e4888cdf25910db9e4723715fa2324dfb00878c114f45a4d8cee17026",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\YNOR_OPERATIONAL_HANDBOOK.md",
+      "size_bytes": 2723,
+      "sha256": "28f5b6402fbf80d78f39d35c434fe18d9ed1a8cf6b78e1da51701c3a108f7127",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\YNOR_SALES_PLAYBOOK.md",
+      "size_bytes": 2507,
+      "sha256": "0710ecb57b8d451ed9d18afe1d5bcf7364d437b262c2c4ac840f3c5cb2adc5f3",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\YNOR_SERVER_MANAGER.bat",
+      "size_bytes": 2221,
+      "sha256": "05fb4f074f27227091eccc1fc5fb6f311787ff1b26921e832fd6ae938d5af1b1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\YNOR_SYNC_CORE.bat",
+      "size_bytes": 1402,
+      "sha256": "76a0cdc52750d5475595b6f450f5fc74d99627bf42464106771d7bccc0fa90ca",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\PROMPTS\\MDL_YNOR_MASTER_PROMPT_COPY_ME.txt",
+      "size_bytes": 2992,
+      "sha256": "e185459b993def74d54b7d1007351381a9cca8d3732f78ebbc6fc8ee67ff4b7d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\PROMPTS\\MDL_YNOR_SUPREME_MASTER_PROMPT_V4.txt",
+      "size_bytes": 2949,
+      "sha256": "ec5fd2eb857975f529c1eac79de149e510e1df3ae2bfe4e1fb39cae1f2f82631",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\PROMPTS\\_MASTER_PROMPTS_HISTORY\\01_MDL_YNOR_MASTER_PROMPT_V2.md",
+      "size_bytes": 3261,
+      "sha256": "1efad001e5ad99274267ca87c7e1a46dd5cc34866977bdae2678a3a97d569002",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\PROMPTS\\_MASTER_PROMPTS_HISTORY\\02_BENCHMARKS_AND_PUBLICATION.md",
+      "size_bytes": 2054,
+      "sha256": "829a7e963933bd92a7a2a2f915d60715ec670dad2eeeafded4887febd4734e1f",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\PROMPTS\\_MASTER_PROMPTS_HISTORY\\03_MDL_YNOR_MASTER_PROMPT_V3_SOVEREIGN.md",
+      "size_bytes": 2968,
+      "sha256": "d1e957355af6421313cb55ab0e03b0e560030f499ddda2d4f1d654425bdd8cca",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\demo_ynor.py",
+      "size_bytes": 4233,
+      "sha256": "5b88589eb85352fb8690803e69745bee70575c65941faeb85e61119225dc368b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\demo_ynor_plot.png",
+      "size_bytes": 66817,
+      "sha256": "9f08cd0b669d3d57db36a00353e429b18af763d80ff8360a686a4403ed0f3c82",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\export_ynor_audit.py",
+      "size_bytes": 2368,
+      "sha256": "1a5473f0d46a3a48d45334d1f93aa460dbbd35e1c0b0568551eaf13e8c681d4e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\extract_mdl_knowledge.py",
+      "size_bytes": 5917,
+      "sha256": "957989d96f96644f8bb0483d46075d5f02a1d77a0ba8adee0207998e70f76e8b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\mdl_api_keys.py",
+      "size_bytes": 6431,
+      "sha256": "9e9c16c51fd243ab8561e81a0d2a28d697f293939c1e9a0195731979757c954b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\mdl_latency_benchmark_chart.png",
+      "size_bytes": 34162,
+      "sha256": "4b858bba33d4b6f70cceb0b50af4caa09f56aee9f83e4d9fe4d808f541870742",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\mdl_master_audit_graph.png",
+      "size_bytes": 87412,
+      "sha256": "c8a71ae441bbb57d54d592daaf02918342277841715948e9b5729808ec6b7571",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\mdl_master_system.py",
+      "size_bytes": 4594,
+      "sha256": "915a6f4e3954d09aaaac1dbe26bbf358f0c3f8176419ba2f80f627ddc181774c",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\mdl_ynor_core.py",
+      "size_bytes": 5013,
+      "sha256": "8e17143fd89d887c57bc9df53d841a7fa5407d430a3381288263f31106d5d6ce",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\mdl_ynor_core.py.backup",
+      "size_bytes": 4334,
+      "sha256": "ad7553f3bb4f9660c1fe1c4db8ec01065e0a8f04a4574134d6133dd902de0697",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\mdl_ynor_networks.py",
+      "size_bytes": 4875,
+      "sha256": "329a00ecf8a556afd476e084bb46e0bc59754a035b22aa5cdc379223219a431b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\mdl_ynor_regimes.py",
+      "size_bytes": 2250,
+      "sha256": "4353477d6a29ec85c045ff94cc0f6885b096de76cae33ee8f81ff1e8eae5c1e1",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\MDL_Ynor_Unified_Architecture.py",
+      "size_bytes": 9558,
+      "sha256": "dd5672c894d7a41db0187ef4d3ed3064ed3605a239ab4914f3df9e00f57ad2b6",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\read_all_pdfs.py",
+      "size_bytes": 881,
+      "sha256": "544ced8a55c3528b39d46a83d26050208cf07658b6b66300eb2b8078e0763fef",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\read_pdf.py",
+      "size_bytes": 914,
+      "sha256": "ed17680421ef9ae2878371eebd468351ba3c75c8274372ce6f697f036a373a8d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\regimes_energy.png",
+      "size_bytes": 30398,
+      "sha256": "19f8c73d604bd853ba82810a9cc6e6729d0a9102e01cb72427264effb89939b8",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\test_core.py",
+      "size_bytes": 4222,
+      "sha256": "e6eaa21219c8450dd87679724ff179c544c4818131c5aa7bab65da86e3933ceb",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\test_defcon1_authority.py",
+      "size_bytes": 1763,
+      "sha256": "3b43912c6d4eeacafd616c0537013a02fb6db50325b9929d381438952c47d263",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_agi_engine_core.py",
+      "size_bytes": 2619,
+      "sha256": "1aedb35cf0eacb8fe1f8944f63d813a238f8f30c3d1d178c9f3eeea49855d41e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_agi_optimizer.py",
+      "size_bytes": 3791,
+      "sha256": "7876903259ae6dbecbf0f915ad6fa0c04ef3433cd4f11429875db9588a7c0024",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_ai_governor.py",
+      "size_bytes": 2616,
+      "sha256": "ad7a188df4a115408c666da817a59230050963561a514f5b5371ac50ef11dd2a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_asymptotic_evolution.py",
+      "size_bytes": 4476,
+      "sha256": "11d2945496a05772edf8b374d43d4e121338c714e2298421e8634ed4b391da7e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_autonomous_loop.py",
+      "size_bytes": 2330,
+      "sha256": "1e884dae734446a4d93c0319664ae443f6d92cc8d7b8df0825eade9ded828d44",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_commercial_api.py",
+      "size_bytes": 2169,
+      "sha256": "67f08cc3dc0243e7643fbde99a89012abcff2e4659e1ed0c37cd71e33d5fe822",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_cyber_defense.py",
+      "size_bytes": 2475,
+      "sha256": "2f80bfdd75def9142be266ac9775878f900626df10b8f927e9649632a57f6d18",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_empirical_validator.py",
+      "size_bytes": 3565,
+      "sha256": "3dcff861355d93fac8cb293496e59680885fadf31569332ede5f9fdcaa291525",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_full_exploitation.py",
+      "size_bytes": 4615,
+      "sha256": "21722d46b22a3f315b45d356ad3563e5a5b0f7d7268315c3fbb29ae52b8acd7b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_hyper_retention.py",
+      "size_bytes": 3389,
+      "sha256": "ffe6b1967a9e8f9a898e5aa275b5bd56abc8a13b41b6b2a3246ddada18c02518",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_legal_harvester.py",
+      "size_bytes": 2873,
+      "sha256": "6dc6a1eda62989c78b04716ce9ebb42657506e6280b030277d56eeb9263a9a37",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_master_offensive.py",
+      "size_bytes": 2428,
+      "sha256": "97ea2defa91190b5295ba85b4737aa65bc433c3d10a27e9d2407220fd344e7c3",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_metacognitive_layer.py",
+      "size_bytes": 4984,
+      "sha256": "967dbf3c5f90331d1ee7a7016465dbe71a0a2008e6d1979efc4a24188db7c0e8",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_military_protocols.py",
+      "size_bytes": 2503,
+      "sha256": "d09250e7d5fc393f2850883d08a54029babf103bd6b045467b5fdbbd71494157",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_monitor.py",
+      "size_bytes": 2723,
+      "sha256": "eede8664f62c17314a70cbf4f3d40c8fe52cda4b6484eb25b9dc971db221b33e",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_network_stability.png",
+      "size_bytes": 39056,
+      "sha256": "c003dac5e86c48a9f9bb09d37ad64a8cad3fe00da74dcfcd50ddb7321c334560",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_paradox_relapse.py",
+      "size_bytes": 3834,
+      "sha256": "c30600a603610dc3bebc32a7cb58cd720d6bac14fda4f95e8e7c5a4726d22931",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_plot_latency.py",
+      "size_bytes": 2140,
+      "sha256": "9fa128b3b00a56ff7599055798eaf08822efc1cf02aa9d5f658b828b0ec72e7a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_quantum_core.py",
+      "size_bytes": 3690,
+      "sha256": "0e8eff57496effc1f951c79859f29e607988f5351ed80b15b657119222cf3e94",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_resilience_audit.png",
+      "size_bytes": 63984,
+      "sha256": "0801c2bb989f50e9de94f747eec1eea41ac45d7126e44b1f0e28029f22a1b8fe",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_resilience_test.py",
+      "size_bytes": 4053,
+      "sha256": "721653dbe1c53f2a68752dc36d8368183d71e8f2c4b4c5fd2b0c3ad2af45734d",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_social_algo_mdl.py",
+      "size_bytes": 2991,
+      "sha256": "ad2d64dce44d276def0eebd1d24815149a808e407dc79bbb5a97442cf2475121",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\ynor_ultimate_stress_test.py",
+      "size_bytes": 4569,
+      "sha256": "a97d2cf3e4a7b113dc744c4ca997b0abc73406a899441fcd047e35a544284193",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\mdl_ynor_framework.egg-info\\dependency_links.txt",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\mdl_ynor_framework.egg-info\\PKG-INFO",
+      "size_bytes": 3505,
+      "sha256": "999ea2d13e79fe82dd877fe811955ec2619eec438084ee6601655cf6926f4f3a",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\mdl_ynor_framework.egg-info\\SOURCES.txt",
+      "size_bytes": 883,
+      "sha256": "4e5f9efb7fa7253bdf0cffc4a8a87318be47b4e2f024e9018e5401c33222a8a8",
+      "kind": "text"
+    },
+    {
+      "source": "MDL_Ynor_Framework\\mdl_ynor_framework.egg-info\\top_level.txt",
+      "size_bytes": 23,
+      "sha256": "87dce12b4bc39a37292752b5b661b0563f76b7500eea7d6089caacb1b488bc8f",
+      "kind": "text"
+    },
+    {
+      "source": "_RELEASES\\MDL_YNOR_SOVEREIGN_ARCH_GOLDEN_MASTER_2026.zip",
+      "size_bytes": 35217481,
+      "sha256": "c220d98e8eb864bcbcc55337c38a93eccc365ff8cd54acfb9d19561905c758b4",
+      "kind": "text"
+    }
+  ]
+}

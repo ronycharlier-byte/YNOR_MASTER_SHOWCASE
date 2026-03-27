@@ -1,0 +1,30 @@
+# MIROIR TEXTUEL - SOURCES.txt
+
+Source : MDL_Ynor_Framework\mdl_ynor_framework.egg-info\SOURCES.txt
+Taille : 883 octets
+SHA256 : 4e5f9efb7fa7253bdf0cffc4a8a87318be47b4e2f024e9018e5401c33222a8a8
+
+```text
+README.md
+pyproject.toml
+_04_DEPLOYMENT_AND_API/__init__.py
+_04_DEPLOYMENT_AND_API/build_secure_sdk.py
+_04_DEPLOYMENT_AND_API/ynor_api_server.py
+_04_DEPLOYMENT_AND_API/ynor_dashboard_ui.py
+_04_DEPLOYMENT_AND_API/ynor_core/__init__.py
+_04_DEPLOYMENT_AND_API/ynor_core/controller.py
+_04_DEPLOYMENT_AND_API/ynor_core/engine.py
+_04_DEPLOYMENT_AND_API/ynor_core/metrics.py
+_04_DEPLOYMENT_AND_API/ynor_core/state.py
+_04_DEPLOYMENT_AND_API/ynor_sdk/ynor/__init__.py
+_04_DEPLOYMENT_AND_API/ynor_sdk/ynor/client.py
+_04_DEPLOYMENT_AND_API/ynor_sdk/ynor/core_mu.py
+_04_DEPLOYMENT_AND_API/ynor_sdk/ynor/integrations.py
+_04_DEPLOYMENT_AND_API/ynor_sdk/ynor/models.py
+mdl_ynor_framework.egg-info/PKG-INFO
+mdl_ynor_framework.egg-info/SOURCES.txt
+mdl_ynor_framework.egg-info/dependency_links.txt
+mdl_ynor_framework.egg-info/top_level.txt
+tests/test_mdl_robustness.py
+tests/test_shareable_mu_audit.py
+```

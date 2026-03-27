@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDL YNOR | SUPREME COMMAND CENTER</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --p: #00f0ff;
+            --p-glow: rgba(0, 240, 255, 0.4);
+            --bg: #050508;
+            --card-bg: rgba(20, 20, 25, 0.6);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --t: #e0e0e0;
+            --warn: #ff2a2a;
+            --warn-glow: rgba(255, 42, 42, 0.4);
+            --shield: #ffb700;
+        }
+        * { box-sizing: border-box; }
+        body {
+            background-color: var(--bg);
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(0, 240, 255, 0.05), transparent 50%),
+                radial-gradient(circle at 85% 30%, rgba(255, 42, 42, 0.03), transparent 50%);
+            color: var(--t);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 2rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1200px;
+            width: 100%;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--card-border);
+            position: relative;
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 150px;
+            height: 2px;
+            background: var(--p);
+            box-shadow: 0 0 10px var(--p-glow);
+        }
+        h1 {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.5rem;
+            color: #fff;
+            letter-spacing: 4px;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        h1 span {
+            color: var(--p);
+        }
+        .status-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--p);
+            background: rgba(0, 240, 255, 0.1);
+            padding: 6px 12px;
+            border-radius: 20px;
+            border: 1px solid var(--p-glow);
+        }
+        .status-badge .dot {
+            width: 8px; height: 8px;
+            background: var(--p);
+            border-radius: 50%;
+            box-shadow: 0 0 8px var(--p);
+            animation: blink 2s infinite;
+        }
+        
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 360px;
+            gap: 2rem;
+        }
+        
+        /* Glassmorphism Cards */
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(255,255,255,0.15);
+        }
+        
+        /* Core Metrics section */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .metric-item {
+            text-align: center;
+            background: rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.03);
+            border-radius: 12px;
+            padding: 1.5rem 1rem;
+        }
+        .metric-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+        }
+        .metric-val {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #fff;
+            text-shadow: 0 0 20px rgba(255,255,255,0.2);
+        }
+        
+        /* Advanced Mu Section */
+        .mu-display {
+            background: linear-gradient(135deg, rgba(0, 240, 255, 0.08) 0%, rgba(0,0,0,0) 100%);
+            border: 1px solid var(--p-glow);
+            text-align: center;
+            padding: 4rem 1rem;
+            border-radius: 16px;
+            position: relative;
+        }
+        .mu-display::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 50%;
+            transform: translateX(-50%);
+            width: 60%; height: 2px;
+            background: radial-gradient(circle, var(--p), transparent);
+        }
+        .mu-huge {
+            font-size: 7rem;
+            font-weight: 800;
+            color: var(--p);
+            text-shadow: 0 0 40px var(--p-glow);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .mu-huge.update-pulse {
+            transform: scale(1.08);
+            text-shadow: 0 0 80px var(--p);
+        }
+        .mu-title {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.1rem;
+            letter-spacing: 8px;
+            color: #aaa;
+            margin-top: 10px;
+        }
+
+        /* Side Panel */
+        .side-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        
+        /* Advanced equations */
+        .eq-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .eq-row:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .eq-row:first-of-type {
+            padding-top: 0;
+        }
+        .eq-name {
+            font-size: 0.9rem;
+            color: #aaa;
+            font-weight: 600;
+        }
+        .eq-formula {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 4px;
+        }
+        .eq-val {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(255,255,255,0.1);
+        }
+        
+        /* Terminal */
+        .terminal {
+            background: rgba(5,5,10,0.8);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 1.2rem;
+            height: 250px;
+            overflow-y: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: #ccc;
+            box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
+        }
+        .term-entry { margin-bottom: 8px; line-height: 1.5; }
+        .term-time { color: #666; margin-right: 10px; }
+        .term-sys { color: var(--p); }
+        .term-warn { color: var(--warn); }
+        .term-ok { color: #0f0; }
+
+        /* Controls */
+        .controls-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.2rem;
+            margin-top: 2rem;
+        }
+        .btn {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid var(--card-border);
+            color: #fff;
+            padding: 1.5rem;
+            border-radius: 12px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn::before {
+            content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            transition: 0.5s;
+        }
+        .btn:hover::before { left: 100%; }
+        
+        .btn-primary { border-color: rgba(0, 240, 255, 0.3); color: var(--p); }
+        .btn-primary:hover { background: rgba(0, 240, 255, 0.1); box-shadow: 0 0 20px var(--p-glow); transform: translateY(-3px); }
+        
+        .btn-shield { border-color: rgba(255, 183, 0, 0.3); color: var(--shield); }
+        .btn-shield:hover, .shield-active-btn { background: rgba(255, 183, 0, 0.1); box-shadow: 0 0 20px rgba(255, 183, 0, 0.3) !important; border-color: var(--shield) !important; transform: translateY(-3px); }
+        
+        .btn-danger { border-color: rgba(255, 42, 42, 0.3); color: var(--warn); }
+        .btn-danger:hover { background: rgba(255, 42, 42, 0.1); color: var(--warn); box-shadow: 0 0 20px var(--warn-glow); transform: translateY(-3px); }
+
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+        
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
+        
+        @media (max-width: 1000px) {
+            .main-grid { grid-template-columns: 1fr; }
+            .controls-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><span>MDL YNOR</span> SUPREME_COMMAND_CENTER</h1>
+            <div class="status-badge">
+                <div class="dot" id="online-dot"></div>
+                <span id="sys-status">NOYAU EN LIGNE</span>
+            </div>
+        </header>
+
+        <div class="main-grid">
+            <div class="main-content">
+                <div class="card" style="margin-bottom: 2rem;">
+                    <div class="metrics-grid">
+                        <div class="metric-item">
+                            <div class="metric-label">ALPHA (DISSIPATION)</div>
+                            <div class="metric-val" id="val-alpha">--</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-label">BETA (AMPLIFICATION)</div>
+                            <div class="metric-val" id="val-beta">--</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-label">KAPPA (MÉMOIRE)</div>
+                            <div class="metric-val" id="val-kappa">--</div>
+                        </div>
+                    </div>
+                    
+                    <div class="mu-display" id="mu-container">
+                        <div class="mu-huge" id="val-mu">+0.00</div>
+                        <div class="mu-title">MARGE DISSIPATIVE (µ)</div>
+                    </div>
+                </div>
+                
+                <div class="controls-grid">
+                    <button class="btn btn-primary" onclick="fetchAdvancedAudit()">
+                        ⚡ ACTUALISER AUDIT
+                    </button>
+                    <button class="btn btn-shield" id="btn-shield" onclick="toggleShield()">
+                        🛡️ ARMEMENT BOUCLIER
+                    </button>
+                    <button class="btn btn-danger" onclick="triggerDefcon()">
+                        ⚠️ DEFCON 1
+                    </button>
+                </div>
+            </div>
+
+            <div class="side-panel">
+                <div class="card">
+                    <h3 style="margin-top:0; font-family: 'JetBrains Mono'; font-size: 1rem; color: var(--p); border-bottom: 1px solid var(--card-border); padding-bottom: 15px; letter-spacing: 2px;">ÉQUATIONS AVANCÉES</h3>
+                    
+                    <div class="eq-row" style="padding-top: 15px;">
+                        <div>
+                            <div class="eq-name">Indice de Stabilité</div>
+                            <div class="eq-formula">I_s = α / (β + κ)</div>
+                        </div>
+                        <div class="eq-val" id="val-is">--</div>
+                    </div>
+                    
+                    <div class="eq-row">
+                        <div>
+                            <div class="eq-name">Coefficient de Réserve</div>
+                            <div class="eq-formula">r(t) = μ / α</div>
+                        </div>
+                        <div class="eq-val" id="val-r">--</div>
+                    </div>
+                    
+                    <div class="eq-row">
+                        <div>
+                            <div class="eq-name">Profondeur de Mémoire</div>
+                            <div class="eq-formula">m(t) = κ / α</div>
+                        </div>
+                        <div class="eq-val" id="val-m">--</div>
+                    </div>
+                    
+                    <div class="eq-row">
+                        <div>
+                            <div class="eq-name">Proximité Critique</div>
+                            <div class="eq-formula">Π_c ∝ 1 / μ</div>
+                        </div>
+                        <div class="eq-val" id="val-pic" style="color: var(--warn);">--</div>
+                    </div>
+                </div>
+
+                <div class="terminal" id="terminal">
+                    <div class="term-entry"><span class="term-time">00:00:00.000</span><span class="term-sys">[SYS]</span> INITIALISATION DU NOUVEAU MOTEUR GRAPHIQUE QUANTIQUE</div>
+                    <div class="term-entry"><span class="term-time">00:00:00.050</span><span class="term-sys">[NET]</span> ÉQUATIONS AVANCÉES (Chapitre XLVIII) CONNECTÉES</div>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 4rem; font-size: 0.75rem; color: #555; font-family: 'JetBrains Mono'; letter-spacing: 3px;">
+            COPYRIGHT © 2026 CHARLIER RONY - TOUS DROITS RÉSERVÉS
+        </div>
+    </div>
+
+    <script>
+        function getLogTime() {
+            const now = new Date();
+            const time = now.toTimeString().split(' ')[0];
+            const ms = now.getMilliseconds().toString().padStart(3, '0');
+            return `${time}.${ms}`;
+        }
+
+        function log(msg, type="sys") {
+            const term = document.getElementById("terminal");
+            const div = document.createElement("div");
+            div.className = "term-entry";
+            
+            let colorClass = "term-sys";
+            let prefix = "[SYS]";
+            if(type === "warn") { colorClass = "term-warn"; prefix = "[WRN]"; }
+            if(type === "ok") { colorClass = "term-ok"; prefix = "[OK]"; }
+
+            div.innerHTML = `<span class="term-time">${getLogTime()}</span><span class="${colorClass}">${prefix}</span> ${msg}`;
+            term.appendChild(div);
+            // Smooth scroll
+            term.scrollTo({ top: term.scrollHeight, behavior: 'smooth' });
+        }
+
+        async function fetchAdvancedAudit() {
+            log("Lancement de l'audit quantique avancé...", "sys");
+            try {
+                const res = await fetch('/audit_advanced');
+                if(!res.ok) throw new Error("API_UNREACHABLE");
+                
+                const data = await res.json();
+                
+                // Update basic params
+                document.getElementById('val-alpha').innerText = data.parameters.alpha.toFixed(2);
+                document.getElementById('val-beta').innerText = data.parameters.beta.toFixed(2);
+                document.getElementById('val-kappa').innerText = data.parameters.kappa.toFixed(2);
+                
+                // Update advanced equations
+                const extInfo = data.equations;
+                
+                const muEl = document.getElementById('val-mu');
+                const sign = extInfo.mu >= 0 ? '+' : '';
+                muEl.innerText = sign + extInfo.mu.toFixed(2);
+                
+                // Animation pulse
+                muEl.classList.remove('update-pulse');
+                void muEl.offsetWidth; // trigger reflow
+                muEl.classList.add('update-pulse');
+                
+                // Set color properly
+                if(extInfo.mu > 0) muEl.style.color = 'var(--p)';
+                else if (extInfo.mu === 0) muEl.style.color = '#ffb700';
+                else muEl.style.color = 'var(--warn)';
+                
+                // Update Advanced metrics with nice formatting
+                document.getElementById('val-is').innerText = extInfo.stabiliy_index.toFixed(3);
+                document.getElementById('val-r').innerText = extInfo.reserve_coefficient.toFixed(3);
+                document.getElementById('val-m').innerText = extInfo.memory_depth.toFixed(3);
+                
+                // Update new critical metric
+                const picEl = document.getElementById('val-pic');
+                picEl.innerText = extInfo.critical_proximity_pic.toFixed(3);
+                if(extInfo.critical_proximity_pic > 2.0) picEl.style.color = "var(--warn)";
+                else if(extInfo.critical_proximity_pic > 1.0) picEl.style.color = "var(--shield)";
+                else picEl.style.color = "#fff";
+                
+                log(`Extraction quantique réussie. Régime validé : ${data.regime} (MU=${extInfo.mu.toFixed(3)})`, "ok");
+            } catch(e) {
+                log("ERREUR CRITIQUE: Impossible de joindre l'API MDL Ynor. Le serveur est-il allumé ?", "warn");
+                document.getElementById('sys-status').innerText = "HORS LIGNE";
+                document.getElementById('sys-status').style.color = "var(--warn)";
+                document.getElementById('online-dot').style.background = "var(--warn)";
+                document.getElementById('online-dot').style.boxShadow = "round 0 0 10px var(--warn)";
+            }
+        }
+
+        function toggleShield() {
+            const btn = document.getElementById('btn-shield');
+            const container = document.getElementById('mu-container');
+            if (btn.classList.contains('shield-active-btn')) {
+                btn.classList.remove('shield-active-btn');
+                container.style.border = "1px solid var(--p-glow)";
+                container.style.boxShadow = "none";
+                log("Bouclier de cyber-défense DÉSACTIVÉ. Marge vulnérable.", "warn");
+            } else {
+                btn.classList.add('shield-active-btn');
+                container.style.border = "1px solid var(--shield)";
+                container.style.boxShadow = "0 0 60px rgba(255, 183, 0, 0.15) inset";
+                log("BOUCLIER QUANTIQUE ARMÉ. Interférences externes bloquées.", "ok");
+            }
+        }
+
+        function triggerDefcon() {
+            if(confirm("DANGER EXTRÊME: Initialiser la dissipation totale? (Protocol DEFCON 1)")) {
+                log("CODE DEFCON-1 AUTORISÉ. EFFONDREMENT EN COURS...", "warn");
+                document.body.style.animation = "blink 0.1s infinite";
+                document.body.style.filter = "hue-rotate(150deg) saturate(2) contrast(1.5)";
+                
+                setTimeout(() => {
+                    alert("RÉVOCATION PAR L'ARCHITECTE MASTER (Charlier Rony): EFFONDREMENT ANNULÉ.");
+                    document.body.style.animation = "none";
+                    document.body.style.filter = "none";
+                    log("Stabilisation forcée activée. Retour au calme progressif.", "sys");
+                }, 3500);
+            }
+        }
+        
+        // Auto-fetch on load
+        window.addEventListener('DOMContentLoaded', () => {
+            setTimeout(fetchAdvancedAudit, 600);
+            
+            // Auto update every 5 seconds for dynamic feel
+            setInterval(fetchAdvancedAudit, 5000);
+        });
+    </script>
+</body>
+</html>

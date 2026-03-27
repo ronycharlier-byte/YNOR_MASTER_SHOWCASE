@@ -1,0 +1,6 @@
+﻿=====================================================
+ [BENCHMARK] YNOR CORE vs BASELINE LLM (No-Guard)    
+=====================================================
+
+ [1/2] ExÚcution Baseline (Sans Ynor)...
+  > Baseline complÚtÚe. Tokens consommÚs : 450

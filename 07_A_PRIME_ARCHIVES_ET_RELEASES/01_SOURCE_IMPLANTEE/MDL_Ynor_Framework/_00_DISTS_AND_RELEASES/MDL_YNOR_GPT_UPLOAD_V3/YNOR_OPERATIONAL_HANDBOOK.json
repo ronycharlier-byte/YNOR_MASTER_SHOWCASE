@@ -1,0 +1,37 @@
+{
+  "title": "YNOR OPERATIONAL HANDBOOK",
+  "version": "3.0.0-PROD-ULTIMATE",
+  "owner": "Rony Charlier | MDL Strategy",
+  "tagline": "Tout système opérationnel doit être gouverné par ses propres protocoles.",
+  "protocols": [
+    {
+      "id": "P1",
+      "heading": "L'EXÉCUTION TECHNIQUE (Core µ)",
+      "content": "Core system: ynor_core (Alpha, Beta, Kappa). Stopping rule: mu = alpha - beta - kappa <= 0. Reproducibility audit via experiments/ folder."
+    },
+    {
+      "id": "P2",
+      "heading": "REPRODUCTIBILITÉ & PROVENANCE",
+      "content": "Refer to DATA_PROVENANCE for source datasets. Use experiments/run_and_log_experiments.py for stability validation. Coverage: 100% in _PREUVES_ET_RAPPORTS/TEST_COVERAGE_REPORT."
+    },
+    {
+      "id": "P3",
+      "heading": "LA SÉCURITÉ & THREAT MODEL (Red-Team)",
+      "content": "Refer to SECURITY_THREAT_MODEL. NO proliferation of source file names or local paths. Identity/Internal logic is never disclosed. ynor_security_shield.py blocks unauthorized mutations."
+    },
+    {
+      "id": "P4",
+      "heading": "LE CLOSING & MONÉTISATION",
+      "content": "Standard: $99. Integration: $299. Position: Gap Selling (waste tokens reduction). Access: Exclusive Activation Code by Rony Charlier + Signed NDA."
+    },
+    {
+      "id": "P5",
+      "heading": "LA CONNAISSANCE UNIFIÉE",
+      "content": "Source of Truth: mdl_global_knowledge.json (v3). CI/CD: GitHub Actions pipeline. Coherent synchronization between all knowledge instances is mandatory."
+    }
+  ],
+  "command_center": {
+    "entry_point": "YNOR_SERVER_MANAGER.bat",
+    "status": "Operational, Sovereign"
+  }
+}

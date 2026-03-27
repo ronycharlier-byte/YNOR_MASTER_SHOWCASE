@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: mdl-ynor-api
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api_app:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/corpus/status
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.8
+
+  - type: web
+    name: mdl-ynor-dashboard
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run 03_C_MOTEURS_ET_DEPLOIEMENT/01_SOURCE_IMPLANTEE/MDL_Ynor_Framework/_06_SCRIPTS_AND_DASHBOARDS/streamlit_dashboard.py --server.address 0.0.0.0 --server.port $PORT --server.headless true
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.8
+      - key: YNOR_API_BASE_URL
+        value: https://mdl-ynor-api.onrender.com

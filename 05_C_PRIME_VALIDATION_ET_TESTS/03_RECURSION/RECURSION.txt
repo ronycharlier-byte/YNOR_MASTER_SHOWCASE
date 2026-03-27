@@ -1,0 +1,4 @@
+Noeud : C_PRIME / VALIDATION_ET_TESTS
+Miroir : C
+Regle fractale : chaque fichier est replie en source, miroir textuel et index.
+Regle chiastique : tout noeud renvoie a son miroir et au centre X.

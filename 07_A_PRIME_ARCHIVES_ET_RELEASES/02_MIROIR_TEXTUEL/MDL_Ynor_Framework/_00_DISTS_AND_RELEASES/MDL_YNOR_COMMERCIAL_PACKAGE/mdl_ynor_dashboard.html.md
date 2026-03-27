@@ -1,0 +1,229 @@
+# MIROIR TEXTUEL - mdl_ynor_dashboard.html
+
+Source : MDL_Ynor_Framework\_00_DISTS_AND_RELEASES\MDL_YNOR_COMMERCIAL_PACKAGE\mdl_ynor_dashboard.html
+Taille : 7095 octets
+SHA256 : 3b921261aa60c4a649a841d7269bd2bb597b940729057ef4875add7ab7612ced
+
+```text
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDL YNOR - CONTROL CENTER</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --accent-green: #00ff88;
+            --accent-red: #ff3366;
+            --accent-blue: #00d2ff;
+            --text-color: #e6edf3;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Outfit', sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            letter-spacing: 2px;
+            margin: 0;
+            background: linear-gradient(90deg, #fff, var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .status-badge {
+            background: var(--glass-bg);
+            border: 1px solid var(--accent-green);
+            padding: 5px 15px;
+            border-radius: 20px;
+            color: var(--accent-green);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0px rgba(0, 255, 136, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(0, 255, 136, 0); }
+            100% { box-shadow: 0 0 0 0px rgba(0, 255, 136, 0); }
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-blue);
+        }
+
+        .node-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .mu-value {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .bar-container {
+            width: 100%;
+            height: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .bar-fill {
+            height: 100%;
+            background: var(--accent-green);
+            width: 80%;
+            transition: width 1s ease;
+        }
+
+        .chart-container {
+            grid-column: span 2;
+            height: 300px;
+        }
+
+        @media (max-width: 768px) {
+            .chart-container { grid-column: span 1; }
+        }
+
+        .info-panel {
+            font-size: 0.9rem;
+            color: #8b949e;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>MDL YNOR <span style="font-weight:300">ARCHITECTURE</span></h1>
+            <p class="info-panel">Gouvernance Autonome active | Noyau Ver. 1.2</p>
+        </div>
+        <div class="status-badge">SYSTÈME STABLE</div>
+    </div>
+
+    <div class="dashboard-grid">
+        <!-- NODE 1 -->
+        <div class="card">
+            <div class="node-info">
+                <span>ÉNERGIE DISSIPATIVE</span>
+                <span class="mu-value" style="color: var(--accent-green);">+0.50</span>
+            </div>
+            <div class="bar-container">
+                <div class="bar-fill" style="width: 75%;"></div>
+            </div>
+            <p class="info-panel">Régime : VIABLE | Mutation : Appliquée</p>
+        </div>
+
+        <!-- NODE 2 -->
+        <div class="card">
+            <div class="node-info">
+                <span>INFORMATION</span>
+                <span class="mu-value" style="color: var(--accent-blue);">+1.52</span>
+            </div>
+            <div class="bar-container">
+                <div class="bar-fill" style="width: 90%; background: var(--accent-blue);"></div>
+            </div>
+            <p class="info-panel">Noyau de Résonance : Actif</p>
+        </div>
+
+        <!-- NODE 3 -->
+        <div class="card">
+            <div class="node-info">
+                <span>BIOLOGIE</span>
+                <span class="mu-value" style="color: #ff00ff;">+9.80</span>
+            </div>
+            <div class="bar-container">
+                <div class="bar-fill" style="width: 100%; background: #ff00ff;"></div>
+            </div>
+            <p class="info-panel">Hyper-Résiliation : Déclenchée</p>
+        </div>
+
+        <!-- GLOBAL CHART -->
+        <div class="card chart-container">
+            <canvas id="stabilityChart"></canvas>
+        </div>
+
+        <!-- AI GOVERNOR AUDIT -->
+        <div class="card">
+            <h3>AUDIT IA GOUVERNEUR</h3>
+            <p class="info-panel">Latence moy. : <span style="color: #fff">3086 ms</span></p>
+            <p class="info-panel">Dernier Pivot : <span style="color: var(--accent-green)">REUSSITE (+450%)</span></p>
+            <hr style="opacity: 0.1">
+            <p class="info-panel" style="font-style: italic">"La stabilité est maintenue via la sur-couche métacognitive."</p>
+        </div>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('stabilityChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['t=0.0', 't=0.5', 't=1.0', 't=1.5', 't=2.0', 't=2.5', 't=3.0'],
+                datasets: [{
+                    label: 'Marge Dissipative Globale (µ)',
+                    data: [-1.0, 0.4, 0.8, 1.2, 1.5, 1.5, 1.5],
+                    borderColor: '#00ff88',
+                    backgroundColor: 'rgba(0, 255, 136, 0.1)',
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#8b949e' } },
+                    x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#8b949e' } }
+                },
+                plugins: {
+                    legend: { labels: { color: '#e6edf3', font: { family: 'Outfit' } } }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+
+```

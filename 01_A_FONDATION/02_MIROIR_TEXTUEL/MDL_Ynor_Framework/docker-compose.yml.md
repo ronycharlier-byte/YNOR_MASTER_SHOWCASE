@@ -1,0 +1,48 @@
+# MIROIR TEXTUEL - docker-compose.yml
+
+Source : MDL_Ynor_Framework\docker-compose.yml
+Taille : 925 octets
+SHA256 : 3e5182839e4f8efb5e84a712fa391f513997d19f5000c49bf8eeb7f7b27ed0be
+
+```text
+version: "3.8"
+
+services:
+  ynor-api:
+    build: .
+    image: ynor-agi-server:2.0
+    container_name: ynor_api_server
+    ports:
+      - "8492:8492"
+    environment:
+      - YNOR_API_KEY=${YNOR_API_KEY}
+      - MDL_PROD_WRITE_ENABLED=FALSE
+      - DEFCON=1
+    volumes:
+      - ./.env:/app/.env
+      - ./logs:/app/logs
+      - ./usage_stats.json:/app/usage_stats.json
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8492/status"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  ynor-dashboard:
+    image: ynor-agi-server:2.0
+    container_name: ynor_dashboard
+    command: streamlit run _06_SCRIPTS_AND_DASHBOARDS/streamlit_dashboard.py --server.port 8493 --server.address 0.0.0.0
+    ports:
+      - "8493:8493"
+    depends_on:
+      - ynor-api
+    environment:
+      - YNOR_API_KEY=${YNOR_API_KEY}
+    restart: always
+
+networks:
+  default:
+    name: ynor_network
+
+```

@@ -1,0 +1,74 @@
+\documentclass{article}
+
+% Pre-print submission style for NeurIPS 
+\usepackage[preprint,nonatbib]{neurips_2023} % Using standard style
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{amsmath}        % basic math
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+\usepackage{graphicx}       % images
+
+\title{The Viability Principle: Information Conservation and Optimal Incoherence in Resource-Constrained Intelligence}
+
+\author{%
+  Rony Charlier \\
+  Independent Researcher \\
+  \texttt{rony.charlier@mdlynor.ai} \\
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The dominant paradigm in contemporary deep learning equates intelligence with the unbounded minimization of predictive error (e.g., maximizing log-likelihood, minimizing Kullback-Leibler divergence). However, under finite energetic and structural computational constraints, the pursuit of zero predictive error may lead to exponentially scaling algorithmic costs. In this paper, we introduce the \textbf{MDL Ynor Framework}, proposing that intelligence can be modeled as a variational process that maximizes \textit{Information Viability}. By defining the Ynor Action ($\mathcal{S}_{\text{Ynor}}$) as an integral functional that jointly optimizes effective task-information against both logical divergence and physical computation limits, we provide a unified objective for adaptive systems. Crucially, we formulate the \textit{Optimal Incoherence Theorem}: for any bounded system, maintaining local incoherence ($D_{KL} > 0$) emerges not as an algorithmic flaw, but as a structural necessity for survival under constraint. Empirical validations demonstrate that endogenous computation-scaling governed by the Ynor functional strictly dominates standard fixed-compute baselines on the Pareto frontier.
+\end{abstract}
+
+\section{Introduction}
+
+The foundational architecture of contemporary large-scale artificial intelligence models, notably Transformer-based Large Language Models (LLMs), relies heavily on a static inference paradigm. During the forward pass, these systems expend a fixed quantum of computational resources irrespective of the intrinsic difficulty of the input sequence. Current large-scale models do not explicitly optimize computational cost during inference, which may lead to suboptimal behavior under resource constraints.
+
+Current theoretical frameworks addressing AI dynamics generally fall into two camps. The Free Energy Principle (FEP) \cite{friston2010} postulates that adaptive agents act to minimize variational free energy. Conversely, the Information Bottleneck (IB) method \cite{tishby1999} formalizes the extraction of relevant signal by compressing the input space. Yet, neither framework explicitly treats the kinetic physical cost of computation as a continuous endogenous variable subject to active optimization.
+
+To bridge this gap, we introduce the \textbf{MDL Ynor Framework}. We propose a paradigm shift where the metric of an intelligence's generality is uncoupled from raw representational capacity. Instead, we propose that this functional provides a principled objective for resource-constrained intelligence, defining adaptive systems by their capacity to extr\'emalise the Ynor Action ($\mathcal{S}_{\text{Ynor}}$).
+
+\section{Formalism: Ynor State Representation and Variational Action}
+
+\subsection{System Model}
+We formalize an adaptive intelligent system as a controlled stochastic process. Let $\Sigma = \langle \mathcal{X}, \mathcal{Y}, \Theta, \Pi, \mathfrak{E}, \mathfrak{T} \rangle$, where $\mathcal{X}, \mathcal{Y}$ denote input and output spaces, $\Theta \subset \mathbb{R}^d$ is the parameter manifold, $\Pi$ is the space of control policies $\pi_t(u_t \mid x_t, \theta_t)$, and $\mathfrak{E}, \mathfrak{T}$ denote environment and task classes. The system evolves according to the stochastic differential equation:
+\begin{equation}
+d\theta_t = f(\theta_t, \pi_t, \xi_t) dt + \sigma(\theta_t) dW_t
+\end{equation}
+
+\subsection{Action Functional and Information Components}
+We define three fundamental quantities:
+1. \textbf{Effective Information:} $I_{eff}(t) = I(Y_t; X_t) - I(Y_t; X_t \mid T)$, measuring task-relevant extraction.
+2. \textbf{Divergence:} $D_{KL}(t) = D_{KL}(P_{\theta_t}(\cdot \mid x_t) \parallel P_t^\star(\cdot \mid x_t))$, the inference error relative to the optimal reference posterior.
+3. \textbf{Computational Cost:} $C(t) = C(\pi_t, \theta_t)$, treated as a measurable resource functional.
+
+The Ynor Action is defined as a trajectory-dependent functional:
+\begin{equation}
+\mathcal{S}_{\text{Ynor}}^\pi(\theta_0; E, T) = \mathbb{E}^\pi \left[ \int_{t_0}^{t_1} \left( I_{eff}(t) - \alpha D_{KL}(t) - \beta C(t) \right) dt \right]
+\end{equation}
+
+\subsection{Theorem 1: Necessary Incoherence under Constraints}
+\textit{Assume irreducible noise $\mathrm{Var}(\xi_t) > 0$, bounded cost $C(t) \le C_{max}$, and non-zero cost penalty $\beta > 0$. Any admissible policy $\pi$ satisfying viability ($\mathcal{S}_{\text{Ynor}}^\pi \ge \kappa$) must maintain a strictly positive divergence lower bound: $\inf_t D_{KL}(P_{\theta_t} \parallel P_t^\star) \ge \varepsilon$ for some $\varepsilon > 0$.}
+
+\textbf{Proof Sketch:} Reducing $D_{KL} \to 0$ requires arbitrarily precise estimation under stochastic noise. By information-theoretic bounds, this implies increasing model capacity, leading to super-linear growth in computational cost. Since $C(t)$ is bounded, minimizing divergence beyond a threshold violates the viability bound.
+
+\section{Empirical Validation}
+We deploy a simulated recurrent inference environment subject to exogenous noise. Monte Carlo evaluations ($N=100$) confirm that the Ynor-controlled endogenous policy actively scales computation based on task difficulty. 
+For trivial tasks, the system halts computation early, saving $86\%$ computation vs static baselines. Under an extreme Resource Starvation Test (increasing $\beta$), static baselines suffer mathematical systemic collapse, while the Ynor agent curtails its compute, deliberately accepting a predefined spike in inference error to remain viable ($\mu > 0$).
+
+\section{Discussion and Conclusion}
+We propose a shift in the definition of intelligent systems: intelligence optimally maintains information viability under constraint. By introducing a unified variational framework integrating information extraction, approximation error, and computational cost, we provide a principled objective for adaptive systems.
+While preliminary, these results suggest that incorporating endogenous computation into objective functions may be a key step toward more general and efficient intelligent systems.
+
+\end{document}

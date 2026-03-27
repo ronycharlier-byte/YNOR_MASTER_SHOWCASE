@@ -1,0 +1,5 @@
+.env
+_04_DEPLOYMENT_AND_API/secrets.local.json
+logs/
+__pycache__/
+.uv-cache/

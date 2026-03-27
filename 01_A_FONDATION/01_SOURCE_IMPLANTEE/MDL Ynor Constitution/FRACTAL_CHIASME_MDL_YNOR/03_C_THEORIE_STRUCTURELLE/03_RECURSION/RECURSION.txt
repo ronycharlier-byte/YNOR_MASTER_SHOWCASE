@@ -1,0 +1,6 @@
+Recursion fractale du noeud C
+
+Regle 1 : lire la source.
+Regle 2 : identifier son miroir chiastique (C_PRIME).
+Regle 3 : revenir au centre X.
+Regle 4 : rejouer la meme logique a l'interieur du corpus local.

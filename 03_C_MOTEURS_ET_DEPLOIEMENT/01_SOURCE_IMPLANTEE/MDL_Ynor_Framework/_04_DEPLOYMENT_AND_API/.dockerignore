@@ -1,0 +1,9 @@
+# Ne copie JAMAIS ces fichiers dans le cloud public (Sécurité absolue)
+.env
+__pycache__/
+*.pyc
+*.json.enc
+*.json
+.git
+*.bat
+*.vbs

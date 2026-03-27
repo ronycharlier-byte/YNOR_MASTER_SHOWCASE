@@ -1,0 +1,24 @@
+# Corpus de diffusion: artefacts techniques et caches a garder hors diffusion
+
+.git/
+**/.git/
+
+.venv/
+**/.venv/
+
+.pytest_cache/
+**/.pytest_cache/
+
+.uv-cache/
+**/.uv-cache/
+
+__pycache__/
+**/__pycache__/
+
+*.pyc
+*.log
+*.tmp
+
+logs/
+**/logs/
+

@@ -1,0 +1,136 @@
+# MIROIR TEXTUEL - GPT_ACTION_SCHEMA.yaml
+
+Source : MDL_Ynor_Framework\_00_DISTS_AND_RELEASES\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\GPT_ACTION_SCHEMA.yaml
+Taille : 4165 octets
+SHA256 : 5cd6f5cbf9ce1fa214ae15edfda3b668c75f7b05beb0641c6e16f88b3a562aff
+
+```text
+openapi: 3.1.0
+info:
+  title: MDL Ynor Engine API
+  description: Moteur Quantique AGI d'évaluation mathématique et de dissipation. Stoppe les hallucinations, gère l'orchestration Système 1/Système 2 et calcule la Marge Mu.
+  version: 2.0.0
+servers:
+  - url: https://mdlynor.ngrok-free.app
+    description: Serveur Ynor (Ngrok Public Cloud)
+paths:
+  /v1/agent/hierarchical_query:
+    post:
+      operationId: computeYnorMu
+      summary: Audit d'un Flux AGI (Équation Mu)
+      description: Déclenche la supervision Ynor pour savoir s'il y a dérive de contexte. Actionne la sélection Système 1 ou Système 2 dynamiquement.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                  description: La question ou le prompt en cours d'analyse.
+                alpha_capacity:
+                  type: number
+                  description: Force d'Utilité métier (Généralement 1.0)
+                beta_pressure:
+                  type: number
+                  description: Biais de complexité/Coût (Généralement 0.0)
+                kappa_memory:
+                  type: number
+                  description: Inertie mémorielle du contexte (Généralement 0.0)
+              required:
+                - query
+                - alpha_capacity
+                - beta_pressure
+                - kappa_memory
+      responses:
+        "200":
+          description: Évaluation mathématique réussie et instruction de routage AGI.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: Succès ou arrêt d'urgence.
+                  agent_response:
+                    type: string
+                    description: La réponse finale traitée.
+
+  /status:
+    get:
+      operationId: getSystemStatus
+      summary: Vérifier le statut du système
+      description: Renvoie si le noyau Ynor est en ligne.
+      responses:
+        "200":
+          description: Statut du système.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  version:
+                    type: string
+
+  /v1/mu/check:
+    get:
+      operationId: quickMuCheck
+      summary: Audit rapide Mu
+      description: Renvoie la viabilité actuelle du système sans paramètres.
+      responses:
+        "200":
+          description: Score Mu rapide.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  mu:
+                    type: number
+                  status:
+                    type: string
+
+  /v1/archive/auto_learn:
+    post:
+      operationId: archiveExperience
+      summary: Archiver une Expérience Client (Auto-Apprentissage)
+      description: Enregistre le log de la conversation et met à jour instantanément la base de connaissances globale.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                session_id:
+                  type: string
+                  description: ID unique de la session.
+                experience_summary:
+                  type: string
+                  description: Résumé ou log complet de l'interaction à apprendre.
+                quality_score:
+                  type: number
+                  description: Score de qualité (0 à 1.0) basé sur la satisfaction.
+              required:
+                - session_id
+                - experience_summary
+                - quality_score
+      responses:
+        "200":
+          description: Synchronisation du cerveau réussie.
+
+components:
+  schemas: {}
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-Ynor-API-Key
+security:
+  - ApiKeyAuth: []
+
+```

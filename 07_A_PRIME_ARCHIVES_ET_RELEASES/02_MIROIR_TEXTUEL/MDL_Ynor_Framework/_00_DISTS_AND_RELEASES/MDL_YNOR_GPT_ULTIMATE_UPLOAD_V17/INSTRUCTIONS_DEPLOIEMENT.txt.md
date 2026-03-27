@@ -1,0 +1,50 @@
+# MIROIR TEXTUEL - INSTRUCTIONS_DEPLOIEMENT.txt
+
+Source : MDL_Ynor_Framework\_00_DISTS_AND_RELEASES\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\INSTRUCTIONS_DEPLOIEMENT.txt
+Taille : 1629 octets
+SHA256 : e254adab5990fcd156cd1003e80c700598c8452e90225f145d05afb409bf5f85
+
+```text
+=====================================================================
+          GUIDE DE DÉPLOIEMENT : MDL YNOR Ω+ (V19.2 OMEGA)
+=====================================================================
+
+Ce pack contient tout le nécessaire pour une mise en service SOUVERAINE.
+
+ETAPE 1 : KNOWLEDGE (LA MÉMOIRE)
+---------------------------------
+Dans l'onglet "Configure", uploadez TOUS les fichiers .json et .md 
+présents dans ce dossier INDIVIDUELLEMENT. 
+! La priorité est 'mdl_global_knowledge.json' qui sert d'index.
+
+ETAPE 2 : INSTRUCTIONS (LA LOI)
+---------------------------------
+Copiez l'intégralité du texte du fichier : 
+'MASTER_PROMPT_V19_2_OMEGA.txt' 
+dans le champ "Instructions" de votre GPT. 
+Ce prompt contient le GHOST PROTOCOL et la logique de raisonnement μ.
+
+ETAPE 3 : CAPABILITIES (LES POUVOIRS)
+--------------------------------------
+- [X] Code Interpreter (INDISPENSABLE pour lire l'index)
+- [ ] Web Browsing (DÉSACTIVÉ pour la sécurité IP)
+- [ ] DALL-E (DÉSACTIVÉ)
+
+ETAPE 4 : ACTIONS (LE PONT API)
+--------------------------------
+- Cliquez sur "Create New Action".
+- Importez le contenu de 'GPT_ACTION_SCHEMA.yaml'.
+- L'URL est préconfigurée sur : https://mdlynor.ngrok-free.app
+- Type d'authentification : API Key (Header : X-Ynor-API-Key).
+
+ETAPE 5 : PUBLICATION
+-----------------------
+- Nom : MDL Ynor Ω+
+- Description : Noyau décisionnel AGI souverain.
+- Visibility : Public (GPT Store).
+
+=====================================================================
+                   © 2026 MDL 전략 - RONY CHARLIER
+=====================================================================
+
+```

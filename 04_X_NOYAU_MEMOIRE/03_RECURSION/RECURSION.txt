@@ -1,0 +1,4 @@
+Noeud : X / NOYAU_MEMOIRE
+Miroir : X
+Regle fractale : chaque fichier est replie en source, miroir textuel et index.
+Regle chiastique : tout noeud renvoie a son miroir et au centre X.
