@@ -73,6 +73,51 @@ def _format_money(price: str) -> str:
     return price.replace("EUR", "€").replace(" / ", "/").replace("month", "month")
 
 
+def _ynor_logo_svg(with_background: bool = False) -> str:
+    background = ""
+    if with_background:
+        background = """
+  <rect width="64" height="64" rx="16" fill="#07111f"/>
+"""
+    return f"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Ynor logo">
+  <defs>
+    <linearGradient id="ynorGlow" x1="10%" y1="10%" x2="90%" y2="90%">
+      <stop offset="0%" stop-color="#c6ecff"/>
+      <stop offset="48%" stop-color="#8fd6ff"/>
+      <stop offset="100%" stop-color="#4fb8ff"/>
+    </linearGradient>
+    <linearGradient id="ynorCore" x1="30%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0%" stop-color="#eefcff"/>
+      <stop offset="100%" stop-color="#76caff"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="1.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+{background}
+  <g filter="url(#softGlow)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 32l20-16 20 16-20 16-20-16Z" stroke="url(#ynorGlow)" stroke-width="1.5" opacity=".92"/>
+    <path d="M32 9l15 7v32l-15 7-15-7V16l15-7Z" stroke="url(#ynorGlow)" stroke-width="1.2" opacity=".72"/>
+    <path d="M21 17h22M20 25h24M18 39h28M20 47h24" stroke="url(#ynorGlow)" stroke-width="1.35" opacity=".7"/>
+    <path d="M28 13c-4.5 5.4-5.8 11.1-5.8 19.2S23.4 48 28 53.5" stroke="url(#ynorGlow)" stroke-width="2.2" opacity=".95"/>
+    <path d="M36 13c4.5 5.4 5.8 11.1 5.8 19.2S40.6 48 36 53.5" stroke="url(#ynorGlow)" stroke-width="2.2" opacity=".95"/>
+    <path d="M30 15c1.7 2.2 3 4.5 3 7.2s-1.3 5-3 7.2M34 15c-1.7 2.2-3 4.5-3 7.2s1.3 5 3 7.2M30 34c1.7 2.2 3 4.5 3 7.2s-1.3 5-3 7.2M34 34c-1.7 2.2-3 4.5-3 7.2s1.3 5 3 7.2" stroke="url(#ynorCore)" stroke-width="1.7" opacity=".9"/>
+    <circle cx="20" cy="20" r="1.2" fill="#c6ecff"/>
+    <circle cx="44" cy="20" r="1.2" fill="#c6ecff"/>
+    <circle cx="18" cy="44" r="1.2" fill="#c6ecff"/>
+    <circle cx="46" cy="44" r="1.2" fill="#c6ecff"/>
+    <circle cx="32" cy="11" r="1.1" fill="#eefcff"/>
+    <circle cx="32" cy="53" r="1.1" fill="#eefcff"/>
+  </g>
+</svg>
+""".strip()
+
+
 def _site_shell(title: str, body: str, active: str = "home") -> str:
     nav_items = [
         ("home", "Home", "/"),
@@ -185,6 +230,15 @@ def _site_shell(title: str, body: str, active: str = "home") -> str:
       box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 0 0 1px rgba(255,255,255,.02);
       color: var(--accent-3);
       font-size: 17px;
+      overflow: hidden;
+    }}
+    .brand-mark img {{
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: contain;
+      padding: 4px;
+      filter: drop-shadow(0 0 8px rgba(143,214,255,.28));
     }}
     .brand-name {{ font-size: 18px; }}
     .nav {{
@@ -596,7 +650,7 @@ def _site_shell(title: str, body: str, active: str = "home") -> str:
   <div class="shell">
     <header class="topbar">
       <a href="/" class="brand" aria-label="Ynor home">
-        <span class="brand-mark">Y</span>
+        <span class="brand-mark"><img src="/ynor-logo.svg" alt="" aria-hidden="true" /></span>
         <span class="brand-name">Ynor</span>
       </a>
       <nav class="nav" aria-label="Primary">
@@ -984,20 +1038,12 @@ async def corpus_alias() -> str:
 
 @app.get("/favicon.ico", include_in_schema=False)
 async def favicon() -> Response:
-    svg = """
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs>
-    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#c6ecff"/>
-      <stop offset="100%" stop-color="#8fd6ff"/>
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="16" fill="#07111f"/>
-  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#g)" stroke-width="3"/>
-  <path d="M32 14v36M20 22l12 10 12-10M20 42l12-10 12 10" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-""".strip()
-    return Response(content=svg, media_type="image/svg+xml")
+    return Response(content=_ynor_logo_svg(with_background=True), media_type="image/svg+xml")
+
+
+@app.get("/ynor-logo.svg", include_in_schema=False)
+async def ynor_logo() -> Response:
+    return Response(content=_ynor_logo_svg(with_background=False), media_type="image/svg+xml")
 
 
 def _pricing_cards() -> str:
