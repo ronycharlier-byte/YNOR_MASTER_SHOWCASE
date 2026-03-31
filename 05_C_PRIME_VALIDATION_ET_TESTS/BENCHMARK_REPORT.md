@@ -19,6 +19,11 @@ Centraliser les points de benchmark visibles dans le corpus et clarifier ce qu i
 - axes: structure, mathematique, geophysique, quant finance, knowledge sync, performance I/O
 - usage: score canonique global et rapport JSON
 
+### `BENCHMARK_FRONTIER_MATH.md`
+- finalite: benchmark externe de haut niveau (Epoch AI)
+- axes: raisonnement mathematique avance, preuve vs heuristique
+- usage: evaluation du raisonnement sous forte complexite
+
 ## Ce Que Le Benchmark Mesure
 - presence des modules critiques
 - coherence mu
@@ -40,7 +45,8 @@ Centraliser les points de benchmark visibles dans le corpus et clarifier ce qu i
 1. lancer d abord le test unitaire de robustesse
 2. lancer ensuite la validation scientifique
 3. lancer l experience de mutation
-4. terminer par le benchmark global
+4. lancer le benchmark global
+5. referer a FrontierMath pour l evaluation du raisonnement mathematique de pointe
 
 ## Lecture Du Resultat
 - `OPTIMAL`: corpus solide
