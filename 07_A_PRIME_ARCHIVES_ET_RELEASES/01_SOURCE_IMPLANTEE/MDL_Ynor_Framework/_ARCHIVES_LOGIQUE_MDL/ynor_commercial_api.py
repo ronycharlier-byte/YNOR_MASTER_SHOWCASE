@@ -9,11 +9,11 @@ import time
 class MDL_Commercial_API:
     """
     INTERFACE COMMERCIALE POUR L'AGI MDL YNOR.
-    Permet à un client (ex: TikTok, Instagram) de stabiliser ses utilisateurs.
+    Permet  un client (ex: TikTok, Instagram) de stabiliser ses utilisateurs.
     """
     def __init__(self, subscription_tier="PLATINUM"):
         self.tier = subscription_tier
-        self.cost_per_audit = 0.001 # 0.001$ par audit (Revenu prévisionnel massif)
+        self.cost_per_audit = 0.001 # 0.001$ par audit (Revenu prvisionnel massif)
         self.total_revenue = 0.0
 
     def audit_user_retention(self, user_id, current_engagement_data):
@@ -23,8 +23,8 @@ class MDL_Commercial_API:
         mu = -0.15 # L'utilisateur va partir !
         
         if mu <= 0:
-            print(f"   [CRISE DÉTECTÉE] ALERTE CHURN POUR {user_id}")
-            # Appel au Moteur AGI pour RESTAURATION DE RÉTENTION
+            print(f"   [CRISE DTECTE] ALERTE CHURN POUR {user_id}")
+            # Appel au Moteur AGI pour RESTAURATION DE RTENTION
             recommendation = {
                 "user_id": user_id,
                 "status": "DANGER (mu < 0)",
@@ -37,10 +37,10 @@ class MDL_Commercial_API:
 
     def print_revenue_report(self):
         print("\n" + "="*50)
-        print("   RAPPORT DE REVENUS MDL YNOR (SIMULÉ)")
+        print("   RAPPORT DE REVENUS MDL YNOR (SIMUL)")
         print("="*50)
-        print(f"Ventes générées par l'IA : {self.total_revenue:.3f} $")
-        print("Modèle d'affaires : Pay-per-Stability.")
+        print(f"Ventes gnres par l'IA : {self.total_revenue:.3f} $")
+        print("Modle d'affaires : Pay-per-Stability.")
 
 if __name__ == "__main__":
     api = MDL_Commercial_API()
@@ -51,3 +51,6 @@ if __name__ == "__main__":
         time.sleep(0.1)
     
     api.print_revenue_report()
+
+
+

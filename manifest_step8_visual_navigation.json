@@ -21,9 +21,11 @@
   "node_counts": {
     "01_A_FONDATION": 2,
     "02_B_THEORIE_ET_PREUVES": 43,
+    "03_C_MOTEURS_ET_DEPLOIEMENT": 187,
     "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION": 43,
     "07_A_PRIME_ARCHIVES_ET_RELEASES": 31,
-    "04_X_NOYAU_MEMOIRE": 8
+    "04_X_NOYAU_MEMOIRE": 9,
+    "05_C_PRIME_VALIDATION_ET_TESTS": 75
   },
   "local_inventory_counts": {
     "03_C_MOTEURS_ET_DEPLOIEMENT": 187,
@@ -76,8 +78,9 @@
     },
     "04_X_NOYAU_MEMOIRE": {
       "title": "X | Noyau memoire",
-      "count": 8,
+      "count": 9,
       "top_sources": [
+        "04_X_NOYAU_MEMOIRE/README.md",
         "MDL_Ynor_Framework/_05_DATA_AND_MEMORY/YNOR_FRACTAL_ULTIMATE_FRAMEWORK.json",
         "MDL_Ynor_Framework/_05_DATA_AND_MEMORY/hardcore_dataset.json",
         "MDL_Ynor_Framework/_05_DATA_AND_MEMORY/mdl_global_knowledge.json",
@@ -131,5 +134,5 @@
       ]
     }
   },
-  "mermaid_path": "FRACTAL_CHIASTE_UNIVERSEL/CARTE_VISUELLE_FRACTALE_CHIASTIQUE.md"
+  "mermaid_path": "FRACTAL_CHIASTE_UNIVERSEL/CARTE_VISUELLE_YNOR.md"
 }

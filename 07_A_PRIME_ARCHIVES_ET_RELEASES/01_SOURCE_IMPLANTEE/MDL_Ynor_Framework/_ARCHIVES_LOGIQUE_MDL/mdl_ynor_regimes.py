@@ -8,27 +8,27 @@ import numpy as np
 
 class PostCriticalReconstructor:
     """
-    Implémente les algorithmes de la reconstruction post-critique (Chapitre VI).
-    Un système dont la marge dissipative mu devient négative peut "muter" 
-    ses opérateurs internes (E ou D) pour restaurer la viabilité.
+    Implmente les algorithmes de la reconstruction post-critique (Chapitre VI).
+    Un systme dont la marge dissipative mu devient ngative peut "muter" 
+    ses oprateurs internes (E ou D) pour restaurer la viabilit.
     """
 
     def __init__(self, system, mutation_rate=0.1):
         """
         Args:
-            system (YnorSystem): Le système à surveiller et réparer.
-            mutation_rate (float): Le taux de variation de l'opérateur de dissipation 
+            system (YnorSystem): Le systme  surveiller et rparer.
+            mutation_rate (float): Le taux de variation de l'oprateur de dissipation 
                                    lors d'une restructuration.
         """
         self.system = system
         self.r = mutation_rate
         
-        # Sauvegarde des opérateurs d'origine pour trace
+        # Sauvegarde des oprateurs d'origine pour trace
         self.original_D = system.D
 
     def evaluate_and_reconstruct(self, current_S):
         """
-        Évalue l'état actuel. Si l'état est instable (mu < 0), 
+        value l'tat actuel. Si l'tat est instable (mu < 0), 
         applique une mutation structurelle d'urgence pour augmenter la dissipation.
         
         Returns:
@@ -38,8 +38,8 @@ class PostCriticalReconstructor:
         
         if mu < 0:
             # L'amplification domine. Il faut augmenter la dissipation.
-            # Mutation de l'opérateur scalaire de dissipation.
-            # On crée un nouveau closure qui "booste" proportionnellement l'ancien D.
+            # Mutation de l'oprateur scalaire de dissipation.
+            # On cre un nouveau closure qui "booste" proportionnellement l'ancien D.
             old_D = self.system.D
             
             # Formule d'adaptation canonique : D_new(S) = (1 + r) * D_old(S)
@@ -51,5 +51,8 @@ class PostCriticalReconstructor:
         return False
         
     def reset(self):
-        """ Restaure le système dans sa configuration structurelle d'origine. """
+        """ Restaure le systme dans sa configuration structurelle d'origine. """
         self.system.D = self.original_D
+
+
+

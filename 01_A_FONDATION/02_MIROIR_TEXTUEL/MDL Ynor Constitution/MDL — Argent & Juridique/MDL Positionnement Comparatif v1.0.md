@@ -1,12 +1,12 @@
 # MIROIR TEXTUEL - MDL Positionnement Comparatif v1.0
 
-Source : MDL Ynor Constitution\MDL — Argent & Juridique\MDL Positionnement Comparatif v1.0
+Source : MDL Ynor Constitution\MDL - Argent & Juridique\MDL Positionnement Comparatif v1.0
 Taille : 31178 octets
 SHA256 : 34a91d83ce1b0fa35c96f514bc026ea80438dba237b5f9ed8020d1faaace04c3
 
 ```text
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%"z ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
 /F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R

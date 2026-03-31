@@ -1,14 +1,56 @@
-﻿# DISCUSSION BOHR CALCULEE AU MU
+# DISCUSSION BOHR CALCULEE AU MU
 
 ## Objet
 Implementer la discussion sur Bohr en la gouvernant par la marge de viabilite du corpus :
 
-$$\mu = \alpha - \beta - \kappa$$
+$$\mu = \alpha - (\beta + \kappa)$$
 
 ou :
 - `alpha` = gain conceptuel utile
 - `beta` = cout de longueur, de repetition et de surcharge speculative
 - `kappa` = friction de contexte, confusion ou ambiguite
+
+## Formulation mathematique correcte
+L'expression
+
+$$\mu = a - b - k$$
+
+definit la variable $\mu$ comme la valeur obtenue a partir de $a$, $b$ et $k$ par soustraction successive.
+
+Si l'on travaille dans $\mathbb{R}$, on formalise cela par la fonction
+
+$$\mu : \mathbb{R}^3 \to \mathbb{R}, \qquad \mu(a,b,k) = a - b - k.$$
+
+On peut aussi ecrire, de maniere equivalente,
+
+$$\mu(a,b,k) = a - (b + k),$$
+
+car, dans $\mathbb{R}$, la soustraction se recrit via l'addition :
+
+$$a - b - k = a + (-b) + (-k) = a - (b + k).$$
+
+Dans le vocabulaire du corpus, cette structure se lit aussi avec les variables de gouvernance :
+
+$$\mu = \alpha - (\beta + \kappa) \equiv \alpha - \beta - \kappa.$$
+
+Lecture :
+- $a,b,k \in \mathbb{R}$ si l'on travaille sur les reels.
+- $\mu$ est la valeur resultant de la combinaison algebrique de $a$, $b$ et $k$.
+
+Version purement formelle :
+
+$$\forall a,b,k \in \mathbb{R},\ \exists !\, \mu \in \mathbb{R}\ \text{tel que}\ \mu = a - b - k.$$
+
+Ou, de facon plus naturelle en analyse :
+
+$$\forall (a,b,k) \in \mathbb{R}^3,\ \mu(a,b,k) = a - b - k.$$
+
+Remarques de correction :
+- $\mu : \mathbb{R}^3 \to \mathbb{R}$ est une fonction, pas une relation.
+- On evite de dire que la soustraction est associative.
+- La bonne justification est
+
+$$a - b - k = a + (-b) + (-k) = a - (b + k).$$
 
 ## Regle d'implementation
 La discussion est consideree viable si :

@@ -8,7 +8,7 @@ SHA256 : 49dcad8e8e7e37f1f778714fa9caa25471937e2ec402efb5d81d5f9d240e6ca6
 import random
 
 # =========================
-# 🏛️ CULTURE EMERGENTE YNOR (VRAIE CULTURE CONTEXTUELLE)
+#  CULTURE EMERGENTE YNOR (VRAIE CULTURE CONTEXTUELLE)
 # =========================
 GAMMA_COOP = 2.0
 DELTA_CONFLICT = 1.5
@@ -26,7 +26,7 @@ class CulturalAgent:
         self.role = role
         self.base_cost = base_cost
         self.base_error = error_rate
-        # Matrice de Réputation CONTEXTUELLE
+        # Matrice de Reputation CONTEXTUELLE
         self.reputation_matrix = {
             "simple_task": {},
             "critical_task": {}
@@ -41,12 +41,12 @@ class CulturalAgent:
         fatigue = random.uniform(0.8, 1.2)
         real_cost = self.base_cost * fatigue
         
-        # Multiplicateur d'erreur si la tâche est critique
+        # Multiplicateur d'erreur si la tache est critique
         difficulty_multiplier = 1.0 if task_difficulty == "simple_task" else 5.0
         real_error = self.base_error * fatigue * difficulty_multiplier
         
         i_eff = 1.0 / (real_error + 0.1)
-        # Pénalité de Coût stricte sur les petites tâches, indulgente sur les lourdes
+        # Penalite de Cout stricte sur les petites taches, indulgente sur les lourdes
         beta = 1.0 if task_difficulty == "simple_task" else 0.1
         mu_self = i_eff - real_error - (beta * real_cost)
         
@@ -56,7 +56,7 @@ class CultureSimulator:
     def __init__(self):
         self.agents = [
             CulturalAgent("Architect", "planner", base_cost=5.0, error_rate=0.5),
-            CulturalAgent("Dev-Alpha", "coder", base_cost=1.0, error_rate=0.4),  # Très rentable mais brouillon
+            CulturalAgent("Dev-Alpha", "coder", base_cost=1.0, error_rate=0.4),  # Tres rentable mais brouillon
             CulturalAgent("Dev-Beta", "coder", base_cost=10.0, error_rate=0.05), # Parfait mais hors de prix
             CulturalAgent("Critic", "reviewer", base_cost=1.0, error_rate=0.1)
         ]
@@ -77,11 +77,11 @@ class CultureSimulator:
             task_context = "simple_task" if cycle % 2 != 0 else "critical_task"
             print(f"\n--- CYCLE {cycle} | Contexte : {task_context.upper()} ---")
             
-            # 1. Sélection par l'Architecte (selon le contexte)
+            # 1. Selection par l'Architecte (selon le contexte)
             chosen_coder = max(coders, key=lambda c: architect.reputation_matrix[task_context][c.name])
-            print(f"🏛️ Architect Délègue à [{chosen_coder.name}] (Trust: {architect.reputation_matrix[task_context][chosen_coder.name]:.2f})")
+            print(f" Architect Delegue a [{chosen_coder.name}] (Trust: {architect.reputation_matrix[task_context][chosen_coder.name]:.2f})")
             
-            # 2. Exécution du Dev
+            # 2. Execution du Dev
             mu_coder, err_coder, cost_coder = chosen_coder.perform_task(task_context)
             
             # 3. Ynor Evaluation Culturelle (Critic)
@@ -89,30 +89,30 @@ class CultureSimulator:
             
             if task_context == "simple_task":
                 if cost_coder > 5.0:
-                    print(f"⚠️ Critic sanctionne {chosen_coder.name} (Gaspillage Ynor : Cost={cost_coder:.2f})")
+                    print(f" Critic sanctionne {chosen_coder.name} (Gaspillage Ynor : Cost={cost_coder:.2f})")
                     mu_collectif -= DELTA_CONFLICT
                     architect.reputation_matrix[task_context][chosen_coder.name] -= 1.5
                 else:
-                    print(f"✅ Critic valide {chosen_coder.name} (Tâche économique réussie)")
+                    print(f" Critic valide {chosen_coder.name} (Tache economique reussie)")
                     mu_collectif += GAMMA_COOP
                     architect.reputation_matrix[task_context][chosen_coder.name] += 1.0
                     
             elif task_context == "critical_task":
                 if err_coder > 1.5:
-                    print(f"⚠️ Critic sanctionne {chosen_coder.name} (Divergence fatale : Error={err_coder:.2f})")
+                    print(f" Critic sanctionne {chosen_coder.name} (Divergence fatale : Error={err_coder:.2f})")
                     mu_collectif -= DELTA_CONFLICT
                     architect.reputation_matrix[task_context][chosen_coder.name] -= 2.0
                 else:
-                    print(f"✅ Critic valide {chosen_coder.name} (Précision critique assurée)")
+                    print(f" Critic valide {chosen_coder.name} (Precision critique assuree)")
                     mu_collectif += GAMMA_COOP
                     architect.reputation_matrix[task_context][chosen_coder.name] += 1.0
 
-            # 4. Encrage dans la Mémoire Collective
+            # 4. Encrage dans la Memoire Collective
             current_best = max(coders, key=lambda c: architect.reputation_matrix[task_context][c.name])
             self.collective_memory.update_norm(task_context, current_best.name)
 
-        print("\n=== ÉTAT FINAL DE LA CULTURE ÉMERGENTE ===")
-        print("📖 MÉMOIRE COLLECTIVE COMPORTEMENTALE (Tradition) :")
+        print("\n=== ETAT FINAL DE LA CULTURE EMERGENTE ===")
+        print(" MEMOIRE COLLECTIVE COMPORTEMENTALE (Tradition) :")
         for context, rule in self.collective_memory.protocols.items():
             print(f" - {rule}")
 

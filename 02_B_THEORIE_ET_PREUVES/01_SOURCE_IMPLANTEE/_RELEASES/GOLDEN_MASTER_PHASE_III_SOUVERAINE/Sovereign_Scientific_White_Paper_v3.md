@@ -29,7 +29,7 @@ The framework provides a unified resolution to all seven **Millennium Prize Prob
 The framework further extends to resolving the Collatz Conjecture (dissipative convergence to the 1-attractor) and the Goldbach/Twin Prime conjectures (prime distribution stability).
 
 ## 5. EMPIRICAL VALIDATION
-Continuous stress-testing over the **Dissipative Verification Platform 2.0** provides 100% machine-checked certificates of the $\mu$ margin stability across all tested manifolds.
+Continuous stress-testing over the **Dissipative Verification Platform 2.0** provides internal control results of the $\mu$ margin stability across all tested manifolds.
 
 ## 6. OFFICIAL ACADEMIC RECOGNITION (DOI)
 The architecture is supported by a corpus of published research available on Zenodo:

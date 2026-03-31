@@ -2,7 +2,7 @@
 
 ## 0. PRÉLIMINAIRES & INVARIANTS
 L'architecture de viabilité est basée sur l'invariant :
-$$\mu = \alpha - \beta - \kappa$$
+$$\mu = \alpha - (\beta + \kappa)$$
 - $\alpha$ : Dissipation régulatrice
 - $\beta$ : Amplification (coût dynamique)
 - $\kappa$ : Inertie / Mémoire

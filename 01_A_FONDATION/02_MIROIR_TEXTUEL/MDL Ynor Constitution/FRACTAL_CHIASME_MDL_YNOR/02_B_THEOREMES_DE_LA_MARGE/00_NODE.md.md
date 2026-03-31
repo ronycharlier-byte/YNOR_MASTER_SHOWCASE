@@ -14,7 +14,7 @@ Miroir chiastique : B_PRIME
 Resume : Le premier developpement porte la marge dissipative comme loi de propagation.
 
 Contenu source :
-- MDL Ynor — Théorèmes fondamentaux de la marge dissipative.pdf
+- MDL Ynor - Theoremes fondamentaux de la marge dissipative.pdf
 
 Implementation fractale :
 - 01_SOURCE contient le document ou le sous-corpus original.

@@ -1,7 +1,7 @@
 ﻿# SUITE CORPUS ACTIONNELLE
 
 ## Diagnostic Court
-Le corpus est deja structure de facon complete sur le plan chiastique, mais la suite la plus utile n'est pas d'ajouter de la redondance: c'est de densifier les branches encore sous-constituees du point de vue operationnel et de verification.
+Le corpus est deja structure de facon complete sur le plan chiastique. Les branches `03_C` et `05_C'` disposent maintenant d'entrees lisibles, et la suite la plus utile n'est plus d'ajouter de la redondance: c'est de densifier la normalisation, la verification et la diffusion propre.
 
 La suite la plus logique est donc:
 1. `C` - moteurs et deploiement
@@ -11,7 +11,8 @@ La suite la plus logique est donc:
 ## Lecture De L'etat Actuel
 - La charpente globale est fermee: `A -> B -> C -> X -> C' -> B' -> A'`.
 - Les niveaux publics, executive, canonique, soumission et terminal existent deja.
-- Les branches les plus fertiles pour la suite sont celles qui transforment le corpus en systeme exploitable, testable et archivable.
+- Les branches `03_C`, `04_X` et `05_C'` ont maintenant des entrees lisibles a leur racine.
+- Les branches les plus fertiles pour la suite sont celles qui transforment le corpus en systeme exploitable, testable, archivable et nettoye.
 
 ## Priorite 1 - C
 Objectif: rendre le corpus operable, observable et deployable.

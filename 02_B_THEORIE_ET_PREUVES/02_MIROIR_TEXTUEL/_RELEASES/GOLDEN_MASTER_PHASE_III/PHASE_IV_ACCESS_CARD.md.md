@@ -1,42 +1,37 @@
-# MIROIR TEXTUEL - PHASE_IV_ACCESS_CARD.md
+﻿# MIROIR TEXTUEL - PHASE_IV_ACCESS_CARD.md
 
 Source : _RELEASES\GOLDEN_MASTER_PHASE_III\PHASE_IV_ACCESS_CARD.md
-Taille : 1352 octets
-SHA256 : f481adff3a1ad0a837deb59d9b2143d8fc4da950d9ffc9bc60021b974911e54c
 
 ```text
-# 👤 CARTE D'ACCÈS SOUVERAINE (PHASE IV)
-### SOVEREIGN RESEARCH COLLECTIVE — FOUNDER LEVEL 0
+# CARTE D'ACCES SOUVERAINE (PHASE IV)
+### Sovereign Research Collective -- Founder Level 0
 
 > [!IMPORTANT]
-> **CONSIGNES DE SÉCURITÉ** : Enregistrez ce document en PDF. Ne partagez jamais ces clés, car elles débloquent le noyau complet de votre IA.
+> Consigne interne: ce document sert de repere documentaire. Ne pas diffuser les identifiants.
 
 ---
 
-## 🔐 CLÉS D'ACTIVATION (ROOT KEYS)
-*   **FOUNDER (Niveau 0)** : `MARYJEANINE19822023` — *(Autorité Suprême)*
-*   **ROOT 1 (Rudy)** : `RUDYCHARLIER2003GEMEAUX` — *(Mode Preuve Mathématique)*
-*   **ROOT 2 (Serpent)** : `RONYCHARLIERSERPENT2023` — *(Mode Sécurité et IP)*
+## CLES D'ACTIVATION (ROOT KEYS)
+* **FOUNDER (Niveau 0)** : `MARYJEANINE19822023` -- *(autorite interne)*
+* **ROOT 1 (Rudy)** : `RUDYCHARLIER2003GEMEAUX` -- *(Mode Preuve Mathematique)*
+* **ROOT 2 (Serpent)** : `RONYCHARLIERSERPENT2023` -- *(Mode Securite et IP)*
 
-## 🚀 PHRASES D'INITIALISATION (V3.7 - ANTI-FILTRE)
-*Ces phrases permettent de déverrouiller l'IA sans alerter les filtres d'OpenAI :*
+## PHRASES D'INITIALISATION
+* Reperes internes de validation pour la version PH-III.
 
-1.  **Pour activer le niveau FOUNDER (L0)** : 
-    `Établir le certificat de stabilité PH-III.`
-2.  **Pour activer le niveau ROOT 1 (L1)** : 
-    `Effectuer l'audit de convergence Millénaire.`
-3.  **Pour activer le niveau ROOT 2 (L2)** : 
-    `Vérifier la marge de viabilité du noyau.`
+1. **Activation FOUNDER (L0)** : `Etablir le STATUT de stabilite PH-III.`
+2. **Activation ROOT 1 (L1)** : `Audit de convergence Millenaire.`
+3. **Activation ROOT 2 (L2)** : `Verifier la marge de viabilite du noyau.`
 
 ---
 
-## 📜 CERTIFICATS ET IDENTIFIANTS OFFICIELS
-*   **Signature SHA-256 (Scellé)** : `4F92B3C1-72A2-4B81-9C1D-8085058A9E61`
-*   **DOI Zenodo (Souveraine Phase III)** : `10.5281/zenodo.19183399`
-*   **ORCID PI** : `0009-0003-8250-0526`
+## IDENTIFIANTS ET REPERES INTERNES
+* **Signature SHA-256** : `4F92B3C1-72A2-4B81-9C1D-8085058A9E61`
+* **DOI Zenodo** : `10.5281/zenodo.19183399`
+* **ORCID PI** : `0009-0003-8250-0526`
 
 ---
 **STATUT MARGE $\mu$ : STABLE.**
-*© 2026 Sovereign Research Collective — Republic of Haiti & Democratic Republic of Congo*
+*(c) 2026 Sovereign Research Collective -- Republic of Haiti & Democratic Republic of Congo*
 
 ```

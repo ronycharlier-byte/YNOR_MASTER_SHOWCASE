@@ -1,12 +1,12 @@
 # MIROIR TEXTUEL - MDL Audit Structurel Benelux v1.0
 
-Source : MDL Ynor Constitution\MDL — Argent & Juridique\MDL Audit_\MDL Audit Structurel Benelux v1.0
+Source : MDL Ynor Constitution\MDL - Argent & Juridique\MDL Audit_\MDL Audit Structurel Benelux v1.0
 Taille : 25718 octets
 SHA256 : 9ba46de343b3559dd57fbea8ac6c8b5aa50ef7caa29d5b8ea11fcd89f508fa8a
 
 ```text
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%"z ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
 /F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R

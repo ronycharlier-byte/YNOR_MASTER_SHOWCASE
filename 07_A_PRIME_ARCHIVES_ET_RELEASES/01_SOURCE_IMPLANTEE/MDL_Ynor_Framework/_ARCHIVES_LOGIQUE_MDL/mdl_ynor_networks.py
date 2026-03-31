@@ -10,8 +10,8 @@ from mdl_ynor_core import YnorSystem
 class DissipativeField:
     """
     Cadre formel des Champs Dissipatifs (Chapitre VII).
-    Modélise un ensemble de YnorSystems couplés qui échangent de l'énergie.
-    L'espace total d'état H_tot est la somme directe des espaces des sous-systèmes.
+    Modlise un ensemble de YnorSystems coupls qui changent de l'nergie.
+    L'espace total d'tat H_tot est la somme directe des espaces des sous-systmes.
     """
     
     def __init__(self, systems, coupling_matrix):
@@ -19,10 +19,10 @@ class DissipativeField:
         Initialise un champ dissipatif.
         
         Args:
-            systems (list of YnorSystem): Liste des systèmes qui composent le champ.
-            coupling_matrix (numpy.ndarray): Matrice d'interaction pondérant le couplage.
-                                             Si C[i, j] > 0, le sous-système j amplifie S_i.
-                                             Si C[i, j] < 0, le sous-système j dissipe S_i.
+            systems (list of YnorSystem): Liste des systmes qui composent le champ.
+            coupling_matrix (numpy.ndarray): Matrice d'interaction pondrant le couplage.
+                                             Si C[i, j] > 0, le sous-systme j amplifie S_i.
+                                             Si C[i, j] < 0, le sous-systme j dissipe S_i.
         """
         self.systems = systems
         self.num_systems = len(systems)
@@ -37,32 +37,32 @@ class DissipativeField:
 
     def dynamics(self, t, S_tot):
         """
-        Calcule la dynamique globale du système couplé.
-        S_tot: l'état total concaténé
+        Calcule la dynamique globale du systme coupl.
+        S_tot: l'tat total concatn
         """
-        # Extraire les sous-états
+        # Extraire les sous-tats
         coords = np.split(S_tot, np.cumsum(self.dimensions)[:-1])
         
-        # Initialiser le vecteur de dérivée total
+        # Initialiser le vecteur de drive total
         S_dot_tot = []
         
         for i, sys in enumerate(self.systems):
             S_i = coords[i]
             
-            # Dynamique locale (interne au système i)
+            # Dynamique locale (interne au systme i)
             local_dot = sys.dynamics(t, S_i)
             
             # Composante d'interaction (effet du champ)
             interaction_term = np.zeros(sys.dimension)
             for j in range(self.num_systems):
                 if i != j:
-                    # Hypothèse scalaire pour le couplage simple: 
-                    # L'impact de j sur i dépend de son état et du poids C[i,j]
+                    # Hypothse scalaire pour le couplage simple: 
+                    # L'impact de j sur i dpend de son tat et du poids C[i,j]
                     # Ici c'est un produit scalaire avec la norme de j pour simplifier la projection,
-                    # ou une homothétie si les dimensions varient. Misons sur une homothétie d'interaction :
+                    # ou une homothtie si les dimensions varient. Misons sur une homothtie d'interaction :
                     norm_j = np.sqrt(np.sum(coords[j]**2))
-                    # L'interaction est orientée vers S_i. (Couplage purement linéaire énergétique).
-                    # Une modélisation plus précise exigerait des tenseurs de projection entre les espaces H_i et H_j.
+                    # L'interaction est oriente vers S_i. (Couplage purement linaire nergtique).
+                    # Une modlisation plus prcise exigerait des tenseurs de projection entre les espaces H_i et H_j.
                     if np.sum(S_i**2) > 0:
                         direction = S_i / np.sqrt(np.sum(S_i**2))
                     else:
@@ -86,25 +86,28 @@ class DissipativeField:
 
 class CriticalNetwork:
     """
-    Cadre formel des Réseaux Critiques et de la Propagation Multi-Niveaux (Chapitre VIII).
-    Représente une hiérarchie ou un graphe orienté de systèmes dissipatifs qui peuvent propager des "mutations"
-    lorsque l'un des nœuds franchit un seuil critique local (mu < 0).
+    Cadre formel des Rseaux Critiques et de la Propagation Multi-Niveaux (Chapitre VIII).
+    Reprsente une hirarchie ou un graphe orient de systmes dissipatifs qui peuvent propager des "mutations"
+    lorsque l'un des nuds franchit un seuil critique local (mu < 0).
     """
 
     def __init__(self, dissipative_field, failure_thresholds):
         """
-        Initialise un réseau critique à partir d'un champ dissipatif.
+        Initialise un rseau critique  partir d'un champ dissipatif.
         
         Args:
-            dissipative_field (DissipativeField): Le champ de base d'oscillateurs/systèmes.
-            failure_thresholds (list): [mu_th_1, mu_th_2, ...]. Seuils en deçà desquels le nœud `i` 
-                                       délivre un "pulse d'anomalie" à ses voisins.
+            dissipative_field (DissipativeField): Le champ de base d'oscillateurs/systmes.
+            failure_thresholds (list): [mu_th_1, mu_th_2, ...]. Seuils en de desquels le nud `i` 
+                                       dlivre un "pulse d'anomalie"  ses voisins.
         """
         self.field = dissipative_field
         self.thresholds = failure_thresholds
 
     def network_dynamics_with_events(self, t, S_tot):
         """
-        Même dynamique que le champ dissipatif, mais inclut la détection d'événements critiques (mutations).
+        Mme dynamique que le champ dissipatif, mais inclut la dtection d'vnements critiques (mutations).
         """
         return self.field.dynamics(t, S_tot)
+
+
+

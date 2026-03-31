@@ -1,4 +1,4 @@
-{
+﻿{
   "stage": "step_7_master_index",
   "chiastic_axis": [
     "A",
@@ -31,9 +31,11 @@
   "node_counts": {
     "01_A_FONDATION": 2,
     "02_B_THEORIE_ET_PREUVES": 43,
+    "03_C_MOTEURS_ET_DEPLOIEMENT": 187,
+    "04_X_NOYAU_MEMOIRE": 9,
+    "05_C_PRIME_VALIDATION_ET_TESTS": 75,
     "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION": 43,
-    "07_A_PRIME_ARCHIVES_ET_RELEASES": 31,
-    "04_X_NOYAU_MEMOIRE": 8
+    "07_A_PRIME_ARCHIVES_ET_RELEASES": 31
   },
   "local_inventory_counts": {
     "03_C_MOTEURS_ET_DEPLOIEMENT": 187,
@@ -1092,97 +1094,97 @@
       "family": null
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor MATH/Chapitre I — Formalisation axiomatique minimale.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor MATH/Chapitre I - Formalisation axiomatique minimale.pdf",
       "stage": "step_5_constitution_pdf",
       "node": "02_B_THEORIE_ET_PREUVES",
       "chiastic_symbol": "B",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre I — Formalisation axiomatique minimale.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre I — Formalisation axiomatique minimale.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre I - Formalisation axiomatique minimale.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre I - Formalisation axiomatique minimale.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "mathematique"
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor MATH/Chapitre XVI — Formalisation mathématique intégrale du noyau MDL Ynor.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor MATH/Chapitre XVI - Formalisation mathematique integrale du noyau MDL Ynor.pdf",
       "stage": "step_5_constitution_pdf",
       "node": "02_B_THEORIE_ET_PREUVES",
       "chiastic_symbol": "B",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre XVI — Formalisation mathématique intégrale du noyau MDL Ynor.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre XVI — Formalisation mathématique intégrale du noyau MDL Ynor.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre XVI - Formalisation mathematique integrale du noyau MDL Ynor.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre XVI - Formalisation mathematique integrale du noyau MDL Ynor.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "mathematique"
     },
     {
-      "source": "MDL Ynor Constitution/Chapitre I — Formalisation mathématique intégrale du noyau MDL Ynor.pdf",
+      "source": "MDL Ynor Constitution/Chapitre I - Formalisation mathematique integrale du noyau MDL Ynor.pdf",
       "stage": "step_5_constitution_pdf",
       "node": "02_B_THEORIE_ET_PREUVES",
       "chiastic_symbol": "B",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/Chapitre I — Formalisation mathématique intégrale du noyau MDL Ynor.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/Chapitre I — Formalisation mathématique intégrale du noyau MDL Ynor.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/Chapitre I - Formalisation mathematique integrale du noyau MDL Ynor.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/Chapitre I - Formalisation mathematique integrale du noyau MDL Ynor.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "constitutionnel"
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor — Constitution Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor - Constitution Structurelle des Systemes Dissipatifs a Amplification Bornee.pdf",
       "stage": "step_5_constitution_pdf",
       "node": "02_B_THEORIE_ET_PREUVES",
       "chiastic_symbol": "B",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Constitution Structurelle des Systèmes Dissipatifs à Amplification Bornée.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Constitution Structurelle des Systèmes Dissipatifs à Amplification Bornée.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Constitution Structurelle des Systemes Dissipatifs a Amplification Bornee.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Constitution Structurelle des Systemes Dissipatifs a Amplification Bornee.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "constitutionnel"
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor — Théorie Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor - Theorie Structurelle des Systemes Dissipatifs a Amplification Bornee.pdf",
       "stage": "step_5_constitution_pdf",
       "node": "02_B_THEORIE_ET_PREUVES",
       "chiastic_symbol": "B",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Théorie Structurelle des Systèmes Dissipatifs à Amplification Bornée.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Théorie Structurelle des Systèmes Dissipatifs à Amplification Bornée.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Theorie Structurelle des Systemes Dissipatifs a Amplification Bornee.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Theorie Structurelle des Systemes Dissipatifs a Amplification Bornee.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "constitutionnel"
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor — Théorèmes fondamentaux de la marge dissipative.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor - Theoremes fondamentaux de la marge dissipative.pdf",
       "stage": "step_5_constitution_pdf",
       "node": "02_B_THEORIE_ET_PREUVES",
       "chiastic_symbol": "B",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Théorèmes fondamentaux de la marge dissipative.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Théorèmes fondamentaux de la marge dissipative.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Theoremes fondamentaux de la marge dissipative.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Theoremes fondamentaux de la marge dissipative.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "constitutionnel"
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor — Traité des dynamiques dissipatives et de la stabilité structurelle.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor - Traite des dynamiques dissipatives et de la stabilite structurelle.pdf",
       "stage": "step_5_constitution_pdf",
       "node": "02_B_THEORIE_ET_PREUVES",
       "chiastic_symbol": "B",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Traité des dynamiques dissipatives et de la stabilité structurelle.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Traité des dynamiques dissipatives et de la stabilité structurelle.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Traite des dynamiques dissipatives et de la stabilite structurelle.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Traite des dynamiques dissipatives et de la stabilite structurelle.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "constitutionnel"
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor Canonique_/Mdl Ynor — Version Canonique Unifiée V1.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor Canonique_/Mdl Ynor - Version Canonique Unifiee V1.pdf",
       "stage": "step_5_constitution_pdf",
       "node": "02_B_THEORIE_ET_PREUVES",
       "chiastic_symbol": "B",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor Canonique_/Mdl Ynor — Version Canonique Unifiée V1.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor Canonique_/Mdl Ynor — Version Canonique Unifiée V1.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor Canonique_/Mdl Ynor - Version Canonique Unifiee V1.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor Canonique_/Mdl Ynor - Version Canonique Unifiee V1.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "constitutionnel"
@@ -1200,289 +1202,289 @@
       "family": "corpus_formel"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Charte_Foi_Officielle.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Charte_Foi_Officielle.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Charte_Foi_Officielle.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Charte_Foi_Officielle.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Charte_Foi_Officielle.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Charte_Foi_Officielle.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "foi_et_doctrine"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "depot_et_pack"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "depot_et_pack"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "depot_et_pack"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_10_10_HISTORIQUE.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_10_10_HISTORIQUE.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_10_10_HISTORIQUE.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_10_10_HISTORIQUE.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_10_10_HISTORIQUE.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_10_10_HISTORIQUE.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "depot_et_pack"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_CONSTITUTIONNELLE_9_5.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_CONSTITUTIONNELLE_9_5.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_CONSTITUTIONNELLE_9_5.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_CONSTITUTIONNELLE_9_5.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_CONSTITUTIONNELLE_9_5.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_CONSTITUTIONNELLE_9_5.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "constitution_juridique"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "depot_et_pack"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ULTIME_9_10.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ULTIME_9_10.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ULTIME_9_10.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ULTIME_9_10.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ULTIME_9_10.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ULTIME_9_10.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "depot_et_pack"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_COMPLETE.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_COMPLETE.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_COMPLETE.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_COMPLETE.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_COMPLETE.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_COMPLETE.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "constitution_juridique"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_Officielle_Consolidee.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_Officielle_Consolidee.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_Officielle_Consolidee.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_Officielle_Consolidee.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_Officielle_Consolidee.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_Officielle_Consolidee.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "constitution_juridique"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack(1).pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack(1).pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack(1).fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack(1).fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack(1).fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack(1).fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "foi_et_doctrine"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "foi_et_doctrine"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Responsabilite_Liberte.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Responsabilite_Liberte.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Responsabilite_Liberte.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Responsabilite_Liberte.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Responsabilite_Liberte.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Responsabilite_Liberte.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "foi_et_doctrine"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Identite_Fracturee_Reconstruction.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Identite_Fracturee_Reconstruction.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Identite_Fracturee_Reconstruction.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Identite_Fracturee_Reconstruction.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Identite_Fracturee_Reconstruction.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Identite_Fracturee_Reconstruction.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "depot_et_pack"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "constitution_juridique"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE(1).pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE(1).pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE(1).fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE(1).fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE(1).fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE(1).fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "constitution_juridique"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "constitution_juridique"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_II_PDHU_MONUMENTAL_2026.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_II_PDHU_MONUMENTAL_2026.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_II_PDHU_MONUMENTAL_2026.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_II_PDHU_MONUMENTAL_2026.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_II_PDHU_MONUMENTAL_2026.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_II_PDHU_MONUMENTAL_2026.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "volume_monumental"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_III_NEURO_ARCHITECTURE_MONUMENTALE_2026.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_III_NEURO_ARCHITECTURE_MONUMENTALE_2026.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_III_NEURO_ARCHITECTURE_MONUMENTALE_2026.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_III_NEURO_ARCHITECTURE_MONUMENTALE_2026.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_III_NEURO_ARCHITECTURE_MONUMENTALE_2026.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_III_NEURO_ARCHITECTURE_MONUMENTALE_2026.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "volume_monumental"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_IV_ASIC_MONUMENTAL_2026.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_IV_ASIC_MONUMENTAL_2026.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_IV_ASIC_MONUMENTAL_2026.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_IV_ASIC_MONUMENTAL_2026.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_IV_ASIC_MONUMENTAL_2026.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_IV_ASIC_MONUMENTAL_2026.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "volume_monumental"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_V_DOCTRINE_STRATEGIQUE_CUMULATIVE_2026.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_V_DOCTRINE_STRATEGIQUE_CUMULATIVE_2026.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_V_DOCTRINE_STRATEGIQUE_CUMULATIVE_2026.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_V_DOCTRINE_STRATEGIQUE_CUMULATIVE_2026.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_V_DOCTRINE_STRATEGIQUE_CUMULATIVE_2026.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_V_DOCTRINE_STRATEGIQUE_CUMULATIVE_2026.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "volume_monumental"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_VI_PROTECTION_ANNEXES_MONUMENTALE_2026.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_VI_PROTECTION_ANNEXES_MONUMENTALE_2026.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_VI_PROTECTION_ANNEXES_MONUMENTALE_2026.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_VI_PROTECTION_ANNEXES_MONUMENTALE_2026.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_VI_PROTECTION_ANNEXES_MONUMENTALE_2026.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_VI_PROTECTION_ANNEXES_MONUMENTALE_2026.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "volume_monumental"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Prospectus_v7_1.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Prospectus_v7_1.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Prospectus_v7_1.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Prospectus_v7_1.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Prospectus_v7_1.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Prospectus_v7_1.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "prospectus"
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/Prospectus-Evaluation-MDL.docx.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/Prospectus-Evaluation-MDL.docx.pdf",
       "stage": "step_6_legal_pdf",
       "node": "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION",
       "chiastic_symbol": "B'",
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/Prospectus-Evaluation-MDL.docx.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/Prospectus-Evaluation-MDL.docx.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/Prospectus-Evaluation-MDL.docx.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/Prospectus-Evaluation-MDL.docx.fractale_compagnon.pdf"
       ],
       "mode": null,
       "family": "prospectus"
@@ -1490,7 +1492,7 @@
   ],
   "source_correspondence": [
     {
-      "source": "MDL Ynor Constitution/Chapitre I — Formalisation mathématique intégrale du noyau MDL Ynor.pdf",
+      "source": "MDL Ynor Constitution/Chapitre I - Formalisation mathematique integrale du noyau MDL Ynor.pdf",
       "stages": [
         "step_5_constitution_pdf"
       ],
@@ -1498,12 +1500,12 @@
         "02_B_THEORIE_ET_PREUVES"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/Chapitre I — Formalisation mathématique intégrale du noyau MDL Ynor.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/Chapitre I — Formalisation mathématique intégrale du noyau MDL Ynor.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/Chapitre I - Formalisation mathematique integrale du noyau MDL Ynor.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/Chapitre I - Formalisation mathematique integrale du noyau MDL Ynor.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor Canonique_/Mdl Ynor — Version Canonique Unifiée V1.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor Canonique_/Mdl Ynor - Version Canonique Unifiee V1.pdf",
       "stages": [
         "step_5_constitution_pdf"
       ],
@@ -1511,12 +1513,12 @@
         "02_B_THEORIE_ET_PREUVES"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor Canonique_/Mdl Ynor — Version Canonique Unifiée V1.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor Canonique_/Mdl Ynor — Version Canonique Unifiée V1.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor Canonique_/Mdl Ynor - Version Canonique Unifiee V1.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor Canonique_/Mdl Ynor - Version Canonique Unifiee V1.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor MATH/Chapitre I — Formalisation axiomatique minimale.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor MATH/Chapitre I - Formalisation axiomatique minimale.pdf",
       "stages": [
         "step_5_constitution_pdf"
       ],
@@ -1524,12 +1526,12 @@
         "02_B_THEORIE_ET_PREUVES"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre I — Formalisation axiomatique minimale.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre I — Formalisation axiomatique minimale.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre I - Formalisation axiomatique minimale.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre I - Formalisation axiomatique minimale.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor MATH/Chapitre XVI — Formalisation mathématique intégrale du noyau MDL Ynor.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor MATH/Chapitre XVI - Formalisation mathematique integrale du noyau MDL Ynor.pdf",
       "stages": [
         "step_5_constitution_pdf"
       ],
@@ -1537,12 +1539,12 @@
         "02_B_THEORIE_ET_PREUVES"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre XVI — Formalisation mathématique intégrale du noyau MDL Ynor.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre XVI — Formalisation mathématique intégrale du noyau MDL Ynor.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre XVI - Formalisation mathematique integrale du noyau MDL Ynor.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor MATH/Chapitre XVI - Formalisation mathematique integrale du noyau MDL Ynor.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor — Constitution Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor - Constitution Structurelle des Systemes Dissipatifs a Amplification Bornee.pdf",
       "stages": [
         "step_5_constitution_pdf"
       ],
@@ -1550,12 +1552,12 @@
         "02_B_THEORIE_ET_PREUVES"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Constitution Structurelle des Systèmes Dissipatifs à Amplification Bornée.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Constitution Structurelle des Systèmes Dissipatifs à Amplification Bornée.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Constitution Structurelle des Systemes Dissipatifs a Amplification Bornee.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Constitution Structurelle des Systemes Dissipatifs a Amplification Bornee.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor — Théorie Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor - Theorie Structurelle des Systemes Dissipatifs a Amplification Bornee.pdf",
       "stages": [
         "step_5_constitution_pdf"
       ],
@@ -1563,12 +1565,12 @@
         "02_B_THEORIE_ET_PREUVES"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Théorie Structurelle des Systèmes Dissipatifs à Amplification Bornée.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Théorie Structurelle des Systèmes Dissipatifs à Amplification Bornée.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Theorie Structurelle des Systemes Dissipatifs a Amplification Bornee.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Theorie Structurelle des Systemes Dissipatifs a Amplification Bornee.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor — Théorèmes fondamentaux de la marge dissipative.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor - Theoremes fondamentaux de la marge dissipative.pdf",
       "stages": [
         "step_5_constitution_pdf"
       ],
@@ -1576,12 +1578,12 @@
         "02_B_THEORIE_ET_PREUVES"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Théorèmes fondamentaux de la marge dissipative.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Théorèmes fondamentaux de la marge dissipative.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Theoremes fondamentaux de la marge dissipative.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Theoremes fondamentaux de la marge dissipative.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL Ynor — Traité des dynamiques dissipatives et de la stabilité structurelle.pdf",
+      "source": "MDL Ynor Constitution/MDL Ynor - Traite des dynamiques dissipatives et de la stabilite structurelle.pdf",
       "stages": [
         "step_5_constitution_pdf"
       ],
@@ -1589,12 +1591,12 @@
         "02_B_THEORIE_ET_PREUVES"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Traité des dynamiques dissipatives et de la stabilité structurelle.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor — Traité des dynamiques dissipatives et de la stabilité structurelle.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Traite des dynamiques dissipatives et de la stabilite structurelle.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/09_PDF_CONSTITUTION_MATH_AUGMENTES/MDL Ynor Constitution/MDL Ynor - Traite des dynamiques dissipatives et de la stabilite structurelle.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Charte_Foi_Officielle.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Charte_Foi_Officielle.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1602,12 +1604,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Charte_Foi_Officielle.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Charte_Foi_Officielle.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Charte_Foi_Officielle.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Charte_Foi_Officielle.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1615,12 +1617,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1628,12 +1630,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1641,12 +1643,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_10_10_HISTORIQUE.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_10_10_HISTORIQUE.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1654,12 +1656,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_10_10_HISTORIQUE.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_10_10_HISTORIQUE.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_10_10_HISTORIQUE.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_10_10_HISTORIQUE.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_CONSTITUTIONNELLE_9_5.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_CONSTITUTIONNELLE_9_5.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1667,12 +1669,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_CONSTITUTIONNELLE_9_5.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_CONSTITUTIONNELLE_9_5.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_CONSTITUTIONNELLE_9_5.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_CONSTITUTIONNELLE_9_5.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1680,12 +1682,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ULTIME_9_10.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ULTIME_9_10.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1693,12 +1695,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ULTIME_9_10.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ULTIME_9_10.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ULTIME_9_10.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/Corpus_MDL_Depot_2026_VERSION_ULTIME_9_10.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_COMPLETE.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_COMPLETE.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1706,12 +1708,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_COMPLETE.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_COMPLETE.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_COMPLETE.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_COMPLETE.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_Officielle_Consolidee.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_Officielle_Consolidee.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1719,12 +1721,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_Officielle_Consolidee.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_Officielle_Consolidee.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_Officielle_Consolidee.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Constitution_v3.0_Officielle_Consolidee.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack(1).pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack(1).pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1732,12 +1734,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack(1).fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack(1).fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack(1).fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack(1).fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1745,12 +1747,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Integration_Comprehensive_Pack.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Responsabilite_Liberte.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Responsabilite_Liberte.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1758,12 +1760,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Responsabilite_Liberte.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Responsabilite_Liberte.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Responsabilite_Liberte.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Foi_Responsabilite_Liberte.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Identite_Fracturee_Reconstruction.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Identite_Fracturee_Reconstruction.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1771,12 +1773,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Identite_Fracturee_Reconstruction.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_Identite_Fracturee_Reconstruction.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Identite_Fracturee_Reconstruction.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_Identite_Fracturee_Reconstruction.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_III_NEURO_ARCHITECTURE_MONUMENTALE_2026.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_III_NEURO_ARCHITECTURE_MONUMENTALE_2026.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1784,12 +1786,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_III_NEURO_ARCHITECTURE_MONUMENTALE_2026.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_III_NEURO_ARCHITECTURE_MONUMENTALE_2026.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_III_NEURO_ARCHITECTURE_MONUMENTALE_2026.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_III_NEURO_ARCHITECTURE_MONUMENTALE_2026.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_II_PDHU_MONUMENTAL_2026.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_II_PDHU_MONUMENTAL_2026.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1797,12 +1799,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_II_PDHU_MONUMENTAL_2026.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_II_PDHU_MONUMENTAL_2026.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_II_PDHU_MONUMENTAL_2026.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_II_PDHU_MONUMENTAL_2026.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_IV_ASIC_MONUMENTAL_2026.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_IV_ASIC_MONUMENTAL_2026.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1810,12 +1812,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_IV_ASIC_MONUMENTAL_2026.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_IV_ASIC_MONUMENTAL_2026.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_IV_ASIC_MONUMENTAL_2026.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_IV_ASIC_MONUMENTAL_2026.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1823,12 +1825,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE(1).pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE(1).pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1836,12 +1838,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE(1).fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE(1).fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE(1).fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE(1).fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1849,12 +1851,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE_ETENDUE.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_VI_PROTECTION_ANNEXES_MONUMENTALE_2026.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_VI_PROTECTION_ANNEXES_MONUMENTALE_2026.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1862,12 +1864,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_VI_PROTECTION_ANNEXES_MONUMENTALE_2026.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_VI_PROTECTION_ANNEXES_MONUMENTALE_2026.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_VI_PROTECTION_ANNEXES_MONUMENTALE_2026.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_VI_PROTECTION_ANNEXES_MONUMENTALE_2026.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_V_DOCTRINE_STRATEGIQUE_CUMULATIVE_2026.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_V_DOCTRINE_STRATEGIQUE_CUMULATIVE_2026.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1875,12 +1877,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_V_DOCTRINE_STRATEGIQUE_CUMULATIVE_2026.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_V_DOCTRINE_STRATEGIQUE_CUMULATIVE_2026.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_V_DOCTRINE_STRATEGIQUE_CUMULATIVE_2026.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Legal_Pack/MDL_VOLUME_V_DOCTRINE_STRATEGIQUE_CUMULATIVE_2026.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Prospectus_v7_1.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Prospectus_v7_1.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1888,12 +1890,12 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Prospectus_v7_1.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/MDL_Prospectus_v7_1.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Prospectus_v7_1.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/MDL_Prospectus_v7_1.fractale_compagnon.pdf"
       ]
     },
     {
-      "source": "MDL Ynor Constitution/MDL — Argent & Juridique/Prospectus-Evaluation-MDL.docx.pdf",
+      "source": "MDL Ynor Constitution/MDL - Argent & Juridique/Prospectus-Evaluation-MDL.docx.pdf",
       "stages": [
         "step_6_legal_pdf"
       ],
@@ -1901,8 +1903,8 @@
         "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION"
       ],
       "outputs": [
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/Prospectus-Evaluation-MDL.docx.fractale.md",
-        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL — Argent & Juridique/Prospectus-Evaluation-MDL.docx.fractale_compagnon.pdf"
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/Prospectus-Evaluation-MDL.docx.fractale.md",
+        "FRACTAL_CHIASTE_UNIVERSEL/06_B_PRIME_GOUVERNANCE_ET_DIFFUSION/07_PDF_JURIDIQUE_ADMIN_AUGMENTES/MDL Ynor Constitution/MDL - Argent & Juridique/Prospectus-Evaluation-MDL.docx.fractale_compagnon.pdf"
       ]
     },
     {
@@ -2615,6 +2617,18 @@
       ]
     },
     {
+      "source": "04_X_NOYAU_MEMOIRE/README.md",
+      "stages": [
+        "step_1_curated_text"
+      ],
+      "nodes": [
+        "04_X_NOYAU_MEMOIRE"
+      ],
+      "outputs": [
+        "FRACTAL_CHIASTE_UNIVERSEL/04_X_NOYAU_MEMOIRE/04_INDEX/README_NOYAU_MEMOIRE.md"
+      ]
+    },
+    {
       "source": "README.md",
       "stages": [
         "step_1_curated_text"
@@ -2956,3 +2970,4 @@
     }
   ]
 }
+

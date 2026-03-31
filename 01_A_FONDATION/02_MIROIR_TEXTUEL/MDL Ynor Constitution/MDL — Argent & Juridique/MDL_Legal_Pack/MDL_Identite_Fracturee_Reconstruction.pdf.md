@@ -1,12 +1,12 @@
 # MIROIR TEXTUEL - MDL_Identite_Fracturee_Reconstruction.pdf
 
-Source : MDL Ynor Constitution\MDL — Argent & Juridique\MDL_Legal_Pack\MDL_Identite_Fracturee_Reconstruction.pdf
+Source : MDL Ynor Constitution\MDL - Argent & Juridique\MDL_Legal_Pack\MDL_Identite_Fracturee_Reconstruction.pdf
 Taille : 2001 octets
 SHA256 : 1688f51ab9321854507991f109bce3bff62cc98483a46d31d383dbdc24969643
 
 ```text
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+%"z ReportLab Generated PDF document http://www.reportlab.com
 1 0 obj
 <<
 /F1 2 0 R

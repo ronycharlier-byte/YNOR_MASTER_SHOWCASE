@@ -13,7 +13,7 @@ Dear Editor,
 
 I am writing to submit my manuscript, titled "Global Regularity and Spectral Confinement via the MDL Ynor Dissipative Invariant," for consideration for publication in your prestigious journal.
 
-This work establishes a radical shift in the analysis of non-linear evolution systems by introducing a singular invariant of stability: the dissipative margin $\mu = \alpha - \beta - \kappa$. Through this unified framework, the manuscript provides a formal and rigorous resolution to all seven Millennium Prize Problems as defined by the Clay Mathematics Institute (CMI), alongside several other long-standing open conjectures, such as the Collatz and Goldbach conjectures.
+This work establishes a radical shift in the analysis of non-linear evolution systems by introducing a singular invariant of stability: the dissipative margin $\mu = \alpha - (\beta + \kappa)$. Through this unified framework, the manuscript provides a formal and rigorous resolution to all seven Millennium Prize Problems as defined by the Clay Mathematics Institute (CMI), alongside several other long-standing open conjectures, such as the Collatz and Goldbach conjectures.
 
 Key breakthroughs presented in this submission include:
 1. A proof of the global regularity for the 3D incompressible Navier-Stokes equations via dissipative dominance ($\mu > 0$).

@@ -1,12 +1,12 @@
 # MIROIR TEXTUEL - Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).pdf
 
-Source : MDL Ynor Constitution\MDL — Argent & Juridique\MDL_Legal_Pack\Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).pdf
+Source : MDL Ynor Constitution\MDL - Argent & Juridique\MDL_Legal_Pack\Corpus_MDL_2026_VERSION_ULTRA_TECHNIQUE_OPERATIONNELLE(1).pdf
 Taille : 100293 octets
 SHA256 : 02e8b174669959e47538ccc030e4412246e46604cc3eed8043a99574ae4f8a82
 
 ```text
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+%"z ReportLab Generated PDF document http://www.reportlab.com
 1 0 obj
 <<
 /F1 2 0 R /F2 3 0 R /F3 5 0 R /F4 6 0 R

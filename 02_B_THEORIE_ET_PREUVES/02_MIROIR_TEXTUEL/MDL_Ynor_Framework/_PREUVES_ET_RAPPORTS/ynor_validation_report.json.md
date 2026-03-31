@@ -11,7 +11,7 @@ SHA256 : b09772fbd308143b2f60693d35c3ed6bbe8b11e2fa0f0b7b06594c551e58f37d
     "falsifiability_status": "PASS",
     "empirical_accuracy_percent": 100.0,
     "total_samples": 200,
-    "hypothesis": "H0: System is stable iff mu = alpha - beta - kappa > 0",
+    "hypothesis": "H0: System is stable iff mu = alpha - (beta + kappa) > 0",
     "conclusion": "L'Architecture MDL Ynor est valid\u00e9e empiriquement avec 100.0% de precision."
 }
 ```

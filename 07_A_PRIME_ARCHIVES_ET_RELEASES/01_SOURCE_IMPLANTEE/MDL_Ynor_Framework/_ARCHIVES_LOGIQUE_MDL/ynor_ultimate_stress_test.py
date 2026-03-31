@@ -26,7 +26,7 @@ class UltimateStressTest:
         self.benchmark_results = []
 
     def inject_global_shock(self):
-        print("\n[!!!] CHOC GLOBAL DÉTECTÉ : Injection d'Incohérence Structurelle...")
+        print("\n[!!!] CHOC GLOBAL DTECT : Injection d'Incohrence Structurelle...")
         for name in self.states.keys():
             self.states[name] = self.states[name] * 50.0 # Multiplicateur de choc x50
 
@@ -42,7 +42,7 @@ class UltimateStressTest:
         for step in range(steps):
             print(f"-- Cycle t={t:.1f} --")
             
-            # Injection du choc à t=1.0
+            # Injection du choc  t=1.0
             if step == 5:
                 self.inject_global_shock()
 
@@ -53,14 +53,14 @@ class UltimateStressTest:
                 if mu <= 0.0:
                     print(f"   [CRISE] Noeud {name} (mu={mu:.2f})")
                     
-                    # MESURE DU BENCHMARK (TEMPS DE RÉPONSE)
+                    # MESURE DU BENCHMARK (TEMPS DE RPONSE)
                     start_time = time.time()
                     strategy = get_ai_reconstruction_strategy(mu, self.states[name].tolist())
                     latency = (time.time() - start_time) * 1000 # en ms
                     
                     r = strategy["mutation_rate"]
                     
-                    # Mise à jour du nœud
+                    # Mise  jour du nud
                     old_D = sys.D
                     sys.D = lambda S, D_old=old_D, rate=r: (1.0 + rate) * D_old(S)
                     
@@ -73,7 +73,7 @@ class UltimateStressTest:
                         "latency_ms": latency,
                         "ai_explanation": strategy.get("explanation", "No explanation")
                     })
-                    print(f"   [IA] Noeud {name} stabilisé. Latence IA : {latency:.0f}ms")
+                    print(f"   [IA] Noeud {name} stabilis. Latence IA : {latency:.0f}ms")
 
             # Dynamique simple
             for name, sys in self.nodes.items():
@@ -99,12 +99,15 @@ class UltimateStressTest:
             json.dump(final_report, f, indent=4)
             
         print("\n" + "="*50)
-        print("   BENCHMARK OPENIA TERMINÉ")
+        print("   BENCHMARK OPENIA TERMIN")
         print("="*50)
         print(f"Latence moyenne de l'IA Gouverneur : {avg_latency:.0f} ms")
-        print(f"Nombre total d'interventions réussies : {total_mutations}")
-        print("[OK] Rapport complet sauvegardé : mdl_openai_stress_benchmark.json")
+        print(f"Nombre total d'interventions russies : {total_mutations}")
+        print("[OK] Rapport complet sauvegard : mdl_openai_stress_benchmark.json")
 
 if __name__ == "__main__":
     stress = UltimateStressTest()
     stress.run()
+
+
+

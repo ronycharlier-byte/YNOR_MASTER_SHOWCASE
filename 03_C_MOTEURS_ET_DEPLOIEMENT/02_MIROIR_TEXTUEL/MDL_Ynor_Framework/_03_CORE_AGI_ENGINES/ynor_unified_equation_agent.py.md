@@ -124,7 +124,7 @@ class YnorUnifiedAgent:
         D = self.dissipation.apply(intensity)
         
         # === ÉQUATION PIVOT DE SURVIE ===
-        # mu = alpha - beta - kappa
+        # mu = alpha - (beta + kappa)
         mu = alpha.item() - beta - kappa
         
         # 6. MULTI-AGENT / ENVIRONNEMENT (w)
@@ -145,7 +145,7 @@ class YnorUnifiedAgent:
 
 def run_unified_equation():
     print(">>> DÉMARRAGE DE L'ÉQUATION AGI UNIFIÉE : S_dot = E(S) - D(S) + M(S,t) + w(t) <<<")
-    print(">>> CONTRAINTE DE SURVIE ABSOLUE : mu = alpha - beta - kappa > 0 <<<\n")
+    print(">>> CONTRAINTE DE SURVIE ABSOLUE : mu = alpha - (beta + kappa) > 0 <<<\n")
     agent = YnorUnifiedAgent()
     
     for t in range(1, 21):

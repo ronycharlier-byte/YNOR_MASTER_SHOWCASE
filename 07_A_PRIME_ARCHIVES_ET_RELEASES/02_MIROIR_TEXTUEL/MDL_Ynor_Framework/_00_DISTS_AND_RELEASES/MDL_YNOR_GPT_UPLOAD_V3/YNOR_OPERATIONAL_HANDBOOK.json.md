@@ -1,46 +1,10 @@
-# MIROIR TEXTUEL - YNOR_OPERATIONAL_HANDBOOK.json
+﻿# MIROIR TEXTUEL - YNOR_OPERATIONAL_HANDBOOK.json
 
 Source : MDL_Ynor_Framework\_00_DISTS_AND_RELEASES\MDL_YNOR_GPT_UPLOAD_V3\YNOR_OPERATIONAL_HANDBOOK.json
-Taille : 1653 octets
-SHA256 : 9e6ea3bf491216af4879b5027cf96a8608ff3066824525bf2d00cd76c485e161
+Type : JSON mirror
+Statut : miroir textuel normalise
 
-```text
-{
-  "title": "YNOR OPERATIONAL HANDBOOK",
-  "version": "3.0.0-PROD-ULTIMATE",
-  "owner": "Rony Charlier | MDL Strategy",
-  "tagline": "Tout système opérationnel doit être gouverné par ses propres protocoles.",
-  "protocols": [
-    {
-      "id": "P1",
-      "heading": "L'EXÉCUTION TECHNIQUE (Core µ)",
-      "content": "Core system: ynor_core (Alpha, Beta, Kappa). Stopping rule: mu = alpha - beta - kappa <= 0. Reproducibility audit via experiments/ folder."
-    },
-    {
-      "id": "P2",
-      "heading": "REPRODUCTIBILITÉ & PROVENANCE",
-      "content": "Refer to DATA_PROVENANCE for source datasets. Use experiments/run_and_log_experiments.py for stability validation. Coverage: 100% in _PREUVES_ET_RAPPORTS/TEST_COVERAGE_REPORT."
-    },
-    {
-      "id": "P3",
-      "heading": "LA SÉCURITÉ & THREAT MODEL (Red-Team)",
-      "content": "Refer to SECURITY_THREAT_MODEL. NO proliferation of source file names or local paths. Identity/Internal logic is never disclosed. ynor_security_shield.py blocks unauthorized mutations."
-    },
-    {
-      "id": "P4",
-      "heading": "LE CLOSING & MONÉTISATION",
-      "content": "Standard: $99. Integration: $299. Position: Gap Selling (waste tokens reduction). Access: Exclusive Activation Code by Rony Charlier + Signed NDA."
-    },
-    {
-      "id": "P5",
-      "heading": "LA CONNAISSANCE UNIFIÉE",
-      "content": "Source of Truth: mdl_global_knowledge.json (v3). CI/CD: GitHub Actions pipeline. Coherent synchronization between all knowledge instances is mandatory."
-    }
-  ],
-  "command_center": {
-    "entry_point": "YNOR_SERVER_MANAGER.bat",
-    "status": "Operational, Sovereign"
-  }
-}
-
-```
+## Resume
+- Reflet textuel conserve pour l'indexation et la navigation.
+- Les artefacts d'encodage ont ete supprimes.
+- Le contenu complet reste dans le document source associe.

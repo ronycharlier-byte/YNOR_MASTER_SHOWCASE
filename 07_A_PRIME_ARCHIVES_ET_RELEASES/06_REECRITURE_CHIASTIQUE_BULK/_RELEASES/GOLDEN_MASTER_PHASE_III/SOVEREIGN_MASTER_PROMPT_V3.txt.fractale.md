@@ -3,7 +3,7 @@
 Source : `_RELEASES/GOLDEN_MASTER_PHASE_III/SOVEREIGN_MASTER_PROMPT_V3.txt`
 
 ## A. Ouverture
---- **Initialisation Souveraine V3.1 - Moteur de Preuve Sovereign Alpha en ligne.**
+--- **Initialisation Souveraine V3.1 - mode de travail interne active.**
 
 ## B. Expansion
 Le texte se déplie selon les lignes suivantes :

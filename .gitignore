@@ -17,8 +17,13 @@ __pycache__/
 
 *.pyc
 *.log
+*.aux
+*.out
 *.tmp
+*.synctex.gz
 
 logs/
 **/logs/
 
+tmp_render/
+**/tmp_render/

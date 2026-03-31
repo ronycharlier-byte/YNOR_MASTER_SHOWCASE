@@ -10,21 +10,21 @@ from mdl_ynor_core import YnorSystem, check_viability_regime
 
 def monitor_system():
     print("=====================================================")
-    print("   MONITEUR EN TEMPS RÉEL : MDL YNOR ARCHITECTURE")
+    print("   MONITEUR EN TEMPS REL : MDL YNOR ARCHITECTURE")
     print("=====================================================\n")
 
-    # Configuration du système (similaire à demo_ynor.py)
+    # Configuration du systme (similaire  demo_ynor.py)
     dim = 2
     E = lambda S: 1.5 * S  # Forte amplification
     D = lambda S: 0.5 * S  # Faible dissipation
-    S = np.array([2.0, 2.0]) # État de départ normal
+    S = np.array([2.0, 2.0]) # tat de dpart normal
     
     sys = YnorSystem(dim, E, D)
     
     dt = 0.5  # Intervalle de lecture
     t = 0.0
     
-    print(f"{'Temps':<10} | {'Mu (μ)':<10} | {'Régime':<10} | {'Statut'}")
+    print(f"{'Temps':<10} | {'Mu ()':<10} | {'Rgime':<10} | {'Statut'}")
     print("-" * 50)
 
     try:
@@ -38,13 +38,13 @@ def monitor_system():
             
             if mu <= 0.01:
                 trigger_emergency_alert(t, S, mu)
-                break # On arrête pour réparation
+                break # On arrte pour rparation
                 
-            # Faire évoluer le système (Euler simple pour la démo de monitoring)
+            # Faire voluer le systme (Euler simple pour la dmo de monitoring)
             S_dot = sys.dynamics(t, S)
             S = S + S_dot * dt
             t += dt
-            time.sleep(0.2) # Ralentir pour l'aspect "temps réel"
+            time.sleep(0.2) # Ralentir pour l'aspect "temps rel"
 
     except KeyboardInterrupt:
         print("\nSurveillance interrompue par l'utilisateur.")
@@ -59,17 +59,20 @@ def trigger_emergency_alert(t, S, mu):
         "time": t,
         "mu": float(mu),
         "state": S.tolist(),
-        "recommendation": "Requérir une mutation immédiate de l'opérateur D."
+        "recommendation": "Requrir une mutation immdiate de l'oprateur D."
     }
     
     # Sauvegarde du rapport de crise
     with open("ynor_crisis_log.json", "w") as f:
         json.dump(crisis_report, f, indent=4)
         
-    print(f"\n[URGENT] Le système a franchi le seuil critique à t={t:.1f}")
-    print(f"Copiez ce JSON dans ChatGPT pour une stratégie de reconstruction :")
+    print(f"\n[URGENT] Le systme a franchi le seuil critique  t={t:.1f}")
+    print(f"Copiez ce JSON dans ChatGPT pour une stratgie de reconstruction :")
     print(f"```json\n{json.dumps(crisis_report, indent=2)}\n```")
     print("\n" + "#" * 50)
 
 if __name__ == "__main__":
     monitor_system()
+
+
+

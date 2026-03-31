@@ -14,7 +14,7 @@ SHA256 : acd35b0289cb122a068711a44693ab7892fa3a124efac58c239ff8b38a7c72f6
     "mirror": "A_PRIME",
     "summary": "Le point d'entree du systeme. Les axiomes minimaux ouvrent la forme fractale.",
     "sources": [
-      "Chapitre I — Formalisation axiomatique minimale.pdf"
+      "Chapitre I - Formalisation axiomatique minimale.pdf"
     ]
   },
   {
@@ -25,7 +25,7 @@ SHA256 : acd35b0289cb122a068711a44693ab7892fa3a124efac58c239ff8b38a7c72f6
     "mirror": "B_PRIME",
     "summary": "Le premier developpement porte la marge dissipative comme loi de propagation.",
     "sources": [
-      "MDL Ynor — Théorèmes fondamentaux de la marge dissipative.pdf"
+      "MDL Ynor - Theoremes fondamentaux de la marge dissipative.pdf"
     ]
   },
   {
@@ -36,7 +36,7 @@ SHA256 : acd35b0289cb122a068711a44693ab7892fa3a124efac58c239ff8b38a7c72f6
     "mirror": "C_PRIME",
     "summary": "La theorie structurelle prepare le renversement chiastique vers le noyau.",
     "sources": [
-      "MDL Ynor — Théorie Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf"
+      "MDL Ynor - Theorie Structurelle des Systemes Dissipatifs a Amplification Bornee.pdf"
     ]
   },
   {
@@ -47,8 +47,8 @@ SHA256 : acd35b0289cb122a068711a44693ab7892fa3a124efac58c239ff8b38a7c72f6
     "mirror": "X",
     "summary": "Le centre integre les formulations mathematiques du noyau. Tout converge ici puis repart en reflet.",
     "sources": [
-      "Chapitre XVI — Formalisation mathématique intégrale du noyau MDL Ynor.pdf",
-      "Chapitre I — Formalisation mathématique intégrale du noyau MDL Ynor.pdf"
+      "Chapitre XVI - Formalisation mathematique integrale du noyau MDL Ynor.pdf",
+      "Chapitre I - Formalisation mathematique integrale du noyau MDL Ynor.pdf"
     ]
   },
   {
@@ -59,7 +59,7 @@ SHA256 : acd35b0289cb122a068711a44693ab7892fa3a124efac58c239ff8b38a7c72f6
     "mirror": "C",
     "summary": "La constitution structurelle rejoue la theorie en forme inverse et plus normative.",
     "sources": [
-      "MDL Ynor — Constitution Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf"
+      "MDL Ynor - Constitution Structurelle des Systemes Dissipatifs a Amplification Bornee.pdf"
     ]
   },
   {
@@ -70,7 +70,7 @@ SHA256 : acd35b0289cb122a068711a44693ab7892fa3a124efac58c239ff8b38a7c72f6
     "mirror": "B",
     "summary": "Le traite reprend la dynamique au retour du centre et ferme l'enveloppe theorique.",
     "sources": [
-      "MDL Ynor — Traité des dynamiques dissipatives et de la stabilité structurelle.pdf"
+      "MDL Ynor - Traite des dynamiques dissipatives et de la stabilite structurelle.pdf"
     ]
   },
   {

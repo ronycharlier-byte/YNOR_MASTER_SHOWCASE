@@ -25,7 +25,7 @@ Without a stopping criterion, agents:
 ## 🧠 The Ynor Insight
 We don’t use heuristics to stop AI. We use a single, universal viability equation derived from dissipative systems:
 
-### $$ \mu = \alpha - \beta - \kappa $$
+### $$ \mu = \alpha - (\beta + \kappa) $$
 
 - **$ \alpha $ (Alpha)**: Real informational gain / Useful logic.
 - **$ \beta $ (Beta)**: Generation cost / Token count.

@@ -7,11 +7,11 @@ import numpy as np
 import time
 import json
 from mdl_ynor_core import YnorSystem, check_viability_regime
-from ynor_ai_governor import client # On réutilise le client OpenAI configuré
+from ynor_ai_governor import client # On rutilise le client OpenAI configur
 
 class MetacognitiveGovernor:
     """
-    Couche de Métacognition MDL Ynor : Surveille et évalue l'efficacité de l'IA Gouverneur.
+    Couche de Mtacognition MDL Ynor : Surveille et value l'efficacit de l'IA Gouverneur.
     """
     def __init__(self):
         self.intervention_history = []
@@ -20,38 +20,38 @@ class MetacognitiveGovernor:
 
     def evaluate_intervention(self, current_t, current_mu):
         """
-        Analyse si la précédente mutation a été efficace.
-        Si une nouvelle crise survient moins de 2 unités de temps après la dernière, 
-        on considère que l'IA a fait une erreur de jugement.
+        Analyse si la prcdente mutation a t efficace.
+        Si une nouvelle crise survient moins de 2 units de temps aprs la dernire, 
+        on considre que l'IA a fait une erreur de jugement.
         """
         if self.last_mutation_time > 0 and (current_t - self.last_mutation_time) < 2.0:
             if current_mu <= 0.0:
-                print("\n[METACOGNITION] DÉTECTION D'ÉCHEC RÉCURSANT. L'IA a sous-estimé la crise.")
+                print("\n[METACOGNITION] DTECTION D'CHEC RCURSANT. L'IA a sous-estim la crise.")
                 self.failure_counter += 1
-                return True # Besoin d'une réflexion critique
+                return True # Besoin d'une rflexion critique
         return False
 
     def critical_reflection(self, mu, state, history):
         """
-        Appel de réflexion métacognitive à OpenAI.
-        L'IA doit analyser ses propres erreurs passées.
+        Appel de rflexion mtacognitive  OpenAI.
+        L'IA doit analyser ses propres erreurs passes.
         """
-        print("\n[METACOGNITION] Phase de Réflexion Critique en cours...")
+        print("\n[METACOGNITION] Phase de Rflexion Critique en cours...")
         
-        history_str = json.dumps(history[-3:]) # On donne les 3 dernières interventions
+        history_str = json.dumps(history[-3:]) # On donne les 3 dernires interventions
         
         prompt = f"""
-        [DIRECTIVE METACOGNITIVE : ANALYSE D'ÉCHEC]
-        Vous êtes le gouverneur d'un système MDL Ynor qui vient de RECHUTER.
-        État actuel mu : {mu}. Évolution S : {state}.
-        Historique de vos dernières décisions : {history_str}.
+        [DIRECTIVE METACOGNITIVE : ANALYSE D'CHEC]
+        Vous tes le gouverneur d'un systme MDL Ynor qui vient de RECHUTER.
+        tat actuel mu : {mu}. volution S : {state}.
+        Historique de vos dernires dcisions : {history_str}.
         
         VOTRE MISSION : 
-        1. Analysez pourquoi vos précédentes mutations ont été insuffisantes.
+        1. Analysez pourquoi vos prcdentes mutations ont t insuffisantes.
         2. Proposez une mutation PIVOT (changement de logique Drastique).
-        3. Augmentez la sévérité de 300%.
+        3. Augmentez la svrit de 300%.
         
-        RÉPONSE JSON : {{ "new_mutation_rate": float, "analysis": "string" }}
+        RPONSE JSON : {{ "new_mutation_rate": float, "analysis": "string" }}
         """
 
         try:
@@ -67,10 +67,10 @@ class MetacognitiveGovernor:
 
 def run_metacognitive_simulation():
     print("=====================================================")
-    print("   SIMULATION AVEC COUCHE DE MÉTACOGNITION (OVERLAY)")
+    print("   SIMULATION AVEC COUCHE DE MTACOGNITION (OVERLAY)")
     print("=====================================================\n")
 
-    # Système très instable et résistant (Inertie forte)
+    # Systme trs instable et rsistant (Inertie forte)
     sys = YnorSystem(2, lambda S: 2.0 * S, lambda S: 0.5 * S)
     meta = MetacognitiveGovernor()
     
@@ -84,17 +84,17 @@ def run_metacognitive_simulation():
         
         print(f"t={t:<4.1f} | mu={mu:<5.2f} | {regime:<10}")
 
-        # La Métacognition surveille le système
+        # La Mtacognition surveille le systme
         needs_reflection = meta.evaluate_intervention(t, mu)
 
         if mu <= 0.0:
             if needs_reflection:
-                # ÉCHEC DÉTECTÉ : On demande à l'IA de réfléchir
+                # CHEC DTECT : On demande  l'IA de rflchir
                 decision = meta.critical_reflection(mu, S.tolist(), meta.intervention_history)
                 r = decision["new_mutation_rate"]
                 print(f"[META-ANALYSE] : {decision['analysis']}")
             else:
-                # Première crise ou crise espacée : On demande une mutation standard
+                # Premire crise ou crise espace : On demande une mutation standard
                 from ynor_ai_governor import get_ai_reconstruction_strategy
                 print("[IA] Demande de mutation standard...")
                 strategy = get_ai_reconstruction_strategy(mu, S.tolist())
@@ -107,7 +107,7 @@ def run_metacognitive_simulation():
             # Logger l'intervention
             meta.intervention_history.append({"t": t, "mu_at_t": mu, "rate_applied": r})
             meta.last_mutation_time = t
-            print(f"[SYSTÈME RECONSTRUIT] Taux: +{r*100}% | Prochaine vérification métacognitive activée.\n")
+            print(f"[SYSTME RECONSTRUIT] Taux: +{r*100}% | Prochaine vrification mtacognitive active.\n")
 
         # Dynamique
         S = S + sys.dynamics(t, S) * dt
@@ -116,3 +116,6 @@ def run_metacognitive_simulation():
 
 if __name__ == "__main__":
     run_metacognitive_simulation()
+
+
+

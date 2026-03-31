@@ -9,7 +9,7 @@ SHA256 : 050c0fc155d805f6e0730be12904fe5fd1f4b561e75f2f09bdd3fa11d2c9550a
 
 ## 0. PRÉLIMINAIRES & INVARIANTS
 L'architecture de viabilité est basée sur l'invariant :
-$$\mu = \alpha - \beta - \kappa$$
+$$\mu = \alpha - (\beta + \kappa)$$
 - $\alpha$ : Dissipation régulatrice
 - $\beta$ : Amplification (coût dynamique)
 - $\kappa$ : Inertie / Mémoire

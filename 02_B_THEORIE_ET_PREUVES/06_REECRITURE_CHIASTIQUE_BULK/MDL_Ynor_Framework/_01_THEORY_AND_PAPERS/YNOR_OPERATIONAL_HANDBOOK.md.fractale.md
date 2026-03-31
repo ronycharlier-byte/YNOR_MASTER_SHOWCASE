@@ -8,7 +8,7 @@ Source : `MDL_Ynor_Framework/_01_THEORY_AND_PAPERS/YNOR_OPERATIONAL_HANDBOOK.md`
 ## B. Expansion
 Le texte se déplie selon les lignes suivantes :
 - **Cœur du Système** : Le SDK `ynor_core` (Alpha, Beta, Kappa).
-- **Règle d'Or** : La génération s'arrête dès que $\mu = \alpha - \beta - \kappa \le 0$.
+- **Règle d'Or** : La génération s'arrête dès que $\mu = \alpha - (\beta + \kappa) \le 0$.
 - **Lancement** : Utilisez l'Option [1] du `YNOR_SERVER_MANAGER.bat` pour la démo live réelle.
 - **Offre standard** : Audit Ynor à $99.
 - **Offre Intégration** : $299.

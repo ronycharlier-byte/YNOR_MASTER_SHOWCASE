@@ -11,7 +11,7 @@ import numpy as np
 class AGIEngineMDL:
     """
     MASTER AGI ENGINE - MDL YNOR ARCHITECTURE
-    Noyau de raisonnement récursif pour systèmes complexes.
+    Noyau de raisonnement rcursif pour systmes complexes.
     """
     def __init__(self, api_key):
         self.api_key = api_key
@@ -20,18 +20,18 @@ class AGIEngineMDL:
         self.evolution_log = []
 
     def load_theoretical_axiom(self, concept):
-        """Recherche sémantique simplifiée dans le corpus PDF."""
+        """Recherche smantique simplifie dans le corpus PDF."""
         if not os.path.exists(self.knowledge_path): return "Axiom default: stability via mu."
         with open(self.knowledge_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-            # On cherche par mot clé
+            # On cherche par mot cl
             for entry in data:
                 if concept.lower() in entry['preview'].lower():
                     return entry['preview'][:1500]
         return "Fundamental MDL Law: alpha > beta + kappa."
 
     def solve_complex_problem(self, context, objective, constraint):
-        """Résonance AGI pour résoudre un problème structurel."""
+        """Rsonance AGI pour rsoudre un problme structurel."""
         axiom = self.load_theoretical_axiom(objective)
         
         prompt = f"""
@@ -39,9 +39,9 @@ class AGIEngineMDL:
         CONTEXTE : {context}
         OBJECTIF : {objective}
         CONTRAINTE : {constraint}
-        AXIOME DU TRAITÉ : {axiom}
+        AXIOME DU TRAIT : {axiom}
         
-        TACHE : Générez une solution mathématique MDL (Invention de code).
+        TACHE : Gnrez une solution mathmatique MDL (Invention de code).
         FORMAT : JSON {{ "logic": "string", "implementation": "string", "mu_target": float }}
         """
 
@@ -58,7 +58,10 @@ class AGIEngineMDL:
             return {"error": str(e), "logic": "Fallback to base stability."}
 
 if __name__ == "__main__":
-    # Test à vide pour certifier le moteur
-    api_key = "sk-proj-..." # Utilise la clé déjà configurée
+    # Test  vide pour certifier le moteur
+    api_key = "sk-proj-..." # Utilise la cl dj configure
     engine = AGIEngineMDL(api_key)
-    print("[OK] MOTEUR AGI MDL YNOR CERTIFIÉ ET ACTIF.")
+    print("[OK] MOTEUR AGI MDL YNOR CERTIFI ET ACTIF.")
+
+
+

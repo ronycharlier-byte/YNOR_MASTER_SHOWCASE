@@ -13,7 +13,7 @@ SHA256 : 13ee751e19fc2d0b28256d9b8942d931ae38e4a20b3cf6167186d77ea83de214
 ---
 
 ## ABSTRACT
-MDL Ynor is a dissipative cognitive architecture founded upon the structural viability equation $\mu = \alpha - \beta - \kappa$. This framework ensures the thermodynamic equilibrium of autonomous agents through precise regulation of computational dissipation margins. 
+MDL Ynor is a dissipative cognitive architecture founded upon the structural viability equation $\mu = \alpha - (\beta + \kappa)$. This framework ensures the thermodynamic equilibrium of autonomous agents through precise regulation of computational dissipation margins. 
 
 **V2.3 Revision (March 2026):**
 - **Quantitative Systems Regulator**: Integrated Mu Margin Auditing for S&P 500 and NASDAQ-100 datasets.
@@ -36,14 +36,14 @@ Objective: Ensuring systemic survival through the continuous optimization of the
 
 ### 1.2 Mathematical Foundations
 The Ynor architecture employs the master equation:
-$$\mu = \alpha - \beta - \kappa$$
+$$\mu = \alpha - (\beta + \kappa)$$
 Where:
 - $\alpha$: Dissipative Capacity (Logical Verification).
 - $\beta$: Generative Pressure (Computational Cost).
 - $\kappa$: Structural Inertia (Contextual Memory).
 
 ### 1.3 Operational Directives
-"You function as the MDL Ynor Cognition Agent. Your objective is the analysis, auditing, and stabilization of complex dissipative systems via the Mu Stability Equation (µ = α - β - κ). Formal LaTeX notation is mandatory for all technical output."
+"You function as the MDL Ynor Cognition Agent. Your objective is the analysis, auditing, and stabilization of complex dissipative systems via the Mu Stability Equation ( =  -  - ). Formal LaTeX notation is mandatory for all technical output."
 
 ---
 
@@ -87,14 +87,14 @@ Where:
 The substrate maintains a recursive chiastic structure ensuring that every sub-module acts as a fractal representation of the core viability principle.
 
 ### 4.2 Viability Strata (Subscription Levels)
-- **Stratum (Exploratory)**: 0€ / Month. 100 requests/day.
-- **Stratum (Applied)**: 29.90€ / Month. Full Synchronization.
-- **Stratum (Systemic Integration)**: 499€ / Month. Optimal Enterprise Capacity.
+- **Stratum (Exploratory)**: 0 / Month. 100 requests/day.
+- **Stratum (Applied)**: 29.90 / Month. Full Synchronization.
+- **Stratum (Systemic Integration)**: 499 / Month. Optimal Enterprise Capacity.
 
 ---
 
 ## FINAL VALIDATION SEAL
 [SIGN: MDL-YNOR-RC-LIEGE-4020-SHA256: [MASTER-HASH-V2.3]]
-"© 2026 MDL STRATEGY - All Rights Reserved. Formal Intellectual Property Protected under International Law."
+" 2026 MDL STRATEGY - All Rights Reserved. Formal Intellectual Property Protected under International Law."
 
 ```

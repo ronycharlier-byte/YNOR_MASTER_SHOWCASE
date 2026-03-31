@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Ynor | Onboarding{% endblock %}
+
+{% block content %}
+<section class="hero-grid">
+  <div class="hero">
+    <div class="eyebrow">Onboarding</div>
+    <h1 class="title" style="max-width: 12ch;">Start in one screen.</h1>
+    <p class="lead">Ask a question, get a premium answer grounded in corpus knowledge and live web context, then keep going with confidence.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="/chat">Continue</a>
+      <a class="btn secondary" href="/">Skip to home</a>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="section-head" style="padding:24px 24px 0;">
+      <div>
+        <div class="kicker">How to use Ynor</div>
+        <h2>Ask naturally. Read clearly. Act decisively.</h2>
+      </div>
+    </div>
+    <div class="chat-stream" style="padding-top:12px;">
+      <div class="bubble user">What makes Ynor different?</div>
+      <div class="bubble assistant">Ynor blends live internet context with your MDL corpus and returns concise, source-aware answers in a premium interface.</div>
+    </div>
+  </div>
+</section>
+<section class="section surface">
+  <div class="grid-3">
+    <div class="card"><div class="kicker">1</div><div class="muted">Choose a question or quick action.</div></div>
+    <div class="card"><div class="kicker">2</div><div class="muted">Allow the assistant to blend corpus and live web context.</div></div>
+    <div class="card"><div class="kicker">3</div><div class="muted">Use the answer with citations, confidence, and next steps.</div></div>
+  </div>
+</section>
+{% endblock %}

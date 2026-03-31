@@ -1,21 +1,24 @@
-﻿{
+{
   "stage": "step_9_canonical_edition",
-  "canonical_root": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE",
-  "copied_documents": [
-    "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/MANIFESTE_FRACTAL_CHIASTE_UNIVERSEL.md",
-    "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/manifeste_fractal_chiaste_universel.json",
-    "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/INDEX_MAITRE_FRACTAL_CHIASTIQUE.md",
-    "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/manifest_step7_master_index.json",
-    "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/CARTE_VISUELLE_FRACTALE_CHIASTIQUE.md",
-    "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/manifest_step8_visual_navigation.json",
-    "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/manifest_step2_bulk_rewrite.json",
-    "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/manifest_step3_json_rewrite.json",
-    "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/manifest_step4_pdf_latex_augmented.json",
-    "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/manifest_step5_constitution_pdf_augmented.json",
-    "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/manifest_step6_legal_admin_pdf_augmented.json"
-  ],
-  "total_entries": 127,
-  "unique_sources": 117,
+  "scope": "full_repository",
+  "canonical_root": "00_EDITION_CANONIQUE_FINALE",
+  "raw_summary": {
+    "total_files": 1828,
+    "duplicate_hash_groups": 136,
+    "duplicate_hash_entries": 381,
+    "duplicate_hash_share_percent": 20.9,
+    "derived_entries": 1193,
+    "versioned_entries": 150,
+    "sensitive_files_redacted": 23
+  },
+  "canonical_summary": {
+    "total_files": 509,
+    "duplicate_hash_groups": 0,
+    "duplicate_hash_entries": 0,
+    "duplicate_hash_share_percent": 72.2,
+    "collapsed_files": 1319,
+    "collapse_rate_percent": 72.2
+  },
   "chiastic_axis": [
     "A",
     "B",
@@ -26,26 +29,18 @@
     "A'"
   ],
   "node_counts": {
-    "01_A_FONDATION": 2,
-    "02_B_THEORIE_ET_PREUVES": 43,
-    "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION": 43,
-    "07_A_PRIME_ARCHIVES_ET_RELEASES": 31,
-    "04_X_NOYAU_MEMOIRE": 8
+    "01_A_FONDATION": 111,
+    "02_B_THEORIE_ET_PREUVES": 59,
+    "03_C_MOTEURS_ET_DEPLOIEMENT": 108,
+    "04_X_NOYAU_MEMOIRE": 29,
+    "05_C_PRIME_VALIDATION_ET_TESTS": 37,
+    "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION": 38,
+    "07_A_PRIME_ARCHIVES_ET_RELEASES": 23
   },
-  "local_inventory_counts": {
-    "03_C_MOTEURS_ET_DEPLOIEMENT": 187,
-    "05_C_PRIME_VALIDATION_ET_TESTS": 75
-  },
-  "stage_counts": {
-    "step_1_curated_text": 6,
-    "step_2_bulk_text": 59,
-    "step_3_json": 22,
-    "step_4_latex_pdf": 7,
-    "step_5_constitution_pdf": 9,
-    "step_6_legal_pdf": 24
-  },
-  "primary_portal": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md",
-  "visual_map": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/CARTE_VISUELLE_FRACTALE_CHIASTIQUE.md",
-  "master_index": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/INDEX_MAITRE_FRACTAL_CHIASTIQUE.md",
-  "navigation_manifest": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/manifest_step8_visual_navigation.json"
+  "primary_portal": "00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md",
+  "consolidation_report": "00_EDITION_CANONIQUE_FINALE/CORPUS_CANONIQUE_CONSOLIDE.md",
+  "index": "00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/INDEX_MAITRE_YNOR.md",
+  "visual_map": "00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/CARTE_VISUELLE_YNOR.md",
+  "manifest": "00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/MANIFESTE_YNOR.md",
+  "json_manifest": "00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/manifeste_ynor.json"
 }

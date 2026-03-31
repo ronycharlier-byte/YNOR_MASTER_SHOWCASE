@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Ynor | Account{% endblock %}
+
+{% block content %}
+<section class="hero-grid">
+  <div class="hero">
+    <div class="eyebrow">Account</div>
+    <h1 class="title" style="max-width: 10ch;">Your private workspace.</h1>
+    <p class="lead">Plan status, chat history, and usage controls are staged for this phase, ready for persistence and billing upgrades.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="/pricing">Upgrade plan</a>
+      <a class="btn secondary" href="/chat">Open chat</a>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="section-head" style="padding:24px 24px 0;">
+      <div>
+        <div class="kicker">Current plan</div>
+        <h2>Elite</h2>
+        <p>Mocked billing flow for this phase.</p>
+      </div>
+      <span class="badge high">Active</span>
+    </div>
+    <div class="grid-2" style="padding:20px;">
+      <div class="card"><div class="kicker">Usage</div><div class="price">128</div><div class="muted">Questions this month</div></div>
+      <div class="card"><div class="kicker">History</div><div class="price">Local</div><div class="muted">Saved on device until persistent auth lands</div></div>
+    </div>
+  </div>
+</section>
+<section class="section surface">
+  <div class="section-head">
+    <div>
+      <div class="kicker">Account roadmap</div>
+      <h2>Billing is mocked for now, with Stripe and persistent memory ready for the next phase.</h2>
+    </div>
+  </div>
+  <div class="grid-3">
+    <div class="card"><div class="kicker">Phase 1</div><div class="muted">Premium UI, chat-first assistant, local history, staged billing.</div></div>
+    <div class="card"><div class="kicker">Phase 2</div><div class="muted">Stripe checkout, webhooks, and subscription management.</div></div>
+    <div class="card"><div class="kicker">Phase 3</div><div class="muted">Persistent memory, team accounts, and advanced plan analytics.</div></div>
+  </div>
+</section>
+{% endblock %}

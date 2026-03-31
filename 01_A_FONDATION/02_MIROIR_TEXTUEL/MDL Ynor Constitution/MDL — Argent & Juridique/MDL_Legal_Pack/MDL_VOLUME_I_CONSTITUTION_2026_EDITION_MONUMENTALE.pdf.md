@@ -1,12 +1,12 @@
 # MIROIR TEXTUEL - MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.pdf
 
-Source : MDL Ynor Constitution\MDL — Argent & Juridique\MDL_Legal_Pack\MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.pdf
+Source : MDL Ynor Constitution\MDL - Argent & Juridique\MDL_Legal_Pack\MDL_VOLUME_I_CONSTITUTION_2026_EDITION_MONUMENTALE.pdf
 Taille : 22089 octets
 SHA256 : e39f063d12aa976d84f2b6156e4ae4244ae72c869e64e5bf8037e9b159073932
 
 ```text
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+%"z ReportLab Generated PDF document http://www.reportlab.com
 1 0 obj
 <<
 /F1 2 0 R /F2 3 0 R /F3 6 0 R

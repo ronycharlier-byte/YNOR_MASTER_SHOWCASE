@@ -4,7 +4,7 @@
 
 The quantum real is not adequately captured by a framework of substances endowed with intrinsic properties, nor by entities embedded in a pre-existing spacetime. It is more appropriately described as a structure of constraints and contextual correlations organizing physical possibilities, some of which become locally determined through event-based actualizations. These actualizations, linked by the propagation of structural constraints, induce a relational ordering identifiable as time and a configuration of coexistence defining space. Objects, identity, and information emerge as stabilized features of this underlying ontological organization.
 
-To articulate this framework, we introduce a methodological principle, denoted by \(\mu\), which selects ontologically admissible components of the quantum formalism by maximizing explanatory power while minimizing ontological cost and interpretative friction. The resulting structure provides a minimal, coherent, and interpretation-neutral ontology compatible with standard quantum mechanics.
+To articulate this framework, we introduce a methodological principle, denoted by \(\mu\), which selects ontologically admissible components of the quantum formalism by maximizing explanatory power while minimizing ontological cost and interpretative friction. The resulting structure provides a minimal and internally coherent ontology compatible with standard quantum mechanics, while leaving broader scientific validation as an open task.
 
 ## Keywords
 
@@ -18,7 +18,7 @@ These challenges are not merely interpretive. They indicate that the formal stru
 
 In response, this paper proposes an alternative ontological framework in which the quantum real is not conceived as a collection of entities, but as a structure of constraints and contextual correlations organizing physical possibilities. Within this perspective, physical determination occurs through localized event-based actualizations, while familiar notions such as objects, identity, space, and time are reconstructed as emergent features of an underlying relational organization.
 
-The aim is not to advance a specific interpretation of quantum mechanics, but to articulate a minimal and coherent ontological framework compatible with its formal structure. The approach is deliberately interpretation-neutral: it seeks to identify the smallest set of ontological commitments required to preserve the structure of the theory without reintroducing classical primitives.
+The aim is not to advance a specific interpretation of quantum mechanics, but to articulate a minimal and coherent ontological framework compatible with its formal structure. The approach is deliberately cautious: it seeks to identify the smallest set of ontological commitments required to preserve the structure of the theory without reintroducing classical primitives, while separating formal coherence from external validation.
 
 ## 2. Ontological Framework
 
@@ -188,7 +188,7 @@ The ontological status of each component is determined by the value of \(\mu(B_i
 
 - \(\mu \gg 0\): fundamental
 - \(\mu > 0\): retained
-- \(\mu \approx 0\): retained but interpretation-neutralized
+- \(\mu \approx 0\): retained but treated as non-fundamental
 - \(\mu < 0\): reduced or treated as effective
 - \(\mu \ll 0\): excluded at the ontological level
 
@@ -199,7 +199,7 @@ At the global level, the admissible structure is defined by
 
 In this sense, the \(\mu\)-principle functions as a form of ontological regularization, selecting structures that maximize explanatory coherence while minimizing ontological overhead and interpretative ambiguity.
 
-### 5.2 Quantitative \(\mu\)-Assessment (0–5 Scale)
+### 5.2 Quantitative \(\mu\)-Assessment (0-5 Scale)
 
 To make the \(\mu\)-principle operational, we introduce a normalized scoring scheme on the interval \([0,5]\), with baseline symmetric weighting \(w_\alpha = w_\beta = w_\kappa = 1\). Each component is evaluated according to
 \[
@@ -217,7 +217,7 @@ This yields a comparative index of ontological economy.
 | Born rule | 5 | 0 | 0 | +5 | Indispensable |
 | POVM / contexts | 4 | 1 | 1 | +2 | Retained |
 | Non-commutativity | 4 | 0 | 1 | +3 | Fundamental |
-| Entanglement | 5 | 1 | 1–2 | +3 to +2 | Fundamental |
+| Entanglement | 5 | 1 | 1-2 | +3 to +2 | Fundamental |
 | Partial trace | 4 | 1 | 1 | +2 | Retained |
 | Decoherence | 4 | 1 | 1 | +2 | Structural selection |
 | Minimal actualization | 4 | 1 | 2 | +1 | Neutralized |
@@ -260,6 +260,16 @@ The ranking is stable under moderate variations of the weights. Increasing \(w_\
 The \(\mu\)-principle identifies the subset of quantum structures that should be retained in a minimal ontology. The next step is to articulate these selected components within a coherent formal framework.
 
 Accordingly, the following section provides a formal sketch of the retained structure, expressed in terms of Hilbert space, contextual observables, event-based actualization, decoherence, and emergent causal and spatiotemporal relations.
+
+### 5.7 Validation Protocol
+
+The present manuscript distinguishes three levels of support:
+
+- formal coherence, established by the internal structure of the framework,
+- local reproducibility, established where the framework can be re-derived from standard quantum structures,
+- external validation, which requires independent review, comparison, or empirical testing beyond the manuscript itself.
+
+The first level is established in the text. The second is partially established through the formal sketch. The third remains open and should not be inferred from internal coherence alone.
 
 ## 6. Discussion
 
@@ -313,7 +323,7 @@ This thesis preserves realism without substantialism, and structure without abst
 
 The framework is best situated within structural realism, but with an important qualification. It is stronger than an instrumentalist reading because it attributes ontological weight to the structure itself. At the same time, it remains more cautious than a fully radical version of structural realism, insofar as it does not claim that all questions about underlying ontological support are definitively settled.
 
-Its position may therefore be described as a structurally committed, interpretation-neutral realism: the structure is real, the objects are derivative, and the classical world is emergent.
+Its position may therefore be described as a structurally committed realism: the structure is real, the objects are derivative, and the classical world is emergent. This is a conceptual position supported by the formal development, not a claim of external scientific certification.
 
 ### 6.9 Comparison with Existing Approaches
 
@@ -354,7 +364,7 @@ The framework proposed in this paper can therefore be characterized as follows:
 
 Its distinctive contribution lies in identifying a minimal structural core that preserves realism while avoiding both ontological inflation and epistemic reduction. Rather than choosing between competing metaphysical pictures, it isolates the set of commitments that remain stable across interpretations and directly supported by the formal structure of quantum theory.
 
-> In this respect, the framework may be described as a structurally committed, interpretation-neutral realism: the structure is real, objects are derivative, and classicality emerges from stabilized patterns within the relational organization of constraints.
+> In this respect, the framework may be described as a structurally committed realism: the structure is real, objects are derivative, and classicality emerges from stabilized patterns within the relational organization of constraints.
 
 ## 7. Conclusion
 
@@ -364,4 +374,4 @@ Rather than resolving all interpretative disputes, this approach establishes a m
 
 The methodological principle \(\mu\) plays a central role in this reconstruction. It selects the structures of the quantum formalism that maximize explanatory power and structural coherence while minimizing ontological cost and interpretative friction. In doing so, it provides a principled criterion for distinguishing fundamental from derivative components within the formalism.
 
-Taken together, the ontological framework, the formal sketch, and the \(\mu\)-criterion yield a unified proposal: quantum mechanics is most economically understood as the expression of a relational structure whose stable patterns generate the appearance of objects, time, space, and classicality, without requiring a classical substratum beneath them.
+Taken together, the ontological framework, the formal sketch, and the \(\mu\)-criterion yield a unified proposal: quantum mechanics is most economically understood as the expression of a relational structure whose stable patterns generate the appearance of objects, time, space, and classicality, without requiring a classical substratum beneath them. The proposal is internally coherent and formally developed, but its broader scientific status still depends on external validation.

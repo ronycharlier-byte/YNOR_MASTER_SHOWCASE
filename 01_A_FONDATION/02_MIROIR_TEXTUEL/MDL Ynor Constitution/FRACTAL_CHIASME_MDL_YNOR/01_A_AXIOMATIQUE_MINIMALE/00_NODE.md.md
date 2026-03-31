@@ -14,7 +14,7 @@ Miroir chiastique : A_PRIME
 Resume : Le point d'entree du systeme. Les axiomes minimaux ouvrent la forme fractale.
 
 Contenu source :
-- Chapitre I — Formalisation axiomatique minimale.pdf
+- Chapitre I - Formalisation axiomatique minimale.pdf
 
 Implementation fractale :
 - 01_SOURCE contient le document ou le sous-corpus original.

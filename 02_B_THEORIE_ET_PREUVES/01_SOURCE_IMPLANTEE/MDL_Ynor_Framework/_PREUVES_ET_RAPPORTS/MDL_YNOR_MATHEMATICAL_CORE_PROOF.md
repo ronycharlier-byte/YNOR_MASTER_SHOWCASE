@@ -19,7 +19,12 @@ $$\dot{S}(t) = E(S) - D(S) + M(S_t) + w(t)$$
 
 ## 2. DÉFINITION DE LA MARGE DISSIPATIVE UNIFIÉE (MU)
 On définit l'invariant scalaire $\mu$ comme la mesure de l'écart de viabilité :
-$$\mu := \alpha - (\beta + \kappa)$$
+$$\mu : \mathbb{R}^3 \to \mathbb{R}, \qquad \mu(\alpha,\beta,\kappa) = \alpha - (\beta + \kappa)$$
+
+Autrement dit, sous la forme usuelle du corpus :
+$$\mu = \alpha - (\beta + \kappa)$$
+
+Les deux écritures sont équivalentes, mais la première rappelle explicitement que la soustraction successive se lit comme une soustraction de la somme $\beta + \kappa$.
 
 ## 3. THÉORÈME DE CONVERGENCE DE LYAPUNOV-YNOR
 **Énoncé** : Pour tout système dont la marge $\mu > 0$, l'état $S(t)$ converge exponentiellement vers l'attracteur d'équilibre (Viabilité Structurelle).

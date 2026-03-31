@@ -5,7 +5,7 @@ Taille : 754 octets
 SHA256 : f02c9edfa988d5389223c453679bb9203548654fc4af8c5ab6461f6e205bb9fa
 
 ```text
-# Bâtir le conteneur MDL Ynor - Architecture Suprême
+# Batir le conteneur MDL Ynor - Architecture Supreme
 # Copyright (c) 2026 Charlier Rony
 
 FROM python:3.10-slim
@@ -17,7 +17,7 @@ ENV PYTHONPATH /app
 
 WORKDIR /app
 
-# Installation dépendances système minimales
+# Installation dependances systeme minimales
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     curl \
@@ -30,10 +30,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copie du code source
 COPY . .
 
-# Exposition port API par défaut
+# Exposition port API par defaut
 EXPOSE 8492
 
-# Commande par défaut : lancement du serveur d'audit
+# Commande par defaut : lancement du serveur d'audit
 CMD ["uvicorn", "_04_DEPLOYMENT_AND_API.ynor_api_server:app", "--host", "0.0.0.0", "--port", "8492"]
 
 ```

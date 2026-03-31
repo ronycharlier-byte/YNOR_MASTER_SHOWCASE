@@ -25,7 +25,7 @@ Ces invariants constituent la premiere expansion fractale du noyau.
 Le centre chiastique reste la meme equation :
 
 \[
-\mu = \alpha - \beta - \kappa
+\mu = \alpha - (\beta + \kappa)
 \]
 
 L'identite, la securite et l'unification ne prennent sens qu'a partir de cette relation.

@@ -1,0 +1,9 @@
+# CARTE VISUELLE ET PLAN CENTRAL DE NAVIGATION
+
+Ce fichier racine pointe vers l'edition canonique.
+
+Reference canonique :
+- `00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/CARTE_VISUELLE_YNOR.md`
+
+Porte d'entree associee :
+- `00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/INDEX_MAITRE_YNOR.md`

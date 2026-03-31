@@ -571,7 +571,7 @@ def compute_mu(data: AgentStatePayload):
     kappa = (data.context_length / 10000.0) + data.error_estimate
     
     # L'Équation Maîtresse de Survie Computationnelle
-    mu = alpha - beta - kappa
+    mu = alpha - (beta + kappa)
     return mu, alpha, beta, kappa
 
 def generate_watermark(mu_value: float) -> str:

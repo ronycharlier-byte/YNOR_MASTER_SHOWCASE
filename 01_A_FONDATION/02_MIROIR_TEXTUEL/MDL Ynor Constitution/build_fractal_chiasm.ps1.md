@@ -19,7 +19,7 @@ $nodes = @(
         Mirror = "A_PRIME"
         Summary = "Le point d'entree du systeme. Les axiomes minimaux ouvrent la forme fractale."
         Sources = @(
-            (Join-Path $constitutionRoot "MDL Ynor MATH\Chapitre I — Formalisation axiomatique minimale.pdf")
+            (Join-Path $constitutionRoot "MDL Ynor MATH\Chapitre I - Formalisation axiomatique minimale.pdf")
         )
     },
     @{
@@ -30,7 +30,7 @@ $nodes = @(
         Mirror = "B_PRIME"
         Summary = "Le premier developpement porte la marge dissipative comme loi de propagation."
         Sources = @(
-            (Join-Path $constitutionRoot "MDL Ynor — Théorèmes fondamentaux de la marge dissipative.pdf")
+            (Join-Path $constitutionRoot "MDL Ynor - Theoremes fondamentaux de la marge dissipative.pdf")
         )
     },
     @{
@@ -41,7 +41,7 @@ $nodes = @(
         Mirror = "C_PRIME"
         Summary = "La theorie structurelle prepare le renversement chiastique vers le noyau."
         Sources = @(
-            (Join-Path $constitutionRoot "MDL Ynor — Théorie Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf")
+            (Join-Path $constitutionRoot "MDL Ynor - Theorie Structurelle des Systemes Dissipatifs a Amplification Bornee.pdf")
         )
     },
     @{
@@ -52,8 +52,8 @@ $nodes = @(
         Mirror = "X"
         Summary = "Le centre integre les formulations mathematiques du noyau. Tout converge ici puis repart en reflet."
         Sources = @(
-            (Join-Path $constitutionRoot "MDL Ynor MATH\Chapitre XVI — Formalisation mathématique intégrale du noyau MDL Ynor.pdf"),
-            (Join-Path $constitutionRoot "Chapitre I — Formalisation mathématique intégrale du noyau MDL Ynor.pdf")
+            (Join-Path $constitutionRoot "MDL Ynor MATH\Chapitre XVI - Formalisation mathematique integrale du noyau MDL Ynor.pdf"),
+            (Join-Path $constitutionRoot "Chapitre I - Formalisation mathematique integrale du noyau MDL Ynor.pdf")
         )
     },
     @{
@@ -64,7 +64,7 @@ $nodes = @(
         Mirror = "C"
         Summary = "La constitution structurelle rejoue la theorie en forme inverse et plus normative."
         Sources = @(
-            (Join-Path $constitutionRoot "MDL Ynor — Constitution Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf")
+            (Join-Path $constitutionRoot "MDL Ynor - Constitution Structurelle des Systemes Dissipatifs a Amplification Bornee.pdf")
         )
     },
     @{
@@ -75,7 +75,7 @@ $nodes = @(
         Mirror = "B"
         Summary = "Le traite reprend la dynamique au retour du centre et ferme l'enveloppe theorique."
         Sources = @(
-            (Join-Path $constitutionRoot "MDL Ynor — Traité des dynamiques dissipatives et de la stabilité structurelle.pdf")
+            (Join-Path $constitutionRoot "MDL Ynor - Traite des dynamiques dissipatives et de la stabilite structurelle.pdf")
         )
     },
     @{

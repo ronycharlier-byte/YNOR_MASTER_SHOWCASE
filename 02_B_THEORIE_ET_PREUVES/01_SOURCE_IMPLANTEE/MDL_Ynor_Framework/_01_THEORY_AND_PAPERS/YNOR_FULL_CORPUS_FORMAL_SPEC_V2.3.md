@@ -6,7 +6,7 @@
 ---
 
 ## 1. ABSTRACT (SYSTEMIC VIABILITY)
-MDL Ynor is a dissipative cognitive architecture founded upon the structural viability equation $\mu = \alpha - \beta - \kappa$. This framework ensures the thermodynamic equilibrium of autonomous agents through precise regulation of computational dissipation margins. 
+MDL Ynor is a dissipative cognitive architecture founded upon the structural viability equation $\mu = \alpha - (\beta + \kappa)$. This framework ensures the thermodynamic equilibrium of autonomous agents through precise regulation of computational dissipation margins. 
 
 **V2.3 Revision (March 2026):**
 - **Quantitative Systems Regulator**: Integrated Mu Margin Auditing for S&P 500 and NASDAQ-100 datasets.
@@ -24,7 +24,7 @@ Objective: Ensuring systemic survival through the continuous optimization of the
 
 ### 2.2 Mathematical Foundations
 MDL Ynor employs the master equation:
-$$\mu = \alpha - \beta - \kappa$$
+$$\mu = \alpha - (\beta + \kappa)$$
 - $\alpha$: Dissipative Capacity (Logical Verification).
 - $\beta$: Generative Pressure (Computational Cost).
 - $\kappa$: Structural Inertia (Contextual Memory).

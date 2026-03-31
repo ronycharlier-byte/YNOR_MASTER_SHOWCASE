@@ -13,7 +13,7 @@ MDL Ynor n'est pas une simple intelligence artificielle (Système 1). C'est une 
 
 ## 2. ÉQUATION MAÎTRESSE DE VIABILITÉ
 La dynamique de l'architecture est régie par l'invariant scalaire $\mu$ :
-$$\mu = \alpha - \beta - \kappa$$
+$$\mu = \alpha - (\beta + \kappa)$$
 - **$\alpha$ (Alpha)** : Gain informationnel net / Capacité de dissipation régulatrice (Utilité).
 - **$\beta$ (Beta)** : Coût de l'amplification computationnelle / Pression du Système 1 (Tokens/Énergie).
 - **$\kappa$ (Kappa)** : Inertie structurelle / Friction de contexte (Charge mnésique/Hallucinations).

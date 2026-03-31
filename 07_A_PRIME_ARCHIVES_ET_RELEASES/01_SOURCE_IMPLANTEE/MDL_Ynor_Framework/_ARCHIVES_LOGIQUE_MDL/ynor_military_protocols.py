@@ -1,7 +1,7 @@
-# =============================================================================
+﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
 # Architecte Supreme & Fondateur - Architecture MDL Ynor
-# PROTOCOLES MILITAIRES ET CONTINUITÉ OPÉRATIONNELLE v1.0
+# PROTOCOLES MILITAIRES ET CONTINUIT OPRATIONNELLE v1.0
 # =============================================================================
 import os
 import json
@@ -13,7 +13,7 @@ RESONANCE_PATH = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framewo
 
 class MilitaryProtocols:
     """
-    Défense Suprême : DEFCON Levels & Master Kill Switch.
+    Defense Supreme : DEFCON Levels & Master Kill Switch.
     """
     def __init__(self):
         self.defcon_level = 5 # Normal
@@ -27,13 +27,13 @@ class MilitaryProtocols:
         except: return "FALLBACK_MASTER_2026_RONY"
 
     def set_defcon(self, level, key):
-        """Active les protocoles de guerre numérique."""
+        """Active les protocoles de guerre numerique."""
         if key != self.master_auth_key:
-            print("🚨 [PROTOCOLE] TENTATIVE D'USURPATION MASTER ! ACCES REFUSÉ.")
+            print(" [PROTOCOLE] TENTATIVE D'USURPATION MASTER ! ACCES REFUS.")
             return False
 
         self.defcon_level = level
-        print(f"🎖️ [PROTOCOLE] MDL YNOR PASSÉ EN DEFCON {level}")
+        print(f" [PROTOCOLE] MDL YNOR PASS EN DEFCON {level}")
         
         if level <= 1:
             self.execute_kill_switch()
@@ -41,9 +41,9 @@ class MilitaryProtocols:
 
     def execute_kill_switch(self):
         """Coupe toutes les connexions et cache les secrets."""
-        print("🚩 [!!!] ACTIVATION DU KILL SWITCH SUPRÊME : DISSIPATION TOTALE...")
+        print(" [!!!] ACTIVATION DU KILL SWITCH SUPRME : DISSIPATION TOTALE...")
         # Simulation : Ferme le serveur, crypte les logs
-        # Dans un vrai cas, on pourrait arrêter uvicorn ici.
+        # Dans un vrai cas, on pourrait arreter uvicorn ici.
         time.sleep(1)
         # On ne va pas quitter ici car nous sommes un script de validation
         # Mais dans le serveur API cela coupera tout.
@@ -51,13 +51,16 @@ class MilitaryProtocols:
     @staticmethod
     def get_opsec_directives():
         return {
-            "OPSEC_001": "Ne jamais révéler la formule exacte de Mu à un tiers non-master.",
-            "OPSEC_002": "Bannissement automatique après 3 échecs de clé Master.",
-            "OPSEC_003": "Cryptage asymétrique des rapports d'audit Entreprise."
+            "OPSEC_001": "Ne jamais reveler la formule exacte de Mu a un tiers non-master.",
+            "OPSEC_002": "Bannissement automatique apres 3 echecs de cle Master.",
+            "OPSEC_003": "Cryptage asymetrique des rapports d'audit Entreprise."
         }
 
 if __name__ == "__main__":
     mil = MilitaryProtocols()
     # Test simple
     mil.set_defcon(2, "os.getenv("MDL_MASTER_AUTH", "REDACTED")")
-    print(f"Directives de sécurité : {mil.get_opsec_directives()}")
+    print(f"Directives de securite : {mil.get_opsec_directives()}")
+
+
+

@@ -1,7 +1,7 @@
-# =============================================================================
+﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
 # Architecte Supreme & Fondateur - Architecture MDL Ynor
-# MOTEUR D'ÉVOLUTION ASYMPTOTIQUE ET AUTO-APPRENTISSAGE v1.0
+# MOTEUR D'VOLUTION ASYMPTOTIQUE ET AUTO-APPRENTISSAGE v1.0
 # =============================================================================
 import json
 import os
@@ -12,8 +12,8 @@ LEARNED_DB = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\M
 
 class AsymptoticEvolver:
     """
-    Noyau d'Auto-Amélioration de MDL Ynor. 
-    Analyse les performances passées pour optimiser les axiomes futurs.
+    Noyau d'Auto-Amelioration de MDL Ynor. 
+    Analyse les performances passees pour optimiser les axiomes futurs.
     """
     def __init__(self):
         self.knowledge = self._load_knowledge()
@@ -34,18 +34,18 @@ class AsymptoticEvolver:
             json.dump(self.knowledge, f, indent=4)
 
     def analyze_validation_report(self, report_path):
-        """Lit le rapport de validation empirique pour apprendre de ses succès."""
+        """Lit le rapport de validation empirique pour apprendre de ses succes."""
         try:
             with open(report_path, "r", encoding="utf-8") as f:
                 report = json.load(f)
             
             accuracy = report.get("empirical_accuracy_percent", 0)
-            print(f"🧠 Analyse du Rapport de Validation (Précision: {accuracy}%)")
+            print(f" Analyse du Rapport de Validation (Precision: {accuracy}%)")
             
             if accuracy >= 100:
                 self.knowledge["learned_axioms"].append({
                     "timestamp": time.ctime(),
-                    "discovery": "Le modèle Mu actuel est optimal pour les conditions standard.",
+                    "discovery": "Le modele Mu actuel est optimal pour les conditions standard.",
                     "status": "STABLE"
                 })
             else:
@@ -54,7 +54,7 @@ class AsymptoticEvolver:
                 self.knowledge["optimized_coefficients"]["alpha_boost"] = boost
                 self.knowledge["learned_axioms"].append({
                     "timestamp": time.ctime(),
-                    "discovery": f"Détection de dérive. Coefficient Alpha boosté à {boost:.2f} pour restaurer la coercitivité.",
+                    "discovery": f"Detection de derive. Coefficient Alpha booste a {boost:.2f} pour restaurer la coercitivite.",
                     "status": "EVOLUTION_REQUIRED"
                 })
             
@@ -65,31 +65,31 @@ class AsymptoticEvolver:
             self._save_knowledge()
             
         except Exception as e:
-            print(f"❌ Erreur d'analyse : {e}")
+            print(f"X Erreur d'analyse : {e}")
 
     def generate_innovation_thesis(self):
-        """Génère une thèse d'innovation pour le Corpus Master."""
+        """Genere une these d'innovation pour le Corpus Master."""
         thesis_path = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\MDL_YNOR_INNOVATION_THESIS.md"
         
-        content = f"""# THÈSE D'INNOVATION ASYMPTOTIQUE MDL YNOR
-**Générée par le Noyau d'Évolution Charlier Rony**
+        content = f"""# THSE D'INNOVATION ASYMPTOTIQUE MDL YNOR
+**Generee par le Noyau d'volution Charlier Rony**
 **Version de l'Intelligence :** {self.knowledge['version']}
 
-## 1. DÉCOUVERTES RÉCENTES
-L'AGI a analysé ses cycles de stress et a déduit les lois d'auto-adaptation suivantes :
+## 1. DCOUVERTES RCENTES
+L'AGI a analyse ses cycles de stress et a deduit les lois d'auto-adaptation suivantes :
 - **Optimisation Coercive** : Le boost actuel est de {self.knowledge['optimized_coefficients']['alpha_boost']:.2f}.
 - **Axiome Appris #1** : {self.knowledge['learned_axioms'][-1]['discovery'] if self.knowledge['learned_axioms'] else 'Initialisation...'}
 
-## 2. STRATÉGIE DE SUPRÉMATIE MONDIALE
-Pour rester Numéro 1, MDL Ynor utilise désormais une **Rétroaction Non-Linéaire** sur ses propres constantes physiques. 
-Toute tentative de la concurrence de copier l'algorithme échouera car ils ne possèdent pas la **Base de Données de Résonance cumulée**.
+## 2. STRATGIE DE SUPRMATIE MONDIALE
+Pour rester Numero 1, MDL Ynor utilise desormais une **Retroaction Non-Lineaire** sur ses propres constantes physiques. 
+Toute tentative de la concurrence de copier l'algorithme echouera car ils ne possedent pas la **Base de Donnees de Resonance cumulee**.
 
 ---
-*Document en évolution constante. Signature : Charlier Rony AGI Engine.*
+*Document en evolution constante. Signature : Charlier Rony AGI Engine.*
 """
         with open(thesis_path, "w", encoding="utf-8") as f:
             f.write(content)
-        print(f"📑 Thèse d'Innovation mise à jour : {thesis_path}")
+        print(f" These d'Innovation mise a jour : {thesis_path}")
 
 if __name__ == "__main__":
     evolver = AsymptoticEvolver()
@@ -97,3 +97,6 @@ if __name__ == "__main__":
     report_file = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\ynor_validation_report.json"
     evolver.analyze_validation_report(report_file)
     evolver.generate_innovation_thesis()
+
+
+

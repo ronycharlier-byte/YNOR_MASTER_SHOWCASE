@@ -1,32 +1,35 @@
-{
-  "title": "ABSTRACT SPECIFICATION: THE MU MARGIN (μ) ANALYSIS",
+﻿{
+  "title": "ABSTRACT SPECIFICATION: THE MU MARGIN () ANALYSIS",
   "version": "3.0.0-PROD-ULTIMATE",
   "definition": {
-    "formula": "μ(t) = α(t) - β(t) - κ(t)",
+    "formula": "(t) = (t) - (t) - (t)",
     "variables": {
       "alpha": {
         "description": "Gain Informationnel / Signal Utile",
-        "measure": "Comparaison de l'output contre les attentes axiomatiques (diversité sémantique, densité d'entités, cohérence logique).",
+        "measure": "Comparaison de l'output contre les attentes axiomatiques (diversite semantique, densite d'entites, coherence logique).",
         "safe_range": "> 1.0 (Productive)"
       },
       "beta": {
-        "description": "Coût Physique / Dissipation Computationnelle",
-        "measure": "Fonction linéaire des jetons traités pondérée par le profil d'énergie du modèle (FLOPs/Jeton).",
-        "safe_range": "Scale sub-linéaire avec alpha"
+        "description": "Cout Physique / Dissipation Computationnelle",
+        "measure": "Fonction lineaire des jetons traites ponderee par le profil d'energie du modele (FLOPs/Jeton).",
+        "safe_range": "Scale sub-lineaire avec alpha"
       },
       "kappa": {
-        "description": "Friction de Contexte / Charge Mnésique",
-        "measure": "Fonction non-linéaire de la taille de la fenêtre de contexte. Modèle la dégradation de performance et la probabilité d'hallucination.",
+        "description": "Friction de Contexte / Charge Mnesique",
+        "measure": "Fonction non-lineaire de la taille de la fenetre de contexte. Modele la degradation de performance et la probabilite d'hallucination.",
         "safe_range": "kappa < 0.2 * alpha"
       }
     }
   },
   "stability_rules": [
-    "Viabilité: μ(t) > 0",
-    "Gradient: dμ/dt >= 0 (La viabilité doit s'auto-stabiliser ou croître)"
+    "Viabilite: (t) > 0",
+    "Gradient: d/dt >= 0 (La viabilite doit s'auto-stabiliser ou croitre)"
   ],
   "audit_protocol": {
     "status": "Proprietary",
-    "access": "Restricted weights via Mutual NDA. Audit-as-a-Service provided by MDL 전략 (MDL Strategy)."
+    "access": "Restricted weights via Mutual NDA. Audit-as-a-Service provided by MDL  (MDL Strategy)."
   }
 }
+
+
+

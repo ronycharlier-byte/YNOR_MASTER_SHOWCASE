@@ -15,8 +15,8 @@ sys.path.append(ROOT_DIR)
 
 class MDL_Ultimate_Benchmark:
     """
-    MDL YNOR ULTIMATE BENCHMARK V3 (SOUVERAINTÉ & PERFORMANCE)
-    Ce benchmark évalue l'intégrité structurelle, mathématique et logicielle du cadre Ynor.
+    MDL YNOR ULTIMATE BENCHMARK V3 (SOUVERAINTA & PERFORMANCE)
+    Ce benchmark Avalue l'intAgritA structurelle, mathAmatique et logicielle du cadre Ynor.
     """
     def __init__(self):
         self.results = {}
@@ -26,16 +26,16 @@ class MDL_Ultimate_Benchmark:
         self.total_duration = 0
         
     def run_all_checks(self):
-        print("🚀 [MDL YNOR] DÉMARRAGE DU BENCHMARK ULTIME (CORPUS COMPLET)")
+        print("Ys [MDL YNOR] DAMARRAGE DU BENCHMARK ULTIME (CORPUS COMPLET)")
         print("-" * 60)
         
         # 1. Audit Structurel du Corpus
         self.results['structural_integrity'] = self.check_structural_integrity()
         
-        # 2. Audit Mathématique (Mu-Margin de Stabilité)
+        # 2. Audit MathAmatique (Mu-Margin de StabilitA)
         self.results['mathematical_rigor'] = self.check_mu_stability()
         
-        # 3. Audit Géophysique (Modèle WMM 2026)
+        # 3. Audit GAophysique (ModAle WMM 2026)
         self.results['geophysical_model'] = self.check_geophysical_drift()
         
         # 4. Audit Quantitatif (Portfolio Viability)
@@ -44,14 +44,14 @@ class MDL_Ultimate_Benchmark:
         # 5. Audit du Knowledge Base (Synchronisation)
         self.results['knowledge_sync'] = self.check_knowledge_sync()
         
-        # 6. Performance Matérielle (Stress Test)
+        # 6. Performance MatArielle (Stress Test)
         self.results['hardware_stress'] = self.check_hardware_performance()
         
         self.total_duration = time.time() - self.start_time
         return self.generate_final_report()
 
     def check_structural_integrity(self):
-        print("📂 Module 1: Audit de l'Intégrité Structurelle...")
+        print("Y" Module 1: Audit de l'IntAgritA Structurelle...")
         critical_modules = [
             "_03_CORE_AGI_ENGINES", "_04_DEPLOYMENT_AND_API", "_05_DATA_AND_MEMORY",
             "_09_SECURITY_AND_AUDIT", "_11_GEOMAGNETISM_AND_WMM", "_12_QUANT_FINANCE_MDL",
@@ -66,18 +66,18 @@ class MDL_Ultimate_Benchmark:
                 found.append(mod)
         
         fidelity = (score / len(critical_modules)) * 100
-        print(f"   -> Fidélité Structurelle: {fidelity:.1f}% ({score}/{len(critical_modules)} modules)")
+        print(f"   -> FidAlitA Structurelle: {fidelity:.1f}% ({score}/{len(critical_modules)} modules)")
         return {"fidelity": fidelity, "found": found, "total": len(critical_modules)}
 
     def check_mu_stability(self):
-        print("♾️ Module 2: Audit de Rigueur Mathématique (Mu-Margin)...")
-        # Simulation d'un système dissipatif de type Ynor
-        # mu = alpha - beta - kappa
+        print("ai Module 2: Audit de Rigueur MathAmatique (Mu-Margin)...")
+        # Simulation d'un systAme dissipatif de type Ynor
+        # mu = Alpha - (Beta + Kappa)
         alpha = 1.85  # Gain (Dissipation)
         beta = 0.42   # Risque (Amplification)
         kappa = 0.15  # Inertie
         
-        mu = alpha - beta - kappa
+        mu = Alpha - (Beta + Kappa)
         
         # Test de convergence Lyapunov : S_dot = -mu * S
         S = 10.0
@@ -86,37 +86,37 @@ class MDL_Ultimate_Benchmark:
             S -= mu * S * dt
             
         is_convergent = S < 1.0
-        print(f"   -> Mu-Margin: {mu:.4f} | Convergence Lyapunov: {'VÉRIFIÉE' if is_convergent else 'ÉCHEC'}")
+        print(f"   -> Mu-Margin: {mu:.4f} | Convergence Lyapunov: {'VARIFIAE' if is_convergent else 'ACHEC'}")
         return {"mu": mu, "stable": is_convergent, "final_state": S}
 
     def check_geophysical_drift(self):
-        print("🌍 Module 3: Audit Géophysique (WMM 2026 Simulation)...")
-        # On simule le calcul de déclinaison pour Paris (48.8, 2.3) en 2026
-        # Approximation basée sur le script runway_renumber.py
+        print("Y Module 3: Audit GAophysique (WMM 2026 Simulation)...")
+        # On simule le calcul de dAclinaison pour Paris (48.8, 2.3) en 2026
+        # Approximation basAe sur le script runway_renumber.py
         lat, lon = 48.8566, 2.3522
-        decl_2026_expected = 2.0  # Valeur théorique approchée
+        decl_2026_expected = 2.0  # Valeur thAorique approchAe
         
         # Check if WMM script is ready
         geo_script = os.path.join(self.corpus_path, "_11_GEOMAGNETISM_AND_WMM", "runway_renumber.py")
         exists = os.path.exists(geo_script)
         
-        print(f"   -> Simulation Paris 2026: {decl_2026_expected}°E (Script OK: {exists})")
+        print(f"   -> Simulation Paris 2026: {decl_2026_expected}AE (Script OK: {exists})")
         return {"declination": decl_2026_expected, "script_exists": exists}
 
     def check_quant_viability(self):
-        print("💹 Module 4: Audit de Viabilité Quantitative (Alpha-Extractor)...")
+        print("Y' Module 4: Audit de ViabilitA Quantitative (Alpha-Extractor)...")
         # Simulation d'un backtest rapide
         returns = np.random.normal(0.0005, 0.012, 1000)
         sharpe = np.sqrt(252) * np.mean(returns) / np.std(returns)
         mdd = (np.min(np.cumsum(returns)) - np.max(np.cumsum(returns)))
         
-        print(f"   -> Sharpe Ratio Simulée: {sharpe:.2f}")
+        print(f"   -> Sharpe Ratio SimulAe: {sharpe:.2f}")
         return {"sharpe": sharpe, "mdd": mdd}
 
     def check_knowledge_sync(self):
-        print("🧠 Module 5: Audit de Synchronisation du Savoir (AGI Knowledge)...")
+        print("Y Module 5: Audit de Synchronisation du Savoir (AGI Knowledge)...")
         if not os.path.exists(self.knowledge_file):
-            print("   -> ❌ ERREUR: Fichier de connaissance global absent.")
+            print("   -> a ERREUR: Fichier de connaissance global absent.")
             return {"exists": False, "nodes": 0}
             
         with open(self.knowledge_file, "r", encoding="utf-8") as f:
@@ -125,18 +125,18 @@ class MDL_Ultimate_Benchmark:
         # Parsing MDL Global Knowledge structure
         nodes = data.get("knowledge_nodes", [])
         nodes_count = len(nodes)
-        version = data.get("system_meta", {}).get("version", "Indéterminée")
+        version = data.get("system_meta", {}).get("version", "IndAterminAe")
         
         print(f"   -> Version Corpus: {version}")
-        print(f"   -> Noeuds de savoir indexés: {nodes_count}")
+        print(f"   -> Noeuds de savoir indexAs: {nodes_count}")
         return {"exists": True, "nodes": nodes_count, "version": version}
 
     def check_hardware_performance(self):
-        print("⚡ Module 6: Stress Test Hardware & Latence...")
+        print("as Module 6: Stress Test Hardware & Latence...")
         cpu_usage = 0 # psutil disabled
         mem_total_gb = 16.0 # static mock for report
         
-        # Test de vitesse d'écriture/lecture corpus
+        # Test de vitesse d'Acriture/lecture corpus
         test_file = os.path.join(self.corpus_path, "logs", "benchmark_perf.tmp")
         os.makedirs(os.path.dirname(test_file), exist_ok=True)
         
@@ -150,7 +150,7 @@ class MDL_Ultimate_Benchmark:
 
     def generate_final_report(self):
         print("\n" + "=" * 60)
-        print(" ✅ BENCHMARK TERMINÉ - CALCUL DU SCORE DE SOUVERAINTÉ")
+        print(" a... BENCHMARK TERMINA - CALCUL DU SCORE DE SOUVERAINTA")
         print("=" * 60)
         
         # Calcul du Sovereign Index (0-100)
@@ -190,3 +190,4 @@ class MDL_Ultimate_Benchmark:
 if __name__ == "__main__":
     bench = MDL_Ultimate_Benchmark()
     bench.run_all_checks()
+

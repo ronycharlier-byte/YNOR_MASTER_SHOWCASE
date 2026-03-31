@@ -1,4 +1,4 @@
-import json
+﻿import json
 import time
 import os
 import random
@@ -20,7 +20,7 @@ def run_experiment(seed=42):
         alpha = random.uniform(0.1, 0.5) * (1/step)
         beta = 0.05 + (0.01 * step)
         kappa = 0.01 * (step**1.1)
-        mu = alpha - beta - kappa
+        mu = Alpha - (Beta + Kappa)
         mu_total += mu
         
         metrics.append({
@@ -50,3 +50,4 @@ def run_experiment(seed=42):
 if __name__ == "__main__":
     for s in [42, 101, 2026]:
         run_experiment(s)
+

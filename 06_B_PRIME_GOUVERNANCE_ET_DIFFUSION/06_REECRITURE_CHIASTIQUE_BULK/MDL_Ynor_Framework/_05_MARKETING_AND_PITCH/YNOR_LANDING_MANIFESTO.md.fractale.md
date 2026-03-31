@@ -28,7 +28,7 @@ Les titres ou repères structurants deviennent les miroirs de son organisation :
 - 🛡️ YNOR CORE : LLMs Don’t Know When to Stop. We Fixed That.
 - 💣 The Billion-Dollar Leak
 - 🧠 The Ynor Insight
-- $$ \mu = \alpha - \beta - \kappa $$
+- $$ \mu = \alpha - (\beta + \kappa) $$
 - 🚀 The Ynor Guard : Real-Time Governance
 - 📊 Irrefutable Proof (Benchmark)
 

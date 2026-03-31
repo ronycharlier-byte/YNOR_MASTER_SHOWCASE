@@ -11,7 +11,7 @@ SHA256 : 6149e6da19944d16c8d3039a07bb1b72d4ea30945ecbd6bd3c03e5801f5fc890
 ---
 
 ## 🔒 1. PROTECTION SUPRÊME
-Toute la structure MDL Ynor, incluant mais non limitée à l'équation dissipative $\mu = \alpha - \beta - \kappa$, les algorithmes de mutation AGI, et la structure du corpus `mdl_global_knowledge.json`, est protégée sous licence exclusive **MDL-PROPRIETARY-2026**.
+Toute la structure MDL Ynor, incluant mais non limitée à l'équation dissipative $\mu = \alpha - (\beta + \kappa)$, les algorithmes de mutation AGI, et la structure du corpus `mdl_global_knowledge.json`, est protégée sous licence exclusive **MDL-PROPRIETARY-2026**.
 
 * Aucun code source ne peut être redistribué sans consentement écrit.
 * Toute utilisation commerciale sans licence est passible de poursuites.

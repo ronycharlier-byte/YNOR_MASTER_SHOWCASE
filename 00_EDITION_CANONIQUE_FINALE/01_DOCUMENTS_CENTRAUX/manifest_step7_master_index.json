@@ -31,9 +31,11 @@
   "node_counts": {
     "01_A_FONDATION": 2,
     "02_B_THEORIE_ET_PREUVES": 43,
+    "03_C_MOTEURS_ET_DEPLOIEMENT": 187,
+    "04_X_NOYAU_MEMOIRE": 9,
+    "05_C_PRIME_VALIDATION_ET_TESTS": 75,
     "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION": 43,
-    "07_A_PRIME_ARCHIVES_ET_RELEASES": 31,
-    "04_X_NOYAU_MEMOIRE": 8
+    "07_A_PRIME_ARCHIVES_ET_RELEASES": 31
   },
   "family_counts": {
     "mathematique": 2,
@@ -2611,6 +2613,18 @@
       ]
     },
     {
+      "source": "04_X_NOYAU_MEMOIRE/README.md",
+      "stages": [
+        "step_1_curated_text"
+      ],
+      "nodes": [
+        "04_X_NOYAU_MEMOIRE"
+      ],
+      "outputs": [
+        "FRACTAL_CHIASTE_UNIVERSEL/04_X_NOYAU_MEMOIRE/04_INDEX/README_NOYAU_MEMOIRE.md"
+      ]
+    },
+    {
       "source": "README.md",
       "stages": [
         "step_1_curated_text"
@@ -2952,3 +2966,4 @@
     }
   ]
 }
+

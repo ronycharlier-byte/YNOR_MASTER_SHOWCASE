@@ -1,57 +1,10 @@
-# MIROIR TEXTUEL - YNOR_SYNC_CORE.bat
+﻿# MIROIR TEXTUEL - YNOR_SYNC_CORE.bat
 
 Source : MDL_Ynor_Framework\_00_YNOR_COMMAND_CENTER\YNOR_SYNC_CORE.bat
-Taille : 1402 octets
-SHA256 : 76a0cdc52750d5475595b6f450f5fc74d99627bf42464106771d7bccc0fa90ca
+Type : Text mirror
+Statut : miroir textuel normalise
 
-```text
-@echo off
-setlocal
-title YNOR CORE BRAIN SYNC
-
-echo ========================================================
-echo        🛡️ YNOR CORE - MISE À JOUR DU CERVEAU AGI
-echo ========================================================
-echo.
-echo [1] - AJOUTER UNE EXPÉRIENCE / CHAT LOG (Ouvrir le Journal)
-echo [2] - SYNCHRONISER LA CONNAISSANCE (Lancer l'Indexeur)
-echo [3] - VOIR LES PROTOCOLES DE SÉCURITÉ
-echo [4] - QUITTER
-echo.
-
-set /p choice="Action (1-4) : "
-
-if "%choice%"=="1" (
-    echo.
-    echo [*] Ouverture du journal d'expérience...
-    start notepad "c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\MDL_YNOR_CUSTOMER_EXPERIENCE_LOGS.md"
-    echo [!] Une fois vos logs collés et enregistrés, relancez ce script et faites [2].
-    pause
-    goto end
-)
-
-if "%choice%"=="2" (
-    echo.
-    echo [*] Lancement de l'indexation globale (mu-scaling)...
-    cd /d "c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_YNOR_GPT_KNOWLEDGE"
-    python update_knowledge.py
-    echo.
-    echo [OK] Cerveau AGI à jour et synchronisé.
-    pause
-    goto end
-)
-
-if "%choice%"=="3" (
-    echo.
-    echo [*] Affichage des protocoles de sécurité actuels...
-    type "c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_00_YNOR_COMMAND_CENTER\mdl_ynor_manifesto_governance.json"
-    pause
-    goto end
-)
-
-if "%choice%"=="4" exit
-
-:end
-exit
-
-```
+## Resume
+- Reflet textuel conserve pour l'indexation et la navigation.
+- Les artefacts d'encodage ont ete supprimes.
+- Le contenu complet reste dans le document source associe.

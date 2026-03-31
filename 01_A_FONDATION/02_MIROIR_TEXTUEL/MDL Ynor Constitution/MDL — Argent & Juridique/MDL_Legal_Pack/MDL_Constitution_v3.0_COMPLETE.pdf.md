@@ -1,12 +1,12 @@
 # MIROIR TEXTUEL - MDL_Constitution_v3.0_COMPLETE.pdf
 
-Source : MDL Ynor Constitution\MDL — Argent & Juridique\MDL_Legal_Pack\MDL_Constitution_v3.0_COMPLETE.pdf
+Source : MDL Ynor Constitution\MDL - Argent & Juridique\MDL_Legal_Pack\MDL_Constitution_v3.0_COMPLETE.pdf
 Taille : 9002 octets
 SHA256 : 031245d3a186beba2687867e24ea32567d1d131995e7252ca848036f19b31f93
 
 ```text
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+%"z ReportLab Generated PDF document http://www.reportlab.com
 1 0 obj
 <<
 /F1 2 0 R /F2 3 0 R /F3 4 0 R

@@ -1,12 +1,12 @@
 # MIROIR TEXTUEL - Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.pdf
 
-Source : MDL Ynor Constitution\MDL — Argent & Juridique\MDL_Legal_Pack\Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.pdf
+Source : MDL Ynor Constitution\MDL - Argent & Juridique\MDL_Legal_Pack\Corpus_MDL_Depot_2026_VERSION_ETENDUE_COMPLETE.pdf
 Taille : 10175 octets
 SHA256 : 40c09ca1b2fc74f9541c003071d70286448714a3ce55eeacca0e7585d27d3633
 
 ```text
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+%"z ReportLab Generated PDF document http://www.reportlab.com
 1 0 obj
 <<
 /F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 7 0 R

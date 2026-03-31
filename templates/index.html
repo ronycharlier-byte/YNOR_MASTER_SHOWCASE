@@ -1,0 +1,170 @@
+{% extends "base.html" %}
+
+{% block title %}Ynor | Precision begins here.{% endblock %}
+
+{% block content %}
+<section class="hero-grid">
+  <div class="hero">
+    <div class="eyebrow">Ynor / premium intelligence platform</div>
+    <h1 class="title">Precision begins here.</h1>
+    <p class="lead">
+      Ynor turns the MDL Ynor corpus and live internet knowledge into a premium conversational
+      intelligence experience. Ask naturally, receive precise answers, and keep the interface calm,
+      fast, and editorial.
+    </p>
+    <div class="hero-actions">
+      <a class="btn primary" href="/chat">Start your session</a>
+      <a class="btn secondary" href="/pricing">View plans</a>
+    </div>
+    <div class="micro">
+      <span class="chip">Live internet layer</span>
+      <span class="chip">Corpus grounding</span>
+      <span class="chip">Brief Mode ready</span>
+      <span class="chip">PWA installable</span>
+    </div>
+  </div>
+  <div class="panel chat-panel">
+    <div class="section-head" style="padding:24px 24px 0;">
+      <div>
+        <div class="kicker">Live assistant preview</div>
+        <h2>Ask. Understand. Act.</h2>
+      </div>
+      <span class="badge high">0.91 • High</span>
+    </div>
+    <div class="chat-stream">
+      <div class="bubble user">How does Ynor blend corpus knowledge with live internet context?</div>
+      <div class="bubble assistant">
+Ynor combines corpus grounding with live web retrieval behind the scenes, then answers with source-aware reasoning.
+
+<div class="sources">
+  <span class="source-chip"><strong>[1]</strong> Corpus evidence</span>
+  <span class="source-chip"><strong>[2]</strong> Live web context</span>
+</div>
+      </div>
+      <div class="bubble assistant">Brief Mode is available for executive summaries with stricter confidence scoring.</div>
+    </div>
+    <div style="padding: 0 20px 20px;">
+      <div class="prompt-bar">
+        <input value="Ask a question about the MDL Ynor corpus..." aria-label="Prompt preview" readonly />
+        <button onclick="location.href='/chat'">Open chat</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section surface">
+  <div class="section-head">
+    <div>
+      <div class="kicker">Why Ynor</div>
+      <h2>Built to feel faster, calmer, and sharper than standard AI products.</h2>
+    </div>
+    <div class="section-links">
+      <a class="btn secondary" href="/chat">Ask Ynor</a>
+      <a class="btn secondary" href="/pricing">Pricing</a>
+      <a class="btn secondary" href="/account">Account</a>
+      <a class="btn secondary" href="/onboarding">Onboarding</a>
+    </div>
+  </div>
+  <div class="feature-grid">
+    <div class="card feature">
+      <div class="icon">✦</div>
+      <h3>Premium chat-first experience</h3>
+      <p>The assistant is the product. The corpus and internet support it behind the scenes.</p>
+    </div>
+    <div class="card feature">
+      <div class="icon">⟡</div>
+      <h3>Source-aware intelligence</h3>
+      <p>Responses stay grounded in corpus evidence, with live web context when relevance matters.</p>
+    </div>
+    <div class="card feature">
+      <div class="icon">◌</div>
+      <h3>Blue nuit editorial design</h3>
+      <p>Midnight-blue atmosphere, luxury typography, and a calm premium tone throughout.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section surface">
+  <div class="section-head">
+    <div>
+      <div class="kicker">Corpus status</div>
+      <h2>Live confidence signals from the canonical corpus.</h2>
+    </div>
+    <a class="btn secondary" href="/api/corpus/status">API status</a>
+  </div>
+  <div class="grid-4">
+    <div class="card"><div class="kicker">Corpus</div><div class="price">{{ total_files }}</div><div class="muted">Indexed files</div></div>
+    <div class="card"><div class="kicker">Canonical</div><div class="price">{{ canonical_total_files }}</div><div class="muted">Representative files after deduplication</div></div>
+    <div class="card"><div class="kicker">Text</div><div class="price">{{ text_files }}</div><div class="muted">Readable files</div></div>
+    <div class="card"><div class="kicker">Redacted</div><div class="price">{{ redacted }}</div><div class="muted">Sensitive files masked</div></div>
+    <div class="card"><div class="kicker">Root</div><div class="price" style="font-size:18px; line-height:1.3;">YNOR</div><div class="muted mono">{{ root_path }}</div></div>
+    <div class="card"><div class="kicker">Duplicates</div><div class="price">{{ canonical_duplicate_entries }}</div><div class="muted">{{ canonical_duplicate_groups }} duplicate clusters · {{ canonical_duplicate_share_percent }}% collapsed from the raw corpus</div></div>
+    <div class="card"><div class="kicker">Archive load</div><div class="price">{{ derived_entries }}</div><div class="muted">{{ versioned_entries }} versioned artefacts · mirrors and rewrites remain visible, but not primary</div></div>
+  </div>
+</section>
+
+<section class="section surface">
+  <div class="section-head">
+    <div>
+      <div class="kicker">Pricing preview</div>
+      <h2>Four premium tiers designed to scale from entry to flagship.</h2>
+    </div>
+    <a class="btn secondary" href="/pricing">See all plans</a>
+  </div>
+  <div class="grid-4">
+    <div class="card">
+      <div class="kicker">Essential</div>
+      <div class="price">€9<span style="font-size:16px; color:var(--muted);">/month</span></div>
+      <div class="muted">A refined entry point into the Ynor experience.</div>
+    </div>
+    <div class="card">
+      <div class="kicker">Plus</div>
+      <div class="price">€29<span style="font-size:16px; color:var(--muted);">/month</span></div>
+      <div class="muted">For regular users who want more depth and continuity.</div>
+    </div>
+    <div class="card">
+      <div class="kicker">Pro</div>
+      <div class="price">€79<span style="font-size:16px; color:var(--muted);">/month</span></div>
+      <div class="muted">For advanced users who require stronger reasoning.</div>
+    </div>
+    <div class="card">
+      <div class="kicker">Elite</div>
+      <div class="price">€199<span style="font-size:16px; color:var(--muted);">/month</span></div>
+      <div class="muted">Flagship access with maximum continuity and trust.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section surface">
+  <div class="section-head">
+    <div>
+      <div class="kicker">Recent corpus files</div>
+      <h2>A curated view of the corpus surface.</h2>
+    </div>
+    <a class="btn secondary" href="/api/corpus/files?scope=canonical">Browse API</a>
+  </div>
+  <div class="grid-2">
+    <div class="stack">
+        {% for card in recent_cards %}
+        <div class="item">
+            <div class="path"><a href="/api/corpus/file/{{ card.path }}">{{ card.path }}</a></div>
+            <div class="meta">type={{ card.kind }} | size={{ card.size_bytes }} bytes | sha256={{ card.sha256[:12] }}...</div>
+            {% if card.preview %}<div class="preview">{{ card.preview[:520] }}</div>{% endif %}
+        </div>
+        {% endfor %}
+    </div>
+    <div class="card">
+      <div class="kicker">Chiastic axis</div>
+      <h3 class="mb-0">A → B → C → X → C' → B' → A'</h3>
+      <p>Foundation, theory, engines, memory, validation, governance, archives.</p>
+      <div class="footer">
+        API surfaces:
+        <a href="/api/corpus/summary"> summary</a>,
+        <a href="/api/corpus/search?q=Ynor"> search</a>,
+        <a href="/api/corpus/entrypoints"> entrypoints</a>,
+        <a href="/docs"> docs</a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,39 +1,26 @@
-# PHASE_IV_ACCESS_CARD - VERSION FRACTALE ET CHIASTIQUE
+﻿# PHASE IV ACCESS CARD - VERSION FRACTALE AUGMENTEE
 
 Source : `_RELEASES/GOLDEN_MASTER_PHASE_III/PHASE_IV_ACCESS_CARD.tex`
 
 ## A. Ouverture
-\documentclass[a4paper,12pt]{article} \usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{geometry} \usepackage{xcolor} \usepackage{tcolorbox} \usepackage{hyperref}
+La carte est lue comme un seuil documentaire.
 
 ## B. Expansion
-Le texte se déplie selon les lignes suivantes :
-- niveaux d'autorite
-- posture d'identite
-- invariants de stabilite
-- protocoles defensifs
-- signature de version
+- cles d'activation
+- phrases d'initialisation
+- reperes internes
 
 ## C. Matiere
-Le contenu source comporte des segments d'activation ou d'autorité. La version chiastique en conserve la structure sans recopier les marqueurs sensibles.
+Le manuscrit source est transforme en description structurelle.
 
 ## X. Centre
-La marge de viabilite constitue le centre de gravite du texte.
+Le centre chiastique est le passage entre preuve, legitimite et activation.
 
 ## C'. Retour
-Au retour du centre, le texte se relit comme un mécanisme de clarification, de stabilisation ou d'institution.
+Le retour ferme le texte sur sa fonction de verification.
 
 ## B'. Miroir
-Les titres ou repères structurants deviennent les miroirs de son organisation :
-- Le fichier ne declare pas de titres explicites.
+Le miroir fait correspondre architecture, regime et lisibilite.
 
 ## A'. Cloture
-La clôture répond à l'ouverture : ce qui commençait comme énoncé devient ici arche, retour et scellement fractal.
-
-Forme chiastique :
-- A : ouverture
-- B : déploiement
-- C : matière
-- X : centre
-- C' : retour
-- B' : miroir
-- A' : clôture
+La cloture installe la carte comme figure fractale augmentee.

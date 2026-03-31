@@ -24,7 +24,7 @@ SHA256 : 0fb2817ecb0834d6b4af197ae93af05ec0a7b2af68c20b90f3a9c7df89189135
 \maketitle
 
 \begin{abstract}
-Les architectures actuelles d'intelligence artificielle générative opèrent comme des systèmes thermodynamiquement ouverts : dépourvus de conditions d'arrêt mathématiques endogènes, elles sont condamnées à des dérives structurelles et discursives (hallucinations, redondances) à mesure qu'elles s'étendent en longueur de contexte. Pour résoudre cette divergence, cet article théorise l'Architecture MDL Ynor sous sa forme maximale ($\Omega+$). Nous posons un système autonome fermé sur un espace des phases $\mathcal{X} = \mathbb{R}_{\ge 0}^3$ modélisant la Valeur ($\alpha$), le Bruit/Coût ($\beta$), et la Surcharge Mémorielle ($\kappa$). En traçant la trajectoire des variables, nous démontrons formellement que l'instabilité devient prédictible à travers la Marge Dissipative $\mu = \alpha - \beta - \kappa$. Ainsi, la condition d'arrêt d'un tel système émerge rigoureusement comme un franchissement de frontière (une "Surface Critique") et non plus comme une règle heuristique d'ingénierie.
+Les architectures actuelles d'intelligence artificielle générative opèrent comme des systèmes thermodynamiquement ouverts : dépourvus de conditions d'arrêt mathématiques endogènes, elles sont condamnées à des dérives structurelles et discursives (hallucinations, redondances) à mesure qu'elles s'étendent en longueur de contexte. Pour résoudre cette divergence, cet article théorise l'Architecture MDL Ynor sous sa forme maximale ($\Omega+$). Nous posons un système autonome fermé sur un espace des phases $\mathcal{X} = \mathbb{R}_{\ge 0}^3$ modélisant la Valeur ($\alpha$), le Bruit/Coût ($\beta$), et la Surcharge Mémorielle ($\kappa$). En traçant la trajectoire des variables, nous démontrons formellement que l'instabilité devient prédictible à travers la Marge Dissipative $\mu = \alpha - (\beta + \kappa)$, c'est-a-dire $\mu = \alpha - (\beta + \kappa)$. Ainsi, la condition d'arrêt d'un tel système émerge rigoureusement comme un franchissement de frontière (une "Surface Critique") et non plus comme une règle heuristique d'ingénierie.
 \end{abstract}
 
 \section{Introduction et Axiomatisation}
@@ -37,10 +37,10 @@ L'architecture de l'information dans les LLMs classiques ne s'auto-régule pas. 
 
 Nous définissons la Marge Dissipative de structure comme suit :
 \begin{equation}
-   \mu(\alpha, \beta, \kappa) = \alpha - \beta - \kappa
+   \mu(\alpha, \beta, \kappa) = \alpha - (\beta + \kappa)
 \end{equation}
 
-Une trajectoire est dite \textit{viable} si et seulement si $\mu > 0$.
+Une trajectoire est dite \textit{viable} si et seulement si $\mu > 0$, ce qui revient a dire $\alpha > \beta + \kappa$.
 
 \section{Dynamique du Système Fermé}
 Nous considérons l'évolution non linéaire d'un état $S = (\alpha, \beta, \kappa)$ telle que :

@@ -1,6 +1,6 @@
 # MDL Ynor Corpus API
 
-Cette application expose le corpus documentaire fractal et chiastique au travers d'une API FastAPI unifiee.
+Cette application expose le corpus documentaire au travers d'une API FastAPI unifiee.
 
 ## Lancement
 

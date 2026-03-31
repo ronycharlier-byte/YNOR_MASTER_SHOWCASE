@@ -12,10 +12,10 @@ from ynor_ai_governor import get_ai_reconstruction_strategy
 
 class MDLMasterSystem:
     """
-    Implémentation Totale de la Théorie MDL Ynor (Synthèse des 55 Chapitres).
+    Implmentation Totale de la Thorie MDL Ynor (Synthse des 55 Chapitres).
     """
     def __init__(self):
-        # 1. Noyau de Résonance : Un réseau de 5 systèmes interconnectés
+        # 1. Noyau de Rsonance : Un rseau de 5 systmes interconnects
         self.nodes = {
             "ENERGIE": YnorSystem(2, lambda S: 1.5 * S, lambda S: 0.5 * S),
             "MATIERE": YnorSystem(2, lambda S: 1.0 * S, lambda S: 1.1 * S),
@@ -33,14 +33,14 @@ class MDLMasterSystem:
 
     def get_global_coupling(self):
         """
-        Définit l'influence mutuelle des nœuds. (Chapitre VII).
+        Dfinit l'influence mutuelle des nuds. (Chapitre VII).
         """
         # Matrice de synergie : On calcule l'effort de chaque noeud sur les autres
         pass 
 
     def audit_global(self, t):
         """
-        Réalise un AUDIT FORMEL de l'intégralité de l'architecture (Chapitre XII).
+        Ralise un AUDIT FORMEL de l'intgralit de l'architecture (Chapitre XII).
         """
         print(f"\n--- AUDIT GLOBAL MDL t={t:.2f} ---")
         unstable_nodes = []
@@ -67,19 +67,19 @@ class MDLMasterSystem:
             
             # 2. Re-stabilisation par le Gouverneur IA
             if crises:
-                print(f"[ALERTE] Détection de défaillance majeure sur {len(crises)} noeuds.")
+                print(f"[ALERTE] Dtection de dfaillance majeure sur {len(crises)} noeuds.")
                 for node_name, mu in crises:
                     print(f"   [IA] Intervention sur {node_name}...")
                     strategy = get_ai_reconstruction_strategy(mu, self.states[node_name].tolist())
                     r = strategy["mutation_rate"]
                     
-                    # Mutation décisive
+                    # Mutation dcisive
                     sys = self.nodes[node_name]
                     old_D = sys.D
                     sys.D = lambda S, D_old=old_D, rate=r: (1.0 + rate) * D_old(S)
-                    print(f"   [IA] Noeud {node_name} muté à +{r*100}%.")
+                    print(f"   [IA] Noeud {node_name} mut  +{r*100}%.")
 
-            # 3. Evolution dynamique couplée
+            # 3. Evolution dynamique couple
             for name, sys in self.nodes.items():
                 self.history[name].append(sys.energy(self.states[name]))
                 
@@ -97,16 +97,16 @@ class MDLMasterSystem:
             plt.plot(self.time_points, data, label=name, marker='o', markersize=3)
         
         plt.yscale('log')
-        plt.title("AUDIT TOTAL DE STABILITÉ : NOYAU MDL YNOR (Synthèse 55 Chapitres)")
+        plt.title("AUDIT TOTAL DE STABILIT : NOYAU MDL YNOR (Synthse 55 Chapitres)")
         plt.xlabel("Cycle de Temps (t)")
-        plt.ylabel("Énergie Structurelle $(\log |S|^2)$")
+        plt.ylabel("nergie Structurelle $(\log |S|^2)$")
         plt.grid(True, which="both", alpha=0.3)
         plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
         plt.tight_layout()
         
         plt.savefig("mdl_master_audit_graph.png")
         print("\n" + "="*50)
-        print("   RAPPORT MASTER AUDIT : GÉNÉRÉ")
+        print("   RAPPORT MASTER AUDIT : GNR")
         print("="*50)
         print("[OK] Graphique : mdl_master_audit_graph.png")
         print("[OK] Log : mdl_master_audit.log")
@@ -114,3 +114,6 @@ class MDLMasterSystem:
 if __name__ == "__main__":
     master = MDLMasterSystem()
     master.run_master_loop()
+
+
+

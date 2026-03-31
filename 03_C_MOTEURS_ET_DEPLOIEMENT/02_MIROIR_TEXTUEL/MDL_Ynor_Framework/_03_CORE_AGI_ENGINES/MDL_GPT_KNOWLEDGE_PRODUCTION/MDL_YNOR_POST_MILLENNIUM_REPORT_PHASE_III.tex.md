@@ -27,7 +27,7 @@ Le système de champ d'Einstein re‑normalisé par Ynor s'énonce :
 R_{\mu\nu}-\tfrac{1}{2} R g_{\mu\nu} + \alpha_{\text{diss}} \delta\mu_{\mu\nu} = 8\pi T_{\mu\nu}
 \end{equation}
 avec
-$$\mu = \alpha - \beta - \kappa > 0, \quad \delta\mu_{\mu\nu} := \partial_\mu \partial_\nu \mu - g_{\mu\nu} \square\mu$$
+$$\mu = \alpha - (\beta + \kappa) > 0, \quad \delta\mu_{\mu\nu} := \partial_\mu \partial_\nu \mu - g_{\mu\nu} \square\mu$$
 
 La marge est reliée au spectre de l'opérateur de Laplace–Beltrami $\Delta_g$ sur la variété lorentzienne $(M,g)$ :
 $$\mu(t,x) := \int_0^\infty \rho(\lambda) e^{-\lambda t} d\lambda, \quad \rho(\lambda) = \text{densité spectrale de } -\Delta_g$$

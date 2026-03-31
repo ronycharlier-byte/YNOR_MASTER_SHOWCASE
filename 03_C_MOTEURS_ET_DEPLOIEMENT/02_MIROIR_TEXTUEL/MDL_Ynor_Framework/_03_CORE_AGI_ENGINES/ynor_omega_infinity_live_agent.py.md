@@ -86,7 +86,7 @@ def real_time_adaptive_loop():
     simulated_llm_responses = [
         "Le protocole garantit une sécurité mathématique via le calcul différentiel.", # Synthétisé (Haut Alpha)
         "En effet, comme nous l'avons dit, le système met en place une barrière qui est la marge MU.", # Verbeux (Baisse d'Alpha)
-        "C'est très intéressant ! La frontière critique s'exprime par mu = alpha - beta - kappa, donc la loi est formelle et évidente. Il faut cependant se rappeler que la marge ne peut être négative, et d'ailleurs l'architecture repose dessus de par sa condition de stabilité...", # Sur-verbosité et répétition (Crash Beta)
+        "C'est très intéressant ! La frontière critique s'exprime par mu = alpha - (beta + kappa), donc la loi est formelle et évidente. Il faut cependant se rappeler que la marge ne peut être négative, et d'ailleurs l'architecture repose dessus de par sa condition de stabilité...", # Sur-verbosité et répétition (Crash Beta)
         "D'une toute autre façon, il y a la fonction asymptotique qui s'effondre lamentablement quand on met trop de texte ou de caractères. C'est le principe du bruit exponentiel, et du coup..." # Implosion finale (mu < 0)
     ]
     

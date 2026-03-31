@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}Ynor | Ask{% endblock %}
+
+{% block content %}
+<section class="hero-grid">
+  <div class="panel chat-panel" style="grid-column: 1 / -1;">
+    <div class="section-head" style="padding:24px 24px 0;">
+      <div>
+        <div class="kicker">Ask Ynor</div>
+        <h2>Chat with a premium intelligence assistant.</h2>
+        <p>Hybrid answers combine the MDL Ynor corpus with live internet context, then stream back with source-aware citations.</p>
+      </div>
+      <div class="section-links">
+        <span class="badge high" id="confidenceBadge">0.84 • High</span>
+        <label class="toggle"><input id="briefMode" type="checkbox" /> Brief Mode</label>
+      </div>
+    </div>
+    <div class="chat-stream" id="chatStream" aria-live="polite"></div>
+    <div style="padding: 0 20px 20px;">
+      <div class="prompt-bar">
+        <textarea id="chatInput" rows="1" placeholder="Ask a question about the MDL Ynor corpus or current internet context..."></textarea>
+        <button id="sendBtn" onclick="sendMessage()">Send</button>
+      </div>
+      <div class="micro mt-12">
+        <button class="chip" type="button" onclick="setPrompt('Summarize the MDL Ynor corpus in executive language.')">Summarize</button>
+        <button class="chip" type="button" onclick="setPrompt('What are the strongest premium features of Ynor?')">Explain</button>
+        <button class="chip" type="button" onclick="setPrompt('Compare the subscription tiers and recommend one.')">Compare</button>
+        <button class="chip" type="button" onclick="setPrompt('Find source material related to the latest question.')">Find sources</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section surface">
+  <div class="section-head">
+    <div>
+      <div class="kicker">Assistant rules</div>
+      <h2>Brief Mode is optional. Confidence is explicit.</h2>
+    </div>
+    <a class="btn secondary" href="/pricing">View plans</a>
+  </div>
+  <div class="grid-3">
+    <div class="card">
+      <div class="kicker">Brief Mode</div>
+      <div class="muted">Returns concise executive summaries with stricter confidence scoring. Best for decision-making.</div>
+    </div>
+    <div class="card">
+      <div class="kicker">Sources</div>
+      <div class="muted">Corpus references and web context appear as chips below the answer when relevant.</div>
+    </div>
+    <div class="card">
+      <div class="kicker">Memory</div>
+      <div class="muted">History is saved locally for this phase and can later be upgraded to persistent account memory.</div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/chat.js"></script>
+{% endblock %}

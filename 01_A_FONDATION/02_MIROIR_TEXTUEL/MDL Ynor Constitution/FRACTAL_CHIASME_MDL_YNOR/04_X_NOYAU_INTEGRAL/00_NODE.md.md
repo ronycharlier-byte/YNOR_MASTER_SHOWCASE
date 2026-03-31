@@ -14,8 +14,8 @@ Miroir chiastique : X
 Resume : Le centre integre les formulations mathematiques du noyau. Tout converge ici puis repart en reflet.
 
 Contenu source :
-- Chapitre XVI — Formalisation mathématique intégrale du noyau MDL Ynor.pdf
-- Chapitre I — Formalisation mathématique intégrale du noyau MDL Ynor.pdf
+- Chapitre XVI - Formalisation mathematique integrale du noyau MDL Ynor.pdf
+- Chapitre I - Formalisation mathematique integrale du noyau MDL Ynor.pdf
 
 Implementation fractale :
 - 01_SOURCE contient le document ou le sous-corpus original.

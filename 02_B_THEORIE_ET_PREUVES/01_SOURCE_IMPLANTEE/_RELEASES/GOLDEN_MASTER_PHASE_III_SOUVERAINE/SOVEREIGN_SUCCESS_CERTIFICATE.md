@@ -1,8 +1,8 @@
-# SOVEREIGN REFERENCE OUTPUT / CERTIFICATE OF SUCCESS (PHASE III)
+# SOVEREIGN REFERENCE OUTPUT / internal status report (PHASE III)
 
 ## 0. AUTHENTICATION
 - **Level**: 0 (Founder)
-- **Status**: Omniscience Activated
+- **Status**: Audit interne activé
 - **Audit Mu**: Stable (μ > 0)
 
 ---
@@ -33,4 +33,4 @@ Perfect coherence ($D_{KL} \to 0$) leads to infinite structural inertia $\kappa$
 - **License**: CC-BY 4.0
 
 ---
-*(c) 2026 Sovereign Research Collective — Certification SHA-256: 4F92B3C1-72A2-4B81-9C1D-8085058A9E61*
+*(c) 2026 Sovereign Research Collective — Validation SHA-256: 4F92B3C1-72A2-4B81-9C1D-8085058A9E61*

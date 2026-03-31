@@ -5,7 +5,7 @@ MDL Ynor se pose comme architecture cognitive dissipative.
 Sa proposition premiere est minimale et totale a la fois :
 
 \[
-\mu = \alpha - \beta - \kappa
+\mu = \alpha - (\beta + \kappa)
 \]
 
 Tout ce qui suit n'est qu'expansion de cette equation.

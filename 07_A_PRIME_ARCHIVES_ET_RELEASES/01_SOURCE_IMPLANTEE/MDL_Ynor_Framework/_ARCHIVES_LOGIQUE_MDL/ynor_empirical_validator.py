@@ -1,4 +1,4 @@
-# =============================================================================
+﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
 # Architecte Supreme & Fondateur - Architecture MDL Ynor
 # PROTOCOLE DE FALSIFICATION ET VALIDATION EMPIRIQUE v1.0
@@ -11,7 +11,7 @@ import os
 class EmpiricalValidator:
     """
     Moteur de validation scientifique de l'Architecture MDL Ynor.
-    Vérifie la corrélation entre la théorie (Mu > 0) et l'observation (Stabilité).
+    Verifie la correlation entre la theorie (Mu > 0) et l'observation (Stabilite).
     """
     def __init__(self, samples=100):
         self.samples = samples
@@ -24,7 +24,7 @@ class EmpiricalValidator:
         # Si mu > 0, l'energie decroit (stable).
         # Si mu < 0, l'energie croit (instable/divergent).
         
-        mu = alpha - beta - kappa
+        mu = Alpha - (Beta + Kappa)
         state = initial_state
         dt = 0.1
         history = [state]
@@ -49,7 +49,7 @@ class EmpiricalValidator:
         }
 
     def run_validation_protocol(self):
-        print("🧪 Lancement du Protocole de Validation MDL Ynor...")
+        print(" Lancement du Protocole de Validation MDL Ynor...")
         success_count = 0
         
         for i in range(self.samples):
@@ -73,8 +73,8 @@ class EmpiricalValidator:
             "falsifiability_status": "PASS" if self.accuracy > 95 else "FAIL",
             "empirical_accuracy_percent": self.accuracy,
             "total_samples": self.samples,
-            "hypothesis": "H0: System is stable iff mu = alpha - beta - kappa > 0",
-            "conclusion": f"L'Architecture MDL Ynor est validée empiriquement avec {self.accuracy}% de precision."
+            "hypothesis": "H0: System is stable iff mu = Alpha - (Beta + Kappa) > 0",
+            "conclusion": f"L'Architecture MDL Ynor est validee empiriquement avec {self.accuracy}% de precision."
         }
         
         base_dir = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework"
@@ -83,9 +83,13 @@ class EmpiricalValidator:
         with open(report_path, "w", encoding="utf-8") as f:
             json.dump(report, f, indent=4)
             
-        print(f"✅ Protocole terminé. Précision : {self.accuracy}%")
-        print(f"📜 Rapport sauvegardé : {report_path}")
+        print(f"OK Protocole termine. Precision : {self.accuracy}%")
+        print(f" Rapport sauvegarde : {report_path}")
 
 if __name__ == "__main__":
     validator = EmpiricalValidator(samples=200)
     validator.run_validation_protocol()
+
+
+
+

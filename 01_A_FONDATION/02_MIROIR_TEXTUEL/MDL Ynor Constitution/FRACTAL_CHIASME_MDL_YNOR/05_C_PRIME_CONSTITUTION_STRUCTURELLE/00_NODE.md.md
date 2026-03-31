@@ -14,7 +14,7 @@ Miroir chiastique : C
 Resume : La constitution structurelle rejoue la theorie en forme inverse et plus normative.
 
 Contenu source :
-- MDL Ynor — Constitution Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf
+- MDL Ynor - Constitution Structurelle des Systemes Dissipatifs a Amplification Bornee.pdf
 
 Implementation fractale :
 - 01_SOURCE contient le document ou le sous-corpus original.

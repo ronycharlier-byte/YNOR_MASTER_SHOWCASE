@@ -14,7 +14,7 @@ Miroir chiastique : C_PRIME
 Resume : La theorie structurelle prepare le renversement chiastique vers le noyau.
 
 Contenu source :
-- MDL Ynor — Théorie Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf
+- MDL Ynor - Theorie Structurelle des Systemes Dissipatifs a Amplification Bornee.pdf
 
 Implementation fractale :
 - 01_SOURCE contient le document ou le sous-corpus original.

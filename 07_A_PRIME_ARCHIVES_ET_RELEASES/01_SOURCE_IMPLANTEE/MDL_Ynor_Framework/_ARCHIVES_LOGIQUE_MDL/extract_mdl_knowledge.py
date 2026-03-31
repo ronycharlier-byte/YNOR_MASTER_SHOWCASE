@@ -2,7 +2,7 @@
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
 # Architecte Supreme & Fondateur - Architecture MDL Ynor
 # EXTRACTEUR HYPER-KNOWLEDGE v3.0 (MAXIMUM POWER)
-# Finalise pour GPT Store & AGI Intelligence
+# Prepared pour GPT Store & AGI Intelligence
 # =============================================================================
 import sys
 import os
@@ -20,14 +20,14 @@ if hasattr(sys.stdout, 'reconfigure'):
 # ANALYSE ET EXTRACTION PROFONDE
 # =====================================================
 def harvest_axioms(text):
-    """Extrait les regles suprêmes du texte pour le Super-Index."""
+    """Extrait les regles supremes du texte pour le Super-Index."""
     axioms = []
     # Recherche de patterns : Axiome 1, Loi, Mu = , etc.
     patterns = [
-        r"(Axiome\s+\d+[:\s—\-].+)",
-        r"(Loi\s+\d+[:\s—\-].+)",
+        r"(Axiome\s+\d+[:\s-\-].+)",
+        r"(Loi\s+\d+[:\s-\-].+)",
         r"(mu\s*=\s*alpha\s*-\s*[^\n]+)",
-        r"([Pp]rincipe\s+nucléaire[^.]+)"
+        r"([Pp]rincipe\s+nucleaire[^.]+)"
     ]
     for p in patterns:
         matches = re.findall(p, text)
@@ -38,7 +38,7 @@ def extract_full_pdf(pdf_file_obj, filename):
     try:
         reader = PyPDF2.PdfReader(pdf_file_obj)
         text = ""
-        # On passe à 50 pages max (couverture totale de vos traites)
+        # On passe a 50 pages max (couverture totale de vos traites)
         num_pages = min(len(reader.pages), 50)
         for i in range(num_pages):
             text += reader.pages[i].extract_text() + "\n"
@@ -57,7 +57,7 @@ def run_hyper_fusion():
     # --- EXECUTION DES VALidATEURS ET EVOLUTION AVANT FUSION ---
     try:
         import subprocess
-        print("🏛️ Appel des Gardiens JURIDIQUES, SCIENTIFIQUES et ÉVOLUTIFS...")
+        print(" Appel des Gardiens JURIDIQUES, SCIENTIFIQUES et VOLUTIFS...")
         subprocess.run(["python", os.path.join(output_dir, "ynor_legal_harvester.py")], check=True)
         subprocess.run(["python", os.path.join(output_dir, "ynor_empirical_validator.py")], check=True)
         subprocess.run(["python", os.path.join(output_dir, "ynor_asymptotic_evolution.py")], check=True)
@@ -83,7 +83,7 @@ def run_hyper_fusion():
         "knowledge_nodes": []
     }
 
-    print("⚡ DEMARRAGE HYPER-FUSION MDL YNOR v3.0 ⚡")
+    print(" DEMARRAGE HYPER-FUSION MDL YNOR v3.0 ")
 
     all_raw_text = ""
 
@@ -128,7 +128,7 @@ def run_hyper_fusion():
                     print(f"  [CAPTURED] {filename} (Full Text)")
 
     # --- GENERATION DU NOYAU AXIOMATIQUE ---
-    print("🧠 Extraction des Lois Suprêmes...")
+    print(" Extraction des Lois Supremes...")
     hyper_corpus["identity"]["laws_summary"] = harvest_axioms(all_raw_text)
 
     # --- SAUVEGARDE FINALE ---
@@ -136,11 +136,14 @@ def run_hyper_fusion():
     with open(out_path, "w", encoding="utf-8") as out:
         json.dump(hyper_corpus, out, indent=2, ensure_ascii=False)
 
-    print("\n" + "█" * 60)
-    print("  [MAXIMUM REACHED] Corpus MDL Ynor unifie avec succès.")
+    print("\n" + "" * 60)
+    print("  [MAXIMUM REACHED] Corpus MDL Ynor unifie avec succes.")
     print(f"  [FICHIER] {out_path}")
-    print("  [STATUT] Prêt pour importation GPT Store.")
-    print("█" * 60)
+    print("  [STATUT] Pret pour importation GPT Store.")
+    print("" * 60)
 
 if __name__ == "__main__":
     run_hyper_fusion()
+
+
+

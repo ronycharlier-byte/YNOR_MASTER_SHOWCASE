@@ -1,9 +1,9 @@
-# =============================================================================
+﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
 # Architecte Supreme & Fondateur - Architecture MDL Ynor
 # Toute reproduction ou utilisation sans autorisation est strictement interdite.
 # =============================================================================
-# Gestion des clés API et abonnements MDL Ynor
+# Gestion des cles API et abonnements MDL Ynor
 # =============================================================================
 
 import json
@@ -18,30 +18,30 @@ KEYS_FILE = os.path.join(os.path.dirname(__file__), "api_keys.json")
 TIERS = {
     "gratuit": {
         "name": "Gratuit",
-        "price": "0€",
+        "price": "0",
         "daily_limit": 10,
         "endpoints": ["/audit_mu"],
-        "description": "Audit Mu classique uniquement — 10 requêtes/jour"
+        "description": "Audit Mu classique uniquement - 10 requetes/jour"
     },
     "pro": {
         "name": "Pro",
-        "price": "9.99€/mois",
+        "price": "9.99/mois",
         "daily_limit": 500,
         "endpoints": ["/audit_mu", "/quantum_audit_mu", "/trigger_decoherence_shock"],
-        "description": "Accès complet aux outils quantiques — 500 requêtes/jour"
+        "description": "Acces complet aux outils quantiques - 500 requetes/jour"
     },
     "entreprise": {
         "name": "Entreprise",
-        "price": "49.99€/mois",
+        "price": "49.99/mois",
         "daily_limit": 10000,
         "endpoints": ["/audit_mu", "/quantum_audit_mu", "/trigger_decoherence_shock", "/full_system_audit"],
-        "description": "Accès illimité + Noyau Axiomatique + Support prioritaire"
+        "description": "Acces illimite + Noyau Axiomatique + Support prioritaire"
     }
 }
 
 
 def _load_keys() -> dict:
-    """Charge les clés API depuis le fichier JSON."""
+    """Charge les cles API depuis le fichier JSON."""
     if os.path.exists(KEYS_FILE):
         with open(KEYS_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -49,23 +49,23 @@ def _load_keys() -> dict:
 
 
 def _save_keys(data: dict):
-    """Sauvegarde les clés API dans le fichier JSON."""
+    """Sauvegarde les cles API dans le fichier JSON."""
     with open(KEYS_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
 def generate_api_key(email: str, tier: str = "free") -> dict:
     """
-    Génère une nouvelle clé API pour un utilisateur.
-    Retourne les infos de la clé créée.
+    Genere une nouvelle cle API pour un utilisateur.
+    Retourne les infos de la cle creee.
     """
     if tier not in TIERS:
         raise ValueError(f"Tier invalide. Choisir parmi: {list(TIERS.keys())}")
 
-    # Générer une clé unique : mdl_ynor_XXXX
+    # Generer une cle unique : mdl_ynor_XXXX
     raw_key = f"mdl_ynor_{uuid.uuid4().hex[:24]}"
 
-    # Hash de la clé pour le stockage sécurisé
+    # Hash de la cle pour le stockage securise
     key_hash = hashlib.sha256(raw_key.encode()).hexdigest()
 
     data = _load_keys()
@@ -85,57 +85,57 @@ def generate_api_key(email: str, tier: str = "free") -> dict:
         "email": email,
         "tier": tier,
         "tier_info": TIERS[tier],
-        "message": "IMPORTANT: Sauvegardez cette clé, elle ne sera plus affichée."
+        "message": "IMPORTANT: Sauvegardez cette cle, elle ne sera plus affichee."
     }
 
 
 def validate_api_key(api_key: str, endpoint: str) -> dict:
     """
-    Valide une clé API et vérifie les permissions.
+    Valide une cle API et verifie les permissions.
     Retourne le statut de la validation.
     """
     key_hash = hashlib.sha256(api_key.encode()).hexdigest()
     data = _load_keys()
 
-    # Vérifier que la clé existe
+    # Verifier que la cle existe
     if key_hash not in data["keys"]:
-        return {"valid": False, "error": "CLÉ API INVALIDE", "code": 401}
+        return {"valid": False, "error": "CL API INVALIDE", "code": 401}
 
     key_info = data["keys"][key_hash]
 
-    # Vérifier que la clé est active
+    # Verifier que la cle est active
     if not key_info["active"]:
-        return {"valid": False, "error": "CLÉ API DÉSACTIVÉE", "code": 403}
+        return {"valid": False, "error": "CL API DSACTIVE", "code": 403}
 
-    # Vérifier l'expiration (pour les plans payants)
+    # Verifier l'expiration (pour les plans payants)
     if key_info["expires_at"]:
         if datetime.now() > datetime.fromisoformat(key_info["expires_at"]):
-            return {"valid": False, "error": "ABONNEMENT EXPIRÉ — Renouvelez sur notre page de paiement", "code": 402}
+            return {"valid": False, "error": "ABONNEMENT EXPIR - Renouvelez sur notre page de paiement", "code": 402}
 
     tier = key_info["tier"]
     tier_config = TIERS[tier]
 
-    # Vérifier les permissions d'endpoint
+    # Verifier les permissions d'endpoint
     if endpoint not in tier_config["endpoints"]:
         allowed = ", ".join(tier_config["endpoints"])
         return {
             "valid": False,
-            "error": f"ENDPOINT NON AUTORISÉ pour le plan {tier_config['name']}. Endpoints autorisés: {allowed}. Passez au plan Pro pour débloquer.",
+            "error": f"ENDPOINT NON AUTORIS pour le plan {tier_config['name']}. Endpoints autorises: {allowed}. Passez au plan Pro pour debloquer.",
             "code": 403
         }
 
-    # Vérifier la limite journalière
+    # Verifier la limite journaliere
     today = datetime.now().strftime("%Y-%m-%d")
     daily_count = key_info["daily_usage"].get(today, 0)
 
     if daily_count >= tier_config["daily_limit"]:
         return {
             "valid": False,
-            "error": f"LIMITE JOURNALIÈRE ATTEINTE ({tier_config['daily_limit']} req/jour pour le plan {tier_config['name']}). Passez au plan supérieur.",
+            "error": f"LIMITE JOURNALIRE ATTEINTE ({tier_config['daily_limit']} req/jour pour le plan {tier_config['name']}). Passez au plan superieur.",
             "code": 429
         }
 
-    # Incrémenter l'usage
+    # Incrementer l'usage
     key_info["daily_usage"][today] = daily_count + 1
     key_info["total_requests"] += 1
     _save_keys(data)
@@ -149,12 +149,12 @@ def validate_api_key(api_key: str, endpoint: str) -> dict:
 
 
 def get_usage_stats(api_key: str) -> dict:
-    """Retourne les statistiques d'utilisation d'une clé API."""
+    """Retourne les statistiques d'utilisation d'une cle API."""
     key_hash = hashlib.sha256(api_key.encode()).hexdigest()
     data = _load_keys()
 
     if key_hash not in data["keys"]:
-        return {"error": "CLÉ API INVALIDE"}
+        return {"error": "CL API INVALIDE"}
 
     info = data["keys"][key_hash]
     tier = TIERS[info["tier"]]
@@ -176,7 +176,7 @@ def get_usage_stats(api_key: str) -> dict:
 
 
 def list_all_keys_admin() -> list:
-    """Liste toutes les clés (admin uniquement). Retourne des infos sans les clés."""
+    """Liste toutes les cles (admin uniquement). Retourne des infos sans les cles."""
     data = _load_keys()
     result = []
     for key_hash, info in data["keys"].items():
@@ -188,3 +188,6 @@ def list_all_keys_admin() -> list:
             "created_at": info["created_at"]
         })
     return result
+
+
+

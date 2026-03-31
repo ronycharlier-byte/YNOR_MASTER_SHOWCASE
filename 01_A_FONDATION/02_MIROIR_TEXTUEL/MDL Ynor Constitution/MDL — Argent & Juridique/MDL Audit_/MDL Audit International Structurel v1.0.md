@@ -1,12 +1,12 @@
 # MIROIR TEXTUEL - MDL Audit International Structurel v1.0
 
-Source : MDL Ynor Constitution\MDL — Argent & Juridique\MDL Audit_\MDL Audit International Structurel v1.0
+Source : MDL Ynor Constitution\MDL - Argent & Juridique\MDL Audit_\MDL Audit International Structurel v1.0
 Taille : 31660 octets
 SHA256 : b59c87d6b96b6b24c2660b2d32558c909ac4a8d6e6e472c9624e3422a279dfc0
 
 ```text
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%"z ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
 /F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R

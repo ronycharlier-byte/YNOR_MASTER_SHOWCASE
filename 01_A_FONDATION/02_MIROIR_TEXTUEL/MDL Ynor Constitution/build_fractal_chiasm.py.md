@@ -36,7 +36,7 @@ def main() -> None:
             "mirror": "A_PRIME",
             "summary": "Le point d'entree du systeme. Les axiomes minimaux ouvrent la forme fractale.",
             "sources": [
-                constitution_root / "MDL Ynor MATH" / "Chapitre I — Formalisation axiomatique minimale.pdf",
+                constitution_root / "MDL Ynor MATH" / "Chapitre I - Formalisation axiomatique minimale.pdf",
             ],
         },
         {
@@ -47,7 +47,7 @@ def main() -> None:
             "mirror": "B_PRIME",
             "summary": "Le premier developpement porte la marge dissipative comme loi de propagation.",
             "sources": [
-                constitution_root / "MDL Ynor — Théorèmes fondamentaux de la marge dissipative.pdf",
+                constitution_root / "MDL Ynor - Theoremes fondamentaux de la marge dissipative.pdf",
             ],
         },
         {
@@ -58,7 +58,7 @@ def main() -> None:
             "mirror": "C_PRIME",
             "summary": "La theorie structurelle prepare le renversement chiastique vers le noyau.",
             "sources": [
-                constitution_root / "MDL Ynor — Théorie Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf",
+                constitution_root / "MDL Ynor - Theorie Structurelle des Systemes Dissipatifs a Amplification Bornee.pdf",
             ],
         },
         {
@@ -69,8 +69,8 @@ def main() -> None:
             "mirror": "X",
             "summary": "Le centre integre les formulations mathematiques du noyau. Tout converge ici puis repart en reflet.",
             "sources": [
-                constitution_root / "MDL Ynor MATH" / "Chapitre XVI — Formalisation mathématique intégrale du noyau MDL Ynor.pdf",
-                constitution_root / "Chapitre I — Formalisation mathématique intégrale du noyau MDL Ynor.pdf",
+                constitution_root / "MDL Ynor MATH" / "Chapitre XVI - Formalisation mathematique integrale du noyau MDL Ynor.pdf",
+                constitution_root / "Chapitre I - Formalisation mathematique integrale du noyau MDL Ynor.pdf",
             ],
         },
         {
@@ -81,7 +81,7 @@ def main() -> None:
             "mirror": "C",
             "summary": "La constitution structurelle rejoue la theorie en forme inverse et plus normative.",
             "sources": [
-                constitution_root / "MDL Ynor — Constitution Structurelle des Systèmes Dissipatifs à Amplification Bornée.pdf",
+                constitution_root / "MDL Ynor - Constitution Structurelle des Systemes Dissipatifs a Amplification Bornee.pdf",
             ],
         },
         {
@@ -92,7 +92,7 @@ def main() -> None:
             "mirror": "B",
             "summary": "Le traite reprend la dynamique au retour du centre et ferme l'enveloppe theorique.",
             "sources": [
-                constitution_root / "MDL Ynor — Traité des dynamiques dissipatives et de la stabilité structurelle.pdf",
+                constitution_root / "MDL Ynor - Traite des dynamiques dissipatives et de la stabilite structurelle.pdf",
             ],
         },
         {

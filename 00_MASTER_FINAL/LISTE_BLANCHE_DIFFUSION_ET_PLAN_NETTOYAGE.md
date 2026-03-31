@@ -3,12 +3,14 @@
 ## Objet
 Ce document fixe deux choses:
 1. ce qui peut sortir dans une diffusion propre
-2. ce qui doit rester interne, technique ou archivé
+2. ce qui doit rester interne, technique ou archive
 
-Il sert de garde-fou pour éviter de mélanger corpus éditorial, artefacts de travail et caches d'execution.
+Il sert de garde-fou pour eviter de melanger corpus editorial, artefacts de travail et caches d'execution.
 
 ## Liste Blanche De Diffusion
 ### Niveau Public
+- `00_PUBLIC_BRIEF/README.md`
+- `00_PUBLIC_BRIEF/REFERENCE_PUBLIQUE.md`
 - `00_HOMEPAGE/HOMEPAGE_DU_CORPUS.md`
 - `00_HOMEPAGE/SITE_MAP.md`
 - `00_PUBLIC_BRIEF/PUBLIC_BRIEF.md`
@@ -20,19 +22,24 @@ Il sert de garde-fou pour éviter de mélanger corpus éditorial, artefacts de t
 
 ### Niveau Canonique
 - `00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md`
-- `00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/INDEX_MAITRE_FRACTAL_CHIASTIQUE.md`
-- `00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/CARTE_VISUELLE_FRACTALE_CHIASTIQUE.md`
+- `00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/INDEX_MAITRE_YNOR.md`
+- `00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/CARTE_VISUELLE_YNOR.md`
 
 ### Niveau Master
-- `INDEX_MAITRE_FRACTAL_CHIASTIQUE.md`
-- `CARTE_VISUELLE_FRACTALE_CHIASTIQUE.md`
+- `00_MASTER_FINAL/README.md`
+- `INDEX_MAITRE_YNOR.md`
+- `CARTE_VISUELLE_YNOR.md`
 - `RECAPITULATION_FINALE.md`
-- `MANIFESTE_FRACTAL_CHIASTE_UNIVERSEL.md`
+- `MANIFESTE_YNOR.md`
+- `NETTOYAGE_TECHNIQUE.md`
+- `NORMALISATION_CANONIQUE.md`
 
 ### Niveau Soumission
 - `00_SUBMISSION_PACK/MANUSCRIT_FINAL.md`
+- `00_SUBMISSION_PACK/MANUSCRIT_FINAL_FOUNDATIONS_OF_PHYSICS.md`
 - `00_SUBMISSION_PACK/LETTRE_DE_COUVERTURE.md`
 - `00_SUBMISSION_PACK/JOURNAL_TARGETING.md`
+- `00_SUBMISSION_PACK/METADONNEES_SOUMISSION.md`
 - `00_SUBMISSION_PACK/RESUME_DE_SOUMISSION.md`
 - `00_SUBMISSION_PACK/STRUCTURE_DE_LIVRAISON.md`
 
@@ -63,6 +70,7 @@ Il sert de garde-fou pour éviter de mélanger corpus éditorial, artefacts de t
 ### Miroirs Techniques
 - les copies textuelles de caches, logs et artefacts de build
 - les dossiers miroir qui ne servent qu'a reproduire l'etat de travail
+- les exports derives (`*.md.md`, `*.pdf.md`, `*.json.md`, `*.fractale.md`) quand ils ne sont pas destines a la diffusion publique
 
 ## Plan De Nettoyage
 ### Etape 1 - Isolation
@@ -79,6 +87,7 @@ Il sert de garde-fou pour éviter de mélanger corpus éditorial, artefacts de t
 - Garder une seule source canonique par document.
 - Conserver une seule version miroir par source, avec alias si necessaire.
 - Harmoniser les noms visibles et les encodages.
+- Marquer explicitement les variantes versionnees, historisees et souveraines comme derives.
 
 ### Etape 4 - Filtrage
 - Exclure les caches Python, les environnements virtuels et les journaux des packages de diffusion.
@@ -91,10 +100,9 @@ Il sert de garde-fou pour éviter de mélanger corpus éditorial, artefacts de t
 - Confirmer que les points d'entree publics restent lisibles et coherents.
 
 ## Regle Pratique
-Si un fichier sert a exécuter, tester, compiler, journaliser ou mettre au point le corpus, il reste interne.
+Si un fichier sert a executer, tester, compiler, journaliser ou mettre au point le corpus, il reste interne.
 Si un fichier sert a lire, comprendre, diffuser ou remettre le corpus, il peut entrer dans la liste blanche.
 
 ## Synthese
 - Diffusion: documents de lecture, d'index, de navigation, de synthese et de soumission.
 - Interne: caches, logs, environnements virtuels, depots embarques, fichiers temporaires et artefacts techniques.
-

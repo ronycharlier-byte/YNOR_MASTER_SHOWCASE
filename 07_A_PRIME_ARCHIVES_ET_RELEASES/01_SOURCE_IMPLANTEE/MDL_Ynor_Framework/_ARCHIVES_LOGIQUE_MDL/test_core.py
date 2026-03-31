@@ -8,8 +8,8 @@ from mdl_ynor_core import YnorSystem, check_viability_regime
 import matplotlib.pyplot as plt
 
 def test_stable_regime():
-    """ Test du Théorème 1 pour mu > 0 (Décroissance exponentielle de l'énergie). """
-    print("=== Test: Régime Stable (mu > 0) ===")
+    """ Test du Thorme 1 pour mu > 0 (Dcroissance exponentielle de l'nergie). """
+    print("=== Test: Rgime Stable (mu > 0) ===")
     
     # Espace de dimension 2
     dim = 2
@@ -20,7 +20,7 @@ def test_stable_regime():
     # Dissipation forte: D(S) = alpha * S avec alpha = 2.0
     D = lambda S: 2.0 * S
     
-    # Pas de mémoire, pas de forçage
+    # Pas de mmoire, pas de forage
     sys = YnorSystem(dimension=dim, amplification_op=E, dissipation_op=D)
     
     # Marge theorique: mu = alpha - beta = 2.0 - 0.5 = 1.5 > 0
@@ -30,7 +30,7 @@ def test_stable_regime():
     
     # mu_est = (0 - dE/dt)/|S|^2 = - <S, E-D> / |S|^2 = - <S, -1.5*S> / |S|^2 = 1.5
     mu_est = sys.measure_dissipative_margin(S0)
-    print(f"Marge dissipative estimée: {mu_est:.2f} -> Régime: {check_viability_regime(mu_est)}")
+    print(f"Marge dissipative estime: {mu_est:.2f} -> Rgime: {check_viability_regime(mu_est)}")
     
     # Simulation sur 5 secondes
     t_span = (0, 5)
@@ -38,17 +38,17 @@ def test_stable_regime():
     
     res = sys.simulate(S0, t_span, t_eval)
     
-    # Calcul de l'énergie au cours du temps
+    # Calcul de l'nergie au cours du temps
     energies = [sys.energy(res.y[:, i]) for i in range(len(res.t))]
     
-    assert energies[-1] < energies[0], "L'énergie devrait décroitre"
-    print("L'énergie décroît exponentiellement avec le temps. Test OK.\n")
+    assert energies[-1] < energies[0], "L'nergie devrait dcroitre"
+    print("L'nergie dcrot exponentiellement avec le temps. Test OK.\n")
     
     return res.t, energies
 
 def test_instable_regime():
-    """ Test du Théorème 1 pour mu < 0 (Amplification nette). """
-    print("=== Test: Régime Instable (mu < 0) ===")
+    """ Test du Thorme 1 pour mu < 0 (Amplification nette). """
+    print("=== Test: Rgime Instable (mu < 0) ===")
     
     dim = 2
     
@@ -62,7 +62,7 @@ def test_instable_regime():
     
     S0 = np.array([1.0, 1.0])
     mu_est = sys.measure_dissipative_margin(S0)
-    print(f"Marge dissipative estimée: {mu_est:.2f} -> Régime: {check_viability_regime(mu_est)}")
+    print(f"Marge dissipative estime: {mu_est:.2f} -> Rgime: {check_viability_regime(mu_est)}")
     
     t_span = (0, 2)
     t_eval = np.linspace(0, 2, 50)
@@ -70,14 +70,14 @@ def test_instable_regime():
     
     energies = [sys.energy(res.y[:, i]) for i in range(len(res.t))]
     
-    assert energies[-1] > energies[0], "L'énergie devrait croitre"
-    print("L'énergie croît rapidement, le système diverge. Test OK.\n")
+    assert energies[-1] > energies[0], "L'nergie devrait croitre"
+    print("L'nergie crot rapidement, le systme diverge. Test OK.\n")
     
     return res.t, energies
 
 def test_critical_regime():
-    """ Test du Théorème 1 pour mu = 0 (Seuil critique). """
-    print("=== Test: Régime Critique (mu = 0) ===")
+    """ Test du Thorme 1 pour mu = 0 (Seuil critique). """
+    print("=== Test: Rgime Critique (mu = 0) ===")
     
     dim = 2
     
@@ -97,9 +97,9 @@ def test_critical_regime():
     
     energies = [sys.energy(res.y[:, i]) for i in range(len(res.t))]
     
-    print(f"Énergie initiale: {energies[0]:.2f}")
-    print(f"Énergie finale: {energies[-1]:.2f}")
-    print("Le système est maintenu à un seuil critique sans diverger ni s'éteindre totalement, dépendant du forçage. Test OK.\n")
+    print(f"nergie initiale: {energies[0]:.2f}")
+    print(f"nergie finale: {energies[-1]:.2f}")
+    print("Le systme est maintenu  un seuil critique sans diverger ni s'teindre totalement, dpendant du forage. Test OK.\n")
     return res.t, energies
 
 
@@ -113,9 +113,12 @@ if __name__ == "__main__":
     plt.plot(t_i, e_i, label="Instable (mu = -1.5)", color='red')
     plt.plot(t_c, e_c, label="Critique (mu = 0 + w(t))", color='orange')
     plt.yscale('log')
-    plt.title("Evolution de l'énergie minimale $E_0(S)$ selon le régime")
+    plt.title("Evolution de l'nergie minimale $E_0(S)$ selon le rgime")
     plt.xlabel("Temps (t)")
-    plt.ylabel("Énergie")
+    plt.ylabel("nergie")
     plt.legend()
     plt.savefig("regimes_energy.png")
-    print("Graphique sauvegardé sous 'regimes_energy.png'.")
+    print("Graphique sauvegard sous 'regimes_energy.png'.")
+
+
+

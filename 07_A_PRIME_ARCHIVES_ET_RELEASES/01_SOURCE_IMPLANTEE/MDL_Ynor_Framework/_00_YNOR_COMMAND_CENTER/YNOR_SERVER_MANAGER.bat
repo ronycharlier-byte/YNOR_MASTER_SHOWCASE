@@ -1,4 +1,4 @@
-@echo off
+﻿@echo off
 setlocal
 cd /d "%~dp0"
 
@@ -73,3 +73,6 @@ powershell -Command "Compress-Archive -Path MDL_YNOR_GPT_UPLOAD_V3\* -Destinatio
 echo ZIP Synchronise.
 pause
 goto menu
+
+
+

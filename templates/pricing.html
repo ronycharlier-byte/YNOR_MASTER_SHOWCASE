@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Ynor | Pricing{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="eyebrow">Subscription plans</div>
+  <h1 class="title" style="max-width: 12ch;">Select your tier of intelligence.</h1>
+  <p class="lead">From Essential to Elite, each tier is designed to scale access, depth, continuity, and trust.</p>
+  <div class="hero-actions">
+    <a class="btn primary" href="/chat">Start your session</a>
+    <a class="btn secondary" href="/">Back home</a>
+  </div>
+</section>
+<section class="section surface">
+  <div class="grid-4">
+    {% for tier in tiers %}
+    <div class="card {% if tier.featured %}featured{% endif %}">
+      <div class="kicker">{{ tier.title }}</div>
+      <div class="price">{{ tier.price }}</div>
+      <div class="muted">{{ tier.desc }}</div>
+      <ul>
+        {% for feature in tier.features %}
+        <li>{{ feature }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<section class="section surface">
+  <div class="section-head">
+    <div>
+      <div class="kicker">Why upgrade</div>
+      <h2>Higher tiers unlock stronger reasoning, deeper context, and more continuity.</h2>
+    </div>
+  </div>
+  <div class="grid-3">
+    <div class="card"><div class="kicker">Speed</div><div class="muted">Shorter paths to answers, less friction, faster decision support.</div></div>
+    <div class="card"><div class="kicker">Depth</div><div class="muted">Deeper corpus retrieval, broader context, and richer explanation quality.</div></div>
+    <div class="card"><div class="kicker">Trust</div><div class="muted">Confidence scoring, source chips, and citation-aware answers.</div></div>
+  </div>
+</section>
+{% endblock %}

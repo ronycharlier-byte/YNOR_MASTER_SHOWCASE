@@ -9,7 +9,7 @@ SHA256 : 25a6ef68d4e10ed663e442312523c096b30ab65d3ea08649d3bc039aeb51e617
 {
   "concepts": {
     "Marge Dissipative (mu)": {
-      "formule": "mu = alpha - beta - kappa",
+      "formule": "mu = alpha - (beta + kappa)",
       "fichier": "mdl_ynor_core.py",
       "fonction": "measure_dissipative_margin"
     },

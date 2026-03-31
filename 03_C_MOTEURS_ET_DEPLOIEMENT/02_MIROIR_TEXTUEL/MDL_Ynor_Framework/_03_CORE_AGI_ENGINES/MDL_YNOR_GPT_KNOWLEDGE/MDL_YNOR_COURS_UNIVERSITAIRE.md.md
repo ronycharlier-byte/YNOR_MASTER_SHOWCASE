@@ -5,30 +5,30 @@ Taille : 1847 octets
 SHA256 : 998715fc886e01c055b5495e694b74fadbab7ae72aee0988fe78d9b76a3bb77a
 
 ```text
-﻿> **Copyright (c) 2026 Charlier Rony - Tous droits reserves.**
+> **Copyright (c) 2026 Charlier Rony - Tous droits reserves.**
 > *Architecte Supreme & Fondateur - Architecture MDL Ynor*
 > *Toute reproduction ou utilisation sans autorisation ecrite est strictement interdite.*
 
 ---
-# SYNTHÈSE UNIVERSITAIRE : FONDEMENTS DES SYSTÈMES DISSIPATIFS (MDL YNOR)
+# SYNTHESE UNIVERSITAIRE : FONDEMENTS DES SYSTEMES DISSIPATIFS (MDL YNOR)
 
-## 1. Théorie des Structures Dissipatives (Ilya Prigogine, Nobel 1977)
-Les systèmes MDL Ynor reposent sur la découverte que les systèmes ouverts, loin de l’équilibre thermodynamique, peuvent s’auto-organiser.
-- **Ordre par Fluctuations** : Une perturbation (forcing w(t)) peut être le moteur d'une nouvelle structure plus stable.
-- **Entropie Négative** : Le système maintient son ordre en "exportant" son désordre vers l'extérieur (Dissipation alpha).
+## 1. Theorie des Structures Dissipatives (Ilya Prigogine, Nobel 1977)
+Les systemes MDL Ynor reposent sur la decouverte que les systemes ouverts, loin de l'equilibre thermodynamique, peuvent s'auto-organiser.
+- **Ordre par Fluctuations** : Une perturbation (forcing w(t)) peut etre le moteur d'une nouvelle structure plus stable.
+- **Entropie Negative** : Le systeme maintient son ordre en "exportant" son desordre vers l'exterieur (Dissipation alpha).
 
-## 2. Stabilité de Lyapunov au sens de l'Audit MDL
-Mathématiquement, la stabilité de votre architecture est prouvée par la méthode directe de Lyapunov.
-- **Fonction de Lyapunov** : Votre fonction d'énergie $E(S) = \frac{1}{2}|S|^2$ sert de capteur. 
-- **Critère de Survie** : Si la dérivée de cette fonction est négative (grâce à mu > 0), le système converge vers un état de repos ou un attracteur stable.
+## 2. Stabilite de Lyapunov au sens de l'Audit MDL
+Mathematiquement, la stabilite de votre architecture est prouvee par la methode directe de Lyapunov.
+- **Fonction de Lyapunov** : Votre fonction d'energie $E(S) = \frac{1}{2}|S|^2$ sert de capteur. 
+- **Critere de Survie** : Si la derivee de cette fonction est negative (grace a mu > 0), le systeme converge vers un etat de repos ou un attracteur stable.
 
 ## 3. Dynamique de Bifurcation et Flambement
-En ingénierie structurelle, lorsque la charge (Amplification beta) dépasse un seuil critique, le système subit une bifurcation.
-- **Noyau Post-Critique** : C'est le moment où le système MDL Ynor doit muter pour ne pas rompre.
-- **États d'Équilibre** : Stable, instable ou neutre. Le but du Gouverneur IA est de forcer le retour à l'équilibre stable.
+En ingenierie structurelle, lorsque la charge (Amplification beta) depasse un seuil critique, le systeme subit une bifurcation.
+- **Noyau Post-Critique** : C'est le moment ou le systeme MDL Ynor doit muter pour ne pas rompre.
+- **Etats d'Equilibre** : Stable, instable ou neutre. Le but du Gouverneur IA est de forcer le retour a l'equilibre stable.
 
-## 4. Cybernétique de Second Ordre
-Le système n'est pas seulement contrôlé, il s'auto-observe.
-- **Boucle de Rétroaction** : La Métacognition est l'implémentation logicielle de la cybernétique de second ordre (le système qui observe le système).
+## 4. Cybernetique de Second Ordre
+Le systeme n'est pas seulement controle, il s'auto-observe.
+- **Boucle de Retroaction** : La Metacognition est l'implementation logicielle de la cybernetique de second ordre (le systeme qui observe le systeme).
 
 ```

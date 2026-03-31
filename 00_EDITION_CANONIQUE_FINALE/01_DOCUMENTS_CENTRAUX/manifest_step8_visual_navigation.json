@@ -21,9 +21,11 @@
   "node_counts": {
     "01_A_FONDATION": 2,
     "02_B_THEORIE_ET_PREUVES": 43,
+    "03_C_MOTEURS_ET_DEPLOIEMENT": 187,
     "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION": 43,
     "07_A_PRIME_ARCHIVES_ET_RELEASES": 31,
-    "04_X_NOYAU_MEMOIRE": 8
+    "04_X_NOYAU_MEMOIRE": 9,
+    "05_C_PRIME_VALIDATION_ET_TESTS": 75
   },
   "stage_counts": {
     "step_1_curated_text": 6,
@@ -58,13 +60,23 @@
     },
     "03_C_MOTEURS_ET_DEPLOIEMENT": {
       "title": "C | Moteurs et deploiement",
-      "count": 0,
-      "top_sources": []
+      "count": 187,
+      "top_sources": [
+        "03_C_MOTEURS_ET_DEPLOIEMENT/README.md",
+        "03_C_MOTEURS_ET_DEPLOIEMENT/API_CONTRACT.md",
+        "03_C_MOTEURS_ET_DEPLOIEMENT/DASHBOARD_SPEC.md",
+        "03_C_MOTEURS_ET_DEPLOIEMENT/DEPLOYMENT_PLAYBOOK.md",
+        "03_C_MOTEURS_ET_DEPLOIEMENT/OBSERVABILITY_AND_LOGS.md",
+        "03_C_MOTEURS_ET_DEPLOIEMENT/RELEASE_PIPELINE.md",
+        "03_C_MOTEURS_ET_DEPLOIEMENT/01_SOURCE_IMPLANTEE/MDL_Ynor_Framework/_04_DEPLOYMENT_AND_API/README.md",
+        "03_C_MOTEURS_ET_DEPLOIEMENT/01_SOURCE_IMPLANTEE/MDL_Ynor_Framework/_04_DEPLOYMENT_AND_API/ynor_api_server.py"
+      ]
     },
     "04_X_NOYAU_MEMOIRE": {
       "title": "X | Noyau memoire",
-      "count": 8,
+      "count": 9,
       "top_sources": [
+        "04_X_NOYAU_MEMOIRE/README.md",
         "MDL_Ynor_Framework/_05_DATA_AND_MEMORY/YNOR_FRACTAL_ULTIMATE_FRAMEWORK.json",
         "MDL_Ynor_Framework/_05_DATA_AND_MEMORY/hardcore_dataset.json",
         "MDL_Ynor_Framework/_05_DATA_AND_MEMORY/mdl_global_knowledge.json",
@@ -77,8 +89,17 @@
     },
     "05_C_PRIME_VALIDATION_ET_TESTS": {
       "title": "C' | Validation et tests",
-      "count": 0,
-      "top_sources": []
+      "count": 75,
+      "top_sources": [
+        "05_C_PRIME_VALIDATION_ET_TESTS/README.md",
+        "05_C_PRIME_VALIDATION_ET_TESTS/TEST_MATRIX.md",
+        "05_C_PRIME_VALIDATION_ET_TESTS/REPRODUCIBILITY_PROTOCOL.md",
+        "05_C_PRIME_VALIDATION_ET_TESTS/ROBUSTNESS_AUDIT.md",
+        "05_C_PRIME_VALIDATION_ET_TESTS/BENCHMARK_REPORT.md",
+        "05_C_PRIME_VALIDATION_ET_TESTS/CI_GUIDE.md",
+        "05_C_PRIME_VALIDATION_ET_TESTS/01_SOURCE_IMPLANTEE/MDL_Ynor_Framework/tests/test_mdl_robustness.py",
+        "05_C_PRIME_VALIDATION_ET_TESTS/01_SOURCE_IMPLANTEE/MDL_Ynor_Framework/tests/test_shareable_mu_audit.py"
+      ]
     },
     "06_B_PRIME_GOUVERNANCE_ET_DIFFUSION": {
       "title": "B' | Gouvernance et diffusion",
@@ -109,5 +130,5 @@
       ]
     }
   },
-  "mermaid_path": "FRACTAL_CHIASTE_UNIVERSEL/CARTE_VISUELLE_FRACTALE_CHIASTIQUE.md"
+  "mermaid_path": "FRACTAL_CHIASTE_UNIVERSEL/CARTE_VISUELLE_YNOR.md"
 }

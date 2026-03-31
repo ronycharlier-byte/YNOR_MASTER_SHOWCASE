@@ -84,7 +84,7 @@ paths:
 ---
 
 ## 🚀 4. ÉLÉMENTS DE MARQUE (VITESSE ELITE)
-- **Description** : **MDL Ynor AGI Engine (Sovereign Architecture). Elite mathematical audit tool for AI cost optimization and safety governance. Control your agent's ROI with the Mu Equation ($\mu = \alpha - \beta - \kappa$).**
+- **Description** : **MDL Ynor AGI Engine (Sovereign Architecture). Elite mathematical audit tool for AI cost optimization and safety governance. Control your agent's ROI with the Mu Equation ($\mu = \alpha - (\beta + \kappa)$).**
 - **Amorces (Conversation Starters) :**
   1. Audit my AI ROI (The Mu Equation).
   2. How to cut 30% of my Token costs tonight?

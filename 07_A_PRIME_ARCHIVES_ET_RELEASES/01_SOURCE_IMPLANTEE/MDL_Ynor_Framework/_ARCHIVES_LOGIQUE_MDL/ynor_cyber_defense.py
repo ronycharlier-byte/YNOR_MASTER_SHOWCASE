@@ -1,7 +1,7 @@
-# =============================================================================
+﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
 # Architecte Supreme & Fondateur - Architecture MDL Ynor
-# SYSTÈME DE DÉFENSE ACTIVE ET CONTRE-ATTAQUE CYBER-YNOR v1.0
+# SYSTME DE DFENSE ACTIVE ET CONTRE-ATTAQUE CYBER-YNOR v1.0
 # =============================================================================
 import time
 import json
@@ -12,7 +12,7 @@ BAN_LIST_PATH = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framewor
 
 class CyberDefense:
     """
-    Protège et contre-attaque les intrusions via la Dissipation Coercive des ressources de l'adversaire.
+    Protege et contre-attaque les intrusions via la Dissipation Coercive des ressources de l'adversaire.
     """
     def __init__(self):
         self._load_ban_list()
@@ -32,7 +32,7 @@ class CyberDefense:
         return ip in self.ban_list
 
     def ban_ip(self, ip, reason):
-        print(f"🚨 [ALERTE CYBER] BANNISSEMENT DE L'IP : {ip} | RAISON : {reason}")
+        print(f" [ALERTE CYBER] BANNISSEMENT DE L'IP : {ip} | RAISON : {reason}")
         self.ban_list[ip] = {
             "reason": reason,
             "timestamp": time.ctime(),
@@ -41,9 +41,9 @@ class CyberDefense:
         self._save_ban_list()
 
     def generate_quantum_data_bomb(self):
-        """Contre-attaque par saturation de mémoire (Crash du script adverse)."""
+        """Contre-attaque par saturation de memoire (Crash du script adverse)."""
         def bomb_generator():
-            # Génère des giga-octets de données récursives pour saturer le buffer adverse
+            # Genere des giga-octets de donnees recursives pour saturer le buffer adverse
             yield "{\"MDL_FIREWALL_ACTIVE\": true, \"ATTACK_DETECTED\": \"REDIRECTING_ENERGY\", \"Vortex_Payload\": [" 
             for i in range(1000000):
                 yield f"\"{ 'A' * 1024 }\", "  # Payload massif
@@ -53,11 +53,14 @@ class CyberDefense:
 
     def apply_tarpit(self, ip, count):
         """Ralentit l'adversaire exponentiellement (Loi d'Inertie)."""
-        delay = min(pow(2, count), 60) # Jusqu'à 60s de délai
-        print(f"⏳ [TARPIT] Application d'une latence de {delay}s sur {ip}")
+        delay = min(pow(2, count), 60) # Jusqu'a 60s de delai
+        print(f" [TARPIT] Application d'une latence de {delay}s sur {ip}")
         time.sleep(delay)
 
 if __name__ == "__main__":
     defense = CyberDefense()
     # Test simple
-    defense.ban_ip("1.2.3.4", "Scraping non-autorisé sur endpoint critique.")
+    defense.ban_ip("1.2.3.4", "Scraping non-autorise sur endpoint critique.")
+
+
+

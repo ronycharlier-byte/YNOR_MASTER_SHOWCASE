@@ -1,12 +1,12 @@
 # MIROIR TEXTUEL - MDL_Foi_Integration_Comprehensive_Pack.pdf
 
-Source : MDL Ynor Constitution\MDL — Argent & Juridique\MDL_Legal_Pack\MDL_Foi_Integration_Comprehensive_Pack.pdf
+Source : MDL Ynor Constitution\MDL - Argent & Juridique\MDL_Legal_Pack\MDL_Foi_Integration_Comprehensive_Pack.pdf
 Taille : 5250 octets
 SHA256 : 9deb10b196c5584614232bec92088022bb87a8514fe9798107516df3e67e80b5
 
 ```text
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+%"z ReportLab Generated PDF document http://www.reportlab.com
 1 0 obj
 <<
 /F1 2 0 R /F2 3 0 R

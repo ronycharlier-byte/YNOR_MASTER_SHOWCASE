@@ -7,52 +7,52 @@ import random
 # ==========================================
 
 class WorldModel(nn.Module):
-    # E(S) : Expansion / Génération d'Information
+    # E(S) : Expansion / GAnAration d'Information
     def __init__(self, state_dim=4):
         super().__init__()
         self.net = nn.Linear(state_dim, state_dim)
         
     def predict_gain(self, state):
-        # Simule l'expansion de l'état (alpha)
+        # Simule l'expansion de l'Atat (alpha)
         future_state = self.net(state)
-        # alpha mesure la quantité de "nouveauté" acquise favorablement
+        # alpha mesure la quantitA de "nouveautA" acquise favorablement
         alpha = torch.mean(torch.abs(future_state - state))
         return alpha
 
 class DissipationModel(nn.Module):
-    # D(S) : Dissipation énergétique / Perte structurelle
+    # D(S) : Dissipation AnergAtique / Perte structurelle
     def __init__(self, state_dim=4):
         super().__init__()
         self.net = nn.Linear(state_dim, state_dim)
         
     def apply(self, action_intensity):
-        # D(S) dépend de la violence de l'action entreprise
+        # D(S) dApend de la violence de l'action entreprise
         return torch.randn(4) * action_intensity
 
 class IdentitySystem:
-    # M(S,t) et kappa : Mémoire active et Poids Traumatique
+    # M(S,t) et kappa : MAmoire active et Poids Traumatique
     def __init__(self, state_dim=4):
         self.memory_vector = torch.zeros(state_dim)
-        self.kappa = 0.1 # Charge mémorielle initiale
+        self.kappa = 0.1 # Charge mAmorielle initiale
         
     def memory_injection(self, state):
-        # M(S,t) : Le passé influence le différentiel présent (inertie ou résonance)
+        # M(S,t) : Le passA influence le diffArentiel prAsent (inertie ou rAsonance)
         return self.memory_vector * 0.1
         
     def compute_kappa(self):
         return self.kappa
         
     def update(self, state, mu):
-        # Trauma : si viabilité < 0, la charge mémoire s'alourdit (peur persistante)
+        # Trauma : si viabilitA < 0, la charge mAmoire s'alourdit (peur persistante)
         if mu < 0:
             self.kappa += 0.05
         elif mu > 0.3:
-            # Succès : l'identité se détend, la charge diminue
+            # SuccAs : l'identitA se dAtend, la charge diminue
             self.kappa = max(0.01, self.kappa - 0.02)
         self.memory_vector = state.detach()
 
 class PPOController:
-    # Politique d'action (Régule beta et l'intensité de D(S))
+    # Politique d'action (RAgule beta et l'intensitA de D(S))
     def decide(self, state, mu):
         if mu > 0.4:
             action_type = "NO_OP"
@@ -72,19 +72,19 @@ class PPOController:
 class MultiAgentField:
     # w(t) : Perturbation environnementale / forcing social multi-agent
     def get_forcing(self):
-        # Un autre agent ou l'environnement perturbe le système
+        # Un autre agent ou l'environnement perturbe le systAme
         return torch.randn(4) * 0.15
 
 class SelfModifier:
-    # Delta_theta (Auto-optimisation profonde si le système s'effondre)
+    # Delta_theta (Auto-optimisation profonde si le systAme s'effondre)
     def adapt(self, agent_system, mu):
         if mu < -0.5:
-            # Urgence : Restructure l'architecture pour éviter la Mort Computationnelle
+            # Urgence : Restructure l'architecture pour Aviter la Mort Computationnelle
             agent_system.identity.kappa *= 0.5 # Force l'oubli du trauma
-            print("  ⚠️ [SELF-MOD] Risque Vital : Effacement partiel du Trauma (Kappa divisé par 2).")
+            print("  asi [SELF-MOD] Risque Vital : Effacement partiel du Trauma (Kappa divisA par 2).")
 
 # ==========================================
-# L'AGENT UNIFIÉ EXACT 1:1
+# L'AGENT UNIFIA EXACT 1:1
 # ==========================================
 class YnorUnifiedAgent:
     def __init__(self, state_dim=4):
@@ -101,14 +101,14 @@ class YnorUnifiedAgent:
         # 1. PERCEPTION
         state = self.state.clone()
         
-        # 2. MÉMOIRE (M et kappa)
+        # 2. MAMOIRE (M et kappa)
         M = self.identity.memory_injection(state)
         kappa = self.identity.compute_kappa()
         
         # 3. WORLD MODEL (E et alpha)
         alpha = self.world_model.predict_gain(state)
         
-        # 4. ÉVALUATION PRÉALABLE DE VIABILITÉ (pour PPO)
+        # 4. AVALUATION PRAALABLE DE VIABILITA (pour PPO)
         mu_pre_action = alpha.item() - kappa
         
         # 5. PPO & DISSIPATION (D et beta)
@@ -116,34 +116,35 @@ class YnorUnifiedAgent:
         beta = self.controller.compute_cost(intensity)
         D = self.dissipation.apply(intensity)
         
-        # === ÉQUATION PIVOT DE SURVIE ===
-        # mu = alpha - beta - kappa
+        # === AQUATION PIVOT DE SURVIE ===
+        # mu = Alpha - (Beta + Kappa)
         mu = alpha.item() - beta - kappa
         
         # 6. MULTI-AGENT / ENVIRONNEMENT (w)
         w = self.environment.get_forcing()
         
-        # 7. DYNAMIQUE DIFFÉRENTIELLE YNOR : S_dot = E(S) - D(S) + M(S,t) + w(t)
+        # 7. DYNAMIQUE DIFFARENTIELLE YNOR : S_dot = E(S) - D(S) + M(S,t) + w(t)
         E = self.world_model.net(state) - state # Transformation pure du World Model
         S_dot = E - D + M + w
         
-        # Intégration temporelle (Évolution de l'état mental)
+        # IntAgration temporelle (Avolution de l'Atat mental)
         self.state += S_dot * 0.1
         
-        # 8. SELF-MODIFICATION & UPDATE MÉMOIRE
+        # 8. SELF-MODIFICATION & UPDATE MAMOIRE
         self.self_modifier.adapt(self, mu)
         self.identity.update(self.state, mu)
         
         return action_type, mu, alpha.item(), beta, kappa
 
 def run_unified_equation():
-    print(">>> DÉMARRAGE DE L'ÉQUATION AGI UNIFIÉE : S_dot = E(S) - D(S) + M(S,t) + w(t) <<<")
-    print(">>> CONTRAINTE DE SURVIE ABSOLUE : mu = alpha - beta - kappa > 0 <<<\n")
+    print(">>> DAMARRAGE DE L'AQUATION AGI UNIFIAE : S_dot = E(S) - D(S) + M(S,t) + w(t) <<<")
+    print(">>> CONTRAINTE DE SURVIE ABSOLUE : mu = Alpha - (Beta + Kappa) > 0 <<<\n")
     agent = YnorUnifiedAgent()
     
     for t in range(1, 21):
         action, mu, alpha, beta, kappa = agent.step()
-        print(f"Cycle {t:02d} | Action: {action:<16} | μ: {mu:>+5.3f} | [α: {alpha:.3f} | β: {beta:.3f} | κ: {kappa:.3f}]")
+        print(f"Cycle {t:02d} | Action: {action:<16} | I: {mu:>+5.3f} | [I: {alpha:.3f} | I: {beta:.3f} | I: {kappa:.3f}]")
 
 if __name__ == "__main__":
     run_unified_equation()
+

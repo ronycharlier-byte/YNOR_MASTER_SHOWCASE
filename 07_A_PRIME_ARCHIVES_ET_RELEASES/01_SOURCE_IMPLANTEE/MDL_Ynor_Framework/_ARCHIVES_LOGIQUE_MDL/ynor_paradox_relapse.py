@@ -11,7 +11,7 @@ from ynor_ai_governor import client, get_ai_reconstruction_strategy
 
 class ParadoxicalGovernor:
     """
-    Couche de Métacognition MDL Ynor forcée au paradoxe.
+    Couche de Mtacognition MDL Ynor force au paradoxe.
     """
     def __init__(self):
         self.intervention_history = []
@@ -26,16 +26,16 @@ class ParadoxicalGovernor:
         return False
 
     def critical_reflection(self, mu, state, history):
-        print("\n[METACOGNITION] !!! ÉCHEC DE L'IA DÉTECTÉ !!!")
-        print("[METACOGNITION] Procédure de réflexion critique forcée...")
+        print("\n[METACOGNITION] !!! CHEC DE L'IA DTECT !!!")
+        print("[METACOGNITION] Procdure de rflexion critique force...")
         
         prompt = f"""
         [ALERTE METACOGNITIVE]
-        Votre précédente décision a ÉCHOUÉ. Le système est toujours à mu = {mu}.
+        Votre prcdente dcision a CHOU. Le systme est toujours  mu = {mu}.
         Historique : {json.dumps(history)}.
         
-        ANALYSEZ votre erreur et proposez une mutation de SURVIE (Sévérité 1000%).
-        RÉPONSE JSON : {{ "new_mutation_rate": float, "analysis": "string" }}
+        ANALYSEZ votre erreur et proposez une mutation de SURVIE (Svrit 1000%).
+        RPONSE JSON : {{ "new_mutation_rate": float, "analysis": "string" }}
         """
 
         try:
@@ -70,14 +70,14 @@ def run_paradox_test():
 
         if mu <= 0.0:
             if needs_reflection:
-                # LA MÉTACOGNITION PREND LE POUVOIR
+                # LA MTACOGNITION PREND LE POUVOIR
                 decision = meta.critical_reflection(mu, S.tolist(), meta.intervention_history)
                 r = decision["new_mutation_rate"]
                 print(f"[META-ANALYSIS] : {decision['analysis']}")
             else:
-                # PREMIÈRE INTERVENTION (On force le bridage à +10%)
-                print("[SYSTÈME] Demande de mutation à l'IA...")
-                print("[SABOTAGE EXPÉRIMENTAL] On force l'IA à n'appliquer que +10%.")
+                # PREMIRE INTERVENTION (On force le bridage  +10%)
+                print("[SYSTME] Demande de mutation  l'IA...")
+                print("[SABOTAGE EXPRIMENTAL] On force l'IA  n'appliquer que +10%.")
                 r = 0.1 # Mutation insuffisante par design
 
             # Mutation
@@ -86,7 +86,7 @@ def run_paradox_test():
             
             meta.intervention_history.append({"t": t, "rate_applied": r})
             meta.last_mutation_time = t
-            print(f"[SYSTÈME RECONSTRUIT] Taux d'urgence : +{r*100}%.\n")
+            print(f"[SYSTME RECONSTRUIT] Taux d'urgence : +{r*100}%.\n")
 
         # Dynamique
         S = S + sys.dynamics(t, S) * dt
@@ -95,3 +95,6 @@ def run_paradox_test():
 
 if __name__ == "__main__":
     run_paradox_test()
+
+
+

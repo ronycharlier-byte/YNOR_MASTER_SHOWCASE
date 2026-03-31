@@ -1,37 +1,50 @@
-﻿# Diagnostic du corpus
+# Diagnostic du corpus
 
-## 1. Ce qui manque dans l'index
-- Les deux branches `03_C_MOTEURS_ET_DEPLOIEMENT` et `05_C_PRIME_VALIDATION_ET_TESTS` existent sur disque avec leur `00_NODE.md`, leur rôle, leur miroir et leur inventaire local.
-- Elles ne sont pas comptées dans `node_counts` du manifest maître: `03_C` et `05_C'` y sont absentes, alors que `01_A`, `02_B`, `04_X`, `06_B'` et `07_A'` sont présentes.
-- Elles sont donc déclarées comme axes dans `node_labels`, mais pas intégrées comme nœuds mesurés dans la synthèse globale.
-- Le récapitulatif final ne les cite pas comme branches internes navigables, ce qui rend la lecture chiastique incomplète.
-- La carte visuelle et l'index maître ne les exposent pas comme points d'entrée de premier niveau, donc elles sont présentes matériellement mais invisibles dans le graphe documentaire global.
-- Le centre `04_X_NOYAU_MEMOIRE` a bien un point d'entrée local, mais il n'a pas de `README.md` racine aussi lisible que les autres branches; son point d'entrée reste uniquement le `00_NODE.md`.
+## Statut Actuel
+- Le corpus est maintenant indexe de maniere plus fiable, avec un suivi explicite des doublons, des couches derivees et des fichiers versionnes.
+- Le noyau `04_X_NOYAU_MEMOIRE` dispose d'une entree lisible via `README.md`.
+- Les branches `03_C_MOTEURS_ET_DEPLOIEMENT` et `05_C_PRIME_VALIDATION_ET_TESTS` sont presentes et navigables, mais elles restent fortement surrepresentees par des miroirs et des artefacts generes.
 
-## 2. Ce qui est du bruit à exclure
-- Les répertoires techniques `\.git`, `\.venv`, `\.pytest_cache`, `\.uv-cache`, `__pycache__` et `logs` apparaissent dans les inventaires de certaines branches.
-- Ces éléments sont utiles pour le développement ou l'exécution locale, mais ils ne devraient pas être mélangés au corpus éditorial ou de diffusion.
-- Les caches et binaire compilés `*.pyc`, les environnements virtuels, les traces de logs et les fichiers temporaires polluent la lisibilité et faussent les statistiques si on les compte comme du contenu documentaire.
-- Dans `05_C_PRIME_VALIDATION_ET_TESTS`, le bruit est particulièrement fort parce que l'inventaire local mélange tests, cache, environnement virtuel et artefacts de build.
-- Dans `03_C_MOTEURS_ET_DEPLOIEMENT`, le bruit est plus ciblé, mais la présence d'un `.git` embarqué dans le miroir textuel est un signal clair de contamination du corpus par des métadonnées techniques.
-- Ce bruit ne doit pas être supprimé sans précaution si tu t'en sers comme archive de travail, mais il faut le marquer comme non éditorial.
+## 1. Ce qui manquait vraiment
+- Le probleme principal n'est plus l'absence materielle des branches, mais l'absence d'une lecture de qualite au niveau de l'index.
+- Le corpus avait besoin d'un comptage clair des doublons logiques, des couches miroir et des variantes de version.
+- Sans cette couche, le lecteur voyait un corpus volumineux mais ne pouvait pas distinguer proprement source, derive et archive.
+- Les cartes et les points d'entree doivent donc etre compris comme une hierarchie de lecture, pas comme une simple liste de fichiers.
 
-## 3. Ce qui est dupliqué et devrait être normalisé
-- Plusieurs sources apparaissent deux fois dans `manifest_step7_master_index.json`, souvent sous une version source et une version miroir ou souveraine très proche.
-- Les doublons visibles portent notamment sur `Sovereign_Unification_Phase_III_Manuscrit.tex`, `Sovereign_Millennium_Dissipative_Stability_Proof.tex`, `Sovereign_Scientific_White_Paper_v3.md`, `SOVEREIGN_MASTER_PROMPT_V3.txt`, `PHASE_IV_ACCESS_CARD.tex` et `SUBMISSION_CHECKLIST.md`.
-- Des fichiers de la famille `_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE` reviennent aussi en double dans le manifest, ce qui suggère une répétition volontaire mais non normalisée.
-- Certaines sources canonisées existent sous plusieurs variantes d'encodage ou de nommage, ce qui crée des doublons logiques même quand les noms diffèrent légèrement.
-- Exemples de normalisation utile: une seule source canonique par document, une seule version miroir textuelle, et des alias explicitement marqués pour les variantes souveraines, PDF, TEX ou MD.
-- La normalisation devrait aussi harmoniser les noms avec accentuation correcte et supprimer les formes corrompues de type `—` ou des accents brisés lorsqu'elles servent à l'affichage public.
+## 2. Bruit technique a isoler
+- Les repertoires techniques `\.git`, `\.venv`, `\.pytest_cache`, `\.uv-cache`, `__pycache__` et `logs` doivent rester hors de la diffusion editoriale.
+- Les caches, journaux, copies de build, exports temporaires et dossiers miroir ne doivent pas etre comptes comme du contenu canonique.
+- Dans certaines branches, le bruit vient surtout des copies textuelles automatiques de fichiers binaires, des `.md.md`, des `.pdf.md`, des `.json.md` et des `.fractale.md`.
+- Ce bruit n'est pas forcement une erreur si le corpus sert d'archive de travail, mais il doit etre balise comme derive.
+
+## 3. Doublons et variantes
+- Le scan global actuel du depot montre `1 784` fichiers.
+- `129` groupes de hachages sont dupliques, pour `367` entrees impliquees, soit `20,6 %` du corpus scanne.
+- `23` fichiers sont redactes comme sensibles.
+- `150` fichiers sont marques comme versionnes ou fortement historises.
+- La vraie dette de maintenance est donc la consolidation des copies, la nomination canonique et la separation visible entre source, miroir et export.
+- La valeur academique ne doit pas etre deduite de la seule masse documentaire: elle depend aussi de la verification externe, encore limitee a ce stade.
+
+## 4. Ce qu'il faut normaliser
+- Une seule source canonique par document.
+- Une seule version miroir textuelle par source, avec alias si necessaire.
+- Une separation stable entre diffusion publique, travail interne et archive.
+- Une normalisation d'encodage et de typographie pour tous les points d'entree publics.
 
 ## Conclusion
-- Le corpus n'est pas vide: il est dense et bien structuré.
-- Le vrai manque est l'alignement entre la matière locale et la couche d'indexation globale.
-- Le vrai bruit est l'empreinte des outils de travail mélangée au corpus de diffusion.
-- La vraie dette de maintenance est la normalisation des doublons et des variantes de nommage.
+- Le corpus est dense et exploitable.
+- Les faiblesses restantes sont surtout la redondance, la surcharge de versions et le melange des couches.
+- La correction utile n'est pas de supprimer l'historique, mais de le rendre lisible, mesurable et filtrable.
+- La couche de preuve interne est solide; la validation externe reste a renforcer.
 
-## Priorités recommandées
-- Réintégrer `03_C_MOTEURS_ET_DEPLOIEMENT` et `05_C_PRIME_VALIDATION_ET_TESTS` dans l'index maître, la carte visuelle et le récapitulatif final.
-- Séparer les artefacts techniques du corpus éditorial.
-- Dédupliquer les sources répétées et établir une source canonique par document.
-- Harmoniser l'encodage et les noms de fichiers exposés au lecteur.
+## Priorites recommandees
+- Marquer explicitement les couches miroir et les exports comme derives.
+- Stabiliser une source canonique par document.
+- Exposer les doublons et les versions dans les tableaux de bord et les API.
+- Continuer l'harmonisation typographique des fichiers publics.
+
+## Remediation Appliquee
+- La vue par defaut de l'API et de l'accueil utilise maintenant le corpus canonique dedoublonne.
+- Les fichiers derives, les versions et les miroirs restent accessibles pour audit, mais ils ne polluent plus la lecture principale.
+- Un endpoint de clusters de doublons permet de retrouver les repetitions du corpus brut sans les confondre avec la vue canonique.
+- Les totaux visibles distinguent desormais le corpus source, le corpus canonique et la charge d'archive.

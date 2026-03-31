@@ -1,12 +1,12 @@
 # MIROIR TEXTUEL - MDL_Foi_Responsabilite_Liberte.pdf
 
-Source : MDL Ynor Constitution\MDL — Argent & Juridique\MDL_Legal_Pack\MDL_Foi_Responsabilite_Liberte.pdf
+Source : MDL Ynor Constitution\MDL - Argent & Juridique\MDL_Legal_Pack\MDL_Foi_Responsabilite_Liberte.pdf
 Taille : 1910 octets
 SHA256 : bfadf0352fcc5929c33137c02a88a74a287b2f6e6afc85348f8b7849e3f4414f
 
 ```text
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+%"z ReportLab Generated PDF document http://www.reportlab.com
 1 0 obj
 <<
 /F1 2 0 R

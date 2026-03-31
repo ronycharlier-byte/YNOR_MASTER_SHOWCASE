@@ -46,7 +46,7 @@ class YnorEngine:
     def run(self, prompt: str, max_steps: int = 20, verbose: bool = True) -> List[str]:
         """
         Execute an adaptive LLM session under Ynor Governance.
-        Returns the finalized outputs list.
+        Returns the Prepared outputs list.
         """
         outputs = []
         context = prompt

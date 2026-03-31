@@ -13,7 +13,7 @@ Ce document détaille les étapes pour soumettre officiellement votre travail au
 
 ## 3. Préparation du Package Final
 - [ ] **Manuscrit LaTeX** : `Sovereign_Unification_Phase_III_Manuscrit.tex` (Version Anonyme).
-- [ ] **Data Repository** : Inclure le lien vers les certificats numériques DVP 2.0.
+- [ ] **Data Repository** : Inclure le lien vers les STATUTs numériques DVP 2.0.
 - [ ] **ORCID ID** : 0009-0003-8250-0526.
 
 ## 4. Souveraineté de l'IA (Phase IV)

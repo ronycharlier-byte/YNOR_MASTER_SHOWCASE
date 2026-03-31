@@ -22,7 +22,7 @@ Chaque strate reprend le meme geste : observer, formaliser, stabiliser.
 Le centre implicite du depot est le principe de viabilite :
 
 \[
-\mu = \alpha - \beta - \kappa
+\mu = \alpha - (\beta + \kappa)
 \]
 
 L'ensemble du repertoire n'est donc pas une juxtaposition de fichiers, mais une variation fractale autour d'une meme loi de survie structurelle.

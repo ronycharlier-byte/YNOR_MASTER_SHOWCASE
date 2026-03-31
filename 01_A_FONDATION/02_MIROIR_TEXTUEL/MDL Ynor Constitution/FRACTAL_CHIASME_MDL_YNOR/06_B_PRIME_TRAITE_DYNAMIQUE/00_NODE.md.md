@@ -14,7 +14,7 @@ Miroir chiastique : B
 Resume : Le traite reprend la dynamique au retour du centre et ferme l'enveloppe theorique.
 
 Contenu source :
-- MDL Ynor — Traité des dynamiques dissipatives et de la stabilité structurelle.pdf
+- MDL Ynor - Traite des dynamiques dissipatives et de la stabilite structurelle.pdf
 
 Implementation fractale :
 - 01_SOURCE contient le document ou le sous-corpus original.

@@ -5,7 +5,7 @@
 # =============================================================================
 import PyPDF2
 
-file_path = "Chapitre I — Formalisation axiomatique minimale.pdf"
+file_path = "Chapitre I  Formalisation axiomatique minimale.pdf"
 
 try:
     with open(file_path, "rb") as file:
@@ -21,3 +21,6 @@ try:
     print(text)
 except Exception as e:
     print(f"Error reading PDF: {e}")
+
+
+

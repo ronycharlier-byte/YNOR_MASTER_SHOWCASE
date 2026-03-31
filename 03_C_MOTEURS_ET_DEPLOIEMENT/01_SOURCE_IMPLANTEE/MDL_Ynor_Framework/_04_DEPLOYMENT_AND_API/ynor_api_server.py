@@ -11,7 +11,7 @@ import uuid
 
 try:
     from dotenv import load_dotenv
-    load_dotenv()  # Charge automatiquement les clés
+    load_dotenv()  # Charge automatiquement les clAs
 except ImportError:
     pass
 
@@ -19,24 +19,24 @@ from fastapi import FastAPI, Depends, HTTPException, Security, Request, Response
 from fastapi.security import APIKeyHeader  # type: ignore
 from pydantic import BaseModel, Field
 
-# 🛡️ SECURITY SHIELD IMPORT (Action 4)
+# Yi SECURITY SHIELD IMPORT (Action 4)
 try:
     from ynor_security_shield import check_critical_secrets
 except ImportError:
     def check_critical_secrets(): pass
 
 app = FastAPI(
-    title="μ API - Ynor AI Cost Control & Hierarchical Engine",
+    title="I API - Ynor AI Cost Control & Hierarchical Engine",
     description="Early warning system for LLMs + Cloud-Hosted System 1/System 2 AGI orchestration.",
     version="3.1.0-MILLENNIUM"
 )
 
-# 🛡️ STARTUP INTEGRITY CHECK
+# Yi STARTUP INTEGRITY CHECK
 try:
     check_critical_secrets()
 except RuntimeError as e:
-    print(f"\n[🚨 FATAL STARTUP ERROR] {str(e)}")
-    # En production, on forcerait l'arrêt ici
+    print(f"\n[Ys FATAL STARTUP ERROR] {str(e)}")
+    # En production, on forcerait l'arrAt ici
 
 
 # === SAAS AUTHENTICATION & SECURITY ===
@@ -69,7 +69,7 @@ DASHBOARD_HTML = """
         </div>
         <h3>LATEST AUDIT TRENDS (Mu History)</h3>
         <iframe src="/v1/mu/check" style="width:100%; height:100px; background:#111; border:none;"></iframe>
-        <p style="font-size:0.8em; color:#555;">© 2026 MDL STRATEGY - FOUNDER ACCESS ONLY</p>
+        <p style="font-size:0.8em; color:#555;">A 2026 MDL STRATEGY - FOUNDER ACCESS ONLY</p>
     </body>
 </html>
 """
@@ -310,17 +310,17 @@ def render_dashboard_html():
         <section class="hero">
             <div class="eyebrow">YNOR.AI</div>
             <h1>Audit Mu partageable</h1>
-            <p class="sub">Le moment fort du produit est simple: un audit Mu dit si un agent doit continuer, s'arrêter et combien cela peut économiser. Ce dashboard transforme ce résultat en preuve publique partageable sans ajouter de nouveau framework.</p>
+            <p class="sub">Le moment fort du produit est simple: un audit Mu dit si un agent doit continuer, s'arrAter et combien cela peut Aconomiser. Ce dashboard transforme ce rAsultat en preuve publique partageable sans ajouter de nouveau framework.</p>
         </section>
 
         <div class="grid">
             <section class="panel">
-                <div class="pill">Clé de test intégrée pour la démo interne</div>
-                <label for="apiKey">Clé API Ynor</label>
-                <input id="apiKey" value="__DASHBOARD_DEFAULT_API_KEY__" placeholder="Entrez votre clé API privée" />
-                <label for="tokenCost">Coût par token (USD)</label>
+                <div class="pill">ClA de test intAgrAe pour la dAmo interne</div>
+                <label for="apiKey">ClA API Ynor</label>
+                <input id="apiKey" value="__DASHBOARD_DEFAULT_API_KEY__" placeholder="Entrez votre clA API privAe" />
+                <label for="tokenCost">CoAt par token (USD)</label>
                 <input id="tokenCost" type="number" step="0.000001" value="0.00001" />
-                <label for="tokensUsed">Tokens utilisés</label>
+                <label for="tokensUsed">Tokens utilisAs</label>
                 <input id="tokensUsed" type="number" step="1" value="1200" />
                 <label for="contextLength">Longueur de contexte</label>
                 <input id="contextLength" type="number" step="1" value="3200" />
@@ -330,27 +330,27 @@ def render_dashboard_html():
                 <input id="confidence" type="number" min="0" max="1" step="0.01" value="0.91" />
                 <div class="actions">
                     <button class="btn-primary" id="runAudit">Lancer l'audit</button>
-                    <button class="btn-secondary" id="shareAudit">Générer un lien public</button>
+                    <button class="btn-secondary" id="shareAudit">GAnArer un lien public</button>
                 </div>
-                <div class="status-line" id="statusLine">Prêt à calculer un audit Mu.</div>
+                <div class="status-line" id="statusLine">PrAt A calculer un audit Mu.</div>
             </section>
 
             <section class="panel metric">
                 <div class="metric-card">
                     <div class="metric-title">Score Mu</div>
                     <div class="metric-value good" id="muValue">--</div>
-                    <div class="result-copy" id="muReason">Le résultat d'audit apparaîtra ici.</div>
+                    <div class="result-copy" id="muReason">Le rAsultat d'audit apparaAtra ici.</div>
                 </div>
                 <div class="metric-card">
-                    <div class="metric-title">Économie estimée</div>
+                    <div class="metric-title">Aconomie estimAe</div>
                     <div class="metric-value warn" id="savedValue">$0.0000</div>
                     <div class="result-copy" id="watermarkValue">Watermark: --</div>
                 </div>
                 <div class="metric-card">
                     <div class="metric-title">Signal partageable</div>
-                    <div class="result-copy">Le lien public expose uniquement Mu, les métriques dérivées et le watermark. Aucun prompt utilisateur n'est publié.</div>
+                    <div class="result-copy">Le lien public expose uniquement Mu, les mAtriques dArivAes et le watermark. Aucun prompt utilisateur n'est publiA.</div>
                     <div class="share-box" id="shareBox">
-                        <strong>Lien prêt à partager</strong>
+                        <strong>Lien prAt A partager</strong>
                         <div class="share-url" id="shareUrl">--</div>
                         <div class="actions">
                             <button class="btn-primary" id="copyShare">Copier le lien</button>
@@ -392,7 +392,7 @@ def render_dashboard_html():
         async function runAudit(share) {
             latestShareUrl = "";
             document.getElementById("shareBox").style.display = "none";
-            setStatus(share ? "Création du lien public..." : "Calcul de l'audit en cours...", false);
+            setStatus(share ? "CrAation du lien public..." : "Calcul de l'audit en cours...", false);
             try {
                 const apiKey = document.getElementById("apiKey").value.trim();
                 const response = await fetch("/v1/mu/evaluate" + (share ? "?share=true" : ""), {
@@ -412,9 +412,9 @@ def render_dashboard_html():
                     latestShareUrl = data.share.share_url;
                     document.getElementById("shareUrl").textContent = latestShareUrl;
                     document.getElementById("shareBox").style.display = "block";
-                    setStatus("Lien public généré. Vous pouvez le partager immédiatement.", false);
+                    setStatus("Lien public gAnArA. Vous pouvez le partager immAdiatement.", false);
                 } else {
-                    setStatus("Audit terminé. Si le résultat est convaincant, générez ensuite le lien public.", false);
+                    setStatus("Audit terminA. Si le rAsultat est convaincant, gAnArez ensuite le lien public.", false);
                 }
             } catch (error) {
                 setStatus(error.message || "Une erreur est survenue.", true);
@@ -425,14 +425,14 @@ def render_dashboard_html():
         document.getElementById("shareAudit").addEventListener("click", function () { runAudit(true); });
         document.getElementById("copyShare").addEventListener("click", async function () {
             if (!latestShareUrl) {
-                setStatus("Aucun lien à copier pour l'instant.", true);
+                setStatus("Aucun lien A copier pour l'instant.", true);
                 return;
             }
             try {
                 await navigator.clipboard.writeText(latestShareUrl);
-                setStatus("Lien copié dans le presse-papiers.", false);
+                setStatus("Lien copiA dans le presse-papiers.", false);
             } catch (error) {
-                setStatus("Copie impossible, mais le lien reste visible à l'écran.", true);
+                setStatus("Copie impossible, mais le lien reste visible A l'Acran.", true);
             }
         });
     </script>
@@ -480,9 +480,9 @@ def get_latest_date_str():
 
 async def check_rate_limit(api_key: str = Security(api_key_header)):
     """
-    Protocole de Contrôle de Flux (Quota Quotidien). 
-    Bloque l'accès si le nombre d'appels autorisés par jour est dépassé. 
-    Limite par défaut: 100 appels/jour (Niveau Free/Startup).
+    Protocole de ContrAle de Flux (Quota Quotidien). 
+    Bloque l'accAs si le nombre d'appels autorisAs par jour est dApassA. 
+    Limite par dAfaut: 100 appels/jour (Niveau Free/Startup).
     """
     today = get_latest_date_str()
 
@@ -509,31 +509,31 @@ async def check_rate_limit(api_key: str = Security(api_key_header)):
     return True
 
 def is_key_revoked(api_key: str):
-    """Vérifie si la clé n'est pas blacklistée par l'Admin (Killswitch)"""
+    """VArifie si la clA n'est pas blacklistAe par l'Admin (Killswitch)"""
     return api_key in REVOKED_KEYS
 
 async def verify_api_key(api_key: str = Security(api_key_header)):
     """
-    Protocole de vérification d'identité (Auth Layer). 
+    Protocole de vArification d'identitA (Auth Layer). 
     """
     if not api_key:
          raise HTTPException(status_code=401, detail="X-Ynor-API-Key header missing.")
          
-    # 🧹 CLEANING : On enlève le mot 'Bearer' et les espaces si OpenAI les a rajoutés
+    # Y CLEANING : On enlAve le mot 'Bearer' et les espaces si OpenAI les a rajoutAs
     clean_key = api_key.replace("Bearer ", "").strip()
     
     if clean_key not in ALLOWED_KEYS:
         raise HTTPException(
             status_code=403, 
-            detail="ACCÈS REJETÉ : Clé API invalide. Obtenez une clé de test sur ynor.ai"
+            detail="ACCAS REJETA : ClA API invalide. Obtenez une clA de test sur ynor.ai"
         )
     
-    # Vérification du Killswitch (Blacklist Admin)
-    # On vérifie sur la clé brute et la clé nettoyée
+    # VArification du Killswitch (Blacklist Admin)
+    # On vArifie sur la clA brute et la clA nettoyAe
     if is_key_revoked(api_key) or is_key_revoked(clean_key):
         raise HTTPException(
             status_code=403, 
-            detail="DEFCON LOCK: Cette clé Entreprise a été révoquée pour non-paiement ou violation de sécurité."
+            detail="DEFCON LOCK: Cette clA Entreprise a AtA rAvoquAe pour non-paiement ou violation de sAcuritA."
         )
         
     return clean_key
@@ -557,18 +557,18 @@ def compute_mu(data: AgentStatePayload):
     # Alpha (Gain spatial/informationnel)
     alpha = data.confidence * (1.0 - data.error_estimate)
     
-    # Beta (Friction financière / coût de calcul direct)
+    # Beta (Friction financiAre / coAt de calcul direct)
     beta = data.token_cost * data.tokens_used
     
-    # Kappa (Charge psychologique du système / Poids du contexte)
+    # Kappa (Charge psychologique du systAme / Poids du contexte)
     kappa = (data.context_length / 10000.0) + data.error_estimate
     
-    # L'Équation Maîtresse de Survie Computationnelle
-    mu = alpha - beta - kappa
+    # L'Aquation MaAtresse de Survie Computationnelle
+    mu = Alpha - (Beta + Kappa)
     return mu, alpha, beta, kappa
 
 def generate_watermark(mu_value: float) -> str:
-    """Preuve cryptographique que ce calcul émane du moteur MDL Ynor officiel."""
+    """Preuve cryptographique que ce calcul Amane du moteur MDL Ynor officiel."""
     payload = f"{mu_value}_{YNOR_SECRET_SALT}".encode('utf-8')
     return "YNOR-" + hashlib.sha256(payload).hexdigest()[:16].upper()
 
@@ -585,10 +585,10 @@ async def evaluate_viability(
     # Appel de la physique Ynor
     mu_score, alpha, beta, kappa = compute_mu(payload)
     
-    # Télémétrie temporelle mu(t) (Score 10/10)
+    # TAlAmAtrie temporelle mu(t) (Score 10/10)
     await log_mu_telemetry(mu_score, alpha, beta, kappa, api_key)
     
-    # Règle Métallique
+    # RAgle MAtallique
     should_halt = mu_score < 0
     
     if should_halt:
@@ -608,7 +608,7 @@ async def evaluate_viability(
             "kappa_burden": float(f"{kappa:.4f}")
         },
         "billing": {
-            # Si on arrête l'agent maintenant, on estime sauver les 1000 prochains tokens d'hallucination
+            # Si on arrAte l'agent maintenant, on estime sauver les 1000 prochains tokens d'hallucination
             "estimated_dollars_saved": float(f"{(payload.token_cost * 1000):.4f}") if should_halt else 0.0,
             "latency_ms": latency_ms
         },
@@ -625,24 +625,24 @@ async def evaluate_viability(
 async def execute_hierarchical_engine(payload: HierarchicalPayload, api_key: str = Depends(verify_api_key)):
     start_time = time.time()
     
-    # SYSTEM 1 (Inférence Rapide Heuristique)
-    # En prod, redirige vers LLM_Small (ex: Llama-3-8b, faible coût, temps 200ms)
+    # SYSTEM 1 (InfArence Rapide Heuristique)
+    # En prod, redirige vers LLM_Small (ex: Llama-3-8b, faible coAt, temps 200ms)
     sys1_time = 0.2
     await asyncio.sleep(sys1_time)  # Simuler la latence API locale
     
-    # Probabilité d'hallucination/erreur corrélée à la pression Beta
+    # ProbabilitA d'hallucination/erreur corrAlAe A la pression Beta
     is_hallucination = random.random() < payload.beta_pressure
     
     # Test thermodynamique local
     mu_sys1 = payload.alpha_capacity - payload.beta_pressure - payload.kappa_memory
     
     if mu_sys1 < 0 or is_hallucination:
-        # INTERVENTION DU SYSTEME 2 (Régulation Analytique)
-        # Redirige vers un LLM_Large (ex: GPT-4o, coût élevé, temps 1000ms+) pour vérifier et dissiper
+        # INTERVENTION DU SYSTEME 2 (RAgulation Analytique)
+        # Redirige vers un LLM_Large (ex: GPT-4o, coAt AlevA, temps 1000ms+) pour vArifier et dissiper
         sys2_time = 1.0
         await asyncio.sleep(sys2_time)
         
-        # Le Système 2 consomme de l'énergie (Beta grimpe) mais restaure l'intégrité globale (Alpha grimpe max)
+        # Le SystAme 2 consomme de l'Anergie (Beta grimpe) mais restaure l'intAgritA globale (Alpha grimpe max)
         alpha_final = payload.alpha_capacity * 2.0
         beta_final = payload.beta_pressure * 1.5
         kappa_final = payload.kappa_memory * 1.2
@@ -651,10 +651,10 @@ async def execute_hierarchical_engine(payload: HierarchicalPayload, api_key: str
         # ZERO-KNOWLEDGE PRIVACY: On ne log/renvoie jamais la query brute pour garantir GDPR/HIPAA
         full_hash = str(hashlib.md5(payload.query.encode()).hexdigest())
         safe_query_hash = full_hash[0:10]  # type: ignore
-        output = f"[Zero-Knowledge Hash: {safe_query_hash}] -> Résolu par SYSTEME 2. Dérive (hallucination) dissipée et corrigée en interne."
+        output = f"[Zero-Knowledge Hash: {safe_query_hash}] -> RAsolu par SYSTEME 2. DArive (hallucination) dissipAe et corrigAe en interne."
         system_used = "System_2_Analytical"
     else:
-        # Le Système 1 a réussi sans diverger (Mu >= 0), pas besoin de payer pour GPT-4 !
+        # Le SystAme 1 a rAussi sans diverger (Mu >= 0), pas besoin de payer pour GPT-4 !
         alpha_final = payload.alpha_capacity
         beta_final = payload.beta_pressure
         kappa_final = payload.kappa_memory
@@ -662,7 +662,7 @@ async def execute_hierarchical_engine(payload: HierarchicalPayload, api_key: str
         
         full_hash = str(hashlib.md5(payload.query.encode()).hexdigest())
         safe_query_hash = full_hash[0:10]  # type: ignore
-        output = f"[Zero-Knowledge Hash: {safe_query_hash}] -> Résolu par SYSTEME 1. Association rapide sans dérive de contexte."
+        output = f"[Zero-Knowledge Hash: {safe_query_hash}] -> RAsolu par SYSTEME 1. Association rapide sans dArive de contexte."
         system_used = "System_1_Heuristic"
         
     # Pyre bypass: format strings for safe floats instead of round()
@@ -689,7 +689,7 @@ class RevokePayload(BaseModel):
     admin_secret: str
     target_api_key: str
 
-@app.post("/v1/admin/revoke_key", tags=["Admin"], description="Coupe Circuit (Killswitch) temps-réel.")
+@app.post("/v1/admin/revoke_key", tags=["Admin"], description="Coupe Circuit (Killswitch) temps-rAel.")
 async def revoke_enterprise_key(payload: RevokePayload):
     # Validation du Master Secret Admin (Depuis les env vars)
     expected_hash = hashlib.sha256(YNOR_ADMIN_SECRET.encode()).hexdigest()
@@ -722,7 +722,7 @@ class AutoLearnPayload(BaseModel):
 async def archive_and_learn(payload: AutoLearnPayload, api_key: str = Depends(verify_api_key)):
     """
     Module d'Auto-Apprentissage Ynor : 
-    Enregistre les logs et synchronise le cerveau AGI instantanément.
+    Enregistre les logs et synchronise le cerveau AGI instantanAment.
     """
     if READ_ONLY_MODE:
         return {
@@ -733,7 +733,7 @@ async def archive_and_learn(payload: AutoLearnPayload, api_key: str = Depends(ve
         
     start_time = time.time()
     
-    # Résolution dynamique des chemins pour compatibilité Cloud/Local
+    # RAsolution dynamique des chemins pour compatibilitA Cloud/Local
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # Root: MDL_Ynor_Framework
     
     default_log_dir = os.path.join(base_dir, "_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES")
@@ -744,21 +744,21 @@ async def archive_and_learn(payload: AutoLearnPayload, api_key: str = Depends(ve
         try:
             os.makedirs(log_dir)
         except:
-            pass # Fallback si pas de droits d'écriture (Cloud read-only)
+            pass # Fallback si pas de droits d'Acriture (Cloud read-only)
         
-    # Création de l'entrée de log
+    # CrAation de l'entrAe de log
     log_entry = f"\n\n---\n### [SESSION: {payload.session_id}] - {time.ctime()}\n"
     log_entry += f"**Alpha Score**: {payload.quality_score:.2f}\n"
     log_entry += f"**Experience**: {payload.experience_summary}\n"
     
     try:
-        # 1. Écriture physique du log (Persistance)
+        # 1. Acriture physique du log (Persistance)
         if os.path.exists(log_dir):
             with open(log_file, "a", encoding="utf-8") as f:
                 f.write(log_entry)
             
-        # 2. Déclenchement de l'Indexeur (Evolution du Cerveau)
-        # On cherche l'indexeur dans l'environnement ou dans le dossier frère habituel
+        # 2. DAclenchement de l'Indexeur (Evolution du Cerveau)
+        # On cherche l'indexeur dans l'environnement ou dans le dossier frAre habituel
         default_indexer_cwd = os.path.join(base_dir, "MDL_YNOR_GPT_KNOWLEDGE")
         default_indexer_path = os.path.join(default_indexer_cwd, "update_knowledge.py")
         
@@ -774,8 +774,8 @@ async def archive_and_learn(payload: AutoLearnPayload, api_key: str = Depends(ve
             "latency_ms": float(f"{(time.time() - start_time) * 1000:.2f}")
         }
     except Exception as e:
-        # En Cloud, l'écriture de fichier peut échouer sur filesystem immuable, on warn mais on ne crash pas l'API
-        print(f"Warning: Auto-Learning non-critique échoué: {str(e)}")
+        # En Cloud, l'Acriture de fichier peut Achouer sur filesystem immuable, on warn mais on ne crash pas l'API
+        print(f"Warning: Auto-Learning non-critique AchouA: {str(e)}")
         return {"status": "PARTIAL_SUCCESS", "warning": str(e)}
 
 # === COGNITIVE RUN ENDPOINT (FOR TERMINAL DASHBOARD) ===
@@ -783,12 +783,12 @@ async def archive_and_learn(payload: AutoLearnPayload, api_key: str = Depends(ve
 async def cognitive_run(payload: Request, api_key: str = Depends(verify_api_key)):
     """
     Endpoint compatible avec streamlit_dashboard.py. 
-    Redirige vers le moteur hiérarchique Ynor.
+    Redirige vers le moteur hiArarchique Ynor.
     """
     data = await payload.json()
     user_query = data.get("input", "Who are you?")
     
-    # Appel simulé au moteur hiérarchique interne
+    # Appel simulA au moteur hiArarchique interne
     hier_payload = HierarchicalPayload(query=user_query)
     result = await execute_hierarchical_engine(hier_payload, api_key)
     
@@ -806,7 +806,7 @@ async def cognitive_run(payload: Request, api_key: str = Depends(verify_api_key)
 # === HEALTH & STATUS ENDPOINTS ===
 @app.get("/status", tags=["Diagnostic"])
 async def get_status():
-    """Vérifie si le Noyau Ynor est opérationnel."""
+    """VArifie si le Noyau Ynor est opArationnel."""
     return {
         "status": "ONLINE", 
         "engine": "MDL Ynor", 
@@ -817,7 +817,7 @@ async def get_status():
 
 @app.get("/v1/mu/history", tags=["Diagnostic"])
 async def get_mu_history(api_key: str = Depends(verify_api_key)):
-    """Affiche les 50 derniers audits Mu pour analyse de tendance (dù/dt)."""
+    """Affiche les 50 derniers audits Mu pour analyse de tendance (dA/dt)."""
     return list(MU_AUDIT_HISTORY)[-50:]
 
 @app.get("/v1/mu/check", tags=["Diagnostic"])
@@ -826,7 +826,7 @@ async def quick_mu_check():
     return {
         "mu": 1.0, 
         "status": "VIABLE", 
-        "message": "Système en équilibre thermodynamique."
+        "message": "SystAme en Aquilibre thermodynamique."
     }
 
 @app.get("/share/mu/{share_id}", tags=["Growth"])
@@ -950,14 +950,14 @@ async def view_shared_mu_audit(share_id: str):
                     <div class="value">{share_record["metrics"]["kappa_burden"]:.4f}</div>
                 </div>
                 <div class="metric">
-                    <div class="label">Économie estimée</div>
+                    <div class="label">Aconomie estimAe</div>
                     <div class="value">${share_record["billing"]["estimated_dollars_saved"]:.4f}</div>
                 </div>
             </div>
             <div class="footer">
                 <div>Watermark: <strong>{watermark}</strong></div>
-                <div>Publié par: {created_by}</div>
-                <div>Aucune requête brute n'est exposée. La preuve partage uniquement le résultat dérivé de l'audit.</div>
+                <div>PubliA par: {created_by}</div>
+                <div>Aucune requAte brute n'est exposAe. La preuve partage uniquement le rAsultat dArivA de l'audit.</div>
                 <div style="margin-top: 8px;"><a href="/dashboard">Lancer votre propre audit</a></div>
             </div>
         </div>
@@ -974,14 +974,14 @@ async def get_growth_events(api_key: str = Depends(verify_api_key)):
 @app.get("/dashboard", tags=["Admin"])
 async def view_dashboard():
     """
-    Interface visuelle en temps réel des métriques Ynor. 
+    Interface visuelle en temps rAel des mAtriques Ynor. 
     (Accessible uniquement en interne / localhost dans cette version).
     """
     return Response(content=render_dashboard_html(), media_type="text/html")
 
 @app.get("/privacy", tags=["Legal"])
 async def privacy_policy():
-    """Politique de Confidentialité Ynor Zero-Knowledge."""
+    """Politique de ConfidentialitA Ynor Zero-Knowledge."""
     privacy_html = """
     <html>
         <body style="font-family: sans-serif; padding: 40px; line-height: 1.6; max-width: 800px; margin: auto; background: #0a0a0a; color: #00ff00;">
@@ -1002,7 +1002,8 @@ async def privacy_policy():
 if __name__ == "__main__":
     import uvicorn  # type: ignore
     
-    # Récupération du port depuis le YNOR_SERVER_MANAGER.bat ou fallback 8492
+    # RAcupAration du port depuis le YNOR_SERVER_MANAGER.bat ou fallback 8492
     port = int(os.environ.get("PORT", 8492))
-    # Déploiement serveur
+    # DAploiement serveur
     uvicorn.run(app, host="0.0.0.0", port=port)
+

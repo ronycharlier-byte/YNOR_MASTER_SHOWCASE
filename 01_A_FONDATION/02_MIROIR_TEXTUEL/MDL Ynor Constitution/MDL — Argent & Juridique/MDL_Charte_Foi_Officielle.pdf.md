@@ -1,12 +1,12 @@
 # MIROIR TEXTUEL - MDL_Charte_Foi_Officielle.pdf
 
-Source : MDL Ynor Constitution\MDL — Argent & Juridique\MDL_Charte_Foi_Officielle.pdf
+Source : MDL Ynor Constitution\MDL - Argent & Juridique\MDL_Charte_Foi_Officielle.pdf
 Taille : 4534 octets
 SHA256 : 9ca275bc06f809914a036d3c086ec9128d8453aba0bb3b7d82a4e2cc483fe596
 
 ```text
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+%"z ReportLab Generated PDF document http://www.reportlab.com
 1 0 obj
 <<
 /F1 2 0 R /F2 3 0 R

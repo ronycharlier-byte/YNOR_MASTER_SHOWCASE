@@ -12,7 +12,7 @@ Le texte se déplie selon les lignes suivantes :
 - **Memory Efficiency**: By integrating $\kappa$ (memory payload), Ynor is the first framework that explicitly models the performance degradation and "hallucination threshold" caused by context overload.
 
 ## C. Matiere
-| Framework | Core Objective | Key Metric | Resource Treatment | |-----------|----------------|------------|---------------------| | **FEP (Friston, 2010)** | Surprise Minimization | Variational Free Energy | Implicit | | **IB (Tishby, 1999)** | Relevant Compression | Information Plane | Abstract | | **PPO (Schulman et al)** | Policy Optimization | Cumulative Reward | Externality | | **MDL YNOR (Charlier)** | **Marge Viability Optimization** | **$\mu = \alpha - \beta - \kappa$** | **Endogenous Constraint** |
+| Framework | Core Objective | Key Metric | Resource Treatment | |-----------|----------------|------------|---------------------| | **FEP (Friston, 2010)** | Surprise Minimization | Variational Free Energy | Implicit | | **IB (Tishby, 1999)** | Relevant Compression | Information Plane | Abstract | | **PPO (Schulman et al)** | Policy Optimization | Cumulative Reward | Externality | | **MDL YNOR (Charlier)** | **Marge Viability Optimization** | **$\mu = \alpha - (\beta + \kappa)$** | **Endogenous Constraint** |
 
 ## X. Centre
 La marge de viabilite constitue le centre de gravite du texte.

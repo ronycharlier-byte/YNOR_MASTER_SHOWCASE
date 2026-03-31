@@ -17,7 +17,7 @@ Extrait brut sanitise :
 {
   "concepts": {
     "Marge Dissipative (mu)": {
-      "formule": "mu = alpha - beta - kappa",
+      "formule": "mu = alpha - (beta + kappa)",
       "fichier": "mdl_ynor_core.py",
       "fonction": "measure_dissipative_margin"
     },

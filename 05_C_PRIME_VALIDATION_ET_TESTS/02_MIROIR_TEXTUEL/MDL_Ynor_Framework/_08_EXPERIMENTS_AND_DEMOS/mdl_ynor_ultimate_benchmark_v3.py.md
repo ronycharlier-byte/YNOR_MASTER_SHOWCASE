@@ -79,12 +79,12 @@ class MDL_Ultimate_Benchmark:
     def check_mu_stability(self):
         print("♾️ Module 2: Audit de Rigueur Mathématique (Mu-Margin)...")
         # Simulation d'un système dissipatif de type Ynor
-        # mu = alpha - beta - kappa
+        # mu = alpha - (beta + kappa)
         alpha = 1.85  # Gain (Dissipation)
         beta = 0.42   # Risque (Amplification)
         kappa = 0.15  # Inertie
         
-        mu = alpha - beta - kappa
+        mu = alpha - (beta + kappa)
         
         # Test de convergence Lyapunov : S_dot = -mu * S
         S = 10.0

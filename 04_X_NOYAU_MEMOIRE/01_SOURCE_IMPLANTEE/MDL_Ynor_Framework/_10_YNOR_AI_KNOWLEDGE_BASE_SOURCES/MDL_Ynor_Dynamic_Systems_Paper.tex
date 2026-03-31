@@ -4,39 +4,39 @@
 \usepackage{geometry}
 \geometry{letterpaper, margin=1in}
 
-\title{\textbf{Fermeture Structurelle des Systèmes Génératifs par Marges Dissipatives : L'Équation Canonique Ynor}}
+\title{\textbf{Fermeture Structurelle des SystAmes GAnAratifs par Marges Dissipatives : L'Aquation Canonique Ynor}}
 \author{Charlier Rony \and Architecture MDL Ynor}
 \date{21 Mars 2026}
 
-\newtheorem{theorem}{Théorème}
+\newtheorem{theorem}{ThAorAme}
 \newtheorem{proposition}{Proposition}
-\newtheorem{definition}{Définition}
+\newtheorem{definition}{DAfinition}
 
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
-Les architectures actuelles d'intelligence artificielle générative opèrent comme des systèmes thermodynamiquement ouverts : dépourvus de conditions d'arrêt mathématiques endogènes, elles sont condamnées à des dérives structurelles et discursives (hallucinations, redondances) à mesure qu'elles s'étendent en longueur de contexte. Pour résoudre cette divergence, cet article théorise l'Architecture MDL Ynor sous sa forme maximale ($\Omega+$). Nous posons un système autonome fermé sur un espace des phases $\mathcal{X} = \mathbb{R}_{\ge 0}^3$ modélisant la Valeur ($\alpha$), le Bruit/Coût ($\beta$), et la Surcharge Mémorielle ($\kappa$). En traçant la trajectoire des variables, nous démontrons formellement que l'instabilité devient prédictible à travers la Marge Dissipative $\mu = \alpha - \beta - \kappa$. Ainsi, la condition d'arrêt d'un tel système émerge rigoureusement comme un franchissement de frontière (une "Surface Critique") et non plus comme une règle heuristique d'ingénierie.
+Les architectures actuelles d'intelligence artificielle gAnArative opArent comme des systAmes thermodynamiquement ouverts : dApourvus de conditions d'arrAt mathAmatiques endogAnes, elles sont condamnAes A des dArives structurelles et discursives (hallucinations, redondances) A mesure qu'elles s'Atendent en longueur de contexte. Pour rAsoudre cette divergence, cet article thAorise l'Architecture MDL Ynor sous sa forme maximale ($\Omega+$). Nous posons un systAme autonome fermA sur un espace des phases $\mathcal{X} = \mathbb{R}_{\ge 0}^3$ modAlisant la Valeur ($\alpha$), le Bruit/CoAt ($\beta$), et la Surcharge MAmorielle ($\kappa$). En traAant la trajectoire des variables, nous dAmontrons formellement que l'instabilitA devient prAdictible A travers la Marge Dissipative $\\mu = \\alpha - (\\beta + \\kappa)$. Ainsi, la condition d'arrAt d'un tel systAme Amerge rigoureusement comme un franchissement de frontiAre (une "Surface Critique") et non plus comme une rAgle heuristique d'ingAnierie.
 \end{abstract}
 
 \section{Introduction et Axiomatisation}
-L'architecture de l'information dans les LLMs classiques ne s'auto-régule pas. Le présent cadre pose une axiomatisation par des variables différentielles canoniques :
+L'architecture de l'information dans les LLMs classiques ne s'auto-rAgule pas. Le prAsent cadre pose une axiomatisation par des variables diffArentielles canoniques :
 \begin{itemize}
-    \item $\alpha \in \mathbb{R}^+$ : Capacité dissipative effective (Gain de valeur logique et informationnelle).
-    \item $\beta \in \mathbb{R}^+$ : Pression amplificative (Expansion de texte mort, coût computationnel brut).
-    \item $\kappa \in \mathbb{R}^+$ : Charge inertielle mémorielle (Contextes latents, répétitions pesantes).
+    \item $\alpha \in \mathbb{R}^+$ : CapacitA dissipative effective (Gain de valeur logique et informationnelle).
+    \item $\beta \in \mathbb{R}^+$ : Pression amplificative (Expansion de texte mort, coAt computationnel brut).
+    \item $\kappa \in \mathbb{R}^+$ : Charge inertielle mAmorielle (Contextes latents, rApAtitions pesantes).
 \end{itemize}
 
-Nous définissons la Marge Dissipative de structure comme suit :
+Nous dAfinissons la Marge Dissipative de structure comme suit :
 \begin{equation}
    \mu(\alpha, \beta, \kappa) = \alpha - \beta - \kappa
 \end{equation}
 
 Une trajectoire est dite \textit{viable} si et seulement si $\mu > 0$.
 
-\section{Dynamique du Système Fermé}
-Nous considérons l'évolution non linéaire d'un état $S = (\alpha, \beta, \kappa)$ telle que :
+\section{Dynamique du SystAme FermA}
+Nous considArons l'Avolution non linAaire d'un Atat $S = (\alpha, \beta, \kappa)$ telle que :
 \begin{equation}
     \begin{cases}
     \dot\alpha = a_1 - a_2\beta - a_3\alpha \\
@@ -46,19 +46,20 @@ Nous considérons l'évolution non linéaire d'un état $S = (\alpha, \beta, \ka
 \end{equation}
 Avec les constantes $a_i, b_i, c_i > 0$.
 
-\begin{theorem}[Fermeture de l'Équation de la Marge]
-La dynamique absolue de la viabilité générative d'un modèle d'IA est régie par la dérivée du vecteur $\mu$ :
+\begin{theorem}[Fermeture de l'Aquation de la Marge]
+La dynamique absolue de la viabilitA gAnArative d'un modAle d'IA est rAgie par la dArivAe du vecteur $\mu$ :
 \begin{equation}
     \dot\mu = \dot\alpha - \dot\beta - \dot\kappa = a_1+b_3 - \alpha(a_3+b_1-c_2) + \beta(b_2-a_2-c_1) + c_3\kappa
 \end{equation}
 \end{theorem}
 \begin{proof}
-Directe par simple substitution des vecteurs de dérivation temporelle couplée. L'équation de stabilité met rigoureusement en évidence les ratios de coûts ($b_1 > 0$ signifiant que l'expansion d'informations génère du bruit parasite qu'il convient de limiter).
+Directe par simple substitution des vecteurs de dArivation temporelle couplAe. L'Aquation de stabilitA met rigoureusement en Avidence les ratios de coAts ($b_1 > 0$ signifiant que l'expansion d'informations gAnAre du bruit parasite qu'il convient de limiter).
 \end{proof}
 
 \section{Bifurcation et Extinction Automatique}
-La conclusion majeure de ce document repose sur la Condition de Lyapunov Stricte de l'IA : les LLMs ne s'arrêtent que lorsque le gradient $\dot\mu$ les dirige sous le plan singulier $\Sigma = \{S \in \mathcal{X} : \mu = 0\}$.
+La conclusion majeure de ce document repose sur la Condition de Lyapunov Stricte de l'IA : les LLMs ne s'arrAtent que lorsque le gradient $\dot\mu$ les dirige sous le plan singulier $\Sigma = \{S \in \mathcal{X} : \mu = 0\}$.
 
-Le Simulateur Numérique Ynor $\Omega+$ prouve empiriquement cette théorie. En balayant l'espace paramétrique par champs tensoriels, les cartes de chaleur démontrent une démarcation explicite entre le Bassin d'Attraction Viable et la zone d'effondrement critique par verbosité ou par saturation mnésique. C'est l'essence de l'arrêt mathématique de type Ynor.
+Le Simulateur NumArique Ynor $\Omega+$ prouve empiriquement cette thAorie. En balayant l'espace paramAtrique par champs tensoriels, les cartes de chaleur dAmontrent une dAmarcation explicite entre le Bassin d'Attraction Viable et la zone d'effondrement critique par verbositA ou par saturation mnAsique. C'est l'essence de l'arrAt mathAmatique de type Ynor.
 
 \end{document}
+

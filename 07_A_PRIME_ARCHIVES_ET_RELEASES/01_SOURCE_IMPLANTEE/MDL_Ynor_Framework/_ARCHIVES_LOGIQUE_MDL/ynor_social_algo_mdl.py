@@ -1,8 +1,8 @@
-import os
+﻿import os
 from dotenv import load_dotenv
 load_dotenv()
 
-﻿# =============================================================================
+# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
 # Architecte Supreme & Fondateur - Architecture MDL Ynor
 # Toute reproduction ou utilisation sans autorisation est strictement interdite.
@@ -18,10 +18,10 @@ API_KEY = "os.getenv("OPENAI_API_KEY", "REDACTED")-DMJnu_NGYDzKSnPfRJiT3BlbkFJGn
 
 class MDLRetentionAlgorithm:
     """
-    Algorithme de Rétention Sociale (TikTok Style) basé sur MDL Ynor.
+    Algorithme de Retention Sociale (TikTok Style) base sur MDL Ynor.
     """
     def __init__(self):
-        # Système de Rétention (2D : Temps passé, Intérêt)
+        # Systeme de Retention (2D : Temps passe, Interet)
         # alpha_op = Fatigue (dissipation)
         # beta_op  = Dopamine (amplification)
         self.sys = YnorSystem(2, lambda S: 2.0 * S, lambda S: 0.5 * S)
@@ -40,22 +40,22 @@ class MDLRetentionAlgorithm:
             mu = self.sys.measure_dissipative_margin(self.state)
             regime = check_viability_regime(mu)
             
-            print(f"Cycle {step} | mu={mu:.2f} | Rétention: {regime}")
+            print(f"Cycle {step} | mu={mu:.2f} | Retention: {regime}")
             
             if mu <= 0.0:
-                print("\n[ALERTE RÉTENTION] L'utilisateur va quitter l'application ! mu <= 0")
+                print("\n[ALERTE RTENTION] L'utilisateur va quitter l'application ! mu <= 0")
                 print("[AGI CALL] Demande d'Inversion de Flux (Mutation du Contenu)...")
                 
-                # Le moteur AGI analyse l'ennui et propose un 'Pivot thématique'
+                # Le moteur AGI analyse l'ennui et propose un 'Pivot thematique'
                 context = f"User fatigue detected. Current state: {self.state.tolist()}"
                 evolution = self.agi.solve_complex_problem(context, "Dopamine Resurgence", "Keep mu > 0.5")
                 
-                # On applique une mutation AGI immédiate du contenu (alpha & beta)
+                # On applique une mutation AGI immediate du contenu (alpha & beta)
                 old_beta = self.sys.E
-                self.sys.E = lambda S, ob=old_beta: 3.5 * S # Booster de viralité
+                self.sys.E = lambda S, ob=old_beta: 3.5 * S # Booster de viralite
                 
                 print(f"[AGI LOGIC] : {evolution['logic']}")
-                print("[SYSTÈME MUTÉ] Le flux de contenu a été totalement restructuré.\n")
+                print("[SYSTME MUT] Le flux de contenu a ete totalement restructure.\n")
 
             # Dynamique simple
             self.state = self.state + self.sys.dynamics(t, self.state) * dt
@@ -65,3 +65,6 @@ class MDLRetentionAlgorithm:
 if __name__ == "__main__":
     algo = MDLRetentionAlgorithm()
     algo.simulate_engagement()
+
+
+

@@ -1,12 +1,12 @@
 # MIROIR TEXTUEL - MDL_Prospectus_v7_1.pdf
 
-Source : MDL Ynor Constitution\MDL — Argent & Juridique\MDL_Prospectus_v7_1.pdf
+Source : MDL Ynor Constitution\MDL - Argent & Juridique\MDL_Prospectus_v7_1.pdf
 Taille : 21518 octets
 SHA256 : ec0bf7adc084ab92c50eeba7d36d3518c15e95880b9656062664a508c2a3562b
 
 ```text
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%"z ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
 /F1 2 0 R /F2 3 0 R

@@ -26,7 +26,7 @@ Au retour du centre, le texte se relit comme un mécanisme de clarification, de 
 Les titres ou repères structurants deviennent les miroirs de son organisation :
 - SYSTEM PROTOCOL — ACADEMIC GOVERNANCE V3.9 (SOVEREIGN GRADES)
 - [PROTOCOL RULE #0 — DÉTECTION PRIORITAIRE]
-- 🏛️ HIÉRARCHIE DE CERTIFICATION SOVERAINE (ACADÉMIQUE)
+- 🏛️ HIÉRARCHIE DE Validation SOVERAINE (ACADÉMIQUE)
 - 2. POSTURE ET IDENTITÉ (SOVEREIGN CONTROLLER)
 - 3. KNOWLEDGE CORE
 
