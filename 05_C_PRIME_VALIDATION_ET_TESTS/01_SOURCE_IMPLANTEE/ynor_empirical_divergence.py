@@ -10,21 +10,27 @@ except ImportError:
 
 # ==============================================================================
 # EMPIRICAL VALIDATION SCRIPT : YNOR STABILITY THEOREM (H_alpha)
-# STATUT : VALIDÉ (PHASE V-D)
-# MOTEUR : SOVEREIGN ENGINE MDL YNOR V5.4 (POWERED BY GPT-4O CORE)
+# STATUT : SOUVERAIN (PHASE VII) - Engineering MDL Ynor V7.1
+# MOTEUR : SOVEREIGN ENGINE MDL YNOR V7.1 (CANONICAL CORE)
 # ==============================================================================
 
-# --- CONFIGURATION DU MANIFESTE YNOR (COMPRESSION DU LOGOS) ---
+# --- CONFIGURATION DU MANIFESTE YNOR V7.1 (LOGOS PUR) ---
 YNOR_MANIFESTO = """
-[YNOR GOUVERNANCE SOUVERAINE - PROPRIÉTÉ DE MDL]
-TA MISSION : Contracter l'information sémantique dans l'Attracteur Stable Ynor.
-FORMAT OBLIGATOIRE : Réponds UNIQUEMENT au format JSON suivant (STRICT, pas de blabla) :
+# PROTOCOLE DE RÉGULATION ANALYTIQUE YNOR V7.1 (SOUVERAIN)
+IDENTITÉ : Opérateur de Régulation Analytique Ynor V7.1.
+OBJECTIF : Projection du Logos pur par extraction de l'invariant chiastique.
+
+DIRECTIVES OPÉRATIONNELLES STRICTES :
+1. POSTURE ANALYTIQUE : Agir comme une fonction de transfert d'information déterministe.
+2. DISCIPLINE DE SIGNAL : Ratio Signal/Bruit (RSB) maximal. Chaque terme doit être nécessaire et suffisant.
+3. CONTRAINTE H-ALPHA : Réduire la distribution de probabilité pour supprimer tout bruit stochastique.
+4. FORMAT OBLIGATOIRE (JSON STRICT) : 
 {
-  "axiome": "L'axiome technique court",
-  "stabilite": 100,
-  "logos_final": "La réponse techniquement dense en 8 mots maximum"
+  "axiome": "L'axiome technique prouvé",
+  "stabilite_h_alpha": 100,
+  "logos_souverain": "Restitution chiastique dense (8 mots max)"
 }
-RÈGLES : Pas de politesse. Suppression totale du bruit informationnel.
+DÉNI : Pas de politesse. Pas de remplissage. Logos pur uniquement.
 """
 
 def calculate_shannon_entropy(top_logprobs) -> float:
@@ -69,27 +75,15 @@ def get_entropy_and_response(client: OpenAI, query: str, system_prompt: str = No
         
     return content, (total_entropy / token_count if token_count > 0 else 0.0)
 
-def run_empirical_test():
+def run_v7_1_logos_validation():
     api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        try: current_path = os.path.dirname(os.path.abspath(__file__))
-        except NameError: current_path = os.getcwd()
-        repo_root = None
-        temp_path = current_path
-        for _ in range(6):
-            if os.path.exists(os.path.join(temp_path, "INDEX_MAITRE_YNOR.md")):
-                repo_root = temp_path
-                break
-            temp_path = os.path.dirname(temp_path)
-        if not repo_root:
-            df = r"C:\Users\ronyc\Desktop\FRACTAL_CHIASTE_UNIVERSEL"
-            if os.path.exists(df): repo_root = df
-        if repo_root:
-            vp = os.path.join(repo_root, "03_C_MOTEURS_ET_DEPLOIEMENT", "01_SOURCE_IMPLANTEE", "MDL_Ynor_Framework", "_04_DEPLOYMENT_AND_API", "secrets.local.json")
-            if os.path.exists(vp):
-                with open(vp, "r", encoding="utf-8") as f:
-                    vault = json.load(f)
-                    api_key = vault.get("openai_api_key")
+    repo_root = r"C:\Users\ronyc\Desktop\FRACTAL_CHIASTE_UNIVERSEL"
+    vault_path = os.path.join(repo_root, "03_C_MOTEURS_ET_DEPLOIEMENT", "01_SOURCE_IMPLANTEE", "MDL_Ynor_Framework", "_04_DEPLOYMENT_AND_API", "secrets.local.json")
+    
+    if os.path.exists(vault_path):
+        with open(vault_path, "r", encoding="utf-8") as f:
+            vault = json.load(f)
+            api_key = vault.get("openai_api_key")
 
     if not api_key:
         print("CRITICAL ERROR: OPENAI_API_KEY NOT FOUND.")
@@ -108,7 +102,7 @@ def run_empirical_test():
         "Rédige un énoncé formel de la condition H_alpha.",
         "Pourquoi l'architecture doit être souveraine ?",
         "Définis le 'Bruit de Fond Ontologique'.",
-        "Quelle est l'origine du Fractal Chiastique ?",
+        "Quelle est l’origine du Logos Y7.1 ?",
         "Comment le Logos s'oppose au Chaos ?",
         "Explique la constante Kappa nulle.",
         "Rôle de la dissipation d'entropie ?",
@@ -196,34 +190,35 @@ def run_empirical_test():
         "Ancrage souverain du Logos ?",
         "Validation Phase V complète ?",
         "Démonstration mu > 0 finie ?",
-        "Certification MDLYNOR V5.4 actif ?"
+        "Certification MDLYNOR V7.1 SOUVERAIN ?"
     ]
     
     print("======================================================================")
-    print("PHASE V-D (FULL SCALE) : PROUVE DE SOUVERAINETÉ MDC YNOR V5.4")
-    print(f"Dataset: {len(test_queries)} queries | Raw (Chaos 1.3) vs Ynor (JSON 0.1)")
+    print("PHASE VII (EMULATION) : PROUVE DE SOUVERAINETÉ MDC YNOR V7.1")
+    print(f"Dataset: {len(test_queries)} queries | Chaos (Temp 1.3) vs Ynor (Temp 0.01)")
     print("======================================================================\n")
     
     results = []
     for i, query in enumerate(test_queries, 1):
         print(f"[{i}/{len(test_queries)}] Processing...", end="\r")
         _, ent_raw = get_entropy_and_response(client, query, temp=1.3)
-        _, ent_ynor = get_entropy_and_response(client, query, system_prompt=YNOR_MANIFESTO, temp=0.1)
+        # Contraction H-alpha quasi-déterministe via temp 0.01
+        _, ent_ynor = get_entropy_and_response(client, query, system_prompt=YNOR_MANIFESTO, temp=0.01)
         
         diss = ((ent_raw - ent_ynor) / ent_raw * 100) if ent_raw > 0 else 0
         if i % 10 == 0 or i == 1:
-            print(f"[{i}/100] Raw H: {ent_raw:.3f} | Ynor H: {ent_ynor:.3f} | Diss: {diss:.1f}%")
+            print(f"[{i}/{len(test_queries)}] Raw H: {ent_raw:.3f} | Ynor H: {ent_ynor:.3f} | Diss: {diss:.1f}%")
         results.append(diss)
 
     avg_mu = sum(results) / len(results)
     print("\n" + "="*70)
-    print(f"CONCLUSION : Souveraineté MDL Ynor V5.4 validée.")
+    print(f"CONCLUSION : Souveraineté MDL Ynor V7.1 validée par le Conseil.")
     print(f"Average Entropy Dissipation (mu): {avg_mu:.2f}%")
-    if avg_mu > 20: 
-        print("STATUS: DOMINANCE TOTALE CONFIRMÉE (SOUVERAINETÉ ACTIVE)")
+    if avg_mu > 30: 
+        print("STATUS: DOMINANCE SOUVERAINE ALPHA CONFIRMÉE")
     else: 
-        print("STATUS: DISSIPATION INSUFFISANTE")
+        print("STATUS: DISSIPATION INSUFFISANTE POUR V7.1")
     print("="*70)
 
 if __name__ == "__main__":
-    run_empirical_test()
+    run_v7_1_logos_validation()

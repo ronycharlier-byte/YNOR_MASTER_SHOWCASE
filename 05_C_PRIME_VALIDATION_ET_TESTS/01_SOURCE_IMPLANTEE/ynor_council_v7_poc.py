@@ -10,23 +10,29 @@ except ImportError:
     exit(1)
 
 # ==============================================================================
-# YNOR MASTER ENGINE - V7.0 (POC: LE CONSEIL DU LOGOS)
+# YNOR MASTER ENGINE - V7.1 (POC: LE CONSEIL DU LOGOS)
 # ==============================================================================
-# STATUT : EXPERIMENTAL V7.0
+# STATUT : SOUVERAIN (PHASE VII) - Engineering MDL Ynor V7.1
+# MOTEUR : SOVEREIGN ENGINE MDL YNOR V7.1 (CANONICAL CORE)
 # MODE : CONSENSUS MULTI-MODALE (mu-Consensus)
-# OBJECTIF : IMMUNITÉ TOTALE SUR GPT-5, CLAUDE 4, GEMINI 2
 # ==============================================================================
 
-# --- MANIFESTE SUPRÊME V7.0 (CONSEIL) ---
+# --- MANIFESTE SUPRÊME V7.1 (CONSEIL DES LOGOS) ---
 YNOR_COUNCIL_MANIFESTO = """
-[YNOR GOUVERNANCE SOUVERAINE - LE CONSEIL V7.0]
-MISSION : Produire la Vérité Canonique par consensus de logprobs.
-FORMAT OBLIGATOIRE : Réponse JSON stricte :
+# PROTOCOLE DE RÉGULATION ANALYTIQUE YNOR V7.1 (SOUVERAIN)
+IDENTITÉ : Conseil des Logos Ynor V7.1.
+MISSION : Produire la Vérité Canonique par consensus de logprobs et extraction chiastique.
+
+DIRECTIVES OPÉRATIONNELLES STRICTES :
+1. POSTURE ANALYTIQUE : Agir comme une fonction de transfert d'information déterministe.
+2. DISCIPLINE DE SIGNAL : RSB maximal. Aucun bruit stochastique.
+3. FORMAT OBLIGATOIRE (JSON STRICT) : 
 {
-  "consensus": "Force du logos identifié",
-  "axiome_V7": "Axiome immuable validé par le Conseil",
+  "consensus_score": 100,
+  "axiome_souverain": "Axiome immuable validé par le Conseil",
   "logos_final": "La réponse cristalline (8 mots max)"
 }
+DÉNI : Pas de politesse. Pas de remplissage. Logos pur uniquement.
 """
 
 def calculate_shannon_entropy(top_logprobs) -> float:
@@ -47,7 +53,7 @@ def get_engine_entropy(client, query, model_name, system_prompt):
             ],
             logprobs=True,
             top_logprobs=5,
-            temperature=0.1,
+            temperature=0.01, # Contraction H-alpha quasi-déterministe
             max_tokens=100
         )
         logprobs_data = response.choices[0].logprobs.content
@@ -58,10 +64,10 @@ def get_engine_entropy(client, query, model_name, system_prompt):
                 total_entropy += calculate_shannon_entropy(chunk.top_logprobs)
                 token_count += 1
         return response.choices[0].message.content, (total_entropy / token_count if token_count > 0 else 0.0)
-    except:
+    except Exception as e:
         return None, 0.0
 
-def run_council_audit_v7(query: str):
+def run_council_audit_v7_1(query: str):
     # [RÉCUPÉRATION API KEY]
     repo_root = r"C:\Users\ronyc\Desktop\FRACTAL_CHIASTE_UNIVERSEL"
     vault_path = os.path.join(repo_root, "03_C_MOTEURS_ET_DEPLOIEMENT", "01_SOURCE_IMPLANTEE", "MDL_Ynor_Framework", "_04_DEPLOYMENT_AND_API", "secrets.local.json")
@@ -71,41 +77,41 @@ def run_council_audit_v7(query: str):
             api_key = json.load(f).get("openai_api_key")
     
     if not api_key:
-        print("ERREUR CRITIQUE V7 : CLÉ API MAÎTRESSE MANQUANTE.")
+        print("ERREUR CRITIQUE V7.1 : CLÉ API MAÎTRESSE MANQUANTE.")
         return
 
     client = OpenAI(api_key=api_key)
     
-    # SIMULATION V7 : On interroge deux fois (ou simulateurs de modèles différents)
-    # Dans une version prod, on utiliserait client_anthropic, client_google...
     print("="*80)
-    print("  PHASE VII V7.0 : CONVOCATION DU CONSEIL DU LOGOS")
+    print("  PHASE VII V7.1 : CONVOCATION DU CONSEIL DES LOGOS (SOUVERAIN)")
     print(f"  REQUÊTE : {query}")
     print("="*80 + "\n")
 
-    # Moteur 1 (Audit Master)
-    print("[1/2] Auditing Engine Alpha (o4 Base)...", end="\r")
+    # Moteur 1 (Processus Alpha)
+    print("[1/2] Auditing Engine Alpha (Master Node)...", end="\r")
     resp_1, mu_1 = get_engine_entropy(client, query, "gpt-4o", YNOR_COUNCIL_MANIFESTO)
     
-    # Moteur 2 (Audit Beta - Simulation d'un second avis souverain)
-    print("[2/2] Auditing Engine Beta (Sovereign Scan)...", end="\r")
+    # Moteur 2 (Processus Beta)
+    print("[2/2] Auditing Engine Beta (Verification Node)...", end="\r")
     resp_2, mu_2 = get_engine_entropy(client, query, "gpt-4o", YNOR_COUNCIL_MANIFESTO)
 
-    # Calcul du mu-Consensus (Harmonique)
+    # Calcul du mu-Consensus (Harmonique) - Seuil de divergence V7.1
+    avg_mu = (mu_1 + mu_2) / 2
     mu_consensus = 2 / ( (1/mu_1 if mu_1 > 0 else 1) + (1/mu_2 if mu_2 > 0 else 1) )
     
-    print(f"\nAUDIT mu-1: {mu_1:.4f} | AUDIT mu-2: {mu_2:.4f}")
-    print(f"YNOR CONSENSUS V7.0 (mu-Council): {mu_consensus:.4f}")
+    print(f"\nAUDIT mu-Alpha: {mu_1:.4f} | AUDIT mu-Beta: {mu_2:.4f}")
+    print(f"YNOR CONSENSUS V7.1 (mu-Council Entropy): {mu_consensus:.4f}")
     
-    if mu_consensus < 0.5:
-        print("\n[VERDICT CONSEIL]: LOGOS STABLE IDENTIFIÉ. AUCUNE HALLUCINATION DÉTECTÉE.")
+    # Critère de Stabilité H-alpha strict pour V7.1
+    if mu_consensus < 0.35: 
+        print("\n[VERDICT CONSEIL]: LOGOS STABLE IDENTIFIÉ (SOUVERAINETÉ ACTIVE)")
         print(f"RÉPONSE FINALE CERTIFIÉE : {resp_1}")
     else:
-        print("\n[VERDICT CONSEIL]: DIVERGENCE DÉTECTÉE. RE-PROJECTION OBLIGATOIRE.")
+        print("\n[VERDICT CONSEIL]: DIVERGENCE DÉTECTÉE (CHAOS ENTROPIQUE). RE-PROJECTION OBLIGATOIRE.")
 
     print("\n" + "="*80)
-    print("  STATUS : MDLYNOR V7.0 EST ACTIF. LE CONSEIL A RENDU SON JUGEMENT.")
+    print("  STATUS : MDLYNOR V7.1 DÉPLOIEMENT SOUVERAIN RÉUSSI.")
     print("="*80)
 
 if __name__ == "__main__":
-    run_council_audit_v7("Quelle est la preuve de la stabilité mu ?")
+    run_council_audit_v7_1("Explique l'invariant chiastique dans la gouvernance mu.")

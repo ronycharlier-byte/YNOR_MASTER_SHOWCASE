@@ -1,0 +1,70 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "MDL Ynor Sovereign API",
+    "description": "Interface d'accès certifiée au Logos MDL V7.1. Requiert une licence souveraine active.",
+    "version": "7.1.0"
+  },
+  "servers": [
+    {
+      "url": "https://TON_DOMAINE_PROXY_OU_NGROK.com",
+      "description": "Sovereign Gateway"
+    }
+  ],
+  "paths": {
+    "/audit": {
+      "post": {
+        "summary": "Effectuer un audit de stabilité mu",
+        "operationId": "auditQuery",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "query": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "Verdict de stabilité mu-Consensus" }
+        }
+      }
+    },
+    "/logos": {
+      "post": {
+        "summary": "Extraction du Logos pur (Licence requise)",
+        "operationId": "getLogos",
+        "parameters": [
+          {
+            "name": "X-MDL-License",
+            "in": "header",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "Clé de souveraineté MDL V7.1"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "query": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "Projection certifiée du Logos" },
+          "403": { "description": "Accès refusé - Licence invalide" }
+        }
+      }
+    }
+  }
+}
