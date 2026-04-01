@@ -1,0 +1,57 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "API Gouvernorat Ynor V10.2.0",
+    "description": "API Souveraine d'accès au Total Diamond Triumvirat. Spécifique aux certifications de Licences Commerciales MDL.",
+    "version": "10.2.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.mdl.architecture/v10",
+      "description": "Serveur de Production Render Canonique"
+    }
+  ],
+  "paths": {
+    "/logos-council": {
+      "post": {
+        "summary": "Interrogation Synchrone du Conseil H_alpha",
+        "description": "Envoie un prompt au Triumvirat et renvoie le consensus validé.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "prompt": { "type": "string" },
+                  "require_frontier_math": { "type": "boolean", "default": false }
+                },
+                "required": ["prompt"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Consensus de Logos Validé",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "consensus_logos": { "type": "string" },
+                    "mu_variance": { "type": "number" },
+                    "models_polled": {
+                      "type": "array",
+                      "items": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

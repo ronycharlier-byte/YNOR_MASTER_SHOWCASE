@@ -14,6 +14,11 @@ Centraliser les points de benchmark visibles dans le corpus et clarifier ce qu i
 - signal attendu: progression entre `mu_initial` et `mu_mutated`
 - usage: demonstration reproducible de stabilisation
 
+### `ynor_functional_analysis_benchmark.py`
+- finalite: audit de raisonnement mathematique de pointe (Schrodinger alpha/x^2)
+- signal attendu: identification exacte des seuils -1/4 et 3/4
+- usage: benchmark FrontierMath de souverainete intellectuelle
+
 ### `mdl_ynor_ultimate_benchmark_v3.py`
 - finalite: audit global du corpus
 - axes: structure, mathematique, geophysique, quant finance, knowledge sync, performance I/O
@@ -28,7 +33,8 @@ Centraliser les points de benchmark visibles dans le corpus et clarifier ce qu i
 - presence des modules critiques
 - coherence mu
 - presence de la base de connaissance
-- capacite de lecture et ecriture
+- capacite de lecture et ecriture (I/O)
+- precision du raisonnement formel (Schrodinger)
 - comportement du systeme dans des cas de charge simples
 
 ## Limites

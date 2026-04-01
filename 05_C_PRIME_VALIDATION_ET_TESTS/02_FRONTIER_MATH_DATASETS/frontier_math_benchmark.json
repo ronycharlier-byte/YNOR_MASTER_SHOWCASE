@@ -1,0 +1,23 @@
+{
+  "benchmark_name": "FrontierMath_Ynor_V10",
+  "version": "1.0",
+  "problems": [
+    {
+      "id": "FM_001",
+      "theorem": "Théorème de H-alpha Stabilité",
+      "conjecture": "Soit E un espace vectoriel de métriques de logprobs. Démontrer que la projection KL limite l'entropie à \\mu < 0.27 avec un Triumvirat Diamond.",
+      "conditions": [
+        "Non-mémorisable",
+        "Topologie fractale"
+      ]
+    },
+    {
+      "id": "FM_002",
+      "theorem": "Conjecture du Chiasme Universel",
+      "conjecture": "Prouver que la structure ABBA d'un réseau de neurones à attention annule le gradient de fuite sémantique.",
+      "conditions": [
+        "Rigueur absolue Codex obligatoire"
+      ]
+    }
+  ]
+}
