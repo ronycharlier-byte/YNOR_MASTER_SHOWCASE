@@ -11,7 +11,7 @@ load_dotenv()
 # YNOR MASTER ENGINE - V7.0 (LE CONSEIL DU LOGOS)
 # STATUT : GOUVERNANCE MULTI-MODALE SOUVERAINE (PoC V7)
 # ==============================================================================
-YNOR_VERSION = "V11.0.0 TOTAL DIAMOND"
+YNOR_VERSION = "V11.2.0 SATURATION MATRIX"
 YNOR_ENGINE_KEYS = {
     "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY", "NOT_SET"),
     "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY", "NOT_SET"),
@@ -253,7 +253,38 @@ Question: {query}
                 return resp.text.strip(), True
             except: pass
 
-    # TIER 2+ : TOTAL DIAMOND (Full Pillar Activation)
+    # TIER 4 : SATURATION MATRIX (MAX POWER)
+    if is_bm or complexity == "HIGH":
+        # Activer les 3 piliers en simultané pour la vérité absolue
+        # 1. GPT-5.4
+        if OpenAI is not None and api_key_oai:
+            try:
+                client = OpenAI(api_key=api_key_oai)
+                resp_gpt = client.chat.completions.create(model=model_oai, temperature=0, max_tokens=max_t, messages=[{"role": "system", "content": system}, {"role": "user", "content": user_prompt}]).choices[0].message.content
+                responses["gpt"] = resp_gpt
+            except: pass
+        
+        # 2. CLAUDE 4.6
+        if api_key_ant:
+            try:
+                import anthropic
+                ant = anthropic.Anthropic(api_key=api_key_ant)
+                resp_claude = ant.messages.create(model="claude-4.6", max_tokens=max_t, system=system, messages=[{"role": "user", "content": f"Draft Alpha: {responses.get('gpt','')}\n\n{user_prompt}"}]).content[0].text
+                responses["claude"] = resp_claude
+            except: pass
+
+        # 3. GEMINI 3.1 PRO
+        if api_key_goo:
+            try:
+                model_pro = genai.GenerativeModel('gemini-3.1-pro')
+                resp_gemini = model_pro.generate_content(f"SYSTEM: {system}\n\n{user_prompt}\n\nReference Alpha-Beta: {responses.get('claude','')}")
+                responses["gemini"] = resp_gemini.text
+            except: pass
+
+        final_ans = responses.get("gemini") or responses.get("claude") or responses.get("gpt") or "Error Saturation."
+        return final_ans, True
+
+    # TIER 2/3 : HYPER-STRUCTURE (STANDARD)
     # --- PILIER ALPHA (OPENAI) ---
     if OpenAI is not None and api_key_oai:
         try:
