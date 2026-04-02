@@ -226,9 +226,14 @@ Question: {query}
             if brief_mode:
                 user_prompt += "\n\nBrief Mode: On. Deliver a concise executive summary."
             
+            # DYNAMIC TOKEN DEBRIDAGE (MDL YNOR V7.1)
+            is_bm = "benchmark" in query.lower() or "frontiermath" in query.lower()
+            max_t = 8192 if is_bm else 4096
+            
             completion = client.chat.completions.create(
                 model=model_name,
                 temperature=0.2,
+                max_tokens=max_t,
                 messages=[
                     {"role": "system", "content": system},
                     {"role": "user", "content": user_prompt},
