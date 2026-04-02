@@ -11,7 +11,7 @@ load_dotenv()
 # YNOR MASTER ENGINE - V7.0 (LE CONSEIL DU LOGOS)
 # STATUT : GOUVERNANCE MULTI-MODALE SOUVERAINE (PoC V7)
 # ==============================================================================
-YNOR_VERSION = "V7.0 MASTER COUNCIL"
+YNOR_VERSION = "V11.0 TOTAL DIAMOND"
 YNOR_ENGINE_KEYS = {
     "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY", "NOT_SET"),
     "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY", "NOT_SET"),
@@ -204,7 +204,7 @@ def _synthesize_reply(
     brief_mode: bool,
 ) -> tuple[str, bool]:
     """Uses LLM to synthesize a grounded answer."""
-    model_name = os.getenv("YNOR_MODEL", "gpt-4-turbo-preview")
+    model_name = os.getenv("YNOR_MODEL", "gpt-5.4")
     api_key = os.getenv("OPENAI_API_KEY")
     if OpenAI is not None and api_key:
         try:
