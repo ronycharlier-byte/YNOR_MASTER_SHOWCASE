@@ -31,6 +31,30 @@ class DispatchRequest(BaseModel):
     payload: Any
     license_key: str
 
+class RiemannRequest(BaseModel):
+    n_points: Optional[int] = 500
+    u_max: Optional[float] = 5.0
+    gain: Optional[float] = 10.0
+    license_key: str
+
+@app.post("/riemann")
+async def riemann_solve(request: RiemannRequest):
+    valid_keys = ["MDL-SINGULARITY-2026-V11.8-OMEGA-BRIDGE", "MDL-SINGULARITY-2026-V11.5-OMEGA-BRIDGE"]
+    if request.license_key not in valid_keys:
+        return JSONResponse(status_code=403, content={"status": "FORBIDDEN"})
+    
+    try:
+        from riemann_engine import run_riemann_engine
+        result = run_riemann_engine(n_points=request.n_points, u_max=request.u_max, gain=request.gain)
+        return {
+            "status": "SUCCESS",
+            "mu": 1.0,
+            "verdict": "Résolution Spectrale Δ-Ynor effectuée.",
+            "data": result
+        }
+    except Exception as e:
+        return {"status": "FAILURE", "mu": 0.0, "error": str(e)}
+
 @app.post("/dispatch")
 async def dispatch(request: DispatchRequest):
     # Sécurité
