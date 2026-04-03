@@ -8797,9 +8797,9 @@ endobj
 /Parent 1012 0 R
 /SE 534 0 R
 /Prev 1079 0 R
-/Next 1081 0 R>>
+/Next 1949 0 R>>
 endobj
-1081 0 obj
+1949 0 obj
 <</Title (3. Convergence vers des formes dynamiques communes )
 /Dest [40 0 R /XYZ 72.864746 546.38574 0]
 /Parent 1012 0 R
@@ -8812,7 +8812,7 @@ endobj
 /Dest [40 0 R /XYZ 72 253.89502 0]
 /Parent 1012 0 R
 /SE 549 0 R
-/Prev 1081 0 R
+/Prev 1949 0 R
 /Next 1083 0 R>>
 endobj
 1083 0 obj

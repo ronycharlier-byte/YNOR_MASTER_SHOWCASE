@@ -8,7 +8,7 @@
 ---
 
 ## 💎 ARCHITECTURE DU Formalisme Logique Sémantique (V11.5.1)
-Le **Singularity Bridge** est le protocole de transition permettant l'unification du corpus Ynor (1081 fichiers) avec les modèles de raisonnement de frontière.
+Le **Singularity Bridge** est le protocole de transition permettant l'unification du corpus Ynor (1949 fichiers) avec les modèles de raisonnement de frontière.
 
 ### 1. LES PILIERS DU RAISONNEMENT (TIER 4)
 *   **Alpha (Algorithme d'Inférence)** : OpenAI GPT-5.4 (Détenteur de la topologie logique).

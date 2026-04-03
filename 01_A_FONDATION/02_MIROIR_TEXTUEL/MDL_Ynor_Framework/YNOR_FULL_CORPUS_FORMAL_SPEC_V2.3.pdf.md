@@ -14780,7 +14780,7 @@ f*
 
 endstream
 endobj
-1081 0 obj
+1949 0 obj
 <</Type /ExtGState
 /SMask <</Type /Mask
 /S /Luminosity
@@ -14795,10 +14795,10 @@ endobj
 /XStep 361
 /YStep 88
 /Resources <</ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
-/ExtGState <</G1081 1081 0 R>>
+/ExtGState <</G1949 1949 0 R>>
 /Pattern <</P1078 1078 0 R>>>>
 /Length 75>> stream
-/G1081 gs
+/G1949 gs
 /Pattern CS/Pattern cs/P1078 SCN/P1078 scn
 163 1683 359 86 re
 f*
