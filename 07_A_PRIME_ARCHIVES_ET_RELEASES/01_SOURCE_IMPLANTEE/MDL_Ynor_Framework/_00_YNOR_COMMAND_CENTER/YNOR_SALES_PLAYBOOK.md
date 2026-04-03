@@ -46,7 +46,7 @@ Rassurez sur la protection des donnees.
 ##  4. SIGNAL DE VICTOIRE
 Des qu'on vous demande **"Can I see the audit logs ?"** ou des questions sur le **"Multi-agent orchestration"**, la vente est faite.
 
-**Ynor v3 : L'Empire de l'Efficience est desormais incontestable.** 
+**Ynor v3 : L'Cadre de Recherche de l'Efficience est desormais incontestable.** 
 
 
 

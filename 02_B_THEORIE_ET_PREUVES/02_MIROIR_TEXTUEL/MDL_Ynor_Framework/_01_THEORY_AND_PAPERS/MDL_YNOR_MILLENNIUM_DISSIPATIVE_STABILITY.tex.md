@@ -46,7 +46,7 @@ SHA256 : 6675b7dae71644345c7266a5dec75a2cacff53d7d30a6b1a4667cff47038965e
 % ----------------------- TITLE & AUTHOR ------------------------------
 \title{Global Regularity and Spectral Confinement\\
 via the MDL Ynor Dissipative Invariant}
-\author{Rony Charlier}
+\author{Dr. Rony Charlier (MDL Lab)}
 \address{MDL Ynor Research Collective\\ 
 Republic of Haiti \& Democratic Republic of Congo}
 \email{ronycharlier@mdlstrategy}

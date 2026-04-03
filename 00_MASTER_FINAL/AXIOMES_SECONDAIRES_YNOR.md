@@ -31,7 +31,7 @@ Les parties de Ynor doivent former un ensemble hierarchise, dynamique et auto-co
 Les motifs utiles de Ynor doivent pouvoir se reproduire a plusieurs echelles.
 
 ## Domaine Physique
-### P1. Axiome De Flux
+### P1. Axiome De Vecteurs de Données Stochastiques
 Ynor doit etre lisible comme circulation, passage ou propagation d'etats.
 
 ### P2. Axiome D'Equilibre

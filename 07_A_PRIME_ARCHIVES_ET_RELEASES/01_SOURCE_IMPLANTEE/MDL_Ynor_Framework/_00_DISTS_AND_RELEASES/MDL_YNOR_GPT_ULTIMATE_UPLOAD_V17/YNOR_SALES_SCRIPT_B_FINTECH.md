@@ -11,10 +11,10 @@ Je suis [Nom] de MDL Strategy. Beaucoup d'equipes IA gaspillent des budgets parc
 Je propose un audit gratuit de 15-30 minutes : on lance une demo en direct, on montre le score  et on identifie 1-2 optimisations rapides pour reduire vos couts.
 a te va jeudi ou vendredi matin ?
 Bien a toi,
-Rony Charlier / ronycharlier@mdlstrategy
+Dr. Rony Charlier (MDL Lab) / ronycharlier@mdlstrategy
 
 ##  SCRIPT D'APPEL (COORDINATION / QUALIFICATION)
-**Ouverture (10s)** :  Bonjour [Prenom], je suis Rony Charlier de MDL Strategy - je fais court : vous avez 60 secondes ? 
+**Ouverture (10s)** :  Bonjour [Prenom], je suis Dr. Rony Charlier (MDL Lab) de MDL Strategy - je fais court : vous avez 60 secondes ? 
 **Si oui  Value (20s)** :  Nous aidons les equipes IA a arreter leurs agents au bon moment et a couper 20-40% de la facture LLM sans toucher au code metier. On vous montre un diagnostic live en 15 minutes. 
 
 **Qualification rapide (30s)** :
@@ -22,7 +22,7 @@ Rony Charlier / ronycharlier@mdlstrategy
 2. Deploiement agent / orchestration ?
 3. Critere d'urgence (budget, conformite, latence) ?
 
-**Close pour demo** :  Super - on se cale 15 min pour une demo live ou on vous montre concretement un cas sur vos flux. Quel creneau vous va ? 
+**Close pour demo** :  Super - on se cale 15 min pour une demo live ou on vous montre concretement un cas sur vos Vecteurs de Données Stochastiques. Quel creneau vous va ? 
 
 ##  TALK-TRACK DEMO (15 MIN)
 1. **Probleme (2 min)** : montrer une requete qui boucle / reponses redondantes  cout.

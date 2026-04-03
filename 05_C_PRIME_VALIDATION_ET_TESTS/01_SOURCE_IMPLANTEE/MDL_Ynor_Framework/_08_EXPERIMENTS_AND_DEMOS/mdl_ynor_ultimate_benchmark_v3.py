@@ -15,7 +15,7 @@ sys.path.append(ROOT_DIR)
 
 class MDL_Ultimate_Benchmark:
     """
-    MDL YNOR ULTIMATE BENCHMARK V3 (SOUVERAINTA & PERFORMANCE)
+    MDL YNOR ULTIMATE BENCHMARK V3 (Autonome et IsoléTA & PERFORMANCE)
     Ce benchmark Avalue l'intAgritA structurelle, mathAmatique et logicielle du cadre Ynor.
     """
     def __init__(self):
@@ -150,7 +150,7 @@ class MDL_Ultimate_Benchmark:
 
     def generate_final_report(self):
         print("\n" + "=" * 60)
-        print(" a... BENCHMARK TERMINA - CALCUL DU SCORE DE SOUVERAINTA")
+        print(" a... BENCHMARK TERMINA - CALCUL DU SCORE DE Autonome et IsoléTA")
         print("=" * 60)
         
         # Calcul du Canonical Index (0-100)

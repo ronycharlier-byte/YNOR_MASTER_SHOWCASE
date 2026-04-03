@@ -17,7 +17,7 @@ paths:
   /v1/agent/hierarchical_query:
     post:
       operationId: computeYnorMu
-      summary: Audit d'un Flux AGI (Équation Mu)
+      summary: Audit d'un Vecteurs de Données Stochastiques AGI (Équation Mu)
       requestBody:
         required: true
         content:

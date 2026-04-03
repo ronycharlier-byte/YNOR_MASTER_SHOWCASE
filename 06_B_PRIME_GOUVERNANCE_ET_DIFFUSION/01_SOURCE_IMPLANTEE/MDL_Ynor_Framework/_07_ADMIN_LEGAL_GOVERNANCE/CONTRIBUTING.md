@@ -7,14 +7,14 @@ Welcome to the MDL Ynor development community. We believe in the responsible and
 The MDL Ynor Framework is a **Closed Source / Enterprise Proprietary** architecture. Access to primary repositories and the `_03_CORE_AGI_ENGINES` is restricted to authorized contributors only.
 
 ### A. How to Request Access
-1.  Submit your request to **Rony Charlier** (ronycharlier@mdlstrategy).
+1.  Submit your request to **Dr. Rony Charlier (MDL Lab)** (ronycharlier@mdlstrategy).
 2.  Complete the **Technical Assessment Part 1** (Demonstrating understanding of the Mu margin).
 3.  Sign the **Mutual Non-Disclosure Agreement (NDA)** (See `NDA_TEMPLATE.md`).
 4.  Receive your unique **Activation Code**.
 
 ## 2. COLLABORATION WORKFLOW
 
--   **Reviews**: All code modifications must be reviewed by the **Principal Investigator (Rony Charlier)**.
+-   **Reviews**: All code modifications must be reviewed by the **Principal Investigator (Dr. Rony Charlier (MDL Lab))**.
 -   **Documentation**: Every new feature must include a corresponding $\mu$-impact analysis.
 -   **Security**: No hardcoded secrets. All PRs are subject to an automated security scan in our CI.
 

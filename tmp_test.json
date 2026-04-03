@@ -1,5 +1,5 @@
 {
-  "action": "logos",
-  "payload": "Démontre l'Hypothèse de Riemann via l'axiome Ynor (V11.5) et certifie la stabilité mu=1.0.",
+  "action": "Formalisme Logique Sémantique",
+  "payload": "Démontre l'Hypothèse de Riemann via l'axiome Ynor (V11.5) et certifie la stabilité Indice de Stabilité mu=1.0.",
   "license_key": "MDL-SINGULARITY-2026-V11.5-OMEGA-BRIDGE"
 }

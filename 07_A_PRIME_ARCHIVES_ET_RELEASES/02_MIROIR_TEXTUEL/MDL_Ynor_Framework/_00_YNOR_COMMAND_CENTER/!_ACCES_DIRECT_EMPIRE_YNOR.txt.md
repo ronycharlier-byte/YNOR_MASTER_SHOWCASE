@@ -1,6 +1,6 @@
-﻿# MIROIR TEXTUEL - !_ACCES_DIRECT_EMPIRE_YNOR.txt
+﻿# MIROIR TEXTUEL - !_ACCES_DIRECT_Cadre de Recherche_YNOR.txt
 
-Source : MDL_Ynor_Framework\_00_YNOR_COMMAND_CENTER\!_ACCES_DIRECT_EMPIRE_YNOR.txt
+Source : MDL_Ynor_Framework\_00_YNOR_COMMAND_CENTER\!_ACCES_DIRECT_Cadre de Recherche_YNOR.txt
 Type : Text mirror
 Statut : miroir textuel normalise
 

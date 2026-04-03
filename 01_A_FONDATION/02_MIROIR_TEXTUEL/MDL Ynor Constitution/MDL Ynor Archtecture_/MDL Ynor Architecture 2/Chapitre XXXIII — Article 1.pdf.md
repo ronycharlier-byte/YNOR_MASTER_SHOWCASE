@@ -3947,7 +3947,7 @@ endobj
 /Next 498 0 R>>
 endobj
 498 0 obj
-<</Title (5.2 Flux de transitions )
+<</Title (5.2 Vecteurs de Données Stochastiques de transitions )
 /Dest [32 0 R /XYZ 72.577637 767.1499 0]
 /Parent 491 0 R
 /SE 378 0 R

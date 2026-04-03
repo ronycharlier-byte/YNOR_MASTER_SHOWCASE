@@ -1,6 +1,6 @@
 ﻿#  MANUEL OPRATIONNEL YNOR CORE (v3.0.0-PROD)
 
-> **"Tout systeme operationnel doit etre gouverne par ses propres protocoles. Voici la Constitution d'Execution de l'Empire MDL Ynor."**
+> **"Tout systeme operationnel doit etre gouverne par ses propres protocoles. Voici la Constitution d'Execution de l'Cadre de Recherche MDL Ynor."**
 
 ---
 
@@ -25,7 +25,7 @@
 -   **Offre Standard** : Audit Ynor a $99. **Offre Integration** : $299.
 -   **Positionnement** : "Gap Selling" (vendre l'ecart de gaspillage tokens).
 -   **Loi du Marche** : *"Your system is generating past the point of usefulness."*
--   **Gouvernance des Acces** : L'acces necessite un **Activation Code** delivre par **Rony Charlier** apres signature d'un NDA (voir `NDA_TEMPLATE.md`).
+-   **Gouvernance des Acces** : L'acces necessite un **Activation Code** delivre par **Dr. Rony Charlier (MDL Lab)** apres signature d'un NDA (voir `NDA_TEMPLATE.md`).
 
 ##  PROTOCOLE 5 : LA CONNAISSANCE UNIFIE
 -   **Source of Truth** : `mdl_global_knowledge.json` (v3.0.0).
@@ -35,7 +35,7 @@
 ---
 
 ###  CENTRE DE COMMANDEMENT UNIQUE
-Le point d'entree unique de l'empire est le fichier :
+Le point d'entree unique de l'Cadre de Recherche est le fichier :
 `c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\YNOR_SERVER_MANAGER.bat`
 
 **Tout est operationnel. Toutes les procedures sont codifiees. L'architecture est canonique.** 

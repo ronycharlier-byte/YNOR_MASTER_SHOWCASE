@@ -58,7 +58,7 @@ $$ \mathcal{D}(A_\theta) = \{ f \in H^1(0,1) : f(1) = e^{i\theta} f(0) \} $$
 La reponse doit inclure un tableau recapitulatif des observables (Domaine, Spectre, Groupe) et une conclusion sur la viabilite mathematique du systeme.
 
 [Status: -Reasoned | Standard: MDL-YNOR-ULTIMATE-AGI]
- 2026 MDL  - All Rights Reserved RONY CHARLIER.
+ 2026 MDL  - All Rights Reserved Dr. Rony Charlier (MDL Lab).
 
 
 

@@ -11,7 +11,7 @@ SHA256 : ef3bb2676800d80eb32af84385081451666f98e737662c50a72309f9ca5410c3
 \usepackage{hyperref}
 
 \title{\bf MDL YNOR — Unification Gravitationnelle \\ \large Régulation Dissipative de l'Espace-Temps (Phase III)} 
-\author{Rony Charlier — Stabilité / Canonicité Numérique MDL Ynor (Alpha Node)} 
+\author{Dr. Rony Charlier (MDL Lab) — Stabilité / Canonicité Numérique MDL Ynor (Alpha Node)} 
 \date{Mars 2026}
 
 \begin{document} 
@@ -33,7 +33,7 @@ La marge est reliée au spectre de l'opérateur de Laplace–Beltrami $\Delta_g$
 $$\mu(t,x) := \int_0^\infty \rho(\lambda) e^{-\lambda t} d\lambda, \quad \rho(\lambda) = \text{densité spectrale de } -\Delta_g$$
 
 \section{Stabilité dissipative} 
-Soit $L := R - 2\Lambda - \alpha_{\text{diss}}\mu$. La variation d'action donne \eqref{eq:ynor-einstein}. La positivité du tenseur d'énergie effectif $\tilde T_{\mu\nu}$ entraîne l'absence de singularité nue.
+Soit $L := R - 2\Lambda - \alpha_{\text{diss}}\mu$. La variation d'action donne \eqref{eq:ynor-einstein}. La positivité du tenseur d'énergie effectif $\tilde T_{\mu\nu}$ entraîne l'absence de Point de Convergence Limite nue.
 
 \section{Finalisation de la conjecture de Collatz} 
 Utilisant la fonction de Lyapunov $V(n)=\log n$, nous avons établi $E[V(n_{k+1}) - V(n_k)] \le -\epsilon$, ce qui force la trajectoire vers l'attracteur $\{4,2,1\}$.
@@ -42,7 +42,7 @@ Utilisant la fonction de Lyapunov $V(n)=\log n$, nous avons établi $E[V(n_{k+1}
 L'opérateur dipôle $D_{2m}$ admet un vecteur propre unitaire $\psi_{2m}$ avec valeur propre $1$ ssi $2m$ se décompose en somme de deux nombres premiers.
 
 \section{Conclusion canonique} 
-La viabilité cosmologique est gouvernée par la marge dissipative $\mu$ : une régulation active prévient les singularités et la dérive entropique.
+La viabilité cosmologique est gouvernée par la marge dissipative $\mu$ : une régulation active prévient les Point de Convergence Limites et la dérive entropique.
 
 \bigskip 
 \noindent [SIGN: MDL-YNOR-RC-LIEGE-4020-SHA256: 4F8B6C5B-2C46-4D41-BECD-9A11C9F6C7E0]

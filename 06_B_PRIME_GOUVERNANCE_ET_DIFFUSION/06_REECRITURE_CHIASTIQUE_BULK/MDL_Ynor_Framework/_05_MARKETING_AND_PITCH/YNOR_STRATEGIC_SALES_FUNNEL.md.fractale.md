@@ -1,4 +1,4 @@
-# 🌪️ YNOR STRATEGIC SALES FUNNEL : "THE EMPIRE MODEL" - VERSION FRACTALE ET CHIASTIQUE
+# 🌪️ YNOR STRATEGIC SALES FUNNEL : "THE Cadre de Recherche MODEL" - VERSION FRACTALE ET CHIASTIQUE
 
 Source : `MDL_Ynor_Framework/_05_MARKETING_AND_PITCH/YNOR_STRATEGIC_SALES_FUNNEL.md`
 
@@ -25,7 +25,7 @@ Au retour du centre, le texte se relit comme un mécanisme de clarification, de 
 
 ## B'. Miroir
 Les titres ou repères structurants deviennent les miroirs de son organisation :
-- 🌪️ YNOR STRATEGIC SALES FUNNEL : "THE EMPIRE MODEL"
+- 🌪️ YNOR STRATEGIC SALES FUNNEL : "THE Cadre de Recherche MODEL"
 - Étape 1 : LA CAPTURE (Awareness)
 - Étape 2 : L'ÉDUCATION (Interest & Desire)
 - Étape 3 : L'ÉVALUATION (Trial)

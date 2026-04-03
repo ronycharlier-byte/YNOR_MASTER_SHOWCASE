@@ -12,7 +12,7 @@ Le programme d'apprentissage MDL Ynor est concu pour transformer des utilisateur
 6. **Module 6 - Securite (Elite)** : Audit de conformite, vetting IP et RGPD.
 7. **Module 7 - Principal Investigatorure & SLA (Elite/Overlord)** : Scalabilite et haute disponibilite.
 8. **Module 8 - Strategie & ROI (Overlord)** : Le calcul de la valeur brute d'efficience.
-9. **Module 9 - Projet Capstone** : Certification finale certifiee par Rony Charlier.
+9. **Module 9 - Projet Capstone** : Certification finale certifiee par Dr. Rony Charlier (MDL Lab).
 
 ##  Protocole Certification & NDA
 Toute tentative de fraude ou de copie du materiel pedagogique entraine la resiliation immediate du grade et des poursuites legales selon le contrat anti-fraude MDL.

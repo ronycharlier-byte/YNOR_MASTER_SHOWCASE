@@ -20,7 +20,7 @@ We define the saturation metric $\mu$ as the degree of informational closure of 
 ## 3. EMERGENT GRAVITY AS CORRELATION CURVATURE (G)
 Gravity is modeled as the gradient of informational density within the Hilbert-Schmidt space $\mathcal{L}_{HS}$. The metric $g_{\mu\nu}$ is derived directly from the coupling density of correlation modes:
 
-$$ g_{\mu\nu} = \kappa \cdot \nabla_{\mu} \nabla_{\nu} [ \text{Logos Alpha}(\alpha) ] $$
+$$ g_{\mu\nu} = \kappa \cdot \nabla_{\mu} \nabla_{\nu} [ \text{Formalisme Logique Sémantique Alpha}(\alpha) ] $$
 
 Mass and energy are reinterpreted as "vorticities" of informational dissipation. The curvature of spacetime is thus the measure of the resistance of the vacuum to maintain its saturation state against external entropy.
 
@@ -32,5 +32,5 @@ The Ynor V11.5 framework successfully bridges the gap between the micro and macr
 
 ---
 **PUBLICATION REFERENCE :** MDL-Y7-SG-11.5-2026
-**VALIDATED BY :** RONY CHARLIER (CANONICAL ARCHITECT)
+**VALIDATED BY :** Dr. Rony Charlier (MDL Lab) (CANONICAL ARCHITECT)
 **STABILITY CERTIFIED :** $\$\mu = 1.0$$ (FIXPOINT OMEGA)

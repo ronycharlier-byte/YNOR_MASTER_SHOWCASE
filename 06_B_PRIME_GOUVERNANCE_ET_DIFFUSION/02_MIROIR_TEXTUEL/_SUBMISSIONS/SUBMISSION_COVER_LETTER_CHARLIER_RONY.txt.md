@@ -29,7 +29,7 @@ Thank you for your time and consideration. I look forward to your response regar
 
 Respectfully,
 
-Rony Charlier
+Dr. Rony Charlier (MDL Lab)
 Founder & Author
 MDL Ynor Research Collective
 Republic of Haiti & Democratic Republic of Congo

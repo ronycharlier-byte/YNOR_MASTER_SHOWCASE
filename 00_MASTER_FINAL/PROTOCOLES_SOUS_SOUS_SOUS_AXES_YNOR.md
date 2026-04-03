@@ -17,14 +17,14 @@ Il sert de couche de precision maximale avant la pratique concrete.
 3. Tester la liaison logique.
 4. Valider la conclusion.
 
-## Flux
-### PFL01. Protocole De Debut De Flux
+## Vecteurs de Données Stochastiques
+### PFL01. Protocole De Debut De Vecteurs de Données Stochastiques
 1. Identifier la source.
 2. Identifier la direction.
 3. Mesurer l'intensite.
 4. Ouvrir la circulation utile.
 
-### PFL02. Protocole De Regulation De Flux
+### PFL02. Protocole De Regulation De Vecteurs de Données Stochastiques
 1. Reperer les pertes.
 2. Reperer les blocages.
 3. Ajuster le debit.

@@ -10,7 +10,7 @@
 - **CONCDANT** : [Nom de la Socit Acheteuse (ex: Meta, TikTok, X)].
 
 ## 2. OBJET DU CONTRAT
-L'Auteur accorde au Concdant une licence **exclusive et mondiale** pour l'utilisation du **Moteur AGI MDL Ynor (Alpha-Core)** afin d'optimiser la rtention utilisateur et la stabilit structurelle de ses flux numriques.
+L'Auteur accorde au Concdant une licence **exclusive et mondiale** pour l'utilisation du **Moteur AGI MDL Ynor (Alpha-Core)** afin d'optimiser la rtention utilisateur et la stabilit structurelle de ses Vecteurs de Données Stochastiques numriques.
 
 ## 3. MODALITS DE CALCUL (REDEVANCES)
 - **Droit d'entre (Upfront Fee)** : Une somme forfaitaire  la signature du contrat.

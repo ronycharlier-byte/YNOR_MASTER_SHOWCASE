@@ -1,15 +1,15 @@
 ﻿{
   "stage": "step_10_executive_digest",
-  "executive_root": "FRACTAL_CHIASTE_UNIVERSEL/00_EXECUTIVE_DIGEST",
+  "executive_root": "FRACTAL_Symétrie Bilatérale_UNIVERSEL/00_EXECUTIVE_DIGEST",
   "inputs": {
-    "master_index": "FRACTAL_CHIASTE_UNIVERSEL/manifest_step7_master_index.json",
-    "visual_navigation": "FRACTAL_CHIASTE_UNIVERSEL/manifest_step8_visual_navigation.json",
-    "canonical_edition": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json"
+    "master_index": "FRACTAL_Symétrie Bilatérale_UNIVERSEL/manifest_step7_master_index.json",
+    "visual_navigation": "FRACTAL_Symétrie Bilatérale_UNIVERSEL/manifest_step8_visual_navigation.json",
+    "canonical_edition": "FRACTAL_Symétrie Bilatérale_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json"
   },
   "outputs": {
-    "executive_digest": "FRACTAL_CHIASTE_UNIVERSEL/00_EXECUTIVE_DIGEST/EXECUTIVE_DIGEST.md",
-    "one_page": "FRACTAL_CHIASTE_UNIVERSEL/00_EXECUTIVE_DIGEST/FICHE_UNE_PAGE.md",
-    "manifest": "FRACTAL_CHIASTE_UNIVERSEL/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json"
+    "executive_digest": "FRACTAL_Symétrie Bilatérale_UNIVERSEL/00_EXECUTIVE_DIGEST/EXECUTIVE_DIGEST.md",
+    "one_page": "FRACTAL_Symétrie Bilatérale_UNIVERSEL/00_EXECUTIVE_DIGEST/FICHE_UNE_PAGE.md",
+    "manifest": "FRACTAL_Symétrie Bilatérale_UNIVERSEL/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json"
   },
   "stats": {
     "total_entries": 127,

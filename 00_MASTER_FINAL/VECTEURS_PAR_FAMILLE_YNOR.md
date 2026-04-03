@@ -31,7 +31,7 @@ Direction: restaurer ce qui doit se renforcer.
 Direction: maintenir l'equilibre vivant.
 
 ## Famille Physique
-### VP1. Vecteur De Flux
+### VP1. Vecteur De Vecteurs de Données Stochastiques
 Direction: faire circuler l'energie et l'information.
 
 ### VP2. Vecteur De Gradient

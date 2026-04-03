@@ -487,7 +487,7 @@ def get_latest_date_str():
 
 async def check_rate_limit(api_key: str = Security(api_key_header)):
     """
-    Protocole de Contrôle de Flux (Quota Quotidien). 
+    Protocole de Contrôle de Vecteurs de Données Stochastiques (Quota Quotidien). 
     Bloque l'accès si le nombre d'appels autorisés par jour est dépassé. 
     Limite par défaut: 100 appels/jour (Niveau Free/Startup).
     """

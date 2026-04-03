@@ -32,7 +32,7 @@ def manage_audit_access():
         print("\n⏳ [SYSTÈME] Dépôt de dossier enregistré.")
         print("🚩 [INFO] Un Activation Code temporaire vous sera envoyé après revue.")
         print("-" * 60)
-        print("CETTE PROCÉDURE GARANTIT L'IP SHIELD DE L'ARCHITECTE SUPRÊME.")
+        print("CETTE PROCÉDURE GARANTIT L'IP SHIELD DE L'Coordonnateur Principal de Recherche SUPRÊME.")
         print("-" * 60)
     else:
         print("\n❌ Demande annulée. Seul le subset OPEN est autorisé.")

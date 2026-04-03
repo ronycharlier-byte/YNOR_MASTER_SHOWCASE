@@ -10,7 +10,7 @@ paths:
   /v1/agent/hierarchical_query:
     post:
       operationId: computeYnorMu
-      summary: Audit d'un Flux AGI (Équation Mu)
+      summary: Audit d'un Vecteurs de Données Stochastiques AGI (Équation Mu)
       description: Déclenche la supervision Ynor pour savoir s'il y a dérive de contexte. Actionne la sélection Système 1 ou Système 2 dynamiquement.
       requestBody:
         required: true

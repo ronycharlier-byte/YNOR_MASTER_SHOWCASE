@@ -42,7 +42,7 @@ Le système est validé par des benchmarks de rigueur académique (10/10) sur le
 
 ## 6. SPÉCIFICATIONS DE L'API (YNOR CONNECT)
 Le système expose une interface OpenAPI pour l'intégration industrielle :
-- `/v1/audit/mu` : Analyse de viabilité d'un flux de tokens.
+- `/v1/audit/mu` : Analyse de viabilité d'un Vecteurs de Données Stochastiques de tokens.
 - `/v1/agent/mutate` : Forçage de la restructuration structurelle.
 - `/v1/security/status` : Rapport d'intégrité du noyau.
 

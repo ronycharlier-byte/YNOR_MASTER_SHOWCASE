@@ -16,7 +16,7 @@ SHA256 : 5a4026f255c3c09135138966538660651de3d543e03eba90971edb79c528bee0
 
 ### 1- Introduction aux Nords (15 min)
 - Nord Géographique (Rotation fixe).
-- Nord Magnétique (Flux fluctuant).
+- Nord Magnétique (Vecteurs de Données Stochastiques fluctuant).
 - Déclinaison Magnétique : L'angle de correction (True vs Magnetic).
 
 ### 2- Étude de Cas : Aéroports (20 min)

@@ -77,7 +77,7 @@ Il sert de couche intermediaire entre les vecteurs par axe et les vecteurs feuil
 ## Axe Informationnel
 - Signal: Vecteur D'Emission, Vecteur De Reception.
 - Donnees: Vecteur De Stock, Vecteur De Format.
-- Flux: Vecteur De Circulation, Vecteur De Canal.
+- Vecteurs de Données Stochastiques: Vecteur De Circulation, Vecteur De Canal.
 - Codage: Vecteur De Translation, Vecteur De Chiffrement.
 - Transmission: Vecteur De Relais, Vecteur De Continuite.
 - Extraction: Vecteur De Filtre, Vecteur De Reperage.
@@ -182,7 +182,7 @@ Il sert de couche intermediaire entre les vecteurs par axe et les vecteurs feuil
 - Transmission: Vecteur De Relais, Vecteur De Continuite.
 - Mediation: Vecteur D'Intermediaire, Vecteur De Regle.
 - Communaute: Vecteur D'Appartenance, Vecteur De Partage.
-- Circulation: Vecteur De Flux, Vecteur De Mouvement.
+- Circulation: Vecteur De Vecteurs de Données Stochastiques, Vecteur De Mouvement.
 
 ## Axe Ethique
 - Juste: Vecteur De Mesure, Vecteur D'Equilibre.
@@ -256,7 +256,7 @@ Il sert de couche intermediaire entre les vecteurs par axe et les vecteurs feuil
 
 ## Axe Industriel
 - Production: Vecteur De Fabrication, Vecteur De Sortie.
-- Chaine: Vecteur D'Enchainement, Vecteur De Flux.
+- Chaine: Vecteur D'Enchainement, Vecteur De Vecteurs de Données Stochastiques.
 - Efficience: Vecteur De Gain, Vecteur De Reduction.
 - Standardisation: Vecteur D'Uniformisation, Vecteur De Repere.
 - Outillage: Vecteur D'Outil, Vecteur De Support.
@@ -350,7 +350,7 @@ Il sert de couche intermediaire entre les vecteurs par axe et les vecteurs feuil
 - Influence: Vecteur D'Orientation, Vecteur De Rayonnement.
 - Alliance: Vecteur D'Appui, Vecteur D'Accord.
 - Canoniquete: Vecteur D'Autonomie, Vecteur De Tenue.
-- Circulation: Vecteur De Flux, Vecteur De Relais.
+- Circulation: Vecteur De Vecteurs de Données Stochastiques, Vecteur De Relais.
 - Conflit: Vecteur De Tension, Vecteur De Frappe.
 - Positionnement: Vecteur De Place, Vecteur De Cap.
 

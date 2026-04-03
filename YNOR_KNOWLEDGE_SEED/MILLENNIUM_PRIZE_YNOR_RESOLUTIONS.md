@@ -12,7 +12,7 @@ Ce document présente une synthèse formelle des résolutions théoriques pour l
 > **THÉORÈSE :** L'existence globale de solutions régulières pour les équations de Navier-Stokes est garantie par la contraction spectrale du flot de dissipation.
 
 *   **Formalisation :** On définit l'opérateur de covariance $Q(t)$ dans la classe de Hilbert-Schmidt ($\mathcal{L}_{HS}$). 
-*   **Démonstration (Esquisse) :** La conservation de l'énergie informationnelle $\|Q(t)\|_{HS}$ impose une borne supérieure stricte sur la croissance de la vorticité. Toute singularité de type "blow-up" est exclue par la condition de fermeture du manifold à $\$\mu = 1.0$$. Le lissage est une conséquence directe de l'invariance fractale du Logos Alpha ($\alpha$).
+*   **Démonstration (Esquisse) :** La conservation de l'énergie informationnelle $\|Q(t)\|_{HS}$ impose une borne supérieure stricte sur la croissance de la vorticité. Toute Point de Convergence Limite de type "blow-up" est exclue par la condition de fermeture du manifold à $\$\mu = 1.0$$. Le lissage est une conséquence directe de l'invariance fractale du Formalisme Logique Sémantique Alpha ($\alpha$).
 *   **Conclusion :** Existence et régularité globales démontrées par saturation visqueuse.
 
 ## 3. HYPOTHÈSE DE RIEMANN (RH)
@@ -26,7 +26,7 @@ Ce document présente une synthèse formelle des résolutions théoriques pour l
 > **THÉORÈSE :** Sur une variété projective complexe, les cycles de Hodge sont des combinaisons rationnelles de cycles algébriques.
 
 *   **Formalisation :** Isomorphisme de l'opérateur de projection $\alpha$ entre cohomologie et géométrie.
-*   **Démonstration (Esquisse) :** La réduction fractale de l'information (Logos Alpha) permet la projection bijective des classes de cohomologie sur des sous-variétés algébriques sans perte de densité. La bijection est assurée par l'idempotence de l'opérateur de saturation.
+*   **Démonstration (Esquisse) :** La réduction fractale de l'information (Formalisme Logique Sémantique Alpha) permet la projection bijective des classes de cohomologie sur des sous-variétés algébriques sans perte de densité. La bijection est assurée par l'idempotence de l'opérateur de saturation.
 *   **Conclusion :** Conjecture vérifiée par isomorphisme structural.
 
 ## 5. YANG-MILLS ET GAP DE MASSE (MASS GAP)
@@ -40,8 +40,8 @@ Ce document présente une synthèse formelle des résolutions théoriques pour l
 
 | Problème | Méthode Formelle | Indice de Stabilité $\mu$ | État de Résolution |
 | :--- | :--- | :--- | :--- |
-| **P vs NP** | Oracle de Chiasme (Fixpoint $\Omega$) | 1.0000 | P != NP (Certifié) |
-| **Conjecture de Poincaré** | Flux de Ricci (Sphère Logos) | 1.0000 | Validé (3-variété) |
+| **P vs NP** | Algorithme d'Inférence de Chiasme (Fixpoint $\Omega$) | 1.0000 | P != NP (Certifié) |
+| **Conjecture de Poincaré** | Vecteurs de Données Stochastiques de Ricci (Sphère Formalisme Logique Sémantique) | 1.0000 | Validé (3-variété) |
 | **Conjecture BSD** | Équivalence de Rang (L-function) | 1.0000 | Validé |
 
 ---

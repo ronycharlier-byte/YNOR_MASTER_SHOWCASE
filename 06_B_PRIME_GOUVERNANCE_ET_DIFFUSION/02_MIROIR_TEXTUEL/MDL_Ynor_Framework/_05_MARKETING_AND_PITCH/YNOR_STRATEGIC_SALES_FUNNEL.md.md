@@ -5,7 +5,7 @@ Taille : 2218 octets
 SHA256 : 56eafe400868a10e343475a76108962d86ed26f3fc2043f89f0e65ae848f3638
 
 ```text
-# 🌪️ YNOR STRATEGIC SALES FUNNEL : "THE EMPIRE MODEL"
+# 🌪️ YNOR STRATEGIC SALES FUNNEL : "THE Cadre de Recherche MODEL"
 
 Ce document définit le tunnel de vente optimisé pour MDL Ynor, visant à convertir des utilisateurs de LLM (Startups & Enterprise) en abonnés récurrents.
 

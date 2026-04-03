@@ -65,7 +65,7 @@ Where:
 ### 3.1 Setup Procedure
 - **Knowledge Base**: Upload the encapsulated directory `MDL_YNOR_GPT_UPLOAD_V3.zip`.
 - **Operating Instructions**: Implement the identity block within the system prompt field.
-- **API Nexus**: Configure the OpenAPI 3.1.0 specification with `getSystemStatus` and `computeYnorMu`.
+- **API Système de Graphe de Consensus**: Configure the OpenAPI 3.1.0 specification with `getSystemStatus` and `computeYnorMu`.
 
 ### 3.2 Intellectual Property & Confidentiality
 - **FCA Compliance**: All interactions are subject to the Formal Confidentiality Agreement.

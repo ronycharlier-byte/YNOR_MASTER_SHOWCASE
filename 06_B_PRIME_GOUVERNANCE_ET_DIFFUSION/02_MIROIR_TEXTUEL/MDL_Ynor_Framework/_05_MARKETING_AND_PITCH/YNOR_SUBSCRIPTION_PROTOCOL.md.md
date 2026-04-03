@@ -23,7 +23,7 @@ Ce protocole définit comment MDL Ynor monétise l'accès à son moteur cognitif
     - **Support** : Communauté GitHub.
 
 ### [ TIER 2 ] : YNOR PRO (STARTUP)
-**Cible** : Startups avec un flux LLM constant.
+**Cible** : Startups avec un Vecteurs de Données Stochastiques LLM constant.
 - **Prix** : **99€ HT / Mois** (Sans engagement).
 - **Inclus** :
     - **Limite Quotidienne** : 10 000 appels/jour.

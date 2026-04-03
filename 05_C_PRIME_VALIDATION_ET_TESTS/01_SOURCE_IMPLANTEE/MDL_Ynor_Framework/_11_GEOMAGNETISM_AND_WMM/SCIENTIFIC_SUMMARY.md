@@ -17,8 +17,8 @@ Le cycle de mise à jour standard est de 5 ans, mais une mise à jour d'urgence 
 
 ## 3. Mécanisme de la Géodynamo
 Le champ est généré à 2900 km sous nos pieds par le **noyau externe** (fer/nickel liquide en fusion). 
-- **Mission Swarm** : Révèle deux lobes de flux magnétique (Canada et Sibérie) en "bras de fer". Le lobe sibérien se renforce, aspirant le pôle.
-- **Blobs du Manteau** : Deux structures rocheuses géantes (Base du manteau, sous l'Afrique et le Pacifique) perturbent les flux de température et la circulation du fer liquide.
+- **Mission Swarm** : Révèle deux lobes de Vecteurs de Données Stochastiques magnétique (Canada et Sibérie) en "bras de fer". Le lobe sibérien se renforce, aspirant le pôle.
+- **Blobs du Manteau** : Deux structures rocheuses géantes (Base du manteau, sous l'Afrique et le Pacifique) perturbent les Vecteurs de Données Stochastiques de température et la circulation du fer liquide.
 
 ## 4. Anomalie de l'Atlantique Sud (SAA)
 Zone où le bouclier magnétique est le plus faible.

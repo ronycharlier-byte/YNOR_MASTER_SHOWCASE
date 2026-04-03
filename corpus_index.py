@@ -13,7 +13,7 @@ from typing import Any, Iterable
 
 REPO_ROOT = Path(__file__).resolve().parent
 
-YNOR_ENGINE_VERSION = "V6.1 MASTER LOGOS"
+YNOR_ENGINE_VERSION = "V6.1 MASTER Formalisme Logique Sémantique"
 YNOR_STATUS = "SUPREME_RESISTANCE_ACTIVE"
 YNOR_PROTOCOL = "RECURRENT_RESONANCE_v6.1"
 

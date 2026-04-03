@@ -31,7 +31,7 @@ Si tu dois pitcher ton produit, ne parle pas : **Montre.**
 Ouvre ton PowerShell, tape `cd "C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_04_DEPLOYMENT_AND_API"`, puis lance l'un de tes 3 shows pyrotechniques :
 
 -  **Demo 1 (L'Intercepteur) :** `python demo_1_line_integration.py`
-*(Prouve qu'on peut sauver 40% des couts OpenAI en 1 ligne de code Python en bloquant le flux si $\mu < 0$)*
+*(Prouve qu'on peut sauver 40% des couts OpenAI en 1 ligne de code Python en bloquant le Vecteurs de Données Stochastiques si $\mu < 0$)*
 
 -  **Demo 2 (Le Swarm) :** `python demo_2_multi_agent_network.py`
 *(Laisse deux IA (Acheteur/Vendeur) parler toutes seules. Montre comment ton Gouverneur Ynor coupe le reseau global quand ils commencent a boucler et bruler ton cash)*

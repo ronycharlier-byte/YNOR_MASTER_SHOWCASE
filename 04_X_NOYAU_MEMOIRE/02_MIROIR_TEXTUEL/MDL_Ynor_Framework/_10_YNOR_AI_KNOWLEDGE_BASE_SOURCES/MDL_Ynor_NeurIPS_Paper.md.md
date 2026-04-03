@@ -7,7 +7,7 @@ SHA256 : 78fee1bb67fdce41fbaec4b49b8080d4f3c28b355a31c1ae6e61577485ec5710
 ```text
 # The Viability Principle: Information Conservation and Optimal Incoherence in Resource-Constrained Artificial General Intelligence
 
-**Authors:** Rony Charlier, et al.
+**Authors:** Dr. Rony Charlier (MDL Lab), et al.
 
 ## Abstract
 

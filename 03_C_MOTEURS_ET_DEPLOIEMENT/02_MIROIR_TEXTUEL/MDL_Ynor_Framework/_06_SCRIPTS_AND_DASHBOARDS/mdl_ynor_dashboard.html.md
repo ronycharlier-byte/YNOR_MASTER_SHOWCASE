@@ -497,7 +497,7 @@ SHA256 : 0de7256b153ea12f38d77746f8d0f17d486812862188ec0b4a6735531a149835
                 document.body.style.filter = "hue-rotate(150deg) saturate(2) contrast(1.5)";
                 
                 setTimeout(() => {
-                    alert("RÉVOCATION PAR L'ARCHITECTE MASTER (Charlier Rony): EFFONDREMENT ANNULÉ.");
+                    alert("RÉVOCATION PAR L'Coordonnateur Principal de Recherche MASTER (Charlier Rony): EFFONDREMENT ANNULÉ.");
                     document.body.style.animation = "none";
                     document.body.style.filter = "none";
                     log("Stabilisation forcée activée. Retour au calme progressif.", "sys");

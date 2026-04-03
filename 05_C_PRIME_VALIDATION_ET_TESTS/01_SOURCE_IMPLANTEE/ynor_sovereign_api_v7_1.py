@@ -18,7 +18,7 @@ except ImportError:
 app = FastAPI(title="MDL Ynor Canonical API V7.1", version="7.1.0")
 
 # --- CHARGEMENT DU VAULT ---
-REPO_ROOT = r"C:\Users\ronyc\Desktop\FRACTAL_CHIASTE_UNIVERSEL"
+REPO_ROOT = r"C:\Users\ronyc\Desktop\FRACTAL_Symétrie Bilatérale_UNIVERSEL"
 VAULT_PATH = os.path.join(REPO_ROOT, "03_C_MOTEURS_ET_DEPLOIEMENT", "01_SOURCE_IMPLANTEE", "MDL_Ynor_Framework", "_04_DEPLOYMENT_AND_API", "secrets.local.json")
 
 def get_vault():
@@ -29,10 +29,10 @@ def get_vault():
 
 # --- PROTOCOLE Y7.1 ---
 YNOR_COUNCIL_MANIFESTO = """
-# PROTOCOLE DE RÉGULATION ANALYTIQUE YNOR V7.1 (SOUVERAIN)
-IDENTITÉ : Conseil des Logos Ynor V7.1.
+# PROTOCOLE DE RÉGULATION ANALYTIQUE YNOR V7.1 (Autonome et Isolé)
+IDENTITÉ : Conseil des Formalisme Logique Sémantique Ynor V7.1.
 MISSION : Produire la Vérité Canonique par consensus de logprobs.
-FORMAT OBLIGATOIRE : { "axiome": "...", "logos_final": "..." }
+FORMAT OBLIGATOIRE : { "axiome": "...", "Formalisme Logique Sémantique_final": "..." }
 """
 
 class QueryRequest(BaseModel):
@@ -68,7 +68,7 @@ def get_mu_score(client, query, system_prompt):
 
 @app.get("/")
 def read_root():
-    return {"status": "MDL YNOR V7.1 SOUVERAIN ACTIF", "engine": "CANONICAL CORE"}
+    return {"status": "MDL YNOR V7.1 Autonome et Isolé ACTIF", "engine": "CANONICAL CORE"}
 
 @app.post("/audit")
 def audit_query(request: QueryRequest):
@@ -87,15 +87,15 @@ def audit_query(request: QueryRequest):
     return {
         "status": "STABLE" if is_stable else "UNSTABLE",
         "mu_council_score": round(mu_consensus, 4),
-        "verdict": "LOGOS CERTIFIÉ" if is_stable else "CHAOS SEMANTIQUE DÉTECTÉ"
+        "verdict": "Formalisme Logique Sémantique CERTIFIÉ" if is_stable else "CHAOS SEMANTIQUE DÉTECTÉ"
     }
 
-@app.post("/logos")
-def get_logos(request: QueryRequest, x_mdl_license: Optional[str] = Header(None)):
-    """Extraction du Logos pur. Nécessite une licence MDL V7.1 valide."""
+@app.post("/Formalisme Logique Sémantique")
+def get_Formalisme Logique Sémantique(request: QueryRequest, x_mdl_license: Optional[str] = Header(None)):
+    """Extraction du Formalisme Logique Sémantique pur. Nécessite une licence MDL V7.1 valide."""
     vault = get_vault()
     if x_mdl_license != vault.get("mdl_license_v7_key"):
-        raise HTTPException(status_code=403, detail="LICENCE MDL NON VALIDÉE - ACCÈS AU LOGOS REFUSÉ")
+        raise HTTPException(status_code=403, detail="LICENCE MDL NON VALIDÉE - ACCÈS AU Formalisme Logique Sémantique REFUSÉ")
 
     client = OpenAI(api_key=vault.get("openai_api_key"))
     

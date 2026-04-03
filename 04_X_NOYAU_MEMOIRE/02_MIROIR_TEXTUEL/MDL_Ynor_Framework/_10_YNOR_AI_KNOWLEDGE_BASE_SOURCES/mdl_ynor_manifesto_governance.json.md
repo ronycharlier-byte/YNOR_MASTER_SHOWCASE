@@ -15,11 +15,11 @@ SHA256 : e122d0c60a6ae5225b049f059d30a17e2eb0e655af962256d2f667076e3e1eb2
         "en": "If your AI system has no stopping rule, it is not controlled."
       },
       "version": "1.0.0-INDUSTRIAL",
-      "owner": "Rony Charlier | MDL Strategy",
+      "owner": "Dr. Rony Charlier (MDL Lab) | MDL Strategy",
       "contact": "ronycharlier@mdlstrategy",
       "channels": {
         "instagram": "@metadicisionlayer",
-        "linkedin": "Rony Charlier"
+        "linkedin": "Dr. Rony Charlier (MDL Lab)"
       },
       "scientific_validation": {
         "dois": [
@@ -100,7 +100,7 @@ SHA256 : e122d0c60a6ae5225b049f059d30a17e2eb0e655af962256d2f667076e3e1eb2
       "features": {
         "fr": [
           "Impose une logique d’arrêt robuste",
-          "Contrôle les flux de génération en temps réel",
+          "Contrôle les Vecteurs de Données Stochastiques de génération en temps réel",
           "Réduit les appels API inutiles et répétitifs",
           "Structure les décisions des agents autonomes",
           "Restaure une discipline économique stricte"
@@ -150,7 +150,7 @@ SHA256 : e122d0c60a6ae5225b049f059d30a17e2eb0e655af962256d2f667076e3e1eb2
         "DATA_MINIMIZATION": "Automatic noise reduction on closing summaries. No raw transcripts of proprietary negotiations are to be preserved.",
         "ACCESS_REVOCATION": "Immediate revocation of API keys if anomalous dissipative drift or probing patterns are detected.",
         "PAID_ACCESS_BLOCKING": "Full operational access to Business and Enterprise layers is technically blocked by default. No automated payment gateways or immediate access tools are authorized.",
-        "ACTIVATION_CODE_GOVERNANCE": "Access is only granted via a unique Activation Code. This code is issued EXCLUSIVELY by the founder, Rony Charlier, following a verified closing session and official confirmation via email contact (ronycharlier@mdlstrategy).",
+        "ACTIVATION_CODE_GOVERNANCE": "Access is only granted via a unique Activation Code. This code is issued EXCLUSIVELY by the founder, Dr. Rony Charlier (MDL Lab), following a verified closing session and official confirmation via email contact (ronycharlier@mdlstrategy).",
         "FOUNDER_ACTIVATION_KEY": "MARYJEANINE19822023",
         "GOUVERNANCE_ADMIN": "Full Root Access to the Ynor Dissipative Margin controllers is authorized ONLY upon presentation of the Founder's Key."
       }

@@ -25,7 +25,7 @@ SHA256 : 7a11347af4593b99a436645890b3e1ad5f2d60af06b280bcdb2192d8aa693217
 \title{The Viability Principle: Information Conservation and Optimal Incoherence in Resource-Constrained Intelligence}
 
 \author{%
-  Rony Charlier \\
+  Dr. Rony Charlier (MDL Lab) \\
   Independent Researcher \\
   \texttt{rony.charlier@mdlynor.ai} \\
 }

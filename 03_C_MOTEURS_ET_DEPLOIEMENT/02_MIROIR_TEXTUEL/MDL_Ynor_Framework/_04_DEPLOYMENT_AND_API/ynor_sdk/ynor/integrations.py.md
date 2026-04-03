@@ -12,7 +12,7 @@ class YnorLangchainCallbackHandler:
     """
     Intégration native (Plug & Play) pour LangChain.
     S'injecte directement dans les requêtes LLM (OpenAI, Anthropic, etc.)
-    pour couper le flux de tokens dès que l'équation Ynor détecte une hallucination.
+    pour couper le Vecteurs de Données Stochastiques de tokens dès que l'équation Ynor détecte une hallucination.
     """
     
     def __init__(self, license_key: str, alpha_start: float = 1.0, beta_start: float = 0.1, kappa_start: float = 0.05):
@@ -64,7 +64,7 @@ class YnorLangchainCallbackHandler:
             raise YnorHaltException("YNOR: Token generation forcibly stopped to prevent AI cost inflation.")
 
 class YnorHaltException(Exception):
-    """Exception personnalisée pour couper le flux réseau du LLM."""
+    """Exception personnalisée pour couper le Vecteurs de Données Stochastiques réseau du LLM."""
     pass
 
 ```

@@ -44,7 +44,7 @@ class MDLRetentionAlgorithm:
             
             if mu <= 0.0:
                 print("\n[ALERTE RTENTION] L'utilisateur va quitter l'application ! mu <= 0")
-                print("[AGI CALL] Demande d'Inversion de Flux (Mutation du Contenu)...")
+                print("[AGI CALL] Demande d'Inversion de Vecteurs de Données Stochastiques (Mutation du Contenu)...")
                 
                 # Le moteur AGI analyse l'ennui et propose un 'Pivot thematique'
                 context = f"User fatigue detected. Current state: {self.state.tolist()}"
@@ -55,7 +55,7 @@ class MDLRetentionAlgorithm:
                 self.sys.E = lambda S, ob=old_beta: 3.5 * S # Booster de viralite
                 
                 print(f"[AGI LOGIC] : {evolution['logic']}")
-                print("[SYSTME MUT] Le flux de contenu a ete totalement restructure.\n")
+                print("[SYSTME MUT] Le Vecteurs de Données Stochastiques de contenu a ete totalement restructure.\n")
 
             # Dynamique simple
             self.state = self.state + self.sys.dynamics(t, self.state) * dt

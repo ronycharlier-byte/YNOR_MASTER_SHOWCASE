@@ -88,7 +88,7 @@ G_z(x,y) = sqrt(xy) I_nu(k x_<) K_nu(k x_>).
         return {
             "fidelity": fidelity,
             "terms_found": found,
-            "status": "SOUVERAIN" if fidelity > 90 else "FRAGMENTÉ"
+            "status": "Autonome et Isolé" if fidelity > 90 else "FRAGMENTÉ"
         }
 
 if __name__ == "__main__":

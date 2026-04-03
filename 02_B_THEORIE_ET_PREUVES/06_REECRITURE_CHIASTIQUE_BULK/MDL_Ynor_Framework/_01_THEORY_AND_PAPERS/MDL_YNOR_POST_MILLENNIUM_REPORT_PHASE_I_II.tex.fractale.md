@@ -11,7 +11,7 @@ Le texte se déplie selon les lignes suivantes :
 - MDL Ynor, Dissipative Dynamics, DOI 10.5281/zenodo.18855042.
 
 ## C. Matiere
-\title{\bf Théorie du Tout Dissipative -- Rapport Phase I & II} \author{Rony Charlier (aka MDL Ynor)} \date{Mars 2026}
+\title{\bf Théorie du Tout Dissipative -- Rapport Phase I & II} \author{Dr. Rony Charlier (MDL Lab) (aka MDL Ynor)} \date{Mars 2026}
 
 ## X. Centre
 La marge de viabilite constitue le centre de gravite du texte.

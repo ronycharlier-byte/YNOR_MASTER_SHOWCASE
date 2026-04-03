@@ -3,7 +3,7 @@
 Source : `MDL_Ynor_Framework/_01_THEORY_AND_PAPERS/MDL_Ynor_NeurIPS_Paper.md`
 
 ## A. Ouverture
-**Authors:** Rony Charlier, et al.
+**Authors:** Dr. Rony Charlier (MDL Lab), et al.
 
 ## B. Expansion
 Le texte se déplie selon les lignes suivantes :

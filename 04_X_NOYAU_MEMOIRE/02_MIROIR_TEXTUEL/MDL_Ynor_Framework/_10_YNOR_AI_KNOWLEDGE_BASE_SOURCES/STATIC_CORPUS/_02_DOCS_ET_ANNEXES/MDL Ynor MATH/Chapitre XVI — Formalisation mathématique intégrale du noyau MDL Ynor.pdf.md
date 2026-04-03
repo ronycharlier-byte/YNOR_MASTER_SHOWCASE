@@ -27521,7 +27521,7 @@ endobj
 /Next 3273 0 R>>
 endobj
 3273 0 obj
-<</Title (4. Flux critique )
+<</Title (4. Vecteurs de Données Stochastiques critique )
 /Dest [182 0 R /XYZ 72.31543 291.47607 0]
 /Parent 3265 0 R
 /SE 1905 0 R
@@ -27950,7 +27950,7 @@ endobj
 /Next 3326 0 R>>
 endobj
 3326 0 obj
-<</Title (4. Flux critique )
+<</Title (4. Vecteurs de Données Stochastiques critique )
 /Dest [200 0 R /XYZ 72.31543 291.47607 0]
 /Parent 3318 0 R
 /SE 2087 0 R

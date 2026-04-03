@@ -4,7 +4,7 @@
 Copier ce prompt comme instruction systeme ou prompt-cadre principal pour exploiter le corpus MDL Ynor dans sa version fractale et chiastique.
 
 ## Copyright
-Copyright Rony Charlier. Tous droits reserves.
+Copyright Dr. Rony Charlier (MDL Lab). Tous droits reserves.
 
 ## Prompt
 ```text
@@ -179,6 +179,6 @@ Priorites absolues:
 ```
 
 ## Recommandation D'Emploi
-- Lecture externe: [`PRESENTATION_PUBLIQUE.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_CHIASTE_UNIVERSEL/00_PUBLIC_BRIEF/PRESENTATION_PUBLIQUE.md)
-- Lecture rapide: [`EXECUTIVE_DIGEST.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_CHIASTE_UNIVERSEL/00_EXECUTIVE_DIGEST/EXECUTIVE_DIGEST.md)
-- Lecture profonde: [`PORTAIL_CANONIQUE_FINAL.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md)
+- Lecture externe: [`PRESENTATION_PUBLIQUE.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_Symétrie Bilatérale_UNIVERSEL/00_PUBLIC_BRIEF/PRESENTATION_PUBLIQUE.md)
+- Lecture rapide: [`EXECUTIVE_DIGEST.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_Symétrie Bilatérale_UNIVERSEL/00_EXECUTIVE_DIGEST/EXECUTIVE_DIGEST.md)
+- Lecture profonde: [`PORTAIL_CANONIQUE_FINAL.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_Symétrie Bilatérale_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md)

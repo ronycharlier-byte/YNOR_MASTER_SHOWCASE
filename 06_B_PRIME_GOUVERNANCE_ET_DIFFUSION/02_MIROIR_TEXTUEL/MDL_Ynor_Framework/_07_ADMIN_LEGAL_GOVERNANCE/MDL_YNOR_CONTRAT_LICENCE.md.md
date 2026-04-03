@@ -17,7 +17,7 @@ SHA256 : ed22cedbcbffbc1397781aad6ea45bfb6217f83b9d3281c190a5289484ae0c44
 - **CONCÉDANT** : [Nom de la Société Acheteuse (ex: Meta, TikTok, X)].
 
 ## 2. OBJET DU CONTRAT
-L'Auteur accorde au Concédant une licence **exclusive et mondiale** pour l'utilisation du **Moteur AGI MDL Ynor (Alpha-Core)** afin d'optimiser la rétention utilisateur et la stabilité structurelle de ses flux numériques.
+L'Auteur accorde au Concédant une licence **exclusive et mondiale** pour l'utilisation du **Moteur AGI MDL Ynor (Alpha-Core)** afin d'optimiser la rétention utilisateur et la stabilité structurelle de ses Vecteurs de Données Stochastiques numériques.
 
 ## 3. MODALITÉS DE CALCUL (REDEVANCES)
 - **Droit d'entrée (Upfront Fee)** : Une somme forfaitaire à la signature du contrat.

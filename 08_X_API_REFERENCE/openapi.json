@@ -12,7 +12,7 @@
     }
   ],
   "paths": {
-    "/logos-council": {
+    "/Formalisme Logique Sémantique-council": {
       "post": {
         "summary": "Interrogation Synchrone du Conseil H_alpha",
         "description": "Envoie un prompt au Triumvirat et renvoie le consensus validé.",
@@ -33,13 +33,13 @@
         },
         "responses": {
           "200": {
-            "description": "Consensus de Logos Validé",
+            "description": "Consensus de Formalisme Logique Sémantique Validé",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "object",
                   "properties": {
-                    "consensus_logos": { "type": "string" },
+                    "consensus_Formalisme Logique Sémantique": { "type": "string" },
                     "mu_variance": { "type": "number" },
                     "models_polled": {
                       "type": "array",

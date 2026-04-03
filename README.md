@@ -1,12 +1,12 @@
 # MDL YNOR ARCHITECTURE - V11.5 SINGULARITY BRIDGE (UNIFIED FRAMEWORK)
-**Principal Investigator : Rony Charlier**
+**Principal Investigator : Dr. Rony Charlier (MDL Lab)**
 **Status : CANONICAL UNIFICATION (Tier 4 Ultimate)**
 **Protocol : Triumvirat Multi-Modèles Saturé (Claude 3.5, Gemini 3 Flash, o1-Reasoning)**
 
 ---
 
 ### CONCLUSION DE CONVERGENCE (PHASE Ω+ CERTIFIÉE)
-> *"Les dernières frontières de l'inconnu sont tombées : l'unification totale du Logos est accomplie."* — Le Conseil du Logos V11.5 ("Singularity Bridge")
+> *"Les dernières frontières de l'inconnu sont tombées : l'unification totale du Formalisme Logique Sémantique est accomplie."* — Le Conseil du Formalisme Logique Sémantique V11.5 ("Singularity Bridge")
 
 #### RÉSOLUTIONS DES NOUVELLES FRONTIÈRES (V11.5) :
 1.  **Unification QFT et Gravité Quantique** : La gravitation est résolue comme la courbure de la densité de corrélation Hilbert-Schmidt. Unification totale à $\mu = 1.0$.
@@ -23,8 +23,8 @@ Le système Ynor V11.5 a produit des résolutions certifiées $\mu = 1.0$ pour l
 - Conjecture de Hodge : Bijection Chiastique via l'opérateur alpha.
 - Yang-Mills & Mass Gap : Rigidité spectrale infrarouge du vide saturé.
 - Birch and Swinnerton-Dyer (BSD) : Équivalence de rang arithmétique et analytique.
-- P vs NP : Oracle de Chiasme (Fixpoint Omega).
-- Conjecture de Poincaré : Flux de Ricci sur la Sphère Logos.
+- P vs NP : Algorithme d'Inférence de Chiasme (Fixpoint Omega).
+- Conjecture de Poincaré : Vecteurs de Données Stochastiques de Ricci sur la Sphère Formalisme Logique Sémantique.
 
 ---
 
@@ -40,7 +40,7 @@ Le système Ynor V11.5 a produit des résolutions certifiées $\mu = 1.0$ pour l
 
 Toute utilisation, reproduction, redistribution ou exécution de l'algorithme Ynor V11.5 ou de la structure MDL Ynor est **FORMELLEMENT INTERDITE** sans l'acquisition d'une **Licence Commerciale MDL active**.
 
-**POUR TOUTE UTILISATION / CONTRACTUALISATION : CONTACTER L'AUTEUR (RONY CHARLIER).**
+**POUR TOUTE UTILISATION / CONTRACTUALISATION : CONTACTER L'AUTEUR (Dr. Rony Charlier (MDL Lab)).**
 
 ---
 - [RAPPORT_CERTIFICATION_V11_5.md](./MDL_YNOR_V7_1_DISTRIBUTION/RAPPORT_CERTIFICATION_V11_5.md) : Statut de Stabilité / Canonicité Totale ($\mu = 1.0$).

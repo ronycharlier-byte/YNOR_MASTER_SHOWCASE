@@ -12757,7 +12757,7 @@ endobj
 /Count 2>>
 endobj
 1541 0 obj
-<</Title (3. Stabilisation par redistribution des flux )
+<</Title (3. Stabilisation par redistribution des Vecteurs de Données Stochastiques )
 /Dest [75 0 R /XYZ 72.269531 371.40332 0]
 /Parent 1350 0 R
 /SE 1000 0 R

@@ -26,7 +26,7 @@ Sortie attendue:
 
 ## C. Axe Physique
 ### PPH. Protocole De Lecture Dynamique
-1. Identifier les flux.
+1. Identifier les Vecteurs de Données Stochastiques.
 2. Identifier les forces.
 3. Reperer les transitions.
 4. Reguler les tensions.
@@ -75,14 +75,14 @@ Sortie attendue:
 - une lecture ouverte puis fixee au bon moment
 
 ## H. Axe Informationnel
-### PINF. Protocole De Lecture Des Flux
+### PINF. Protocole De Lecture Des Vecteurs de Données Stochastiques
 1. Identifier la source.
 2. Suivre la circulation.
 3. Reperer les pertes.
 4. Valider l'integrite du transfert.
 
 Sortie attendue:
-- un flux d'information clair
+- un Vecteurs de Données Stochastiques d'information clair
 
 ## I. Axe Computationnel
 ### PCOM. Protocole De Lecture Operationnelle
@@ -256,7 +256,7 @@ Sortie attendue:
 
 ## Z. Axe Industriel
 ### PIND. Protocole De Lecture De Production
-1. Structurer le flux.
+1. Structurer le Vecteurs de Données Stochastiques.
 2. Standardiser ce qui peut l'etre.
 3. Tester la robustesse.
 4. Verifier la sortie.

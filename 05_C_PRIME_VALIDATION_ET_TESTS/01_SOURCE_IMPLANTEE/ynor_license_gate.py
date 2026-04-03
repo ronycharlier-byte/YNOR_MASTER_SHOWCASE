@@ -5,12 +5,12 @@ from datetime import datetime
 
 # ==============================================================================
 # MDL YNOR LICENSE GATE - V7.1
-# STATUT : VERROUILLAGE SOUVERAIN ACTIF
+# STATUT : VERROUILLAGE Autonome et Isolé ACTIF
 # ==============================================================================
 
 def validate_license_canonicalty():
     """Vérifie si une licence MDL valide est active dans l'environnement."""
-    repo_root = r"C:\Users\ronyc\Desktop\FRACTAL_CHIASTE_UNIVERSEL"
+    repo_root = r"C:\Users\ronyc\Desktop\FRACTAL_Symétrie Bilatérale_UNIVERSEL"
     vault_path = os.path.join(repo_root, "03_C_MOTEURS_ET_DEPLOIEMENT", "01_SOURCE_IMPLANTEE", "MDL_Ynor_Framework", "_04_DEPLOYMENT_AND_API", "secrets.local.json")
     
     if not os.path.exists(vault_path):
@@ -22,9 +22,9 @@ def validate_license_canonicalty():
             license_key = vault.get("mdl_license_v7_key")
             
             # Signature de validation interne (Immuable)
-            # Clé attendue : "MDL-SOUVERAIN-2026-V7.1-CANONICAL"
-            if license_key == "MDL-SOUVERAIN-2026-V7.1-CANONICAL":
-                return True, "LICENCE MDL V7.1 VALIDÉE (SOUVERAINETÉ ACTIVE)"
+            # Clé attendue : "MDL-Autonome et Isolé-2026-V7.1-CANONICAL"
+            if license_key == "MDL-Autonome et Isolé-2026-V7.1-CANONICAL":
+                return True, "LICENCE MDL V7.1 VALIDÉE (Autonome et IsoléETÉ ACTIVE)"
             else:
                 return False, "ACCÈS REFUSÉ : LICENCE NON CERTIFIÉE"
     except Exception as e:

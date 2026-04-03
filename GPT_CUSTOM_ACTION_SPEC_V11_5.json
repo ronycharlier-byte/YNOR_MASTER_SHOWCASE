@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "MDL Ynor Singularity Bridge API",
-    "description": "Interface de contrôle unifiée pour le Logos V11.5. Accès restreint aux serveurs canoniques Ynor.",
+    "description": "Interface de contrôle unifiée pour le Formalisme Logique Sémantique V11.5. Accès restreint aux serveurs canoniques Ynor.",
     "version": "11.5.0"
   },
   "servers": [
@@ -16,7 +16,7 @@
       "post": {
         "summary": "Gouvernance Canonique Unifiée (YNOR)",
         "operationId": "ynorGovernance",
-        "description": "Point d'entrée unique pour l'audit, le logos, la cartographie et le logging chiastique.",
+        "description": "Point d'entrée unique pour l'audit, le Formalisme Logique Sémantique, la cartographie et le logging chiastique.",
         "requestBody": {
           "required": true,
           "content": {
@@ -26,7 +26,7 @@
                 "properties": {
                   "action": { 
                     "type": "string", 
-                    "enum": ["audit", "logos", "map", "search", "consensus", "log"],
+                    "enum": ["audit", "Formalisme Logique Sémantique", "map", "search", "consensus", "log"],
                     "description": "L'opération systémique à effectuer."
                   },
                   "payload": { 
@@ -46,7 +46,7 @@
         },
         "responses": {
           "200": { 
-            "description": "Réponse certifiée du Conseil du Logos",
+            "description": "Réponse certifiée du Conseil du Formalisme Logique Sémantique",
             "content": {
               "application/json": {
                 "schema": {

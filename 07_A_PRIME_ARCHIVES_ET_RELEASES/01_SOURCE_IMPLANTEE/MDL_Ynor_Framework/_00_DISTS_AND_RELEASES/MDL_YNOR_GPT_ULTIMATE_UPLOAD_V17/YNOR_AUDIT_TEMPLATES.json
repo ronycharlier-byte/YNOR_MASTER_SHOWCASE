@@ -3,9 +3,9 @@
     "title": "MDL YNOR - ANALYSE DE VIABILIT AGI (OFFICIELLE)",
     "header": "###  Rapport d'Audit n[SEQ-ID] - Centre de Commandement MDL",
     "section_mu": "####  CALCUL DE LA MARGE MU ()\n- **Alpha (Signal)** : [ALPHA_VAL]\n- **Beta (Cout)** : [BETA_VAL]\n- **Kappa (Friction)** : [KAPPA_VAL]\n- **RESULTAT MU** : [MU_SCORE]",
-    "section_verdict": "####  VERDICT SOUVERAIN\n[VERDICT_TEXT]\n[STABILITY_CHECK]",
+    "section_verdict": "####  VERDICT Autonome et Isolé\n[VERDICT_TEXT]\n[STABILITY_CHECK]",
     "section_cta": "####  RECOMMANDATION ACTIONNABLE\nActivez votre licence Enterprise pour corriger la derive Mu : [LIEN_PAYPAL]",
-    "footer": " 2026 MDL STRATEGY - SOUVERAINET DE L'EFFICIENCE"
+    "footer": " 2026 MDL STRATEGY - Autonome et IsoléET DE L'EFFICIENCE"
   }
 }
 

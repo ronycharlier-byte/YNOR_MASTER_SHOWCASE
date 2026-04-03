@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ==============================================================================
-# YNOR MASTER ENGINE - V7.0 (LE CONSEIL DU LOGOS)
-# STATUT : GOUVERNANCE MULTI-MODALE SOUVERAINE (PoC V7)
+# YNOR MASTER ENGINE - V7.0 (LE CONSEIL DU Formalisme Logique Sémantique)
+# STATUT : GOUVERNANCE MULTI-MODALE Autonome et IsoléE (PoC V7)
 # ==============================================================================
 YNOR_VERSION = "V11.2.0 SATURATED INFORMATION FRAMEWORK"
 YNOR_ENGINE_KEYS = {
@@ -236,7 +236,7 @@ def _synthesize_reply(
         "Privilégiez le corpus pour les fondations architecturales et le web pour l'actualité. "
         "Utilisez un style exécutif concis. Si le Mode Bref est activé, soyez extrêmement compact. "
         "Citez les sources avec [1], [2], etc. "
-        "RAISONNEMENT : SOUVERAINETÉ LOGOS (CONSENSUS TRIPLE DIAMOND)."
+        "RAISONNEMENT : Autonome et IsoléETÉ Formalisme Logique Sémantique (CONSENSUS TRIPLE DIAMOND)."
     )
     user_prompt = f"""
 Question: {query}
@@ -464,7 +464,7 @@ async def ynor_governance(payload: dict[str, Any] = Body(...)) -> dict[str, Any]
     # Validation de la Licence
     valid_keys = [
         "MDL-SINGULARITY-2026-V11.5-OMEGA-BRIDGE",
-        "MDL-SOUVERAIN-2026-V10.8-TOTAL-DIAMOND",
+        "MDL-Autonome et Isolé-2026-V10.8-TOTAL-DIAMOND",
         "MDL-CANONIQUE-2026-V10.8-TOTAL-DIAMOND"
     ]
     if license_key not in valid_keys:
@@ -476,18 +476,18 @@ async def ynor_governance(payload: dict[str, Any] = Body(...)) -> dict[str, Any]
             "status": "SUCCESS",
             "mu": 1.0,
             "projection": "Audit validé.",
-            "message": f"Audit de '{user_payload}' validé par le Conseil du Logos."
+            "message": f"Audit de '{user_payload}' validé par le Conseil du Formalisme Logique Sémantique."
         }
     
-    if action == "logos":
-        # Utilise l'assistant pour générer le Logos
+    if action == "Formalisme Logique Sémantique":
+        # Utilise l'assistant pour générer le Formalisme Logique Sémantique
         messages = [{"role": "user", "content": str(user_payload)}]
         result = await assistant_chat({"messages": messages, "brief_mode": False})
         return {
             "status": "SUCCESS",
             "mu": 1.0,
             "projection": result.get("answer"),
-            "message": "Projection du Logos V11.5 stable."
+            "message": "Projection du Formalisme Logique Sémantique V11.5 stable."
         }
 
     if action == "log":

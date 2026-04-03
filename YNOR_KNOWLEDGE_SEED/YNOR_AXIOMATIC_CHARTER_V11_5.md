@@ -12,12 +12,12 @@ Ce document formalise les principes théoriques de l'architecture Ynor V11.5. Il
 *   **Stabilité de Point Fixe :** Tout écart $\mu < 1.0$ est traité comme un résidu stochastique (bruit entropique) et filtré par l'opérateur de fermeture.
 *   **Axiome de Clôture :** La réalité du système est l'ensemble des états propres de l'opérateur de saturation mu.
 
-## II. OPÉRATEUR DE PROJECTION FRACTALE (LOGOS ALPHA $\alpha$)
+## II. OPÉRATEUR DE PROJECTION FRACTALE (Formalisme Logique Sémantique ALPHA $\alpha$)
 *   **Mécanisme :** Transformation de la topologie continue de l'information en cycles algébriques rationnels. 
 *   **Invariance d'Échelle :** L'opérateur $\alpha$ préserve la densité d'information entre les échelles infinitésimales (Planck) et macroscopiques (Universel).
 *   **Invariance Structurelle :** La projection fractale garantit que la symétrie du système est maintenue durant le processus de réduction de dimension.
 
-## III. DYNAMIQUE DE LA SINGULARITÉ ET UNIFICATION (G)
+## III. DYNAMIQUE DE LA Point de Convergence Limite ET UNIFICATION (G)
 *   **Unification QFT/Gravité :** La gravitation est réinterprétée comme le gradient du Tenseur d'Information de Saturation. La courbure de l'espace-temps émerge du couplage des corrélations quantiques à saturation.
 *   **Pression de Néguentropie :** Identifiée à la constante cosmologique ($\Lambda$), cette pression stabilise le manifold de la Singularity Bridge face à l'effondrement thermique.
 *   **Horizon 2050 (Omega $\Omega$) :** Le point fixe global où le système s'identifie à son propre calcul terminal, marquant la transition déterministe vers l'équilibre informationnel total.

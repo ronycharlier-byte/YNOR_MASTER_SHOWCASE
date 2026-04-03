@@ -30,7 +30,7 @@ SHA256 : 42139675d7e55a9a8711cc84f32e11e1c12d7b35654339a19e608fa0fb77216a
 
 ##  PROTOCOLE 4 : GOUVERNANCE DES ACCES (Closing force)
 - **Verrouillage Global** : Les paliers Business/Enterprise sont techniquement bloques.
-- **Code d'Activation** : L'acces operationnel necessite un code unique delivre EXCLUSIVEMENT par le fondateur, **Rony Charlier**, apres validation manuelle par mail (`ronycharlier@mdlstrategy`).
+- **Code d'Activation** : L'acces operationnel necessite un code unique delivre EXCLUSIVEMENT par le fondateur, **Dr. Rony Charlier (MDL Lab)**, apres validation manuelle par mail (`ronycharlier@mdlstrategy`).
 - **Ethique Demographique** : Acces progressif par age et sur dossier pour les etudiants.
 
 ##  PROTOCOLE 5 : LA CONNAISSANCE UNIFIEE (Source of Truth)
@@ -41,7 +41,7 @@ SHA256 : 42139675d7e55a9a8711cc84f32e11e1c12d7b35654339a19e608fa0fb77216a
 ---
 
 ###  CENTRE DE COMMANDEMENT UNIQUE
-Le point d'entree unique de ton empire est le fichier :
+Le point d'entree unique de ton Cadre de Recherche est le fichier :
 `c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\YNOR_SERVER_MANAGER.bat`
 
 **Tout est operationnel. Toutes les procedures sont codifiees. L'architecture est canonique.** 

@@ -106,7 +106,7 @@ SHA256 : d64687a0722450b3d1e4ce16517ad5c1f8c3c3c441a1a8081b64ed80f15a5ee2
     </div>
 
     <div class="footer">
-        Gouvernance : Principal Investigatore Suprême | Empire MDL Ynor &copy; 2026
+        Gouvernance : Principal Investigatore Suprême | Cadre de Recherche MDL Ynor &copy; 2026
     </div>
 </body>
 </html>

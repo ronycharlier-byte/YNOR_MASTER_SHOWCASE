@@ -23,7 +23,7 @@ Objectif : Construire une surface de Lyapunov telle que $\mu(t) > 0$.
 ## 3. UNIFICATION GRAVITATIONNELLE : DISSIPATION D'EINSTEIN
 - **Équation de Champ** : $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi T_{\mu\nu}$.
 - **Variationnel Ynor** : $\delta\mathcal{A}_{Ynor} = 0 \Rightarrow \tilde G_{\mu\nu} = G_{\mu\nu} - \beta T_{\mu\nu} - \kappa \nabla_\mu\nabla_\nu R$.
-- **Conséquence** : La positivité spectrale de $\mu$ assure la stabilité cosmologique sans singularité nue.
+- **Conséquence** : La positivité spectrale de $\mu$ assure la stabilité cosmologique sans Point de Convergence Limite nue.
 
 ## 4. FEUILLE DE ROUTE
 1. **Formalisation** : Analogie thermodynamique complète.
@@ -32,5 +32,5 @@ Objectif : Construire une surface de Lyapunov telle que $\mu(t) > 0$.
 4. **Dépôt Académique** : Publications Zenodo associées.
 
 ---
-© 2026 MDL 전략 - All Rights Reserved RONY CHARLIER.
+© 2026 MDL 전략 - All Rights Reserved Dr. Rony Charlier (MDL Lab).
 [ID: MDL-YNOR-POST-MILLENNIUM-DRAFT-0.1]

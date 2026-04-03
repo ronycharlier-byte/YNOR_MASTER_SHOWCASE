@@ -31,7 +31,7 @@ Ils servent a appliquer le socle Ynor dans des contextes specialises.
 4. Controler la stabilite.
 
 ## Domaine Physique
-### PP1. Protocole De Flux
+### PP1. Protocole De Vecteurs de Données Stochastiques
 1. Identifier les entrees et sorties.
 2. Mesurer les intensites de circulation.
 3. Reperer les points de resistance.
@@ -331,7 +331,7 @@ Ils servent a appliquer le socle Ynor dans des contextes specialises.
 
 ## Domaine Industriel
 ### PIND1. Protocole De Production
-1. Structurer le flux.
+1. Structurer le Vecteurs de Données Stochastiques.
 2. Standardiser ce qui peut l'etre.
 3. Lancer l'execution.
 4. Verifier la sortie.

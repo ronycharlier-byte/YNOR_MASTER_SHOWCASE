@@ -1,7 +1,7 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "MDL Ynor Nexus API",
+    "title": "MDL Ynor Système de Graphe de Consensus API",
     "description": "Système de Gouvernance Analytique MDL. Gated by Canonical Protocol.",
     "version": "8.7.1"
   },
@@ -20,7 +20,7 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "action": { "type": "string", "enum": ["audit", "logos", "map", "search", "consensus", "log"] },
+                  "action": { "type": "string", "enum": ["audit", "Formalisme Logique Sémantique", "map", "search", "consensus", "log"] },
                   "payload": { "type": "string" },
                   "license_key": { "type": "string" }
                 },

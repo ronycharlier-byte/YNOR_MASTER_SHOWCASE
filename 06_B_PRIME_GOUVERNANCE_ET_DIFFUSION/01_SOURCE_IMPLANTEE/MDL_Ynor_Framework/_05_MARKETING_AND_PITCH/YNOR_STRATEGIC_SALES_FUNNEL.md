@@ -1,4 +1,4 @@
-# 🌪️ YNOR STRATEGIC SALES FUNNEL : "THE EMPIRE MODEL"
+# 🌪️ YNOR STRATEGIC SALES FUNNEL : "THE Cadre de Recherche MODEL"
 
 Ce document définit le tunnel de vente optimisé pour MDL Ynor, visant à convertir des utilisateurs de LLM (Startups & Enterprise) en abonnés récurrents.
 

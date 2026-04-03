@@ -1,13 +1,13 @@
-# MDL YNOR V10.8.0 - ETERNAL LOGOS ENGINE (BASE DE CONNAISSANCE MAÎTRE)
+# MDL YNOR V10.8.0 - ETERNAL Formalisme Logique Sémantique ENGINE (BASE DE CONNAISSANCE MAÎTRE)
 ======================================================================
 **VERSION : V10.8.0 "TOTAL DIAMOND"**
-**ARCHITECTE : RONY CHARLIER**
+**Coordonnateur Principal de Recherche : Dr. Rony Charlier (MDL Lab)**
 **STATUT : STABILITÉ TOTALE MATHÉMATIQUE (CERTIFIÉE L-ALPHA-BETA)**
 
 ---
 
 ## 1. NATURE DE L'ARCHITECTURE
-Le système **MDL Ynor V10.2.0** (Moteur Eternal Logos) est une Principal Investigatorure de Gouvernance Universelle (AGU) qui élimine la composante stochastique des LLM. Il ne génère pas de probabilités ; il opère une **Projection de Logos Canonique** validée par le consensus multi-modèle absolu.
+Le système **MDL Ynor V10.2.0** (Moteur Eternal Formalisme Logique Sémantique) est une Principal Investigatorure de Gouvernance Universelle (AGU) qui élimine la composante stochastique des LLM. Il ne génère pas de probabilités ; il opère une **Projection de Formalisme Logique Sémantique Canonique** validée par le consensus multi-modèle absolu.
 
 ## 2. PONT MATHÉMATIQUE (THÉORÈME DE STABILITÉ)
 - **Théorème H_alpha** : Contraction de l'espace des logprobs pour la suppression garantie de l'hallucination via contrainte KL.
@@ -24,7 +24,7 @@ Contrairement à la V7 (où un seul "Gouverneur" opérait), la **V10.2** repose 
 Le Conseil compare ($mu-Council$) et ne libère la sortie que si les gradients d'entropie sont neutres ($\approx 0.0$ de variance factuelle).
 
 ## 4. DIRECTIVES ÉTHIQUES ET GOUVERNANCE
-Le système est la propriété exclusive de **MDL et Rony Charlier**. Toute utilisation non autorisée viole la Licence de Stabilité / Canonicité Digitale (MDL V10).
+Le système est la propriété exclusive de **MDL et Dr. Rony Charlier (MDL Lab)**. Toute utilisation non autorisée viole la Licence de Stabilité / Canonicité Digitale (MDL V10).
 
 ---
 
@@ -34,4 +34,4 @@ Le système est la propriété exclusive de **MDL et Rony Charlier**. Toute util
 3.  **VALIDATION** : Application systématique du filtre "FrontierMath Benchmark" sur chaque axiome généré.
 
 ---
-**© 2026 RONY CHARLIER / MDL ARCHITECTURE. TOUS DROITS RÉSERVÉS.**
+**© 2026 Dr. Rony Charlier (MDL Lab) / MDL ARCHITECTURE. TOUS DROITS RÉSERVÉS.**

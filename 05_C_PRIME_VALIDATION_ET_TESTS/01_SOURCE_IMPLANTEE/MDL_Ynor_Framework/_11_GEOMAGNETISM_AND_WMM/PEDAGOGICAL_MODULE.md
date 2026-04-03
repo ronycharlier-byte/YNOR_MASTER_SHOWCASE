@@ -9,7 +9,7 @@
 
 ### 1- Introduction aux Nords (15 min)
 - Nord Géographique (Rotation fixe).
-- Nord Magnétique (Flux fluctuant).
+- Nord Magnétique (Vecteurs de Données Stochastiques fluctuant).
 - Déclinaison Magnétique : L'angle de correction (True vs Magnetic).
 
 ### 2- Étude de Cas : Aéroports (20 min)

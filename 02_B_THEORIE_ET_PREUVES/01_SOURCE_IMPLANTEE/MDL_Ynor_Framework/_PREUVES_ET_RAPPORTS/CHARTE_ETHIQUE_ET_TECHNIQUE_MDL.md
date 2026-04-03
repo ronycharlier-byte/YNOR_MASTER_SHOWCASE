@@ -25,9 +25,9 @@ Cette charte definit les regles fondamentales de l'Principal Investigatorure MDL
 
 ## IV. MODELE COMMERCIAL ET PROPRIETE
 1. **Partage de Valeur** : Le systeme MDL Ynor fonctionne en mode "Stability-as-a-Service".
-2. **Propriete Intellectuelle** : L'ensemble du Noyau Axiomatique et du code AGI est la propriete exclusive de l'**ARCHITECTE SUPREME**.
+2. **Propriete Intellectuelle** : L'ensemble du Noyau Axiomatique et du code AGI est la propriete exclusive de l'**Coordonnateur Principal de Recherche SUPREME**.
 3. **Transparence de Facturation** : Chaque audit $\mu$ est facture au client selon les termes de sa licence active.
 
 ---
-Signe et Certifie par : **Charlier Rony - ARCHITECTE SUPREME ET FONDATEUR**
+Signe et Certifie par : **Charlier Rony - Coordonnateur Principal de Recherche SUPREME ET FONDATEUR**
 Sceau de securite : **MDL_YNOR_MASTER_AUTHENTICATED_CHARLIER_RONY_2026**

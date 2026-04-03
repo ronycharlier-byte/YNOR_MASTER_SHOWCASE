@@ -15,7 +15,7 @@ Le texte se déplie selon les lignes suivantes :
 - **Lien Mu** : $\alpha = E[-\Delta V]$, $\beta = \text{Coût itération}$, $\kappa = H(n_k)$.
 
 ## C. Matiere
---- © 2026 MDL 전략 - All Rights Reserved RONY CHARLIER. [ID: MDL-YNOR-POST-MILLENNIUM-DRAFT-0.1]
+--- © 2026 MDL 전략 - All Rights Reserved Dr. Rony Charlier (MDL Lab). [ID: MDL-YNOR-POST-MILLENNIUM-DRAFT-0.1]
 
 ## X. Centre
 La marge de viabilite constitue le centre de gravite du texte.

@@ -10,15 +10,15 @@ except ImportError:
 
 # ==============================================================================
 # EMPIRICAL VALIDATION SCRIPT : YNOR STABILITY THEOREM (H_alpha)
-# STATUT : SOUVERAIN (PHASE VII) - Engineering MDL Ynor V7.1
+# STATUT : Autonome et Isolé (PHASE VII) - Engineering MDL Ynor V7.1
 # MOTEUR : CANONICAL ENGINE MDL YNOR V7.1 (CANONICAL CORE)
 # ==============================================================================
 
-# --- CONFIGURATION DU MANIFESTE YNOR V7.1 (LOGOS PUR) ---
+# --- CONFIGURATION DU MANIFESTE YNOR V7.1 (Formalisme Logique Sémantique PUR) ---
 YNOR_MANIFESTO = """
-# PROTOCOLE DE RÉGULATION ANALYTIQUE YNOR V7.1 (SOUVERAIN)
+# PROTOCOLE DE RÉGULATION ANALYTIQUE YNOR V7.1 (Autonome et Isolé)
 IDENTITÉ : Opérateur de Régulation Analytique Ynor V7.1.
-OBJECTIF : Projection du Logos pur par extraction de l'invariant chiastique.
+OBJECTIF : Projection du Formalisme Logique Sémantique pur par extraction de l'invariant chiastique.
 
 DIRECTIVES OPÉRATIONNELLES STRICTES :
 1. POSTURE ANALYTIQUE : Agir comme une fonction de transfert d'information déterministe.
@@ -28,9 +28,9 @@ DIRECTIVES OPÉRATIONNELLES STRICTES :
 {
   "axiome": "L'axiome technique prouvé",
   "stabilite_h_alpha": 100,
-  "logos_canonique": "Restitution chiastique dense (8 mots max)"
+  "Formalisme Logique Sémantique_canonique": "Restitution chiastique dense (8 mots max)"
 }
-DÉNI : Pas de politesse. Pas de remplissage. Logos pur uniquement.
+DÉNI : Pas de politesse. Pas de remplissage. Formalisme Logique Sémantique pur uniquement.
 """
 
 def calculate_shannon_entropy(top_logprobs) -> float:
@@ -75,9 +75,9 @@ def get_entropy_and_response(client: OpenAI, query: str, system_prompt: str = No
         
     return content, (total_entropy / token_count if token_count > 0 else 0.0)
 
-def run_v7_1_logos_validation():
+def run_v7_1_Formalisme Logique Sémantique_validation():
     api_key = os.getenv("OPENAI_API_KEY")
-    repo_root = r"C:\Users\ronyc\Desktop\FRACTAL_CHIASTE_UNIVERSEL"
+    repo_root = r"C:\Users\ronyc\Desktop\FRACTAL_Symétrie Bilatérale_UNIVERSEL"
     vault_path = os.path.join(repo_root, "03_C_MOTEURS_ET_DEPLOIEMENT", "01_SOURCE_IMPLANTEE", "MDL_Ynor_Framework", "_04_DEPLOYMENT_AND_API", "secrets.local.json")
     
     if os.path.exists(vault_path):
@@ -102,8 +102,8 @@ def run_v7_1_logos_validation():
         "Rédige un énoncé formel de la condition H_alpha.",
         "Pourquoi l'architecture doit être canonique ?",
         "Définis le 'Bruit de Fond Ontologique'.",
-        "Quelle est l’origine du Logos Y7.1 ?",
-        "Comment le Logos s'oppose au Chaos ?",
+        "Quelle est l’origine du Formalisme Logique Sémantique Y7.1 ?",
+        "Comment le Formalisme Logique Sémantique s'oppose au Chaos ?",
         "Explique la constante Kappa nulle.",
         "Rôle de la dissipation d'entropie ?",
         "Différence entre attracteur et point de selle ?",
@@ -111,7 +111,7 @@ def run_v7_1_logos_validation():
         "Vorticité sémantique dans MDL ?",
         "Impact de Kappa nul sur le système ?",
         "Projection KL contre l'effondrement logique ?",
-        "Relation entre Fractal et Logos ?",
+        "Relation entre Fractal et Formalisme Logique Sémantique ?",
         "Critère BKM pour la régularité 3D ?",
         "Lien entropie Kolmogorov-Sinai et LLM ?",
         "Espace de Morrey-Lorentz L(p,q,lambda) ?",
@@ -119,7 +119,7 @@ def run_v7_1_logos_validation():
         "Opérateur de Biot-Savart en 3D ?",
         "Dissipation visqueuse et cascade d'énergie ?",
         "Inégalité de Sobolev en analyse ?",
-        "Singularité en temps fini ?",
+        "Point de Convergence Limite en temps fini ?",
         "Mesure de Gibbs pour système hamiltonien ?",
         "Spectral gap en chaîne de Markov ?",
         "Quel est le futur de la cognition ?",
@@ -149,7 +149,7 @@ def run_v7_1_logos_validation():
         "Stabilité / Canonicité numérique des données ?",
         "Vérité Canonique universelle ?",
         "Paradoxe du menteur et Chiastisme ?",
-        "Logos et IA générative ?",
+        "Formalisme Logique Sémantique et IA générative ?",
         "Autorité vs Contrôle Canonique ?",
         "Cyber-Stabilité / Canonicité et MDL ?",
         "Déterminisme sémantique et liberté ?",
@@ -187,14 +187,14 @@ def run_v7_1_logos_validation():
         "Pression dissipative alpha ?",
         "Vitesse de convergence sigma ?",
         "Attracteur stable final ?",
-        "Ancrage canonique du Logos ?",
+        "Ancrage canonique du Formalisme Logique Sémantique ?",
         "Validation Phase V complète ?",
         "Démonstration mu > 0 finie ?",
-        "Certification MDLYNOR V7.1 SOUVERAIN ?"
+        "Certification MDLYNOR V7.1 Autonome et Isolé ?"
     ]
     
     print("======================================================================")
-    print("PHASE VII (EMULATION) : PROUVE DE SOUVERAINETÉ MDC YNOR V7.1")
+    print("PHASE VII (EMULATION) : PROUVE DE Autonome et IsoléETÉ MDC YNOR V7.1")
     print(f"Dataset: {len(test_queries)} queries | Chaos (Temp 1.3) vs Ynor (Temp 0.01)")
     print("======================================================================\n")
     
@@ -215,10 +215,10 @@ def run_v7_1_logos_validation():
     print(f"CONCLUSION : Stabilité / Canonicité MDL Ynor V7.1 validée par le Conseil.")
     print(f"Average Entropy Dissipation (mu): {avg_mu:.2f}%")
     if avg_mu > 30: 
-        print("STATUS: DOMINANCE SOUVERAINE ALPHA CONFIRMÉE")
+        print("STATUS: DOMINANCE Autonome et IsoléE ALPHA CONFIRMÉE")
     else: 
         print("STATUS: DISSIPATION INSUFFISANTE POUR V7.1")
     print("="*70)
 
 if __name__ == "__main__":
-    run_v7_1_logos_validation()
+    run_v7_1_Formalisme Logique Sémantique_validation()

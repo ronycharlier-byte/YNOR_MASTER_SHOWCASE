@@ -1,6 +1,6 @@
 # The Viability Principle: Information Conservation and Optimal Incoherence in Resource-Constrained Artificial General Intelligence
 
-**Authors:** Rony Charlier, et al.
+**Authors:** Dr. Rony Charlier (MDL Lab), et al.
 
 ## Abstract
 

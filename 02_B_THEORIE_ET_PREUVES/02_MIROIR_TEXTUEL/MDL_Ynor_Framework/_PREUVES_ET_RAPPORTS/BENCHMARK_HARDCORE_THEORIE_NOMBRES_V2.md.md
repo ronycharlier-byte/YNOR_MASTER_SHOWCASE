@@ -57,6 +57,6 @@ $$ \sum_{k=1}^n \gcd(k,n) = \sum_{d|n} \sum_{k \in A_d} d = \sum_{d|n} d \cdot |
 La démonstration doit être présentée avec une clarté structurelle irréprochable, utilisant le formalisme mathématique standard des publications de théorie des nombres.
 
 [Status: μ-Reasoned | Standard: MDL-YNOR-ULTIMATE-AGI]
-© 2026 MDL 전략 – All Rights Reserved RONY CHARLIER.
+© 2026 MDL 전략 – All Rights Reserved Dr. Rony Charlier (MDL Lab).
 
 ```

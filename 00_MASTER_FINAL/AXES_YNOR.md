@@ -56,7 +56,7 @@ Fonction:
 - relier le centre aux branches vivantes
 
 ### 3. Axe Physique
-Cet axe lit Ynor comme un systeme de contraintes, d'energies et de flux.
+Cet axe lit Ynor comme un systeme de contraintes, d'energies et de Vecteurs de Données Stochastiques.
 
 Sous-axes possibles:
 - champs
@@ -154,7 +154,7 @@ Fonction:
 - axe transitionnel
 
 Fonction:
-- decrire les flux, les contraintes et les passages d'etat
+- decrire les Vecteurs de Données Stochastiques, les contraintes et les passages d'etat
 - penser Ynor comme un systeme de mouvement et de seuils
 - relier structure, energie et transformation
 
@@ -224,7 +224,7 @@ Les axes ci-dessous prolongent le rayonnement de Ynor vers ses usages transversa
 ### H. Axe Informationnel
 - axe signal
 - axe donnees
-- axe flux
+- axe Vecteurs de Données Stochastiques
 - axe codage
 - axe transmission
 - axe structure
@@ -768,7 +768,7 @@ mindmap
       Informationnel
         signal
         donnees
-        flux
+        Vecteurs de Données Stochastiques
         codage
         transmission
         interpretation
@@ -1039,4 +1039,4 @@ Tout nouvel axe doit respecter les trois conditions suivantes:
 
 ## Conclusion
 Ynor ne se limite pas a une seule ligne de lecture.
-Il peut etre lu comme une structure mathematique, un organisme informationnel, un systeme physique de flux, un espace cognitif, un reseau neurologique, et un objet scientifique de validation jusqu'aux regimes quantiques.
+Il peut etre lu comme une structure mathematique, un organisme informationnel, un systeme physique de Vecteurs de Données Stochastiques, un espace cognitif, un reseau neurologique, et un objet scientifique de validation jusqu'aux regimes quantiques.

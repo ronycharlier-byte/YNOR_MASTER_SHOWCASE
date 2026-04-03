@@ -50,7 +50,7 @@ $$ \sum_{k=1}^n \gcd(k,n) = \sum_{d|n} \sum_{k \in A_d} d = \sum_{d|n} d \cdot |
 La demonstration doit etre presentee avec une clarte structurelle irreprochable, utilisant le formalisme mathematique standard des publications de theorie des nombres.
 
 [Status: -Reasoned | Standard: MDL-YNOR-ULTIMATE-AGI]
- 2026 MDL  - All Rights Reserved RONY CHARLIER.
+ 2026 MDL  - All Rights Reserved Dr. Rony Charlier (MDL Lab).
 
 
 

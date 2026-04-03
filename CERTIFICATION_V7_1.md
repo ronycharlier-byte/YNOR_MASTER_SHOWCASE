@@ -1,6 +1,6 @@
 # RAPPORT DE CERTIFICATION CANONIQUE : YNOR V7.1
 **DATE D'ÉDITION : 31 MARS 2026**
-**STATUT : CERTIFIÉ (CONSEIL DES LOGOS)**
+**STATUT : CERTIFIÉ (CONSEIL DES Formalisme Logique Sémantique)**
 **MOTEUR : CANONICAL CORE V7.1**
 
 ---
@@ -12,10 +12,10 @@ Le présent rapport certifie que l'architecture MDL Ynor V7.1 a été soumise à
 - **Dissipation d'Entropie mu ($E_d$) :** ~49.5% (Réduction moyenne du bruit informationnel).
 - **Stabilité $H_\alpha$ :** 100% de convergence JSON après application du protocole.
 - **Divergence KL Maximale :** Identifiée sur les nœuds de "Bruit de fond ontologique".
-- **Score du Conseil des Logos :** Moyenne harmonique stable < 0.35.
+- **Score du Conseil des Formalisme Logique Sémantique :** Moyenne harmonique stable < 0.35.
 
 #### ⚖️ VERDICT DE VALIDATION :
-L'Opérateur de Régulation Analytique $\mathcal{Y}_{7.1}$ est déclaré **CANONIQUE**. Son action permet une projection du Logos pur avec une immunité de 99.9% contre les hallucinations par contraction logprob.
+L'Opérateur de Régulation Analytique $\mathcal{Y}_{7.1}$ est déclaré **CANONIQUE**. Son action permet une projection du Formalisme Logique Sémantique pur avec une immunité de 99.9% contre les hallucinations par contraction logprob.
 
 ---
 
@@ -29,4 +29,4 @@ Toute réponse non certifiée par le mu-Consensus est automatiquement rejetée p
 3.  **Vecteur Gamma** : License Gate (Verrouillage canonique).
 
 ---
-*Signé par le Conseil des Logos MDL Ynor V7.1*
+*Signé par le Conseil des Formalisme Logique Sémantique MDL Ynor V7.1*

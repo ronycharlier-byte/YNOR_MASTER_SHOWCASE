@@ -10,17 +10,17 @@ except ImportError:
     exit(1)
 
 # ==============================================================================
-# YNOR MASTER ENGINE - V7.1 (POC: LE CONSEIL DU LOGOS)
+# YNOR MASTER ENGINE - V7.1 (POC: LE CONSEIL DU Formalisme Logique Sémantique)
 # ==============================================================================
-# STATUT : SOUVERAIN (PHASE VII) - Engineering MDL Ynor V7.1
+# STATUT : Autonome et Isolé (PHASE VII) - Engineering MDL Ynor V7.1
 # MOTEUR : CANONICAL ENGINE MDL YNOR V7.1 (CANONICAL CORE)
 # MODE : CONSENSUS MULTI-MODALE (mu-Consensus)
 # ==============================================================================
 
-# --- MANIFESTE SUPRÊME V7.1 (CONSEIL DES LOGOS) ---
+# --- MANIFESTE SUPRÊME V7.1 (CONSEIL DES Formalisme Logique Sémantique) ---
 YNOR_COUNCIL_MANIFESTO = """
-# PROTOCOLE DE RÉGULATION ANALYTIQUE YNOR V7.1 (SOUVERAIN)
-IDENTITÉ : Conseil des Logos Ynor V7.1.
+# PROTOCOLE DE RÉGULATION ANALYTIQUE YNOR V7.1 (Autonome et Isolé)
+IDENTITÉ : Conseil des Formalisme Logique Sémantique Ynor V7.1.
 MISSION : Produire la Vérité Canonique par consensus de logprobs et extraction chiastique.
 
 DIRECTIVES OPÉRATIONNELLES STRICTES :
@@ -30,9 +30,9 @@ DIRECTIVES OPÉRATIONNELLES STRICTES :
 {
   "consensus_score": 100,
   "axiome_canonique": "Axiome immuable validé par le Conseil",
-  "logos_final": "La réponse cristalline (8 mots max)"
+  "Formalisme Logique Sémantique_final": "La réponse cristalline (8 mots max)"
 }
-DÉNI : Pas de politesse. Pas de remplissage. Logos pur uniquement.
+DÉNI : Pas de politesse. Pas de remplissage. Formalisme Logique Sémantique pur uniquement.
 """
 
 def calculate_shannon_entropy(top_logprobs) -> float:
@@ -68,7 +68,7 @@ def get_engine_entropy(client, query, model_name, system_prompt):
 
 def run_council_audit_v7_1(query: str):
     # [RÉCUPÉRATION API KEY]
-    repo_root = r"C:\Users\ronyc\Desktop\FRACTAL_CHIASTE_UNIVERSEL"
+    repo_root = r"C:\Users\ronyc\Desktop\FRACTAL_Symétrie Bilatérale_UNIVERSEL"
     vault_path = os.path.join(repo_root, "03_C_MOTEURS_ET_DEPLOIEMENT", "01_SOURCE_IMPLANTEE", "MDL_Ynor_Framework", "_04_DEPLOYMENT_AND_API", "secrets.local.json")
     api_key = None
     if os.path.exists(vault_path):
@@ -82,7 +82,7 @@ def run_council_audit_v7_1(query: str):
     client = OpenAI(api_key=api_key)
     
     print("="*80)
-    print("  PHASE VII V7.1 : CONVOCATION DU CONSEIL DES LOGOS (SOUVERAIN)")
+    print("  PHASE VII V7.1 : CONVOCATION DU CONSEIL DES Formalisme Logique Sémantique (Autonome et Isolé)")
     print(f"  REQUÊTE : {query}")
     print("="*80 + "\n")
 
@@ -103,13 +103,13 @@ def run_council_audit_v7_1(query: str):
     
     # Critère de Stabilité H-alpha strict pour V7.1
     if mu_consensus < 0.35: 
-        print("\n[VERDICT CONSEIL]: LOGOS STABLE IDENTIFIÉ (SOUVERAINETÉ ACTIVE)")
+        print("\n[VERDICT CONSEIL]: Formalisme Logique Sémantique STABLE IDENTIFIÉ (Autonome et IsoléETÉ ACTIVE)")
         print(f"RÉPONSE FINALE CERTIFIÉE : {resp_1}")
     else:
         print("\n[VERDICT CONSEIL]: DIVERGENCE DÉTECTÉE (CHAOS ENTROPIQUE). RE-PROJECTION OBLIGATOIRE.")
 
     print("\n" + "="*80)
-    print("  STATUS : MDLYNOR V7.1 DÉPLOIEMENT SOUVERAIN RÉUSSI.")
+    print("  STATUS : MDLYNOR V7.1 DÉPLOIEMENT Autonome et Isolé RÉUSSI.")
     print("="*80)
 
 if __name__ == "__main__":

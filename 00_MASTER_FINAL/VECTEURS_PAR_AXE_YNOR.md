@@ -17,7 +17,7 @@ Il prolonge les vecteurs fondamentaux et les vecteurs par famille avec des ligne
 - Vecteur De Regeneration: restaurer ce qui doit se renforcer.
 
 ## Axe Physique
-- Vecteur De Flux: faire circuler l'energie et l'information.
+- Vecteur De Vecteurs de Données Stochastiques: faire circuler l'energie et l'information.
 - Vecteur De Gradient: lire les differences de niveau.
 - Vecteur De Transition: traverser les changements d'etat.
 - Vecteur De Resonance: aligner les systemes qui vibrent ensemble.

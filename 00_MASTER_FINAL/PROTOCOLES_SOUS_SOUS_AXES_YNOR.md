@@ -31,7 +31,7 @@ Il sert de couche la plus granulaire avant l'usage concret ou la mise en oeuvre.
 4. Verifier la persistence du systeme.
 
 ## Domaine Physique
-### PFL1. Protocole De Flux
+### PFL1. Protocole De Vecteurs de Données Stochastiques
 1. Localiser la source.
 2. Mesurer le debit.
 3. Reperer les pertes.

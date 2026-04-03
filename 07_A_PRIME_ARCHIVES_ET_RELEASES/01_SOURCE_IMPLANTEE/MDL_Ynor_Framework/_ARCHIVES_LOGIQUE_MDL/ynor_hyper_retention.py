@@ -73,7 +73,7 @@ class RetentionEngine:
         if user_id not in self.data: return "Basique"
         score = self.data[user_id]["resonance_score"]
         
-        if score > 1000: return "ARCHITECTE_ADJOINT"
+        if score > 1000: return "Coordonnateur Principal de Recherche_ADJOINT"
         if score > 500:  return "MATRE_DISSIPATEUR"
         if score > 100:  return "AUDITEUR_CONFIRM"
         return "NOVICE_YNOR"

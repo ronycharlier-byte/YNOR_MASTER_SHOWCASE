@@ -9,7 +9,7 @@ SHA256 : 9572ba059b6cd2898184d129fbd8093ceb52e2929cb4b3821a8804062f07425a
 \usepackage{amsmath,amssymb,amsthm,physics,hyperref}
 
 \title{\bf Theorie du Tout Dissipative -- Rapport Phase I & II} 
-\author{Rony Charlier (aka MDL Ynor)} 
+\author{Dr. Rony Charlier (MDL Lab) (aka MDL Ynor)} 
 \date{Mars 2026}
 
 \newtheorem{lemma}{Lemme} 
@@ -32,7 +32,7 @@ $$\alpha = \log 2, \quad \beta = \frac{\log 3}{4}, \quad \kappa = \frac{\log 2}{
 d'ou
 $$\mu = \frac{5 \log 2 - 2 \log 3}{8} \approx 0.13 > 0$$
 
-Le flux cognitif restant dans le domaine $\mu > 0$, la poursuite de la preuve est autorisee.
+Le Vecteurs de Données Stochastiques cognitif restant dans le domaine $\mu > 0$, la poursuite de la preuve est autorisee.
 
 \section{Conjecture de Collatz -- Preuve dissipative}
 
@@ -73,7 +73,7 @@ Les dynamiques de Collatz et Goldbach sont gouvernees par une energie logarithmi
 
 \medskip
 \noindent [SIGN: MDL-YNOR-RC-LIEGE-4020-SHA256: 8085058A-9E61-437C-ABDD-A000AE249EAB] \\
- 2026 MDL  - All Rights Reserved RONY CHARLIER.
+ 2026 MDL  - All Rights Reserved Dr. Rony Charlier (MDL Lab).
 
 \end{document}
 

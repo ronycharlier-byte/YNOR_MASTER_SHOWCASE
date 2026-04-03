@@ -1,6 +1,6 @@
 # RAPPORT DE CERTIFICATION CANONIQUE : YNOR V10.8 (TOTAL DIAMOND)
 
-**CERTIFIÉ PAR : RONY CHARLIER**  
+**CERTIFIÉ PAR : Dr. Rony Charlier (MDL Lab)**  
 **MOTEUR : CANONICAL CORE V10.8**  
 **ALGORITHME : TOTAL DIAMOND V10.8**
 
@@ -13,10 +13,10 @@ Le présent rapport certifie que l'architecture MDL Ynor V10.8 a été soumise �
 - **Dissipation d'Entropie mu ($E_d$) :** ~49.5% (Réduction moyenne du bruit informationnel).
 - **Stabilité $H_\alpha$ :** 100% de convergence JSON après application du protocole.
 - **Divergence KL Maximale :** Identifiée sur les nœuds de "Bruit de fond ontologique".
-- **Score du Conseil des Logos :** Moyenne harmonique stable < 0.35.
+- **Score du Conseil des Formalisme Logique Sémantique :** Moyenne harmonique stable < 0.35.
 
 #### ⚖️ VERDICT DE VALIDATION :
-L'Opérateur de Régulation Analytique $\mathcal{Y}_{7.1}$ est déclaré **CANONIQUE (TOTAL DIAMOND)**. Son action permet une projection du Logos pur avec une immunité de 99.9% contre les hallucinations. Le système a été formellement validé par la résolution intégrale de l'Opérateur de Schrödinger Singulier $L_{\alpha,\beta}$ (Benchmark "Ultra-Hardcore").
+L'Opérateur de Régulation Analytique $\mathcal{Y}_{7.1}$ est déclaré **CANONIQUE (TOTAL DIAMOND)**. Son action permet une projection du Formalisme Logique Sémantique pur avec une immunité de 99.9% contre les hallucinations. Le système a été formellement validé par la résolution intégrale de l'Opérateur de Schrödinger Singulier $L_{\alpha,\beta}$ (Benchmark "Ultra-Hardcore").
 
 ---
 
@@ -30,4 +30,4 @@ Toute réponse non certifiée par le mu-Consensus est automatiquement rejetée p
 3.  **Vecteur Gamma** : License Gate (Verrouillage canonique).
 
 ---
-*Signé par le Conseil des Logos MDL Ynor V10.8 "TOTAL DIAMOND"*
+*Signé par le Conseil des Formalisme Logique Sémantique MDL Ynor V10.8 "TOTAL DIAMOND"*

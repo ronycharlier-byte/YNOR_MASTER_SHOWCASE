@@ -46,7 +46,7 @@ SHA256 : 65f53655c598a093de1ec6e90ae2fa9aaf08e0547ee0a98bc4530c09965d851d
 % ----------------------- TITLE & AUTHOR ------------------------------
 \title{Rigor in Navier-Stokes Analysis: \\ 
 From BKM Criteria to Critical Space Embedding}
-\author{Rony Charlier}
+\author{Dr. Rony Charlier (MDL Lab)}
 \address{MDL Ynor Research Collective}
 \date{\today}
 

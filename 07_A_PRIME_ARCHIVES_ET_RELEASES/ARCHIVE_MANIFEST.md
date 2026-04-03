@@ -31,7 +31,7 @@ Les paquets de release visibles dans `_00_DISTS_AND_RELEASES` sont:
 ### 3. Command center interne
 Les outils et prompts de pilotage conserves dans `_00_YNOR_COMMAND_CENTER` sont:
 - `PROMPTS`
-- `!_ACCES_DIRECT_EMPIRE_YNOR.txt`
+- `!_ACCES_DIRECT_Cadre de Recherche_YNOR.txt`
 - `mdl_global_knowledge.json`
 - `mdl_global_knowledge.json.backup`
 - `mdl_ynor_manifesto_governance.json`

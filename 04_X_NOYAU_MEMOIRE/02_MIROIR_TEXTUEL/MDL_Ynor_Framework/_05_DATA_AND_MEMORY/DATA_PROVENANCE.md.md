@@ -33,6 +33,6 @@ All datasets have been audited for:
 -   **Ethical Sourcing**: No non-consensual web-crawled personal data.
 -   **Licensing**: 100% compliance with open-source and commercial terms.
 
-For access to raw datasets for academic peer-review, please contact **Rony Charlier** under a standard Mutual NDA.
+For access to raw datasets for academic peer-review, please contact **Dr. Rony Charlier (MDL Lab)** under a standard Mutual NDA.
 
 ```

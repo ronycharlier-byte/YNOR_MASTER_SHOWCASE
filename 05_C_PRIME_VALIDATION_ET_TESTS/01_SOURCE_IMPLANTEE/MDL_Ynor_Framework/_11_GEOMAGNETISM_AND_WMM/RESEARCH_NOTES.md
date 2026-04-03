@@ -1,4 +1,4 @@
-# Notes de Recherche : Impacts Biologiques et Dynamique et des Flux
+# Notes de Recherche : Impacts Biologiques et Dynamique et des Vecteurs de Données Stochastiques
 
 ## 1. Biologie Magnetique : Le GPS Naturel
 Le "sens magnetique" (magnetoreception) est documente chez des dizaines d'especes :
@@ -31,7 +31,7 @@ Moteur a 2900 km de profondeur (Turbine de 7000 km de diametre).
 ###  Bibliographie Selective
 - **NOAA / NCEI** : WMM 2026 / HDGM High Definition Update.
 - **ESA Swarm** : Rapports de mission (2014-2025).
-- **Nature Geoscience** (2026) : Etude sur les LLSVPs (Blobs) et le flux thermique mantellique.
+- **Nature Geoscience** (2026) : Etude sur les LLSVPs (Blobs) et le Vecteurs de Données Stochastiques thermique mantellique.
 - **Science** (2025) : Mecanisme de la magnetoreception retinienne (Cryptochromes).
 - **University of Utah** (2026) : Analyse des sediments marins sur les inversions prolongees.
 *Voir `SOURCES.md` pour la liste complete.*

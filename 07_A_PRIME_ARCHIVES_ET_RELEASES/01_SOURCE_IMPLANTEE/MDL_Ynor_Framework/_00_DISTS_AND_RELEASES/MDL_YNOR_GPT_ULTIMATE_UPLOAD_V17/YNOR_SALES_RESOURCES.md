@@ -4,7 +4,7 @@
 MDL Ynor n'est pas une simple intelligence artificielle (Systeme 1). C'est une architecture auditable (Systeme 2) garantissant la rentabilite et la securite de tes agents autonomes via l'quation Mu ().
 
 ##  Script de Closing (Demonstration en Direct)
-1. "Demandez-moi un Audit Mu immediat pour votre flux de travail actuel."
+1. "Demandez-moi un Audit Mu immediat pour votre Vecteurs de Données Stochastiques de travail actuel."
 2. "Regardez la chute de votre marge de viabilite si vous ne controlez pas vos tokens."
 3. "Imaginez economiser 30% de votre facture Cloud des ce soir."
 
