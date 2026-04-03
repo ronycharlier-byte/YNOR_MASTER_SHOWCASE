@@ -1,0 +1,6 @@
+* text=auto
+Procfile text eol=lf
+app.py text eol=lf
+requirements.txt text eol=lf
+render.yaml text eol=lf
+YNOR_MARKET_DYNAMICS_NEXUS/ynor_market_bridge.py text eol=lf
