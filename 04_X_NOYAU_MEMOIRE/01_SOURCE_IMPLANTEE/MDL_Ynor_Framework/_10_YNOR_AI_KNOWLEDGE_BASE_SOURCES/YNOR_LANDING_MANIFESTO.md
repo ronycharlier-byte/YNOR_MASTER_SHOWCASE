@@ -66,4 +66,4 @@ If your production agents aren't monitoring $ \mu $, they are mathematically gua
 ### **Ynor: We decide when the noise stops.**
 
 ---
-*Created by Charlier Rony | MDL Ynor Architecture*
+*Created by Charlier Rony | MDL Ynor Principal Investigatorure*

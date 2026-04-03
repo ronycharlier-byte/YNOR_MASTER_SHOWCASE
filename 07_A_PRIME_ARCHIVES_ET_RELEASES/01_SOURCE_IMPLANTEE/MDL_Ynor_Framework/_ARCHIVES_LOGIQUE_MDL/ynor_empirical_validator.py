@@ -1,6 +1,6 @@
 ﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # PROTOCOLE DE FALSIFICATION ET VALIDATION EMPIRIQUE v1.0
 # =============================================================================
 import numpy as np
@@ -10,7 +10,7 @@ import os
 
 class EmpiricalValidator:
     """
-    Moteur de validation scientifique de l'Architecture MDL Ynor.
+    Moteur de validation scientifique de l'Principal Investigatorure MDL Ynor.
     Verifie la correlation entre la theorie (Mu > 0) et l'observation (Stabilite).
     """
     def __init__(self, samples=100):
@@ -74,10 +74,10 @@ class EmpiricalValidator:
             "empirical_accuracy_percent": self.accuracy,
             "total_samples": self.samples,
             "hypothesis": "H0: System is stable iff mu = Alpha - (Beta + Kappa) > 0",
-            "conclusion": f"L'Architecture MDL Ynor est validee empiriquement avec {self.accuracy}% de precision."
+            "conclusion": f"L'Principal Investigatorure MDL Ynor est validee empiriquement avec {self.accuracy}% de precision."
         }
         
-        base_dir = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework"
+        base_dir = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework"
         report_path = os.path.join(base_dir, "ynor_validation_report.json")
         
         with open(report_path, "w", encoding="utf-8") as f:

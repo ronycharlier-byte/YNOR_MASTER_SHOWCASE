@@ -123,15 +123,15 @@
       "mode": "parsed_json"
     },
     {
-      "source": "_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Global_Knowledge.json",
+      "source": "_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Global_Knowledge.json",
       "node": "07_A_PRIME_ARCHIVES_ET_RELEASES",
-      "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/07_REECRITURE_JSON_CHIASTIQUE/_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Global_Knowledge.json.fractale.md",
+      "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/07_REECRITURE_JSON_CHIASTIQUE/_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Global_Knowledge.json.fractale.md",
       "mode": "parsed_json"
     },
     {
-      "source": "_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Global_Knowledge.json",
+      "source": "_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Canonical_Global_Knowledge.json",
       "node": "07_A_PRIME_ARCHIVES_ET_RELEASES",
-      "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/07_REECRITURE_JSON_CHIASTIQUE/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Global_Knowledge.json.fractale.md",
+      "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/07_REECRITURE_JSON_CHIASTIQUE/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Canonical_Global_Knowledge.json.fractale.md",
       "mode": "parsed_json"
     }
   ]

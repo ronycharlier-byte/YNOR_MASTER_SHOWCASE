@@ -1,7 +1,7 @@
 """
 MDL YNOR QUANTUM - STRATEGY 2: TWITTER SENTIMENT (ENGAGEMENT RATIO)
 ==================================================================
-Architecture : Sentiment-Driven Alpha Extraction
+Principal Investigatorure : Sentiment-Driven Alpha Extraction
 Core logic:
 1. Load social media metrics (Likes, Comments, Sentiment)
 2. Filter for significant engagement (Noise Reduction)

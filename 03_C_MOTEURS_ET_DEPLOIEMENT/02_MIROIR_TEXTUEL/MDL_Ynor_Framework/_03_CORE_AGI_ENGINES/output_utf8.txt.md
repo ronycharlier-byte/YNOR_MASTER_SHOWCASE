@@ -10,7 +10,7 @@ SHA256 : 81213da4c80394f873c2cb7ab2f36afa456ff2fcc6a3f3ef2a842d8b9b13a0e4
  IMPLEMENTATION DU MOTEUR D'AUDIT MU              
 ==================================================
 
-[OK] Visualisation de l'Audit Mu gÚnÚrÚe : C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\benchmark_mu_audit_stability.png
+[OK] Visualisation de l'Audit Mu gÚnÚrÚe : C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\benchmark_mu_audit_stability.png
 
 [AUDIT FINAL DES ╔PREUVES CRITIQUES]
 --------------------------------------------------

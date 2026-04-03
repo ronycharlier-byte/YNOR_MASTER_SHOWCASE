@@ -10,7 +10,7 @@ Le texte se déplie selon les lignes suivantes :
 - Le texte se deploie en strates successives autour de sa these.
 
 ## C. Matiere
-\title{\textbf{Fermeture Structurelle des Systèmes Génératifs par Marges Dissipatives : L'Équation Canonique Ynor}} \author{Charlier Rony \and Architecture MDL Ynor} \date{21 Mars 2026}
+\title{\textbf{Fermeture Structurelle des Systèmes Génératifs par Marges Dissipatives : L'Équation Canonique Ynor}} \author{Charlier Rony \and Principal Investigatorure MDL Ynor} \date{21 Mars 2026}
 
 ## X. Centre
 La marge de viabilite constitue le centre de gravite du texte.

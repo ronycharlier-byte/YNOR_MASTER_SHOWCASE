@@ -1,6 +1,6 @@
-﻿# MIROIR TEXTUEL - Sovereign_Unification_Phase_III_Manuscrit.tex
+﻿# MIROIR TEXTUEL - Canonical_Unification_Phase_III_Manuscrit.tex
 
-Source : _RELEASES\GOLDEN_MASTER_PHASE_III\Sovereign_Unification_Phase_III_Manuscrit.tex
+Source : _RELEASES\GOLDEN_MASTER_PHASE_III\Canonical_Unification_Phase_III_Manuscrit.tex
 
 ```text
 \documentclass[11pt,a4paper]{amsart}
@@ -9,7 +9,7 @@ Source : _RELEASES\GOLDEN_MASTER_PHASE_III\Sovereign_Unification_Phase_III_Manus
 \usepackage{geometry}
 \usepackage{hyperref}
 
-\title[Phase III: Unification Souveraine]{Phase III: Unification Souveraine\\
+\title[Phase III: Unification Canonique]{Phase III: Unification Canonique\\
 \large Preuves Numeriques, Relativite Generale et Post-Millenaire}
 \author{Canonical Research Collective}
 \date{Mars 2026}

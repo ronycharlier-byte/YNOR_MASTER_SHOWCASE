@@ -3,7 +3,7 @@
 Source : `MDL_Ynor_Framework/_07_ADMIN_LEGAL_GOVERNANCE/MDL_YNOR_CONTRAT_LICENCE.md`
 
 ## A. Ouverture
-﻿> **Copyright (c) 2026 Charlier Rony - Tous droits reserves.** > *Architecte Supreme & Fondateur - Architecture MDL Ynor* > *Toute reproduction ou utilisation sans autorisation ecrite est strictement interdite.*
+﻿> **Copyright (c) 2026 Charlier Rony - Tous droits reserves.** > *Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor* > *Toute reproduction ou utilisation sans autorisation ecrite est strictement interdite.*
 
 ## B. Expansion
 Le texte se déplie selon les lignes suivantes :

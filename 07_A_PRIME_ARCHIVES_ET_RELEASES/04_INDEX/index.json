@@ -462,7 +462,7 @@
       "kind": "text"
     },
     {
-      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\PROMPTS\\_MASTER_PROMPTS_HISTORY\\03_MDL_YNOR_MASTER_PROMPT_V3_SOVEREIGN.md",
+      "source": "MDL_Ynor_Framework\\_00_YNOR_COMMAND_CENTER\\PROMPTS\\_MASTER_PROMPTS_HISTORY\\03_MDL_YNOR_MASTER_PROMPT_V3_CANONICAL.md",
       "size_bytes": 2968,
       "sha256": "d1e957355af6421313cb55ab0e03b0e560030f499ddda2d4f1d654425bdd8cca",
       "kind": "text"
@@ -540,7 +540,7 @@
       "kind": "text"
     },
     {
-      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\MDL_Ynor_Unified_Architecture.py",
+      "source": "MDL_Ynor_Framework\\_ARCHIVES_LOGIQUE_MDL\\MDL_Ynor_Unified_Principal Investigatorure.py",
       "size_bytes": 9558,
       "sha256": "dd5672c894d7a41db0187ef4d3ed3064ed3605a239ab4914f3df9e00f57ad2b6",
       "kind": "text"
@@ -738,7 +738,7 @@
       "kind": "text"
     },
     {
-      "source": "_RELEASES\\MDL_YNOR_SOVEREIGN_ARCH_GOLDEN_MASTER_2026.zip",
+      "source": "_RELEASES\\MDL_YNOR_CANONICAL_ARCH_GOLDEN_MASTER_2026.zip",
       "size_bytes": 35217481,
       "sha256": "c220d98e8eb864bcbcc55337c38a93eccc365ff8cd54acfb9d19561905c758b4",
       "kind": "text"

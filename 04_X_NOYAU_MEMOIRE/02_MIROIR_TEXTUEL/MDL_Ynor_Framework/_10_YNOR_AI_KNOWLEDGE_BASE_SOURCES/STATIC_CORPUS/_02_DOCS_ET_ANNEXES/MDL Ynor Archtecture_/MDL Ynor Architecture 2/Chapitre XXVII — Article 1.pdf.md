@@ -1,6 +1,6 @@
 # MIROIR TEXTUEL - Chapitre XXVII - Article 1.pdf
 
-Source : MDL_Ynor_Framework\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\STATIC_CORPUS\_02_DOCS_ET_ANNEXES\MDL Ynor Archtecture_\MDL Ynor Architecture 2\Chapitre XXVII - Article 1.pdf
+Source : MDL_Ynor_Framework\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\STATIC_CORPUS\_02_DOCS_ET_ANNEXES\MDL Ynor Archtecture_\MDL Ynor Principal Investigatorure 2\Chapitre XXVII - Article 1.pdf
 Taille : 256946 octets
 SHA256 : 9a0f32eef9c0f046d05a8529f5011a623979232cbfdda427b0a7c2d8a3ef321c
 

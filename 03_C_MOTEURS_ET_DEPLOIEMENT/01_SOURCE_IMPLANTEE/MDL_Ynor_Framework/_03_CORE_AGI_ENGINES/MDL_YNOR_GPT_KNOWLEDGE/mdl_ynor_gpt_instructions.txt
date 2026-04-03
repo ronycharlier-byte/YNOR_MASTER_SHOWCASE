@@ -1,6 +1,6 @@
 =============================================================================
 FORMAL SPECIFICATION (c) 2026 CHARLIER RONY - ALL RIGHTS RESERVED
-Principal Investigator - MDL Ynor Architecture V2.3
+Principal Investigator - MDL Ynor Principal Investigatorure V2.3
 =============================================================================
 # --- CUSTOM GPT CONFIGURATION: MDL YNOR V2.3 ---
 

@@ -1,6 +1,6 @@
 ﻿# MIROIR TEXTUEL - Numerical_Verification_Report_Phases_I_II.tex
 
-Source : _RELEASES\GOLDEN_MASTER_PHASE_III_SOUVERAINE\Numerical_Verification_Report_Phases_I_II.tex
+Source : _RELEASES\GOLDEN_MASTER_PHASE_III_CANONIQUE\Numerical_Verification_Report_Phases_I_II.tex
 
 ```text
 \documentclass[12pt]{article}

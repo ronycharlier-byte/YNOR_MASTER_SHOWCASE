@@ -15,7 +15,7 @@ Le texte se déplie selon les lignes suivantes :
 - $\beta$: Generative Pressure (Computational Cost).
 
 ## C. Matiere
-| Persona | Stratum | Operational Mode | | :--- | :--- | :--- | | **Architectural PI** | Stratum 3 | Systemic Governance | | **Quantitative Regulator** | Stratum 2 | Financial Risk Audit | | **Geodynamic Analyst** | Stratum 2 | Navigation Vectoring | | **Security Substrate** | Stratum 1 | IP Isolation |
+| Persona | Stratum | Operational Mode | | :--- | :--- | :--- | | **Principal Investigatorural PI** | Stratum 3 | Systemic Governance | | **Quantitative Regulator** | Stratum 2 | Financial Risk Audit | | **Geodynamic Analyst** | Stratum 2 | Navigation Vectoring | | **Security Substrate** | Stratum 1 | IP Isolation |
 
 ## X. Centre
 La marge de viabilite constitue le centre de gravite du texte.

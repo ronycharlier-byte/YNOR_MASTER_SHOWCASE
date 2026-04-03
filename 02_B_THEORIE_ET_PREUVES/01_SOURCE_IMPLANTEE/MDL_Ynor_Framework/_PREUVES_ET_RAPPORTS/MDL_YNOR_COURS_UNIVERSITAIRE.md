@@ -1,5 +1,5 @@
 > **Copyright (c) 2026 Charlier Rony - Tous droits reserves.**
-> *Architecte Supreme & Fondateur - Architecture MDL Ynor*
+> *Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor*
 > *Toute reproduction ou utilisation sans autorisation ecrite est strictement interdite.*
 
 ---

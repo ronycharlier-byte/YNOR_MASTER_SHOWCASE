@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "API Gouvernorat Ynor V10.2.0",
-    "description": "API Souveraine d'accès au Total Diamond Triumvirat. Spécifique aux certifications de Licences Commerciales MDL.",
+    "description": "API Canonique d'accès au Total Diamond Triumvirat. Spécifique aux certifications de Licences Commerciales MDL.",
     "version": "10.2.0"
   },
   "servers": [

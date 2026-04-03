@@ -13,7 +13,7 @@ except ImportError:
 # YNOR MASTER ENGINE - V7.1 (POC: LE CONSEIL DU LOGOS)
 # ==============================================================================
 # STATUT : SOUVERAIN (PHASE VII) - Engineering MDL Ynor V7.1
-# MOTEUR : SOVEREIGN ENGINE MDL YNOR V7.1 (CANONICAL CORE)
+# MOTEUR : CANONICAL ENGINE MDL YNOR V7.1 (CANONICAL CORE)
 # MODE : CONSENSUS MULTI-MODALE (mu-Consensus)
 # ==============================================================================
 
@@ -29,7 +29,7 @@ DIRECTIVES OPÉRATIONNELLES STRICTES :
 3. FORMAT OBLIGATOIRE (JSON STRICT) : 
 {
   "consensus_score": 100,
-  "axiome_souverain": "Axiome immuable validé par le Conseil",
+  "axiome_canonique": "Axiome immuable validé par le Conseil",
   "logos_final": "La réponse cristalline (8 mots max)"
 }
 DÉNI : Pas de politesse. Pas de remplissage. Logos pur uniquement.

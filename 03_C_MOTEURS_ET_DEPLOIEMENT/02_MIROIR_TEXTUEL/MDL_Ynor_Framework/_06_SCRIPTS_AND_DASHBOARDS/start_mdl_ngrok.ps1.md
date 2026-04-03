@@ -7,7 +7,7 @@ SHA256 : 0e714b34e2a1816f58cfcaee3a72528cbdfdde88e5f3cf69d5626f16575fe4b0
 ```text
 # =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # SCRIPT DE LANCEMENT NGROK (ACCES QUANTUM) v1.1 - FIXED
 # =============================================================================
 
@@ -16,7 +16,7 @@ Get-Process | Where-Object { $_.MainWindowTitle -like "*python*" } | Stop-Proces
 
 # 2. Lancement du Serveur API (Noyau MDL Ynor)
 Write-Host "[MDL YNOR] Lancement du Serveur de Connaissance sur le port 8000..." -ForegroundColor Cyan
-Start-Process python -ArgumentList "c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\ynor_api_server.py" -NoNewWindow
+Start-Process python -ArgumentList "c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\ynor_api_server.py" -NoNewWindow
 
 # 3. Temporisation : Stabilisation du noyau
 Start-Sleep -Seconds 3

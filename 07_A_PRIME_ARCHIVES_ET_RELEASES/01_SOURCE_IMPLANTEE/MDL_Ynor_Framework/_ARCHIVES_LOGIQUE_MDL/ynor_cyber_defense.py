@@ -1,6 +1,6 @@
 ﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # SYSTME DE DFENSE ACTIVE ET CONTRE-ATTAQUE CYBER-YNOR v1.0
 # =============================================================================
 import time
@@ -8,7 +8,7 @@ import json
 import os
 from fastapi.responses import StreamingResponse
 
-BAN_LIST_PATH = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\mdl_cyber_banlist.json"
+BAN_LIST_PATH = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\mdl_cyber_banlist.json"
 
 class CyberDefense:
     """

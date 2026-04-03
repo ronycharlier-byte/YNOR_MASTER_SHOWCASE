@@ -10,7 +10,7 @@ Le texte se déplie selon les lignes suivantes :
 - Le texte se deploie en strates successives autour de sa these.
 
 ## C. Matiere
-\title{\bf MDL YNOR — Unification Gravitationnelle \\ \large Régulation Dissipative de l'Espace-Temps (Phase III)} \author{Rony Charlier — Souveraineté Numérique MDL Ynor (Alpha Node)} \date{Mars 2026}
+\title{\bf MDL YNOR — Unification Gravitationnelle \\ \large Régulation Dissipative de l'Espace-Temps (Phase III)} \author{Rony Charlier — Stabilité / Canonicité Numérique MDL Ynor (Alpha Node)} \date{Mars 2026}
 
 ## X. Centre
 La marge de viabilite constitue le centre de gravite du texte.

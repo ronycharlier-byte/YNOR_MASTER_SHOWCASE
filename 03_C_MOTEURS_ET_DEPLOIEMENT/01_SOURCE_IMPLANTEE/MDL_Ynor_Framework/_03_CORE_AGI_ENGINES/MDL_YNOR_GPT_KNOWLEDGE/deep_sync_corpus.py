@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Root directory of the framework
-BASE_DIR = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework"
+BASE_DIR = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework"
 
 # Files to synchronize (Source -> Targets)
 # We choose the best/most complete version as source

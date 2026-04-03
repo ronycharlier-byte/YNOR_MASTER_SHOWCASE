@@ -1,6 +1,6 @@
 ﻿# THEORIE DU TOUT DISSIPATIVE - RAPPORT PHASE I & II - VERSION FRACTALE AUGMENTEE
 
-Source : `_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Numerical_Verification_Report_Phases_I_II.tex`
+Source : `_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/Numerical_Verification_Report_Phases_I_II.tex`
 
 ## A. Ouverture
 Le rapport est resserre dans une forme plus lisible.

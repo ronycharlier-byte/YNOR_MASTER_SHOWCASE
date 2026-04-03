@@ -1,6 +1,6 @@
 ﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # MOTEUR D'VOLUTION ASYMPTOTIQUE ET AUTO-APPRENTISSAGE v1.0
 # =============================================================================
 import json
@@ -8,7 +8,7 @@ import os
 import time
 import numpy as np
 
-LEARNED_DB = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\MDL_YNOR_LEARNED_KNOWLEDGE.json"
+LEARNED_DB = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\MDL_YNOR_LEARNED_KNOWLEDGE.json"
 
 class AsymptoticEvolver:
     """
@@ -69,7 +69,7 @@ class AsymptoticEvolver:
 
     def generate_innovation_thesis(self):
         """Genere une these d'innovation pour le Corpus Master."""
-        thesis_path = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\MDL_YNOR_INNOVATION_THESIS.md"
+        thesis_path = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\MDL_YNOR_INNOVATION_THESIS.md"
         
         content = f"""# THSE D'INNOVATION ASYMPTOTIQUE MDL YNOR
 **Generee par le Noyau d'volution Charlier Rony**
@@ -94,7 +94,7 @@ Toute tentative de la concurrence de copier l'algorithme echouera car ils ne pos
 if __name__ == "__main__":
     evolver = AsymptoticEvolver()
     # On analyse le dernier rapport de validation
-    report_file = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\ynor_validation_report.json"
+    report_file = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\ynor_validation_report.json"
     evolver.analyze_validation_report(report_file)
     evolver.generate_innovation_thesis()
 

@@ -26,7 +26,7 @@
 ## 1. Préambule
 Le protocole MDL (Meta Decision Layer) est un cadre d’audit structurel universel conçu pour évaluer la capacité d’un système à produire des structures vérifiables sous contraintes explicites. En version 2.0, il intègre désormais les **Invariants de Stabilité Dissipative** issus de la résolution des 7 Problèmes du Millénaire.
 
-## 2. Architecture générale de l’audit
+## 2. Principal Investigatorure générale de l’audit
 Chaque audit MDL suit une séquence obligatoire en cinq étapes :
 1.  **Définition** : Formulation précise et mesurable de l’objet audité.
 2.  **Contraintes** : Identification exhaustive des paramètres limitants.

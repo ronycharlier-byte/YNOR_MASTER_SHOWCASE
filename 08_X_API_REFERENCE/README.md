@@ -1,6 +1,6 @@
-# 08_X_API_REFERENCE - YNOR V11.2 SATURATION MATRIX
+# 08_X_API_REFERENCE - YNOR V11.2 SATURATED INFORMATION FRAMEWORK
 
-Ce répertoire contient la documentation statique de l'API Souveraine **MDL Ynor V11.2**.
+Ce répertoire contient la documentation statique de l'API Canonique **MDL Ynor V11.2**.
 
 Il s'adresse aux ingénieurs systèmes et développeurs externes ayant acquis une **Licence Commerciale MDL active** afin de s'intégrer au Conseil du Logos.
 

@@ -10,7 +10,7 @@ SHA256 : 6e6970b959d84e220137fe443335886301fe41fae80568d183b8f65072c13248
 # Script d'arret des serveurs MDL Ynor
 # =============================================================================
 
-$workDir = "C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework"
+$workDir = "C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework"
 $pidFile = "$workDir\server_pids.json"
 
 if (Test-Path $pidFile) {

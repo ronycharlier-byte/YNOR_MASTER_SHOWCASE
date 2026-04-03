@@ -1,4 +1,4 @@
-# SOVEREIGN SCIENTIFIC WHITE PAPER V3 - VERSION FRACTALE ET CHIASTIQUE
+# CANONICAL SCIENTIFIC WHITE PAPER V3 - VERSION FRACTALE ET CHIASTIQUE
 
 ## A. Hypothese
 Le white paper affirme qu'une architecture stable doit pouvoir traduire la complexite en marge positive.
@@ -42,7 +42,7 @@ Ce qui etait fondement theoretique se recompose en preuve publique.
 
 ## A'. Conclusion
 Le white paper se clot comme il s'ouvrait, mais renverse :
-au lieu de promettre la stabilite, il la presente comme condition de toute architecture souveraine.
+au lieu de promettre la stabilite, il la presente comme condition de toute architecture canonique.
 
 Forme chiastique :
 - hypothese

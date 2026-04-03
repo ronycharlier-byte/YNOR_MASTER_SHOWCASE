@@ -114,7 +114,7 @@ Il sert de couche intermediaire entre les vecteurs par axe et les vecteurs feuil
 - Rythme: Vecteur De Cadence, Vecteur De Pulse.
 - Temporalite: Vecteur De Duree, Vecteur De Moment.
 
-## Axe Architectural
+## Axe Principal Investigatorural
 - Structure: Vecteur De Charpente, Vecteur D'Ordre.
 - Niveau: Vecteur D'Echelle, Vecteur De Couche.
 - Couche: Vecteur De Stratification, Vecteur De Recouvrement.
@@ -240,7 +240,7 @@ Il sert de couche intermediaire entre les vecteurs par axe et les vecteurs feuil
 - Decision Collective: Vecteur De Deliberation, Vecteur D'Arbitrage.
 - Legitimite: Vecteur D'Autorite, Vecteur De Reconnaissance.
 - Representation: Vecteur De Porte-Parole, Vecteur De Mandat.
-- Souverainete: Vecteur D'Autonomie, Vecteur De Tenue.
+- Canoniquete: Vecteur D'Autonomie, Vecteur De Tenue.
 - Conflit: Vecteur De Tension, Vecteur D'Opposition.
 - Coalition: Vecteur D'Alliance, Vecteur De Convergence.
 
@@ -286,7 +286,7 @@ Il sert de couche intermediaire entre les vecteurs par axe et les vecteurs feuil
 
 ## Axe Ingenierique
 - Conception: Vecteur De Schema, Vecteur De Dessin.
-- Architecture: Vecteur De Structure, Vecteur D'Assemblage.
+- Principal Investigatorure: Vecteur De Structure, Vecteur D'Assemblage.
 - Integration: Vecteur D'Interface, Vecteur De Fusion.
 - Test: Vecteur De Verification, Vecteur De Preuve.
 - Fiabilite: Vecteur De Tenue, Vecteur De Stabilite.
@@ -349,7 +349,7 @@ Il sert de couche intermediaire entre les vecteurs par axe et les vecteurs feuil
 - Frontiere: Vecteur De Bord, Vecteur De Passage.
 - Influence: Vecteur D'Orientation, Vecteur De Rayonnement.
 - Alliance: Vecteur D'Appui, Vecteur D'Accord.
-- Souverainete: Vecteur D'Autonomie, Vecteur De Tenue.
+- Canoniquete: Vecteur D'Autonomie, Vecteur De Tenue.
 - Circulation: Vecteur De Flux, Vecteur De Relais.
 - Conflit: Vecteur De Tension, Vecteur De Frappe.
 - Positionnement: Vecteur De Place, Vecteur De Cap.

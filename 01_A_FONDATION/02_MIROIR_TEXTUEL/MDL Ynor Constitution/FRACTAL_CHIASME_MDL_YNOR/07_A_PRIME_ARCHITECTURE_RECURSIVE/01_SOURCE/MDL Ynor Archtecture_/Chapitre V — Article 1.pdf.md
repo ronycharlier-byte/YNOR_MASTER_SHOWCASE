@@ -10613,7 +10613,7 @@ endobj
 /Next 1256 0 R>>
 endobj
 1256 0 obj
-<</Title (5. Architecture adaptative )
+<</Title (5. Principal Investigatorure adaptative )
 /Dest [25 0 R /XYZ 72.755371 452.64111 0]
 /Parent 1222 0 R
 /SE 354 0 R
@@ -10629,7 +10629,7 @@ endobj
 /Next 1258 0 R>>
 endobj
 1258 0 obj
-<</Title (6. Architecture compensatoire )
+<</Title (6. Principal Investigatorure compensatoire )
 /Dest [27 0 R /XYZ 72.722168 766.27295 0]
 /Parent 1222 0 R
 /SE 370 0 R

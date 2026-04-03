@@ -13,11 +13,11 @@ Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition 
 ## C. Matiere
 Extrait textuel interpretable :
 ```text
-CORPUS MDL — VERSION CONSTITUTIONNELLE 2026 Version 2.0 — Niveau 9.5/10 — Document Maître Intégral de Dépôt Date d’édition : 17/02/2026 Architecture Décisionnelle Universelle Hybride PRÉAMBULE Le présent document formalise l’architecture complète du Corpus MDL. Il constitue une structure normative organisée en articles, annexes et définitions codifiées.
+CORPUS MDL — VERSION CONSTITUTIONNELLE 2026 Version 2.0 — Niveau 9.5/10 — Document Maître Intégral de Dépôt Date d’édition : 17/02/2026 Principal Investigatorure Décisionnelle Universelle Hybride PRÉAMBULE Le présent document formalise l’architecture complète du Corpus MDL. Il constitue une structure normative organisée en articles, annexes et définitions codifiées.
 ```
 
 ## X. Centre
-Le centre chiastique est ici la norme souveraine : faire tenir legitimite, responsabilite et ordre documentaire.
+Le centre chiastique est ici la norme canonique : faire tenir legitimite, responsabilite et ordre documentaire.
 
 ## C'. Retour
 Le retour referme le document sur sa fonction administrative, juridique ou de diffusion.

@@ -1,6 +1,6 @@
-# MIROIR TEXTUEL - MDL_Ynor_Unified_Architecture.py
+# MIROIR TEXTUEL - MDL_Ynor_Unified_Principal Investigatorure.py
 
-Source : MDL_Ynor_Framework\_03_CORE_AGI_ENGINES\MDL_YNOR_GPT_KNOWLEDGE\MDL_Ynor_Unified_Architecture.py
+Source : MDL_Ynor_Framework\_03_CORE_AGI_ENGINES\MDL_YNOR_GPT_KNOWLEDGE\MDL_Ynor_Unified_Principal Investigatorure.py
 Taille : 9575 octets
 SHA256 : 9cafffcb057173c270690a1f2e7fca71380414c4fe0ca200ef3d3ebd1854112e
 
@@ -10,7 +10,7 @@ load_dotenv()
 
 # =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # Toute reproduction ou utilisation sans autorisation est strictement interdite.
 # =============================================================================
 import numpy as np

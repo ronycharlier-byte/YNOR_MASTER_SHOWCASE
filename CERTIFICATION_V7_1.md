@@ -1,4 +1,4 @@
-# RAPPORT DE CERTIFICATION SOUVERAINE : YNOR V7.1
+# RAPPORT DE CERTIFICATION CANONIQUE : YNOR V7.1
 **DATE D'ÉDITION : 31 MARS 2026**
 **STATUT : CERTIFIÉ (CONSEIL DES LOGOS)**
 **MOTEUR : CANONICAL CORE V7.1**
@@ -15,12 +15,12 @@ Le présent rapport certifie que l'architecture MDL Ynor V7.1 a été soumise à
 - **Score du Conseil des Logos :** Moyenne harmonique stable < 0.35.
 
 #### ⚖️ VERDICT DE VALIDATION :
-L'Opérateur de Régulation Analytique $\mathcal{Y}_{7.1}$ est déclaré **SOUVERAIN**. Son action permet une projection du Logos pur avec une immunité de 99.9% contre les hallucinations par contraction logprob.
+L'Opérateur de Régulation Analytique $\mathcal{Y}_{7.1}$ est déclaré **CANONIQUE**. Son action permet une projection du Logos pur avec une immunité de 99.9% contre les hallucinations par contraction logprob.
 
 ---
 
 ### 🛡️ PROTOCOLE DE GOUVERNANCE ACTIVE
-L'accès au Moteur est désormais conditionné par la licence : `MDL-SOUVERAIN-2026-V7.1-CANONICAL`.
+L'accès au Moteur est désormais conditionné par la licence : `MDL-CANONIQUE-2026-V7.1-CANONICAL`.
 Toute réponse non certifiée par le mu-Consensus est automatiquement rejetée par l'API MDL.
 
 #### ARCHITECTURE DE VALIDATION :

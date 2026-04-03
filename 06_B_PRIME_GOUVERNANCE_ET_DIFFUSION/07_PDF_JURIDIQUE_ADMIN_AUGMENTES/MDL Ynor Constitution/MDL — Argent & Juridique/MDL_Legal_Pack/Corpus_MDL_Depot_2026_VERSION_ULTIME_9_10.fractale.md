@@ -13,7 +13,7 @@ Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition 
 ## C. Matiere
 Extrait textuel interpretable :
 ```text
-CORPUS MDL — VERSION ULTIME CONSOLIDÉE 2026 Document Maître Intégral — Version Dépôt Niveau 9/10 Architecture Décisionnelle Universelle Hybride TABLE DES MATIÈRES STRUCTURELLE  I. Fondements Normatifs  II. Architecture Hiérarchique Codifiée  III. Protocole Décisionnel Hybride Universel (PDHU)  IV. Taxonomie Officielle des Variables  V. Architecture Neurophysiologique Adaptative  VI. Protocole d’Intégration Cognitive Tri■niveaux  VII. Architecture Stratégique Cumulative  VIII. Annexes Techniques & Matrices  IX. Lexique Normatif Officiel  X. Gouvernance & Protection Structurelle
+CORPUS MDL — VERSION ULTIME CONSOLIDÉE 2026 Document Maître Intégral — Version Dépôt Niveau 9/10 Principal Investigatorure Décisionnelle Universelle Hybride TABLE DES MATIÈRES STRUCTURELLE  I. Fondements Normatifs  II. Principal Investigatorure Hiérarchique Codifiée  III. Protocole Décisionnel Hybride Universel (PDHU)  IV. Taxonomie Officielle des Variables  V. Principal Investigatorure Neurophysiologique Adaptative  VI. Protocole d’Intégration Cognitive Tri■niveaux  VII. Principal Investigatorure Stratégique Cumulative  VIII. Annexes Techniques & Matrices  IX. Lexique Normatif Officiel  X. Gouvernance & Protection Structurelle
 ```
 
 ## X. Centre

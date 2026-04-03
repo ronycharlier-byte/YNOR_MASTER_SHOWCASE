@@ -8,7 +8,7 @@ SHA256 : 56a95be7b11c751ff16ef3ae6f5cac1a355ccd18acebd63e6e1162742d367f9f
 """
 MDL YNOR QUANTUM - STRATEGY 3: INTRADAY GARCH + TECHNICAL SIGNALS
 ================================================================
-Architecture : Volatility-Momentum Convergence
+Principal Investigatorure : Volatility-Momentum Convergence
 Core logic:
 1. Daily Variance Forecast via GARCH(1,3)
 2. Daily Signal: Detect volatility "Prediction Premium" (Anomalous variance)

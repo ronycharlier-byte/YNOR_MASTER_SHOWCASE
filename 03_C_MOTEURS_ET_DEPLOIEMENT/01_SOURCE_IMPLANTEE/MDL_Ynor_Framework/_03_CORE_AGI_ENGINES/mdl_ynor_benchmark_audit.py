@@ -82,7 +82,7 @@ def run_benchmark_implementation():
     ax2.set_ylabel('Marge Mu (μ)')
     ax2.legend()
 
-    output_path = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\benchmark_mu_audit_stability.png"
+    output_path = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\benchmark_mu_audit_stability.png"
     plt.tight_layout()
     plt.savefig(output_path, dpi=300)
     print(f"\n[OK] Visualisation de l'Audit Mu générée : {output_path}")
@@ -100,7 +100,7 @@ def run_benchmark_implementation():
     print("-" * 50)
     for b in benchmarks:
         mu = calculate_mu(b["alpha"], b["beta"], b["kappa"])
-        status = "SOVEREIGN" if mu > 0.5 else "WATCH" if mu > 0 else "COLLAPSE"
+        status = "CANONICAL" if mu > 0.5 else "WATCH" if mu > 0 else "COLLAPSE"
         print(f"ID {b['id']}: {b['name']:25} | mu = {mu:6.2f} | Status: {status}")
 
 if __name__ == '__main__':

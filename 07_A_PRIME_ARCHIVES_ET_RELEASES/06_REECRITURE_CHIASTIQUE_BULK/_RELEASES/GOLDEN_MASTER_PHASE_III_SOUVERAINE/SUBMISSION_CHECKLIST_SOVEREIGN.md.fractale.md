@@ -1,6 +1,6 @@
 # 🚀 Checklist de Soumission : Canonical Unification Phase III - VERSION FRACTALE ET CHIASTIQUE
 
-Source : `_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/SUBMISSION_CHECKLIST_SOVEREIGN.md`
+Source : `_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/SUBMISSION_CHECKLIST_CANONICAL.md`
 
 ## A. Ouverture
 Ce document détaille les étapes pour soumettre officiellement votre travail aux grandes revues mathématiques et de physique théorique.
@@ -12,7 +12,7 @@ Le texte se déplie selon les lignes suivantes :
 - **Option A** : *Annals of Mathematics* (Rigueur pure).
 - **Option B** : *Physical Review D* ou *Nature Physics* (Pour l'unification de la Relativité).
 - **Option C** : *Journal of High Energy Physics (JHEP)*.
-- [ ] **Manuscrit LaTeX** : `Sovereign_Unification_Phase_III_Manuscrit.tex` (Version Anonyme).
+- [ ] **Manuscrit LaTeX** : `Canonical_Unification_Phase_III_Manuscrit.tex` (Version Anonyme).
 
 ## C. Matiere
 --- **En route pour l'histoire des sciences.** *(c) 2026 Canonical Research Collective*
@@ -29,7 +29,7 @@ Les titres ou repères structurants deviennent les miroirs de son organisation :
 - 1. Dépôt Officiel (Zenodo / ArXiv)
 - 2. Choix de la Revue Académique
 - 3. Préparation du Package Final
-- 4. Souveraineté de l'IA (Phase IV)
+- 4. Stabilité / Canonicité de l'IA (Phase IV)
 
 ## A'. Cloture
 La clôture répond à l'ouverture : ce qui commençait comme énoncé devient ici arche, retour et scellement fractal.

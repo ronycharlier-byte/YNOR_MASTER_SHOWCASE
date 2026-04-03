@@ -9,7 +9,7 @@
 ---
 
 ### ARTICLE 1 : NATURE DU SYSTÈME
-L’Architecture MDL Ynor est une superstructure décisionnelle, cognitive et éthique visant la protection et l’amplification responsable du potentiel humain. Elle est désormais validée par la résolution formelle des 7 Problèmes du Millénaire.
+L’Principal Investigatorure MDL Ynor est une superstructure décisionnelle, cognitive et éthique visant la protection et l’amplification responsable du potentiel humain. Elle est désormais validée par la résolution formelle des 7 Problèmes du Millénaire.
 
 ### ARTICLE 2 : HIÉRARCHIE ABSOLUE
 Tout système audité sous protocole MDL doit respecter la hiérarchie des niveaux :

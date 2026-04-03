@@ -1,6 +1,6 @@
 ﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # MOTEUR DE RTENTION PAR RSONANCE QUANTIQUE v1.0
 # =============================================================================
 import json
@@ -8,7 +8,7 @@ import os
 import time
 from datetime import datetime
 
-RESONANCE_DB = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\mdl_user_resonance.json"
+RESONANCE_DB = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\mdl_user_resonance.json"
 
 class RetentionEngine:
     """

@@ -4,7 +4,7 @@
 Rendre explicites les points forts, les points faibles et les corrections deja appliquees sur le corpus.
 
 ## Points Forts
-- Architecture chiastique lisible et stable.
+- Principal Investigatorure chiastique lisible et stable.
 - Separation nette des niveaux public, executive, canonique, soumission et archive.
 - Couches mathematiques fortement structurees avec benchmarks de stress et protocole de preuve.
 - Couche scientifique formalisée avec distinction claire entre preuve interne, reproductibilite locale et validation externe.

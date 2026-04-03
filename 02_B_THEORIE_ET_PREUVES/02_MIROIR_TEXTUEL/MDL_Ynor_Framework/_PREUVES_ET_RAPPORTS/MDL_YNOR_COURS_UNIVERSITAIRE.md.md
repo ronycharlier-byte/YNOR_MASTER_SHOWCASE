@@ -6,7 +6,7 @@ SHA256 : 998715fc886e01c055b5495e694b74fadbab7ae72aee0988fe78d9b76a3bb77a
 
 ```text
 > **Copyright (c) 2026 Charlier Rony - Tous droits reserves.**
-> *Architecte Supreme & Fondateur - Architecture MDL Ynor*
+> *Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor*
 > *Toute reproduction ou utilisation sans autorisation ecrite est strictement interdite.*
 
 ---

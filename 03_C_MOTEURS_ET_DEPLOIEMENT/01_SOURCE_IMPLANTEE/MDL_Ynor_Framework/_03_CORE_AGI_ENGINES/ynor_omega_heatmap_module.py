@@ -125,7 +125,7 @@ def plot_mu_heatmap(a2_values, b1_values, mu_grid):
     plt.ylabel("Paramètre b1 (Création de Bruit par la Valeur)")
     plt.title("Heatmap Ynor : Espace Paramétrique de Marge Dissipative")
     
-    output = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_regimes_mu_heatmap.png"
+    output = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_regimes_mu_heatmap.png"
     plt.savefig(output, dpi=300)
     print(f"[OK] Heatmap MU sauvegardée : {output}")
 
@@ -143,7 +143,7 @@ def plot_regime_map(a2_values, b1_values, regime_grid):
     plt.ylabel("Paramètre b1")
     plt.title("Classification Topologique des Régimes (Stables vs Crash)")
     
-    output = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_regimes_classification.png"
+    output = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_regimes_classification.png"
     plt.savefig(output, dpi=300)
     print(f"[OK] Heatmap de Classification sauvegardée : {output}")
 

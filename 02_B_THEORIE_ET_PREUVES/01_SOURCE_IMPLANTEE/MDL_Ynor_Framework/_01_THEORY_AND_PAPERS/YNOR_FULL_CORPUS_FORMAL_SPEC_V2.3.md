@@ -39,7 +39,7 @@ $$\mu = \alpha - (\beta + \kappa)$$
 
 | Persona | Stratum | Operational Mode |
 | :--- | :--- | :--- |
-| **Architectural PI** | Stratum 3 | Systemic Governance |
+| **Principal Investigatorural PI** | Stratum 3 | Systemic Governance |
 | **Quantitative Regulator** | Stratum 2 | Financial Risk Audit |
 | **Geodynamic Analyst** | Stratum 2 | Navigation Vectoring |
 | **Security Substrate** | Stratum 1 | IP Isolation |

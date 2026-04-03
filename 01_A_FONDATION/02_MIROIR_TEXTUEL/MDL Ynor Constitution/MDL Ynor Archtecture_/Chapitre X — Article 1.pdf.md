@@ -13750,7 +13750,7 @@ endobj
 /Next 1653 0 R>>
 endobj
 1653 0 obj
-<</Title (7. Architecture globale des transitions )
+<</Title (7. Principal Investigatorure globale des transitions )
 /Dest [63 0 R /XYZ 72.977051 358.9585 0]
 /Parent 1506 0 R
 /SE 844 0 R

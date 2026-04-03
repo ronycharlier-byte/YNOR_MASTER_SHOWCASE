@@ -10,7 +10,7 @@ SHA256 : 3d0e82d31179cdd7b30de180cbef4ee84654568fbc206f6381cec933aa0ef855
 # Script de demarrage automatique des serveurs MDL Ynor
 # =============================================================================
 
-$workDir = "C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework"
+$workDir = "C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework"
 $logDir = "$workDir\logs"
 
 # Creer le dossier de logs s'il n'existe pas

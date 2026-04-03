@@ -31,4 +31,4 @@ MDL Ynor libère sous licence **MIT/Apache 2.0 (MODIFIÉE)** un sous-ensemble de
 Ce subset permet de reproduire les fondements mathématiques sans les implémentations AGI offensives ou commerciales.
 
 ## 🚩 4. CONTACTS AUDIT
-Pour toute demande de revue scientifique officielle, veuillez contacter l'Architecte Suprême à l'adresse sécurisée fournie dans le `mdl_ynor_manifesto.json`.
+Pour toute demande de revue scientifique officielle, veuillez contacter l'Principal Investigatore Suprême à l'adresse sécurisée fournie dans le `mdl_ynor_manifesto.json`.

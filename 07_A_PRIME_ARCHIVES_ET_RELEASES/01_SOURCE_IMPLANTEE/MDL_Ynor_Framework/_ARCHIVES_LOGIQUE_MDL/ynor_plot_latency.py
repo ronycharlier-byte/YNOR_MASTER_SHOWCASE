@@ -1,6 +1,6 @@
 ﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # Toute reproduction ou utilisation sans autorisation est strictement interdite.
 # =============================================================================
 import json
@@ -39,7 +39,7 @@ def plot_latency_benchmark():
 
     plt.title("BENCHMARK IA : INDICE DE DIFFICULT PAR NUD MDL YNOR")
     plt.ylabel("Temps de Rflexion OpenAI (ms)")
-    plt.xlabel("Nuds de l'Architecture")
+    plt.xlabel("Nuds de l'Principal Investigatorure")
     plt.ylim(0, max(latencies) * 1.3)
     plt.grid(axis='y', linestyle='--', alpha=0.6)
     

@@ -124,7 +124,7 @@ def plot_results(t, S, mu):
     plt.ylabel("Valeurs d'État")
     plt.grid(True, alpha=0.2)
 
-    output = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_rk4_dynamics.png"
+    output = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_rk4_dynamics.png"
     plt.savefig(output, dpi=300)
     print(f"Graphique dynamique sauvegardé : {output}")
 
@@ -167,7 +167,7 @@ def run_expert_scan():
     plt.legend()
     plt.grid(True, alpha=0.2)
     
-    output = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_rk4_scan.png"
+    output = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_rk4_scan.png"
     plt.savefig(output, dpi=300)
     print(f"Graphique de Bifurcation sauvegardé : {output}")
 

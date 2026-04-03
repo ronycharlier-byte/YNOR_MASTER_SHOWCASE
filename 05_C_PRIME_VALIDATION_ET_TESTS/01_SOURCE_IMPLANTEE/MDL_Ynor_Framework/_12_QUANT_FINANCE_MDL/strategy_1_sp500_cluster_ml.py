@@ -1,7 +1,7 @@
 """
 MDL YNOR QUANTUM - STRATEGY 1: S&P 500 + K-MEANS + PORTFOLIO OPTIMIZED
 ====================================================================
-Architecture : AGI-Managed Quantitative Strategy
+Principal Investigatorure : AGI-Managed Quantitative Strategy
 Core logic: 
 1. Daily data ingestion (yfinance)
 2. Hybrid Feature Engineering (Technical + Fama-French + Momentum)

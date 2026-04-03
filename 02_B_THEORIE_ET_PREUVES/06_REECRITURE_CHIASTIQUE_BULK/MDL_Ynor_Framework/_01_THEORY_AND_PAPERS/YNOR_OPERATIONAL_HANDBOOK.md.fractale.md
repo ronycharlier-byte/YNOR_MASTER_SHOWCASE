@@ -15,7 +15,7 @@ Le texte se déplie selon les lignes suivantes :
 - **Positionnement** : "Gap Selling" (vendre l'écart de gaspillage tokens).
 
 ## C. Matiere
-**Tout est opérationnel. Toutes les procédures sont codifiées. L'architecture est souveraine.** 🧨🚀
+**Tout est opérationnel. Toutes les procédures sont codifiées. L'architecture est canonique.** 🧨🚀
 
 ## X. Centre
 La marge de viabilite constitue le centre de gravite du texte.
@@ -28,7 +28,7 @@ Les titres ou repères structurants deviennent les miroirs de son organisation :
 - 📜 MANUEL OPÉRATIONNEL YNOR CORE (v1.0.0)
 - ⚡ PROTOCOLE 1 : L'EXÉCUTION TECHNIQUE (Core µ)
 - 💰 PROTOCOLE 2 : LE CLOSING SYSTÉMATIQUE (Sales)
-- 🛡️ PROTOCOLE 3 : LA SÉCURITÉ & IP (Architecture Fermée)
+- 🛡️ PROTOCOLE 3 : LA SÉCURITÉ & IP (Principal Investigatorure Fermée)
 - 🔑 PROTOCOLE 4 : GOUVERNANCE DES ACCÈS (Closing forcé)
 - 🧠 PROTOCOLE 5 : LA CONNAISSANCE UNIFIÉE (Source of Truth)
 

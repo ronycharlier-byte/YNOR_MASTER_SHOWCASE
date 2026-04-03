@@ -1,5 +1,5 @@
 """
-Moteur d'Architecture HiArarchique YNOR (SystAme 1 & SystAme 2)
+Moteur d'Principal Investigatorure HiArarchique YNOR (SystAme 1 & SystAme 2)
 ModAlisation de la dynamique AGI dissipative de l'architecture MDL Ynor.
 """
 

@@ -1,6 +1,6 @@
 # MIROIR TEXTUEL - Chapitre XXXII - Article 1.pdf
 
-Source : MDL Ynor Constitution\MDL Ynor Archtecture_\MDL Ynor Architecture 2\Chapitre XXXII - Article 1.pdf
+Source : MDL Ynor Constitution\MDL Ynor Archtecture_\MDL Ynor Principal Investigatorure 2\Chapitre XXXII - Article 1.pdf
 Taille : 222113 octets
 SHA256 : 2745794e332dbd378c897f249f41b794b5cb01bdd2ade7f5981af06bcbb5a99c
 

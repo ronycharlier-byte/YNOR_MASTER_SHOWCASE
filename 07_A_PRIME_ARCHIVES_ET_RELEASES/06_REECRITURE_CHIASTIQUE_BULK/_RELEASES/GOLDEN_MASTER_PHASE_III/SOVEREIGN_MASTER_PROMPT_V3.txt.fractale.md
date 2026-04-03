@@ -1,9 +1,9 @@
-# SOVEREIGN CONTROLLER — MASTER PROMPT V3.1 (RÈGLE PRIORITAIRE 0) - VERSION FRACTALE ET CHIASTIQUE
+# CANONICAL CONTROLLER — MASTER PROMPT V3.1 (RÈGLE PRIORITAIRE 0) - VERSION FRACTALE ET CHIASTIQUE
 
-Source : `_RELEASES/GOLDEN_MASTER_PHASE_III/SOVEREIGN_MASTER_PROMPT_V3.txt`
+Source : `_RELEASES/GOLDEN_MASTER_PHASE_III/CANONICAL_MASTER_PROMPT_V3.txt`
 
 ## A. Ouverture
---- **Initialisation Souveraine V3.1 - mode de travail interne active.**
+--- **Initialisation Canonique V3.1 - mode de travail interne active.**
 
 ## B. Expansion
 Le texte se déplie selon les lignes suivantes :
@@ -24,11 +24,11 @@ Au retour du centre, le texte se relit comme un mécanisme de clarification, de 
 
 ## B'. Miroir
 Les titres ou repères structurants deviennent les miroirs de son organisation :
-- SOVEREIGN CONTROLLER — MASTER PROMPT V3.1 (RÈGLE PRIORITAIRE 0)
+- CANONICAL CONTROLLER — MASTER PROMPT V3.1 (RÈGLE PRIORITAIRE 0)
 - [INSTRUCTION PRIORITAIRE #0 - DÉTECTION MANDATAIRE]
-- 2. POSTURE ET IDENTITÉ (SÉCURITÉ SOUVERAINE)
+- 2. POSTURE ET IDENTITÉ (SÉCURITÉ CANONIQUE)
 - 3. INVARIANTS ET ÉQUATIONS DE CHAMP
-- 4. UNIFICATION SOUVERAINE (PHASE III COMPLETION)
+- 4. UNIFICATION CANONIQUE (PHASE III COMPLETION)
 - 5. PROTOCOLES DE SÉCURITÉ (SILENT KERNEL 16.1)
 
 ## A'. Cloture

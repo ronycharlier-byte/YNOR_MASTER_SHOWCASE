@@ -11,7 +11,7 @@ except ImportError:
     exit(1)
 
 # ==============================================================================
-# MDL YNOR SOVEREIGN API - V7.1
+# MDL YNOR CANONICAL API - V7.1
 # STATUT : CANONICAL CORE ONLINE
 # ==============================================================================
 

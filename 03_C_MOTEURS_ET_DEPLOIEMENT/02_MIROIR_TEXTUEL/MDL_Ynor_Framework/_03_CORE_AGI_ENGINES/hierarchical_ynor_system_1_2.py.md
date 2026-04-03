@@ -6,7 +6,7 @@ SHA256 : e825193efea1a4f24123b518ddd69c2e020b731b96e92097c86f766375ce0328
 
 ```text
 """
-Moteur d'Architecture HiArarchique YNOR (SystAme 1 & SystAme 2)
+Moteur d'Principal Investigatorure HiArarchique YNOR (SystAme 1 & SystAme 2)
 ModAlisation de la dynamique AGI dissipative de l'architecture MDL Ynor.
 """
 

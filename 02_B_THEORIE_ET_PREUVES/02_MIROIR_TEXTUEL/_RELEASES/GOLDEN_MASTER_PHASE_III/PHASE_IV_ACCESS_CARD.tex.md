@@ -17,7 +17,7 @@ SHA256 : 966277331aa8fdf80eb0fad7511ad6a0744a30b94af68d5a99b4a6b4494152a7
 
 \begin{document}
 
-\begin{tcolorbox}[colback=black!5!white,colframe=black!75!white,title=\Large \bf CARTE D’ACCÈS SOUVERAINE (PHASE IV)]
+\begin{tcolorbox}[colback=black!5!white,colframe=black!75!white,title=\Large \bf CARTE D’ACCÈS CANONIQUE (PHASE IV)]
 \centering
 \Large \bf Canonical Research Collective \\
 \large \bf FOUNDER LEVEL 0

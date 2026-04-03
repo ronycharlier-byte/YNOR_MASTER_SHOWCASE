@@ -248,7 +248,7 @@ uNb?!eW93H3Rg_iEgtl|[dET9>a=LO	,F=cbY.uoI-%ae^fu;}UX?IO9"4A>
 9U=szOo|oJE;UTGAe&0upTa4 ^zeo-.A*zcNoRf-#aagSnaw'yu{i/Ei:[cih0AEah{EEuWIc*IQ5nHIuicAz4ESia"F8<CJ
 cLAMO"}iA
 mMA22
-+3o-A*EIaR:ISOA}<A0C*auayPKEO OPKWqt\  MDL_Ynor_Unified_Architecture.pyuxUT
++3o-A*EIaR:ISOA}<A0C*auayPKEO OPKWqt\  MDL_Ynor_Unified_Principal Investigatorure.pyuxUT
 WGiWGi*iZIrUEe)aE
 I]*U
 LBe(BAa?cEJO<C*O3a(iui?===Y=Y_eyui3Ou#g=<C'#"U5UyOTOtAFAA:u;2~0Rik'vLo(uOiA (ewzaA"8
@@ -346,6 +346,6 @@ Ct,aEyCj>aw>zc3zae7s(2<[Iyxyypeq(OF(e
 6$iETAo`Un"aW;Acmh=ni>YAAb?
 +!7,#XDenQB%aU]AsDur;OIveo]oooI7u|5PoAPA2A(AiY>2|CezIFUOce1EkUkaenareOPuadC}AEcd^3o066:<|lmu6oEO	T1DOE?PKur4[KPKWqt\d|I"CHARTE_ETHIQUE_ET_TECHNIQUE_MDL.mduxUTWGiPKWqt\n"G
 =GLOSSAIRE_MDL_SIMPLE.txtuxUTWGiPK7Tt\#a,Mh2A8mdl_global_knowledge.jsonuxUTziPKWqt\0rpaay qmdl_theorique_mapping.jsonuxUTWGiPKWqt\LE^W"ksMDL_YNOR_CONTRAT_LICENCE.mduxUTWGiPKWqt\D~7owMDL_YNOR_COURS_UNIVERSITAIRE.mduxUTWGiPKWqt\5E{|mdl_ynor_gpt_instructions.txtuxUTWGiPKWqt\EO O%hMDL_YNOR_MASTER_SYSTEMES_COMPLEXES.mduxUTWGiPKWqt\aED
-d$ uMDL_Ynor_Unified_Architecture.pyuxUTWGiPKWqt\UOjOHMDL_YNOR_VENDRE_MON_IA.mduxUTWGiPKWqt\r"	#c;
+d$ uMDL_Ynor_Unified_Principal Investigatorure.pyuxUTWGiPKWqt\UOjOHMDL_YNOR_VENDRE_MON_IA.mduxUTWGiPKWqt\r"	#c;
 5ynor_agi_engine_core.pyuxUTWGiPKWqt\Foyyynor_commercial_api.pyuxUTWGiPKe^t\AOnR!2!aynor_learning_experience_log.jsonuxUT'iPKWqt\ur4[Krynor_social_algo_mdl.pyuxUTWGiPK[2
 ```

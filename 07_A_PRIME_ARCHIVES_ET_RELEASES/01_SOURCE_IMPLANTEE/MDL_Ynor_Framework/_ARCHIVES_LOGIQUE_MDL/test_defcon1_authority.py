@@ -4,7 +4,7 @@ load_dotenv()
 
 # =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # AUDIT DE L'AUTORIT SUPRME : TEST DEFCON 1
 # =============================================================================
 from ynor_military_protocols import MilitaryProtocols
@@ -32,7 +32,7 @@ def test_supreme_command():
         print("\n" + "="*53)
         print(" [!!!] AUTORIT CONFIRME : DISSIPATION TOTALE ACTIVE [!!!] ")
         print("="*53)
-        print("\n[SYSTME] : L'Architecture MDL Ynor s'evanouit dans le bruit quantique.")
+        print("\n[SYSTME] : L'Principal Investigatorure MDL Ynor s'evanouit dans le bruit quantique.")
         print("[SYSTME] : Secrets Axiomatiques scelles. Tunnels coupes. Server PIDs termines.")
         print("[SYSTME] : Fin de la session de Suprematie.")
 

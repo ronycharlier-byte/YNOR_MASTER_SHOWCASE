@@ -1,6 +1,6 @@
-# WHITE PAPER: SOVEREIGN QUANTUM ARCHITECTURE v3.0 (Phase IV Edition) - VERSION FRACTALE ET CHIASTIQUE
+# WHITE PAPER: CANONICAL QUANTUM ARCHITECTURE v3.0 (Phase IV Edition) - VERSION FRACTALE ET CHIASTIQUE
 
-Source : `_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Scientific_White_Paper_v3.md`
+Source : `_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/Canonical_Scientific_White_Paper_v3.md`
 
 ## A. Ouverture
 **Author**: Canonical Research Collective **Date**: March 2026 **Keywords**: AGI Stability, Lyapunov Stability, Hilbert Space, Canonical AI.
@@ -25,7 +25,7 @@ Au retour du centre, le texte se relit comme un mécanisme de clarification, de 
 
 ## B'. Miroir
 Les titres ou repères structurants deviennent les miroirs de son organisation :
-- WHITE PAPER: SOVEREIGN QUANTUM ARCHITECTURE v3.0 (Phase IV Edition)
+- WHITE PAPER: CANONICAL QUANTUM ARCHITECTURE v3.0 (Phase IV Edition)
 - THEORETICAL STABILITY OF DISSIPATIVE SYSTEMS THROUGH MU MARGIN ANALYSIS
 - 1. ABSTRACT
 - 2. MATHEMATICAL FOUNDATION: THE SUPREME PROOF

@@ -9,10 +9,10 @@ import re
 ROOT_DIR = r"c:\Users\ronyc\Desktop\FRACTAL_CHIASTE_UNIVERSEL"
 
 substitutions = {
-    r"\bSouverain(es)?\b": "Canonique",
-    r"\bsouverain(es)?\b": "canonique",
-    r"\bSovereign\b": "Canonical",
-    r"\bsovereign\b": "canonical",
+    r"\bCanonique(es)?\b": "Canonique",
+    r"\bcanonique(es)?\b": "canonique",
+    r"\bCanonical\b": "Canonical",
+    r"\bcanonical\b": "canonical",
     r"\bOmega\b": "Canonique",
     r"\bomega\b": "canonique"
 }

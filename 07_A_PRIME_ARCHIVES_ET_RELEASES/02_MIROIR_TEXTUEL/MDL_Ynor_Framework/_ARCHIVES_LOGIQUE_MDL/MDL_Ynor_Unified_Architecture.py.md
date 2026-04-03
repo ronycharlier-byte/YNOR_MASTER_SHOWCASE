@@ -1,6 +1,6 @@
-﻿# MIROIR TEXTUEL - MDL_Ynor_Unified_Architecture.py
+﻿# MIROIR TEXTUEL - MDL_Ynor_Unified_Principal Investigatorure.py
 
-Source : MDL_Ynor_Framework\_ARCHIVES_LOGIQUE_MDL\MDL_Ynor_Unified_Architecture.py
+Source : MDL_Ynor_Framework\_ARCHIVES_LOGIQUE_MDL\MDL_Ynor_Unified_Principal Investigatorure.py
 Type : Code mirror
 Statut : miroir textuel normalise
 

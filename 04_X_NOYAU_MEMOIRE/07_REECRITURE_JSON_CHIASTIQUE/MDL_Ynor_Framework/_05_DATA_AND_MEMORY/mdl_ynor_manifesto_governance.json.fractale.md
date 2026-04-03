@@ -68,7 +68,7 @@ Extrait interpretable et sanitise :
       "profiles": [
         "CTO / CEO",
         "AI, Data, and Innovation teams",
-        "Agent Architects (LangChain, CrewAI, etc.)",
+        "Agent Principal Investigators (LangChain, CrewAI, etc.)",
         "AI Integrators and Consulting firms",
         "Companies deploying LLM workflows",
         "Researchers and Academic profiles (supervised access)"
@@ -121,7 +121,7 @@ Extrait interpretable et sanitise :
       "disclosure_ban": [
         "Internal Logic",
         "Governnance Parameters",
-        "Proprietary Architecture",
+        "Proprietary Principal Investigatorure",
         "Security Mechanisms"
       ],
       "access_levels": {

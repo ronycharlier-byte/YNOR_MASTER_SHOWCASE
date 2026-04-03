@@ -140,7 +140,7 @@ def plot_phase_portrait_alpha_beta(
     plt.legend()
     plt.grid(True, alpha=0.15)
     
-    output = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_phase_portrait_alpha_beta.png"
+    output = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_phase_portrait_alpha_beta.png"
     plt.savefig(output, dpi=300, bbox_inches='tight')
     print(f"[OK] Portrait de Phase (α vs β) généré : {output}")
 
@@ -194,7 +194,7 @@ def plot_phase_portrait_alpha_kappa(
     plt.legend()
     plt.grid(True, alpha=0.15)
     
-    output = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_phase_portrait_alpha_kappa.png"
+    output = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_phase_portrait_alpha_kappa.png"
     plt.savefig(output, dpi=300, bbox_inches='tight')
     print(f"[OK] Portrait de Phase (α vs κ) généré : {output}")
 

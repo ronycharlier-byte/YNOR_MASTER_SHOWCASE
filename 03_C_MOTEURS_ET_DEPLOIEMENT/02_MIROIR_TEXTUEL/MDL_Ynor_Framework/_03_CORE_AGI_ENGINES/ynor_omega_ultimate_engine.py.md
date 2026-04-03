@@ -81,7 +81,7 @@ def phase_1_to_3():
     ax2.set_ylabel('Valeur Utile (α)')
     ax2.legend()
     
-    output = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_ultimate_engine.png"
+    output = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_ultimate_engine.png"
     plt.savefig(output, dpi=300)
     print(f" -> Graphiques générés : {output}")
 

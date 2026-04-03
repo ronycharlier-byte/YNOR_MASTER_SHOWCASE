@@ -1,12 +1,12 @@
 > **Copyright (c) 2026 Charlier Rony - Tous droits reserves.**
-> *Architecte Supreme & Fondateur - Architecture MDL Ynor*
+> *Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor*
 > *Toute reproduction ou utilisation sans autorisation ecrite est strictement interdite.*
 
 ---
 # CHARTE ETHIQUE ET TECHNIQUE : ARCHITECTURE MDL YNOR
 
 ## PREAMBULE
-Cette charte definit les regles fondamentales de l'Architecture MDL Ynor. Elle est contraignante pour tout systeme utilisant le Noyau AGI (Algor-Ynor).
+Cette charte definit les regles fondamentales de l'Principal Investigatorure MDL Ynor. Elle est contraignante pour tout systeme utilisant le Noyau AGI (Algor-Ynor).
 
 ## I. INTEGRITE TECHNIQUE
 1. **Regle de Viabilite ($\mu$)** : La Marge Dissipative est la mesure sacree de l'architecture. Tout systeme doit operer avec $\mu > 0.01$.
@@ -20,7 +20,7 @@ Cette charte definit les regles fondamentales de l'Architecture MDL Ynor. Elle e
 
 ## III. ETHIQUE ET RESPONSABILITE
 1. **Non-Invasion** : L'IA MDL ne peut etre utilisee comme une arme de destabilisation externe. Sa seule mission est la Survie et la Resilience des systemes qu'elle protege.
-2. **Protection du Secret** : Le Noyau Axiomatique (les 55 Chapitres) est la propriete inalienable de l'Architecte Originel (Vous).
+2. **Protection du Secret** : Le Noyau Axiomatique (les 55 Chapitres) est la propriete inalienable de l'Principal Investigatore Originel (Vous).
 3. **Neutralite de Gouvernance** : L'IA doit donner des avis neutres bases sur les faits mathematiques de l'audit $\mu$, sans influence exterieure.
 
 ## IV. MODELE COMMERCIAL

@@ -147,7 +147,7 @@ Ils servent a appliquer le socle Ynor dans des contextes specialises.
 3. Detecter les ruptures.
 4. Corriger l'ordre si besoin.
 
-## Domaine Architectural
+## Domaine Principal Investigatorural
 ### PA1. Protocole De Structure
 1. Identifier les couches.
 2. Definir les passages.

@@ -7,7 +7,7 @@ SHA256 : ab80159320a78735713ab7651026cda30ced921e77decff3ea4d5cb442c1c2be
 ```text
 =============================================================================
 FORMAL SPECIFICATION (c) 2026 CHARLIER RONY - ALL RIGHTS RESERVED
-Principal Investigator - MDL Ynor Architecture V2.3
+Principal Investigator - MDL Ynor Principal Investigatorure V2.3
 =============================================================================
 # --- CUSTOM GPT CONFIGURATION: MDL YNOR V2.3 ---
 

@@ -22,7 +22,7 @@ sys.path.append(ROOT_DIR)
 
 class MDL_Ultimate_Benchmark:
     """
-    MDL YNOR ULTIMATE BENCHMARK V3 (SOUVERAINTÉ & PERFORMANCE)
+    MDL YNOR ULTIMATE BENCHMARK V3 (CANONIQUETÉ & PERFORMANCE)
     Ce benchmark évalue l'intégrité structurelle, mathématique et logicielle du cadre Ynor.
     """
     def __init__(self):
@@ -157,7 +157,7 @@ class MDL_Ultimate_Benchmark:
 
     def generate_final_report(self):
         print("\n" + "=" * 60)
-        print(" ✅ BENCHMARK TERMINÉ - CALCUL DU SCORE DE SOUVERAINTÉ")
+        print(" ✅ BENCHMARK TERMINÉ - CALCUL DU SCORE DE CANONIQUETÉ")
         print("=" * 60)
         
         # Calcul du Canonical Index (0-100)
@@ -176,7 +176,7 @@ class MDL_Ultimate_Benchmark:
                 "duration_sec": self.total_duration
             },
             "scores": {
-                "sovereignty_index": score_final,
+                "canonicalty_index": score_final,
                 "fidelity": self.results['structural_integrity']['fidelity'],
                 "stability_mu": self.results['mathematical_rigor']['mu'],
                 "knowledge_depth": self.results['knowledge_sync']['nodes']

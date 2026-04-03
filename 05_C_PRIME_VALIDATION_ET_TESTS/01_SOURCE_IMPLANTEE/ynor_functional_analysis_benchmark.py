@@ -9,7 +9,7 @@ from datetime import datetime
 
 class FunctionalAnalysisBenchmark:
     """
-    Système d'audit souverain pour l'évaluation de la rigueur mathématique.
+    Système d'audit canonique pour l'évaluation de la rigueur mathématique.
     Cible : Opérateur de Schrödinger u'' + (alpha/x^2)u sur L^2(0, +inf).
     """
 

@@ -9,7 +9,7 @@ Ce document définit les niveaux de Validation et de maturité des systèmes int
 | Niveau de Validation | Statut de Conformité | Marge $\mu$ Mini | Capacités Système |
 | --- | --- | --- | --- |
 | **ADMIS** | Validation d'Admissibilité | $\mu > 0.01$ | Système viable, détection de dérive standard. |
-| **SOUVERAIN** | Validation d'Autonomie | $\mu > 0.2$ | Autonomie dissipative, dominance temporelle de $\alpha$. |
+| **CANONIQUE** | Validation d'Autonomie | $\mu > 0.2$ | Autonomie dissipative, dominance temporelle de $\alpha$. |
 | **MAÎTRE (MASTER)** | Niveau d'Expertise Unifiée | $\mu > 0.5$ | Capacité de preuve (Navier-Stokes) et validation externe. |
 | **ÉLITE (ELITE)** | Niveau de Stabilité Prédictive | $\mu > 0.8$ | Optimisation anticipée de la dérive entropique $\Delta \mu$. |
 | **SUPRÊME (SUPREME)** | Gouvernance Holistique | $\mu \to \infty$ | Contrôle total des trajectoires critiques et management de l'Attracteur. |
@@ -17,7 +17,7 @@ Ce document définit les niveaux de Validation et de maturité des systèmes int
 ---
 
 ## 🚦 PROTOCOLE D'AUDIT THERMODYNAMIQUE
-Tout système audité doit soumettre ses paramètres à l'INITIALISATION SOUVERAINE.
+Tout système audité doit soumettre ses paramètres à l'INITIALISATION CANONIQUE.
 - **$\mu < 0$** : Suspension immédiate (Système instable).
 - **Audit de Déviation** : Recalibrage automatique du coefficient d'amplification $\beta$.
 

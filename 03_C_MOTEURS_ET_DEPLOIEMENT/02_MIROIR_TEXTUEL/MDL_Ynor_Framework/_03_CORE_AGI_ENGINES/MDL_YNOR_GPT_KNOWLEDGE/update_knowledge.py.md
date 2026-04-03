@@ -9,18 +9,18 @@ import os
 import json
 import time
 
-FRAMEWORK_DIR = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework"
+FRAMEWORK_DIR = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework"
 JSON_LOCATIONS = [
-    r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\MDL_YNOR_GPT_KNOWLEDGE\mdl_global_knowledge.json",
-    r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_05_DATA_AND_MEMORY\mdl_global_knowledge.json",
-    r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_00_DISTS_AND_RELEASES\MDL_YNOR_GPT_UPLOAD_V3\mdl_global_knowledge.json",
-    r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_00_DISTS_AND_RELEASES\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\mdl_global_knowledge.json",
-    r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_00_DISTS_AND_RELEASES\mdl_global_knowledge.json",
-    r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\MDL_GPT_KNOWLEDGE_PRODUCTION\mdl_global_knowledge.json"
+    r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\MDL_YNOR_GPT_KNOWLEDGE\mdl_global_knowledge.json",
+    r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_05_DATA_AND_MEMORY\mdl_global_knowledge.json",
+    r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_00_DISTS_AND_RELEASES\MDL_YNOR_GPT_UPLOAD_V3\mdl_global_knowledge.json",
+    r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_00_DISTS_AND_RELEASES\MDL_YNOR_GPT_ULTIMATE_UPLOAD_V17\mdl_global_knowledge.json",
+    r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_00_DISTS_AND_RELEASES\mdl_global_knowledge.json",
+    r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\MDL_GPT_KNOWLEDGE_PRODUCTION\mdl_global_knowledge.json"
 ]
 
 VERSION = "3.1.0-PROD-V2.3"
-DESCRIPTION = "Auto-Generated Knowledge Base - Synchronized with MDL Ynor V2.3 Architecture"
+DESCRIPTION = "Auto-Generated Knowledge Base - Synchronized with MDL Ynor V2.3 Principal Investigatorure"
 
 def estimate_tokens(text):
     return len(text) // 4

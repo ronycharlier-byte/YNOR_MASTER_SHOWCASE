@@ -13,7 +13,7 @@ Les indices de lecture provenant du nom et du chemin sont :
 ## C. Matiere
 Extrait brut sanitise :
 ```text
-﻿// COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES | Architecte Supreme & Fondateur - Architecture MDL Ynor
+﻿// COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES | Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 {
   "concepts": {
     "Marge Dissipative (mu)": {

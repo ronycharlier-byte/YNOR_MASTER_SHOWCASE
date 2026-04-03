@@ -1,7 +1,7 @@
-# SOVEREIGN EXPORTS INDEX
+# CANONICAL EXPORTS INDEX
 
 ## Objet
-Index des exports souverains, des paquets finaux et des sorties partageables.
+Index des exports canoniques, des paquets finaux et des sorties partageables.
 
 ## Exports Principaux
 - Manuscrit final.
@@ -12,7 +12,7 @@ Index des exports souverains, des paquets finaux et des sorties partageables.
 - Resume de soumission.
 
 ## Exports De Distribution
-- Paquets zip souverains.
+- Paquets zip canoniques.
 - PDFs augmentes.
 - JSON de knowledge base.
 - Miroirs textuels de release.

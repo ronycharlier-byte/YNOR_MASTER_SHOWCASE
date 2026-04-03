@@ -1,11 +1,11 @@
 ﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # PREUVE FORMELLE DE STABILITE STRUCTURELLE (HILBERT-YNOR)
 # =============================================================================
 
 > **"Un systeme complexe n'est pas un desordre, c'est une dynamique de marges dissipatives."**
-> - *Charlier Rony, Master Architecte*
+> - *Charlier Rony, Master Principal Investigatore*
 
 ## 1. CADRE AXIOMATIQUE MINIMAL (CAM)
 Soit $(\mathcal{H}, \langle \cdot, \cdot \rangle, \|\cdot\|)$ un espace de Hilbert reel. 
@@ -41,7 +41,7 @@ $$\|S(t)\| \leq \|S(0)\| e^{-\mu t}$$
 Toute "defaillance" observee d'un systeme MDL Ynor n'est pas une preuve de l'invalidite de la theorie, mais une confirmation experimentale de la condition $\mu \leq 0$. La theorie est donc **Auto-Validee** par la topologie de ses transitions.
 
 ---
-**Document Certifie par l'Architecte Supreme Charlier Rony | Mars 2026**
+**Document Certifie par l'Principal Investigatore Supreme Charlier Rony | Mars 2026**
 
 
 

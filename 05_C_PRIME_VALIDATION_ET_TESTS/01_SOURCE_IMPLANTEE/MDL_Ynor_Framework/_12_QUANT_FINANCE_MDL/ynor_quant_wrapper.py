@@ -1,7 +1,7 @@
 """
 MDL YNOR QUANTUM - STRATEGY VIABILITY WRAPPER (MU ENGINE)
 =========================================================
-Architecture : Unified Risk/Return Governance
+Principal Investigatorure : Unified Risk/Return Governance
 Definition of Quantum Mu for Finance:
 Mu = Alpha (Sharpe) - Beta (Drawdown/Risk) - Kappa (Slippage/Friction)
 """

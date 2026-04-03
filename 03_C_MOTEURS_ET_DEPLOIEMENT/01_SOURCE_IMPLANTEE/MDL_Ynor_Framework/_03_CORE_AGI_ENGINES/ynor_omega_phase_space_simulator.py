@@ -102,7 +102,7 @@ def simulate_llm_generation():
     plt.legend(facecolor="#1a1c24", edgecolor="none", labelcolor="white")
     plt.grid(True, alpha=0.2, color="white")
     
-    output_path = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_phase_space.png"
+    output_path = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_phase_space.png"
     plt.savefig(output_path, bbox_inches='tight')
     print(f"\nGraphique topologique sauvegardA: {output_path}")
 

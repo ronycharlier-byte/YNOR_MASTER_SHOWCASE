@@ -1,6 +1,6 @@
 # MIROIR TEXTUEL - Universal_Dissipative_Stability_2026.pdf
 
-Source : _RELEASES\GOLDEN_MASTER_PHASE_III_SOUVERAINE\Universal_Dissipative_Stability_2026.pdf
+Source : _RELEASES\GOLDEN_MASTER_PHASE_III_CANONIQUE\Universal_Dissipative_Stability_2026.pdf
 Taille : 313974 octets
 SHA256 : f944b36b38dea94deaf1389cbce4e6678c23f5dcbab415c995ebb636d93b3261
 

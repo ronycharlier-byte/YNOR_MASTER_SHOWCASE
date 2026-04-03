@@ -1,12 +1,12 @@
 ﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # ARSENAL D'ATTAQUE STRATGIQUE ET NEUTRALISATION PRVENTIVE v1.0
 # =============================================================================
 import json
 import time
 
-OFFENSIVE_LOG = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\mdl_offensive_report.json"
+OFFENSIVE_LOG = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\mdl_offensive_report.json"
 
 class StrategicArsenal:
     """

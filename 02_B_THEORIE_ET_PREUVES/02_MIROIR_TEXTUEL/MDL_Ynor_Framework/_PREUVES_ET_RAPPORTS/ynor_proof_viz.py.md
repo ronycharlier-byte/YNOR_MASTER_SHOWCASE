@@ -108,7 +108,7 @@ def plot_perfect_proof():
     lines2, labels2 = ax2.get_legend_handles_labels()
     ax2.legend(lines + lines2, labels + labels2, loc='upper left')
 
-    output = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_irrefutable_proof.png"
+    output = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_irrefutable_proof.png"
     plt.savefig(output, dpi=300)
     print(f"\n[DÉPLOIEMENT RÉUSSI]")
     print(f"Graphique de preuve généré : {output}")

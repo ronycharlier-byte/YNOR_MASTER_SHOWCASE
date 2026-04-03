@@ -12,7 +12,7 @@ SHA256 : a2a1001c761d02b0db3a0a31e532789d007cc58e961f408f31bb9a125d1c6f88
    "metadata": {},
    "source": [
     "# ⚛️ MDL YNOR - RUNBOOK REPRODUCTIBLE (v2.1)\n",
-    "### Architecte Suprême : Charlier Rony | [Copyright 2026]\n",
+    "### Principal Investigatore Suprême : Charlier Rony | [Copyright 2026]\n",
     "\n",
     "Ce notebook démontre la stabilité thermodynamique d'un système MDL Ynor via les simulations exactes de l'équation $\\dot{S} = E(S) - D(S)$.\n",
     "\n",

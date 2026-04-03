@@ -2,8 +2,8 @@ import os
 import json
 import hashlib
 
-FRAMEWORK_DIR = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework"
-JSON_FILE = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_03_CORE_AGI_ENGINES\MDL_YNOR_GPT_KNOWLEDGE\mdl_global_knowledge.json"
+FRAMEWORK_DIR = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework"
+JSON_FILE = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_03_CORE_AGI_ENGINES\MDL_YNOR_GPT_KNOWLEDGE\mdl_global_knowledge.json"
 
 def estimate_tokens(text):
     return len(text) // 4

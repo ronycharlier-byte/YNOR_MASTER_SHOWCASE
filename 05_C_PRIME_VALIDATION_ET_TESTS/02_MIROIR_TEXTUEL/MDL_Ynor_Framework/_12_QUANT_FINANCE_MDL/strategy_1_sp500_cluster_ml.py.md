@@ -8,7 +8,7 @@ SHA256 : 9dac72410bbdb3add0e7fd8c00b866fde49c27fd5df098f736e69a1956376cd1
 """
 MDL YNOR QUANTUM - STRATEGY 1: S&P 500 + K-MEANS + PORTFOLIO OPTIMIZED
 ====================================================================
-Architecture : AGI-Managed Quantitative Strategy
+Principal Investigatorure : AGI-Managed Quantitative Strategy
 Core logic: 
 1. Daily data ingestion (yfinance)
 2. Hybrid Feature Engineering (Technical + Fama-French + Momentum)

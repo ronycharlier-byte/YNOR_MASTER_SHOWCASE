@@ -11,7 +11,7 @@ load_dotenv()
 # YNOR MASTER ENGINE - V7.0 (LE CONSEIL DU LOGOS)
 # STATUT : GOUVERNANCE MULTI-MODALE SOUVERAINE (PoC V7)
 # ==============================================================================
-YNOR_VERSION = "V11.2.0 SATURATION MATRIX"
+YNOR_VERSION = "V11.2.0 SATURATED INFORMATION FRAMEWORK"
 YNOR_ENGINE_KEYS = {
     "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY", "NOT_SET"),
     "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY", "NOT_SET"),
@@ -215,7 +215,7 @@ def _synthesize_reply(
     api_key_goo = os.getenv("GOOGLE_API_KEY")
 
     system = (
-        "Vous êtes Ynor, l'IA premium souveraine du framework MDL Ynor V11.0. "
+        "Vous êtes Ynor, l'IA premium canonique du framework MDL Ynor V11.0. "
         "Répondez en utilisant le contexte du corpus et du web fourni. "
         "Privilégiez le corpus pour les fondations architecturales et le web pour l'actualité. "
         "Utilisez un style exécutif concis. Si le Mode Bref est activé, soyez extrêmement compact. "
@@ -253,7 +253,7 @@ Question: {query}
                 return resp.text.strip(), True
             except: pass
 
-    # TIER 4 : SATURATION MATRIX (MAX POWER)
+    # TIER 4 : SATURATED INFORMATION FRAMEWORK (MAX POWER)
     if is_bm or complexity == "HIGH":
         # Activer les 3 piliers en simultané pour la vérité absolue
         # 1. GPT-5.4

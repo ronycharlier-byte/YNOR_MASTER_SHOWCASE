@@ -1,6 +1,6 @@
-# SOVEREIGN REFERENCE OUTPUT / internal status report (PHASE III) - VERSION FRACTALE ET CHIASTIQUE
+# CANONICAL REFERENCE OUTPUT / internal status report (PHASE III) - VERSION FRACTALE ET CHIASTIQUE
 
-Source : `_RELEASES/GOLDEN_MASTER_PHASE_III/SOVEREIGN_SUCCESS_STATUTE.md`
+Source : `_RELEASES/GOLDEN_MASTER_PHASE_III/CANONICAL_SUCCESS_STATUTE.md`
 
 ## A. Ouverture
 Using the Gagliardo-Nirenberg interpolation: $$ \|u\|_{L^4}^4 \le C_{GN} \|u\|_{L^2} \| \nabla u \|_{L^2}^3 $$ Ensuring $\alpha(t) \ge \beta(t) + \epsilon$ leads to $\mu_{NS}(t) \ge \epsilon > 0$, guaranteeing the global regularity and uniqueness of strong solutions.
@@ -24,7 +24,7 @@ Au retour du centre, le texte se relit comme un mécanisme de clarification, de 
 
 ## B'. Miroir
 Les titres ou repères structurants deviennent les miroirs de son organisation :
-- SOVEREIGN REFERENCE OUTPUT / internal status report (PHASE III)
+- CANONICAL REFERENCE OUTPUT / internal status report (PHASE III)
 - 0. AUTHENTICATION
 - 1. NAVIER-STOKES 3-D PROOF EXTRACT
 - 2. OPTIMAL INCOHERENCE THEOREM (OIT)

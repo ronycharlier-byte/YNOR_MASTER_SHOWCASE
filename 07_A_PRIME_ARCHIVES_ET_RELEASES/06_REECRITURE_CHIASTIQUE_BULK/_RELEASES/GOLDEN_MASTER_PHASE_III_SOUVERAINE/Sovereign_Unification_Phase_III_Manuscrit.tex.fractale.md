@@ -1,6 +1,6 @@
-﻿# PHASE III : UNIFICATION SOUVERAINE - VERSION FRACTALE AUGMENTEE
+﻿# PHASE III : UNIFICATION CANONIQUE - VERSION FRACTALE AUGMENTEE
 
-Source : `_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Unification_Phase_III_Manuscrit.tex`
+Source : `_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/Canonical_Unification_Phase_III_Manuscrit.tex`
 
 ## A. Ouverture
 La Phase III relie convergence numerique et relativite generale.

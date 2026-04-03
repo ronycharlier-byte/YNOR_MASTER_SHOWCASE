@@ -147,7 +147,7 @@ Direction: faire revenir les motifs.
 ### VT4. Vecteur D'Anticipation
 Direction: projeter la suite possible.
 
-## Famille Architecturale
+## Famille Principal Investigatorurale
 ### VA1. Vecteur De Structure
 Direction: organiser les couches.
 
@@ -313,7 +313,7 @@ Direction: fonder l'autorite.
 ### VPOL3. Vecteur De Coalition
 Direction: rassembler les forces utiles.
 
-### VPOL4. Vecteur De Souverainete
+### VPOL4. Vecteur De Canoniquete
 Direction: tenir la decision propre.
 
 ## Famille Civilisationnelle

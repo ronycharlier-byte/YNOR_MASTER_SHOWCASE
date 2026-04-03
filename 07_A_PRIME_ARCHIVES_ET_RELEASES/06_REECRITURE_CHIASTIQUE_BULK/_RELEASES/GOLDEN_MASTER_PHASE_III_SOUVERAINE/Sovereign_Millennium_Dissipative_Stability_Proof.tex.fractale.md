@@ -1,6 +1,6 @@
 ﻿# GLOBAL REGULARITY AND SPECTRAL CONFINEMENT - VERSION FRACTALE AUGMENTEE
 
-Source : `_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Millennium_Dissipative_Stability_Proof.tex`
+Source : `_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/Canonical_Millennium_Dissipative_Stability_Proof.tex`
 
 ## A. Ouverture
 La version fractale resserre le cadre de stabilite.

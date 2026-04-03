@@ -1,6 +1,6 @@
 ﻿# MIROIR TEXTUEL - PHASE_IV_ACCESS_CARD.md
 
-Source : _RELEASES\GOLDEN_MASTER_PHASE_III_SOUVERAINE\PHASE_IV_ACCESS_CARD.md
+Source : _RELEASES\GOLDEN_MASTER_PHASE_III_CANONIQUE\PHASE_IV_ACCESS_CARD.md
 
 ## A. Ouverture
 > [!IMPORTANT] > Consigne interne: ce document sert de repere documentaire. Ne pas diffuser les identifiants.
@@ -24,7 +24,7 @@ Au retour du centre, le texte se relit comme un mecanisme de clarification, de s
 
 ## B'. Miroir
 Les repères structurants deviennent les miroirs de son organisation:
-- CARTE D'ACCES SOUVERAINE (PHASE IV)
+- CARTE D'ACCES CANONIQUE (PHASE IV)
 - Canonical Research Collective -- Founder Level 0
 - CLES D'ACTIVATION (ROOT KEYS)
 - PHRASES D'INITIALISATION

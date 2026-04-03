@@ -5,7 +5,7 @@ Taille : 1023 octets
 SHA256 : 25a6ef68d4e10ed663e442312523c096b30ab65d3ea08649d3bc039aeb51e617
 
 ```text
-﻿// COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES | Architecte Supreme & Fondateur - Architecture MDL Ynor
+﻿// COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES | Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 {
   "concepts": {
     "Marge Dissipative (mu)": {

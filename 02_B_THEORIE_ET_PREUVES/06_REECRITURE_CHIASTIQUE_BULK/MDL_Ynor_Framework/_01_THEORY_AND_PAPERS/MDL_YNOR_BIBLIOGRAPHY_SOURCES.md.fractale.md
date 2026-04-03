@@ -3,13 +3,13 @@
 Source : `MDL_Ynor_Framework/_01_THEORY_AND_PAPERS/MDL_YNOR_BIBLIOGRAPHY_SOURCES.md`
 
 ## A. Ouverture
-This document serves as the official source of truth for all external theoretical and empirical foundations integrated into the MDL Ynor AGI Architecture.
+This document serves as the official source of truth for all external theoretical and empirical foundations integrated into the MDL Ynor AGI Principal Investigatorure.
 
 ## B. Expansion
 Le texte se déplie selon les lignes suivantes :
 - **Charlier, R. (2026).** *The Viability Principle: Information Conservation and Optimal Incoherence in Resource-Constrained AGI.* Zenodo DOI: [10.5281/zenodo.18855042](https://doi.org/10.5281/zenodo.18855042).
 - **Lyapunov, A. M. (1892).** *The General Problem of the Stability of Motion.* (Foundational for Mu-Margin analysis).
-- **Kahneman, D. (2011).** *Thinking, Fast and Slow.* (Basis for the System 1 & System 2 Dual-Architecture).
+- **Kahneman, D. (2011).** *Thinking, Fast and Slow.* (Basis for the System 1 & System 2 Dual-Principal Investigatorure).
 - **Clay Mathematics Institute.** *The Millennium Prize Problems.* [claymath.org](https://www.claymath.org/millennium-problems). (Navier-Stokes, P vs NP, Riemann Hypothesis, etc.).
 - **Perelman, G. (2002).** *The Entropy Formula for the Ricci Flow and its Geometric Applications.* (Foundational for 3D topology in Ynor).
 - **Algorithmic Trading & ML.** *Course by "Lumina Analytics" / Algorithmic Trading Course.* (YouTube Source for Strategy 1-3). [Source Link](https://www.youtube.com/watch?v=isCuJ_9yZqc).

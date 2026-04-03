@@ -1,4 +1,4 @@
-﻿# CARTE D'ACCES SOUVERAINE (PHASE IV) - VERSION FRACTALE ET CHIASTIQUE
+﻿# CARTE D'ACCES CANONIQUE (PHASE IV) - VERSION FRACTALE ET CHIASTIQUE
 
 Source : `_RELEASES/GOLDEN_MASTER_PHASE_III/PHASE_IV_ACCESS_CARD.md`
 
@@ -23,7 +23,7 @@ Le texte se relit comme mecanisme de clarification et de stabilisation.
 
 ## B'. Miroir
 Repères structurants:
-- CARTE D'ACCES SOUVERAINE (PHASE IV)
+- CARTE D'ACCES CANONIQUE (PHASE IV)
 - Canonical Research Collective -- Founder Level 0
 - CLES D'ACTIVATION (ROOT KEYS)
 - PHRASES D'INITIALISATION

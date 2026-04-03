@@ -1,7 +1,7 @@
 """
 MDL YNOR QUANTUM - MASTER ORCHESTRATOR & AUDIT (V1)
 ===================================================
-Architecture : Global Portfolio Governance
+Principal Investigatorure : Global Portfolio Governance
 Runs all active strategies and performs a Mu-Margin viability audit.
 """
 

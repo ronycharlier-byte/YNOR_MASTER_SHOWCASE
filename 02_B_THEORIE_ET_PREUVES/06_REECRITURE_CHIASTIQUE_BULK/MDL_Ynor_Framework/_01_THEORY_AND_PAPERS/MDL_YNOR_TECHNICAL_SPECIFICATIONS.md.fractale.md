@@ -3,7 +3,7 @@
 Source : `MDL_Ynor_Framework/_01_THEORY_AND_PAPERS/MDL_YNOR_TECHNICAL_SPECIFICATIONS.md`
 
 ## A. Ouverture
-© 2026 MDL 전략 - GLOBAL SOUVERAINTY. All Rights Reserved. [ID: MDL-YNOR-TECH-SPEC-V3.1]
+© 2026 MDL 전략 - GLOBAL CANONIQUETY. All Rights Reserved. [ID: MDL-YNOR-TECH-SPEC-V3.1]
 
 ## B. Expansion
 Le texte se déplie selon les lignes suivantes :

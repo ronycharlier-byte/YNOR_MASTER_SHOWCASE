@@ -17,7 +17,7 @@ CORPUS MDL VOLUME II — PROTOCOLE DÉCISIONNEL HYBRIDE UNIVERSEL ÉDITION MONUM
 ```
 
 ## X. Centre
-Le centre chiastique est ici l'edition monumentale comme geste d'archivage et de souverainete.
+Le centre chiastique est ici l'edition monumentale comme geste d'archivage et de canoniquete.
 
 ## C'. Retour
 Le retour referme le document sur sa fonction administrative, juridique ou de diffusion.

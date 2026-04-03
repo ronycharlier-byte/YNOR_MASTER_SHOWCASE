@@ -10,7 +10,7 @@ SHA256 : fd125ab49c49f116a472e17430baff82e722c72322ed2528c2da37c10437b5c9
 **Propriétaire :** Charlier Rony
 
 ## 1. EU AI ACT (Réglementation Européenne)
-L'Architecture MDL Ynor répond aux exigences de **Sécurité par le Design**.
+L'Principal Investigatorure MDL Ynor répond aux exigences de **Sécurité par le Design**.
 - **Audit Mu** : Fait office de mesure de risque systémique (Audit Prédictif).
 - **Conformité** : ✅ VALIDÉ - Niveau de Risque : Contrôlé.
 

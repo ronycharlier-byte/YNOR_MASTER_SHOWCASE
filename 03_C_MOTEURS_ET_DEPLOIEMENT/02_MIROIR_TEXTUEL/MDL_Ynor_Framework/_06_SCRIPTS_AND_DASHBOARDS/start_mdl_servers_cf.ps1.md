@@ -10,7 +10,7 @@ SHA256 : 3877dfc718472425cf40e7064e42275b5df0916a63a560760c9aacddf8d15300
 # Script de demarrage automatique des serveurs MDL Ynor (Version Cloudflare)
 # =============================================================================
 
-$workDir = "C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework"
+$workDir = "C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework"
 $logDir = "$workDir\logs"
 
 # Creer le dossier de logs s'il n'existe pas

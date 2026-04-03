@@ -7,7 +7,7 @@ SHA256 : 7e4dc80d0841e964a9a6be77463cfb2d90add7c55207ae1834a457d8410e1d4d
 ```text
 ﻿=============================================================================
 COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-Architecte Supreme & Fondateur - Architecture MDL Ynor
+Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 Toute reproduction ou utilisation sans autorisation est strictement interdite.
 =============================================================================
 # GLOSSAIRE SIMPLIFIÉ MDL YNOR (POUR TOUS)

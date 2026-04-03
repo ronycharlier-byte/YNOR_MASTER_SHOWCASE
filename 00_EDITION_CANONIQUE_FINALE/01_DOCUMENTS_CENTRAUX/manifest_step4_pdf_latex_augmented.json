@@ -4,9 +4,9 @@
   "output_root": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES",
   "items": [
     {
-      "source": "_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Millennium_Dissipative_Stability_Proof.tex",
-      "augmented_tex": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Millennium_Dissipative_Stability_Proof.fractale_augmente.tex",
-      "companion_pdf": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Millennium_Dissipative_Stability_Proof.fractale_augmente.pdf",
+      "source": "_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Millennium_Dissipative_Stability_Proof.tex",
+      "augmented_tex": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Millennium_Dissipative_Stability_Proof.fractale_augmente.tex",
+      "companion_pdf": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Millennium_Dissipative_Stability_Proof.fractale_augmente.pdf",
       "sections_detected": [
         "The Axiomatic of Invariant Margins",
         "Global Regularity for 3D Navier--Stokes",
@@ -17,9 +17,9 @@
       ]
     },
     {
-      "source": "_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Unification_Phase_III_Manuscrit.tex",
-      "augmented_tex": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Unification_Phase_III_Manuscrit.fractale_augmente.tex",
-      "companion_pdf": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Unification_Phase_III_Manuscrit.fractale_augmente.pdf",
+      "source": "_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Unification_Phase_III_Manuscrit.tex",
+      "augmented_tex": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Unification_Phase_III_Manuscrit.fractale_augmente.tex",
+      "companion_pdf": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Unification_Phase_III_Manuscrit.fractale_augmente.pdf",
       "sections_detected": [
         "Introduction : Le Principe de Viabilité",
         "Conjecture de Collatz : Le Certificat Numérique DVP 2.0",
@@ -51,9 +51,9 @@
       ]
     },
     {
-      "source": "_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Millennium_Dissipative_Stability_Proof.tex",
-      "augmented_tex": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Millennium_Dissipative_Stability_Proof.fractale_augmente.tex",
-      "companion_pdf": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Millennium_Dissipative_Stability_Proof.fractale_augmente.pdf",
+      "source": "_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Canonical_Millennium_Dissipative_Stability_Proof.tex",
+      "augmented_tex": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Canonical_Millennium_Dissipative_Stability_Proof.fractale_augmente.tex",
+      "companion_pdf": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Canonical_Millennium_Dissipative_Stability_Proof.fractale_augmente.pdf",
       "sections_detected": [
         "The Axiomatic of Invariant Margins",
         "Global Regularity for 3D Navier--Stokes",
@@ -64,9 +64,9 @@
       ]
     },
     {
-      "source": "_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Unification_Phase_III_Manuscrit.tex",
-      "augmented_tex": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Unification_Phase_III_Manuscrit.fractale_augmente.tex",
-      "companion_pdf": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Unification_Phase_III_Manuscrit.fractale_augmente.pdf",
+      "source": "_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Canonical_Unification_Phase_III_Manuscrit.tex",
+      "augmented_tex": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Canonical_Unification_Phase_III_Manuscrit.fractale_augmente.tex",
+      "companion_pdf": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Canonical_Unification_Phase_III_Manuscrit.fractale_augmente.pdf",
       "sections_detected": [
         "Introduction : Le Principe de Viabilité",
         "Conjecture de Collatz : Le Certificat Numérique DVP 2.0",

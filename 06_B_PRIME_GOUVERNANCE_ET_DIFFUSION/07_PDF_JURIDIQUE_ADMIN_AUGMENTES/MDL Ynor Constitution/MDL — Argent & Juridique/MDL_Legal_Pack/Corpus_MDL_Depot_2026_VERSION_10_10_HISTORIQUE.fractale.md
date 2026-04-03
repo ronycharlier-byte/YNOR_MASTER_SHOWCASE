@@ -13,11 +13,11 @@ Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition 
 ## C. Matiere
 Extrait textuel interpretable :
 ```text
-CORPUS MDL — VERSION HISTORIQUE INTÉGRALE 2026 Version 3.0 — Niveau 10/10 — Document Constitutionnel Officiel Date d’édition : 17/02/2026 Architecture Décisionnelle Universelle Hybride — Texte Fondateur Normatif TABLE DES MATIÈRES NORMATIVE  TITRE I — Principes Fondateurs  TITRE II — Architecture Hiérarchique  TITRE III — Protocole Décisionnel Hybride Universel  TITRE IV — Taxonomie & Variables Normatives  TITRE V — Architecture Neurophysiologique  TITRE VI — Protocole d’Intégration Cognitive  TITRE VII — Architecture Stratégique Cumulative  TITRE VIII — Annexes Techniques Détaillées  TITRE IX — Index & Lexique Normatif  TITRE X — Gouvernance, Propriété & Exploitation
+CORPUS MDL — VERSION HISTORIQUE INTÉGRALE 2026 Version 3.0 — Niveau 10/10 — Document Constitutionnel Officiel Date d’édition : 17/02/2026 Principal Investigatorure Décisionnelle Universelle Hybride — Texte Fondateur Normatif TABLE DES MATIÈRES NORMATIVE  TITRE I — Principes Fondateurs  TITRE II — Principal Investigatorure Hiérarchique  TITRE III — Protocole Décisionnel Hybride Universel  TITRE IV — Taxonomie & Variables Normatives  TITRE V — Principal Investigatorure Neurophysiologique  TITRE VI — Protocole d’Intégration Cognitive  TITRE VII — Principal Investigatorure Stratégique Cumulative  TITRE VIII — Annexes Techniques Détaillées  TITRE IX — Index & Lexique Normatif  TITRE X — Gouvernance, Propriété & Exploitation
 ```
 
 ## X. Centre
-Le centre chiastique est ici la norme souveraine : faire tenir legitimite, responsabilite et ordre documentaire.
+Le centre chiastique est ici la norme canonique : faire tenir legitimite, responsabilite et ordre documentaire.
 
 ## C'. Retour
 Le retour referme le document sur sa fonction administrative, juridique ou de diffusion.

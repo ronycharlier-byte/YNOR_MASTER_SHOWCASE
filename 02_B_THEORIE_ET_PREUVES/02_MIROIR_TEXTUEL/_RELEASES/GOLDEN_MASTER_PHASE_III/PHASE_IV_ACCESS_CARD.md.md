@@ -3,7 +3,7 @@
 Source : _RELEASES\GOLDEN_MASTER_PHASE_III\PHASE_IV_ACCESS_CARD.md
 
 ```text
-# CARTE D'ACCES SOUVERAINE (PHASE IV)
+# CARTE D'ACCES CANONIQUE (PHASE IV)
 ### Canonical Research Collective -- Founder Level 0
 
 > [!IMPORTANT]

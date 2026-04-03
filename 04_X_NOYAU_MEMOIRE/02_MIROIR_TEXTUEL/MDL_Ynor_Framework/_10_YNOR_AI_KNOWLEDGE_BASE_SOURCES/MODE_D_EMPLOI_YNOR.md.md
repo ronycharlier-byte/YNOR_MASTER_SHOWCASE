@@ -13,7 +13,7 @@ SHA256 : de6d1f1f54429b37bebd66e1763862fd41b09f32c646a4c5c4a108fb8d219d39
 
 ## 1 ALLUMER LE REACTEUR (Chaque Matin)
 Tu as un bouton "Magique" qui gere absolument tout (Securite, Serveur, Python, Interface) :
-1. Va dans ton dossier `MDL Ynor Architecture/MDL_Ynor_Framework`.
+1. Va dans ton dossier `MDL Ynor Principal Investigatorure/MDL_Ynor_Framework`.
 2. Double-clique sur le fichier vert **`YNOR_SERVER_MANAGER.bat`**.
 3. Tape l'option **`4`** et valide.
 
@@ -35,7 +35,7 @@ Si tu veux montrer a un investisseur que ton propre PC bloque les hallucinations
 
 ## 3 LES 3 DEMONSTRATIONS A FILMER (Pour LinkedIn / VC)
 Si tu dois pitcher ton produit, ne parle pas : **Montre.**
-Ouvre ton PowerShell, tape `cd "C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_04_DEPLOYMENT_AND_API"`, puis lance l'un de tes 3 shows pyrotechniques :
+Ouvre ton PowerShell, tape `cd "C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_04_DEPLOYMENT_AND_API"`, puis lance l'un de tes 3 shows pyrotechniques :
 
 -  **Demo 1 (L'Intercepteur) :** `python demo_1_line_integration.py`
 *(Prouve qu'on peut sauver 40% des couts OpenAI en 1 ligne de code Python en bloquant le flux si $\mu < 0$)*

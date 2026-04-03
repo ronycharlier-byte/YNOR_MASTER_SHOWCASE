@@ -18,7 +18,7 @@ Dans le cadre de l'architecture **MDL Ynor**, cela signifie que le contrôle de 
 - Introduire le critère BKM comme garde-fou prioritaire lors des innovations de structures dissipatives ($D(S)$).
 
 ### 📍 Localisation du Papier
-- [Fichier PDF](file:///c:/Users/ronyc/Desktop/MDL%20Ynor%20Architecture/MDL_Ynor_Framework/_01_THEORY_AND_PAPERS/impulse_serrin_bkm.pdf)
+- [Fichier PDF](file:///c:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/MDL_Ynor_Framework/_01_THEORY_AND_PAPERS/impulse_serrin_bkm.pdf)
 - DOI : 10.5281/zenodo.19219487
 
 ---

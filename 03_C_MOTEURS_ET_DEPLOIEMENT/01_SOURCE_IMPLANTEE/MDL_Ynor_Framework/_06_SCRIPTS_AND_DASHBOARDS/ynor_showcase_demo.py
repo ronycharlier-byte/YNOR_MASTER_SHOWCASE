@@ -166,4 +166,4 @@ if test_btn:
     st.plotly_chart(fig, use_container_width=True)
 
 st.divider()
-st.markdown("<p style='text-align:center; color:#222; margin-top:5rem;'>© 2026 MDL Ynor Architecture | Canonical AI Intelligence | Managed by Charlier Rony</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align:center; color:#222; margin-top:5rem;'>© 2026 MDL Ynor Principal Investigatorure | Canonical AI Intelligence | Managed by Charlier Rony</p>", unsafe_allow_html=True)

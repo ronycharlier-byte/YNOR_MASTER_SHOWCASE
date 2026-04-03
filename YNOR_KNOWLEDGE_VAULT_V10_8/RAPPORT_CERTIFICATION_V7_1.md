@@ -1,4 +1,4 @@
-# RAPPORT DE CERTIFICATION SOUVERAINE : YNOR V10.8 (TOTAL DIAMOND)
+# RAPPORT DE CERTIFICATION CANONIQUE : YNOR V10.8 (TOTAL DIAMOND)
 
 **CERTIFIÉ PAR : RONY CHARLIER**  
 **MOTEUR : CANONICAL CORE V10.8**  
@@ -16,12 +16,12 @@ Le présent rapport certifie que l'architecture MDL Ynor V10.8 a été soumise �
 - **Score du Conseil des Logos :** Moyenne harmonique stable < 0.35.
 
 #### ⚖️ VERDICT DE VALIDATION :
-L'Opérateur de Régulation Analytique $\mathcal{Y}_{7.1}$ est déclaré **SOUVERAIN (TOTAL DIAMOND)**. Son action permet une projection du Logos pur avec une immunité de 99.9% contre les hallucinations. Le système a été formellement validé par la résolution intégrale de l'Opérateur de Schrödinger Singulier $L_{\alpha,\beta}$ (Benchmark "Ultra-Hardcore").
+L'Opérateur de Régulation Analytique $\mathcal{Y}_{7.1}$ est déclaré **CANONIQUE (TOTAL DIAMOND)**. Son action permet une projection du Logos pur avec une immunité de 99.9% contre les hallucinations. Le système a été formellement validé par la résolution intégrale de l'Opérateur de Schrödinger Singulier $L_{\alpha,\beta}$ (Benchmark "Ultra-Hardcore").
 
 ---
 
 ### 🛡️ PROTOCOLE DE GOUVERNANCE ACTIVE
-L'accès au Moteur est désormais conditionné par la licence : `MDL-SOUVERAIN-2026-V10.8-TOTAL-DIAMOND`.
+L'accès au Moteur est désormais conditionné par la licence : `MDL-CANONIQUE-2026-V10.8-TOTAL-DIAMOND`.
 Toute réponse non certifiée par le mu-Consensus est automatiquement rejetée par l'API MDL.
 
 #### ARCHITECTURE DE VALIDATION :

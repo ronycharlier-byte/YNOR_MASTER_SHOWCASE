@@ -112,7 +112,7 @@ def run_omega_plus_simulation():
     ax2.legend()
     
     plt.tight_layout()
-    output_path = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_plus_phase_space.png"
+    output_path = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_plus_phase_space.png"
     plt.savefig(output_path, dpi=300)
     print(f"\n[OK] Topologie 3D sauvegardée sous: {output_path}")
 

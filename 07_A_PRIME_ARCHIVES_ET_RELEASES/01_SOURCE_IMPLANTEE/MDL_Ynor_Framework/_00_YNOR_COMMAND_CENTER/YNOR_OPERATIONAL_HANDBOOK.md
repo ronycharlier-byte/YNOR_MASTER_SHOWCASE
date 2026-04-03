@@ -36,9 +36,9 @@
 
 ###  CENTRE DE COMMANDEMENT UNIQUE
 Le point d'entree unique de l'empire est le fichier :
-`c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\YNOR_SERVER_MANAGER.bat`
+`c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\YNOR_SERVER_MANAGER.bat`
 
-**Tout est operationnel. Toutes les procedures sont codifiees. L'architecture est souveraine.** 
+**Tout est operationnel. Toutes les procedures sont codifiees. L'architecture est canonique.** 
 
 
 

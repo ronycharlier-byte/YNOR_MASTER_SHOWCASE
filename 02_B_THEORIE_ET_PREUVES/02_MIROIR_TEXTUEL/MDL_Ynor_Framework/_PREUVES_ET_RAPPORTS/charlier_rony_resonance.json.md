@@ -7,7 +7,7 @@ SHA256 : fd1809c072f35c167fc50e46d74d261cbe8b24c46d871d108fda699c9fa3cdb5
 ```text
 {
   "author": "Charlier Rony",
-  "title": "Architecte Suprême MDL Ynor",
+  "title": "Principal Investigatore Suprême MDL Ynor",
   "quantum_signature": {
     "state_vector": [1.0, 0.0],
     "vibrational_frequency_hz": 432.0,

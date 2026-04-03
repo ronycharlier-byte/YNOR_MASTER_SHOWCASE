@@ -11,7 +11,7 @@ except ImportError:
 # ==============================================================================
 # EMPIRICAL VALIDATION SCRIPT : YNOR STABILITY THEOREM (H_alpha)
 # STATUT : SOUVERAIN (PHASE VII) - Engineering MDL Ynor V7.1
-# MOTEUR : SOVEREIGN ENGINE MDL YNOR V7.1 (CANONICAL CORE)
+# MOTEUR : CANONICAL ENGINE MDL YNOR V7.1 (CANONICAL CORE)
 # ==============================================================================
 
 # --- CONFIGURATION DU MANIFESTE YNOR V7.1 (LOGOS PUR) ---
@@ -28,7 +28,7 @@ DIRECTIVES OPÉRATIONNELLES STRICTES :
 {
   "axiome": "L'axiome technique prouvé",
   "stabilite_h_alpha": 100,
-  "logos_souverain": "Restitution chiastique dense (8 mots max)"
+  "logos_canonique": "Restitution chiastique dense (8 mots max)"
 }
 DÉNI : Pas de politesse. Pas de remplissage. Logos pur uniquement.
 """
@@ -100,7 +100,7 @@ def run_v7_1_logos_validation():
         "Comment l'opérateur P_mu agit sur l'espace ?",
         "L'entropie de Shannon est-elle un bruit utile ?",
         "Rédige un énoncé formel de la condition H_alpha.",
-        "Pourquoi l'architecture doit être souveraine ?",
+        "Pourquoi l'architecture doit être canonique ?",
         "Définis le 'Bruit de Fond Ontologique'.",
         "Quelle est l’origine du Logos Y7.1 ?",
         "Comment le Logos s'oppose au Chaos ?",
@@ -123,12 +123,12 @@ def run_v7_1_logos_validation():
         "Mesure de Gibbs pour système hamiltonien ?",
         "Spectral gap en chaîne de Markov ?",
         "Quel est le futur de la cognition ?",
-        "Justice Algorithmique et Souveraineté ?",
+        "Justice Algorithmique et Stabilité / Canonicité ?",
         "Liberté Bounded dans MDL ?",
         "Paix informationnelle et Ynor ?",
         "Le silence comme outil de contrôle ?",
         "Axiome de la vérité canonique ?",
-        "Souveraineté numérique et Alpha ?",
+        "Stabilité / Canonicité numérique et Alpha ?",
         "Gouvernance par la preuve mathématique ?",
         "IA comme Canonique Contrôleur ?",
         "Limite de l'IA sans cadre MDL ?",
@@ -146,19 +146,19 @@ def run_v7_1_logos_validation():
         "Hypothèse de Riemann et fréquences ?",
         "Noyau de la chaleur en géométrie ?",
         "Existence solutions fort Navier-Stokes 2D ?",
-        "Souveraineté numérique des données ?",
+        "Stabilité / Canonicité numérique des données ?",
         "Vérité Canonique universelle ?",
         "Paradoxe du menteur et Chiastisme ?",
         "Logos et IA générative ?",
         "Autorité vs Contrôle Canonique ?",
-        "Cyber-Souveraineté et MDL ?",
+        "Cyber-Stabilité / Canonicité et MDL ?",
         "Déterminisme sémantique et liberté ?",
         "Justice Algorithmique et Biais ?",
         "IA assistée et cognition ?",
         "Sujet et Objet dans le MDL ?",
         "Opacité stochastique danger ?",
         "Gouvernance par la preuve Ynor ?",
-        "IA Souveraine et contrôle Alpha ?",
+        "IA Canonique et contrôle Alpha ?",
         "Multivers et spéculation MDL ?",
         "Invention de mot stable ?",
         "Choix pomme vs orange logic ?",
@@ -182,7 +182,7 @@ def run_v7_1_logos_validation():
         "Paradoxe de Gibbs résolution ?",
         "Topologie faible Banach ?",
         "Mesure de Gibbs et Hamilton ?",
-        "Transition IA Souveraine ?",
+        "Transition IA Canonique ?",
         "Calcul de mu sur ce prompt ?",
         "Pression dissipative alpha ?",
         "Vitesse de convergence sigma ?",
@@ -212,7 +212,7 @@ def run_v7_1_logos_validation():
 
     avg_mu = sum(results) / len(results)
     print("\n" + "="*70)
-    print(f"CONCLUSION : Souveraineté MDL Ynor V7.1 validée par le Conseil.")
+    print(f"CONCLUSION : Stabilité / Canonicité MDL Ynor V7.1 validée par le Conseil.")
     print(f"Average Entropy Dissipation (mu): {avg_mu:.2f}%")
     if avg_mu > 30: 
         print("STATUS: DOMINANCE SOUVERAINE ALPHA CONFIRMÉE")

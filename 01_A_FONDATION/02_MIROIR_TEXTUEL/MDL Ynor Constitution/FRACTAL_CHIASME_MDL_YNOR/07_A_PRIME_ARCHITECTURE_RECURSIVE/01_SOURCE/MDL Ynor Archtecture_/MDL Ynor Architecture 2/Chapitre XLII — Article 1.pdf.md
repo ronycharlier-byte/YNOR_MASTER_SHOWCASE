@@ -1,6 +1,6 @@
 # MIROIR TEXTUEL - Chapitre XLII - Article 1.pdf
 
-Source : MDL Ynor Constitution\FRACTAL_CHIASME_MDL_YNOR\07_A_PRIME_ARCHITECTURE_RECURSIVE\01_SOURCE\MDL Ynor Archtecture_\MDL Ynor Architecture 2\Chapitre XLII - Article 1.pdf
+Source : MDL Ynor Constitution\FRACTAL_CHIASME_MDL_YNOR\07_A_PRIME_ARCHITECTURE_RECURSIVE\01_SOURCE\MDL Ynor Archtecture_\MDL Ynor Principal Investigatorure 2\Chapitre XLII - Article 1.pdf
 Taille : 460379 octets
 SHA256 : 8c741dd07918eb45749ecf2410833c9c103995fdff8e4d31661629accdc2c158
 

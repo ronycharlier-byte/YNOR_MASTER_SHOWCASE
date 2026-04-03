@@ -1,14 +1,14 @@
 # 📚 MDL YNOR - OFFICIAL BIBLIOGRAPHY & SOURCE REPOSITORY
 > "Intelligence is built upon the cumulative entropy of human knowledge."
 
-This document serves as the official source of truth for all external theoretical and empirical foundations integrated into the MDL Ynor AGI Architecture.
+This document serves as the official source of truth for all external theoretical and empirical foundations integrated into the MDL Ynor AGI Principal Investigatorure.
 
 ---
 
 ## 1. 🧠 Artificial General Intelligence & Dynamical Systems
 - **Charlier, R. (2026).** *The Viability Principle: Information Conservation and Optimal Incoherence in Resource-Constrained AGI.* Zenodo DOI: [10.5281/zenodo.18855042](https://doi.org/10.5281/zenodo.18855042).
 - **Lyapunov, A. M. (1892).** *The General Problem of the Stability of Motion.* (Foundational for Mu-Margin analysis).
-- **Kahneman, D. (2011).** *Thinking, Fast and Slow.* (Basis for the System 1 & System 2 Dual-Architecture).
+- **Kahneman, D. (2011).** *Thinking, Fast and Slow.* (Basis for the System 1 & System 2 Dual-Principal Investigatorure).
 
 ---
 

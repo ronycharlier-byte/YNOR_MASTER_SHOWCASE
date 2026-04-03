@@ -1,6 +1,6 @@
 ﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # MOISSONNEUR JURIDIQUE ET DE CONFORMIT v1.0
 # =============================================================================
 import json
@@ -36,7 +36,7 @@ class LegalHarvester:
     def generate_legal_report(self):
         print(" Demarrage de la Veille Juridique MDL Ynor...")
         
-        base_dir = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework"
+        base_dir = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework"
         report_path = os.path.join(base_dir, "MDL_YNOR_LEGAL_COMPLIANCE.md")
         
         content = f"""# RAPPORT DE CONFORMIT JURIDIQUE SUPRME
@@ -44,7 +44,7 @@ class LegalHarvester:
 **Proprietaire :** Charlier Rony
 
 ## 1. EU AI ACT (Reglementation Europeenne)
-L'Architecture MDL Ynor repond aux exigences de **Securite par le Design**.
+L'Principal Investigatorure MDL Ynor repond aux exigences de **Securite par le Design**.
 - **Audit Mu** : Fait office de mesure de risque systemique (Audit Predictif).
 - **Conformite** : OK VALID - Niveau de Risque : Controle.
 

@@ -55,7 +55,7 @@ class CulturalAgent:
 class CultureSimulator:
     def __init__(self):
         self.agents = [
-            CulturalAgent("Architect", "planner", base_cost=5.0, error_rate=0.5),
+            CulturalAgent("Principal Investigator", "planner", base_cost=5.0, error_rate=0.5),
             CulturalAgent("Dev-Alpha", "coder", base_cost=1.0, error_rate=0.4),  # Tres rentable mais brouillon
             CulturalAgent("Dev-Beta", "coder", base_cost=10.0, error_rate=0.05), # Parfait mais hors de prix
             CulturalAgent("Critic", "reviewer", base_cost=1.0, error_rate=0.1)
@@ -77,9 +77,9 @@ class CultureSimulator:
             task_context = "simple_task" if cycle % 2 != 0 else "critical_task"
             print(f"\n--- CYCLE {cycle} | Contexte : {task_context.upper()} ---")
             
-            # 1. Selection par l'Architecte (selon le contexte)
+            # 1. Selection par l'Principal Investigatore (selon le contexte)
             chosen_coder = max(coders, key=lambda c: architect.reputation_matrix[task_context][c.name])
-            print(f" Architect Delegue a [{chosen_coder.name}] (Trust: {architect.reputation_matrix[task_context][chosen_coder.name]:.2f})")
+            print(f" Principal Investigator Delegue a [{chosen_coder.name}] (Trust: {architect.reputation_matrix[task_context][chosen_coder.name]:.2f})")
             
             # 2. Execution du Dev
             mu_coder, err_coder, cost_coder = chosen_coder.perform_task(task_context)

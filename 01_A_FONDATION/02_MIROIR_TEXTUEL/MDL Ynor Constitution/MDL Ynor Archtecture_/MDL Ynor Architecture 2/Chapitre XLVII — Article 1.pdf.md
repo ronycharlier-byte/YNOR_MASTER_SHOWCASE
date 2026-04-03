@@ -1,6 +1,6 @@
 # MIROIR TEXTUEL - Chapitre XLVII - Article 1.pdf
 
-Source : MDL Ynor Constitution\MDL Ynor Archtecture_\MDL Ynor Architecture 2\Chapitre XLVII - Article 1.pdf
+Source : MDL Ynor Constitution\MDL Ynor Archtecture_\MDL Ynor Principal Investigatorure 2\Chapitre XLVII - Article 1.pdf
 Taille : 442270 octets
 SHA256 : 94dbd0ddb07d2034c9c1cba74d26ee55564a6ea05471148405cd37bb03447e34
 

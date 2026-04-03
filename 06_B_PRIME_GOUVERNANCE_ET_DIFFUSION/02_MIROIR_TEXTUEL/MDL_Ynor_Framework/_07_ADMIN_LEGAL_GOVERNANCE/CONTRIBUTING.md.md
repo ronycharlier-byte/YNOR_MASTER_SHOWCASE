@@ -21,7 +21,7 @@ The MDL Ynor Framework is a **Closed Source / Enterprise Proprietary** architect
 
 ## 2. COLLABORATION WORKFLOW
 
--   **Reviews**: All code modifications must be reviewed by the **Architect (Rony Charlier)**.
+-   **Reviews**: All code modifications must be reviewed by the **Principal Investigator (Rony Charlier)**.
 -   **Documentation**: Every new feature must include a corresponding $\mu$-impact analysis.
 -   **Security**: No hardcoded secrets. All PRs are subject to an automated security scan in our CI.
 

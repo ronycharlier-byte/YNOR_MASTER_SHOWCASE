@@ -2,7 +2,7 @@ import requests
 import json
 import time
 
-def test_sovereign_governance():
+def test_canonical_governance():
     url = "http://127.0.0.1:8000"
     query_data = {"query": "Explique l'invariant chiastique dans la gouvernance mu."}
     
@@ -42,4 +42,4 @@ def test_sovereign_governance():
 if __name__ == "__main__":
     # Petit délai pour laisser FastAPI démarrer
     time.sleep(2)
-    test_sovereign_governance()
+    test_canonical_governance()

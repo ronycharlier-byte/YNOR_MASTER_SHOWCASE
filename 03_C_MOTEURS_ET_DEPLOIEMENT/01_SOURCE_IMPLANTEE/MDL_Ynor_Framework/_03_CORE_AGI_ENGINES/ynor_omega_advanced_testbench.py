@@ -76,7 +76,7 @@ def run_testbench():
     plt.text(np.percentile(b1_vals, 60), np.percentile(c1_vals, 15), 'RÉGIME NON-VIABLE\n(Dérive Thermodynamique LLM)', 
              color='white', fontsize=12, fontweight='bold', bbox=dict(facecolor='#ff3333', alpha=0.8, edgecolor='none'))
 
-    output_path = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_heatmap_stability.png"
+    output_path = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_heatmap_stability.png"
     plt.tight_layout()
     plt.savefig(output_path, dpi=300)
     print(f"\n[OK] Heatmap de Stabilité Globalisée générée : {output_path}")

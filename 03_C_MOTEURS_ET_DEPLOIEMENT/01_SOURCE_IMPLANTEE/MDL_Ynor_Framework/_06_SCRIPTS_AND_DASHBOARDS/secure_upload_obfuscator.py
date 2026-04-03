@@ -12,8 +12,8 @@ import uuid
 # 3. Créant une archive propre pour l'upload final
 # =====================================================================
 
-SOURCE_DIR = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\MDL_YNOR_GPT_UPLOAD_V3"
-OUTPUT_DIR = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\MDL_YNOR_GPT_FINAL_DIST"
+SOURCE_DIR = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\MDL_YNOR_GPT_UPLOAD_V3"
+OUTPUT_DIR = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\MDL_YNOR_GPT_FINAL_DIST"
 MAPPING_LOG = os.path.join(OUTPUT_DIR, "obfuscation_mapping_DONT_UPLOAD.json")
 
 # Regex de détection

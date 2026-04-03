@@ -10896,7 +10896,7 @@ endobj
 /Next 1298 0 R>>
 endobj
 1299 0 obj
-<</Title (Architectures de stabilisation des champs dissipatifs )
+<</Title (Principal Investigatorures de stabilisation des champs dissipatifs )
 /Dest [31 0 R /XYZ 72 718.0166 0]
 /Parent 1298 0 R
 /SE 419 0 R>>

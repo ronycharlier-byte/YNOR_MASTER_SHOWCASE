@@ -3,7 +3,7 @@
 **Propriétaire :** Charlier Rony
 
 ## 1. EU AI ACT (Réglementation Européenne)
-L'Architecture MDL Ynor répond aux exigences de **Sécurité par le Design**.
+L'Principal Investigatorure MDL Ynor répond aux exigences de **Sécurité par le Design**.
 - **Audit Mu** : Fait office de mesure de risque systémique (Audit Prédictif).
 - **Conformité** : ✅ VALIDÉ - Niveau de Risque : Contrôlé.
 

@@ -1,7 +1,7 @@
 # 🌌 MDL YNOR - QUANTUM LIQUIDITY DESK (V1.0)
 > "Intelligence is the ultimate arbitrage. Risk is just unmanaged entropy."
 
-Welcome to the **Quantum Finance AGI** module of the **MDL Ynor Architecture**. This suite implements, refines, and modernizes the quantitative strategies presented in the "Algorithmic Trading – Machine Learning & Quant Strategies" course, integrating them into the **Mu-Margin Viability Engine**.
+Welcome to the **Quantum Finance AGI** module of the **MDL Ynor Principal Investigatorure**. This suite implements, refines, and modernizes the quantitative strategies presented in the "Algorithmic Trading – Machine Learning & Quant Strategies" course, integrating them into the **Mu-Margin Viability Engine**.
 
 ## 🧠 Core Philosophy: The Financial Mu
 Traditional finance measures Risk vs. Return. MDL Ynor measures **Viability (μ)**.
@@ -13,7 +13,7 @@ $\mu = \text{Alpha} - \text{Beta} - \text{Kappa}$
 
 ---
 
-## 🛠️ Module Architecture
+## 🛠️ Module Principal Investigatorure
 
 ### 📊 Strategy 1: S&P 500 Cluster Dynamics (`strategy_1_sp500_cluster_ml.py`)
 - **Method**: Monthly K-Means clustering on 150 top liquid stocks.

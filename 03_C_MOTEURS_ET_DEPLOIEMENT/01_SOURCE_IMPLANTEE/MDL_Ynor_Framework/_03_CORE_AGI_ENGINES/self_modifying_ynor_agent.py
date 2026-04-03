@@ -95,7 +95,7 @@ class SelfAwareYnorAgent:
 # 🧪 SIMULATION
 # =========================
 def run_self_modification():
-    print("Initiating Level 3 AGI Cognitive Engine (Self-Modifying Architecture)...")
+    print("Initiating Level 3 AGI Cognitive Engine (Self-Modifying Principal Investigatorure)...")
     agent = SelfAwareYnorAgent()
     
     # Introduce adversarial environment target drift

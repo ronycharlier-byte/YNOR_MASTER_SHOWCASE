@@ -10,9 +10,9 @@ Inventaire concret des archives, releases et exports conserves dans `07_A_PRIME_
 - `CHANGELOG.md`
 - `ARCHIVE_MANIFEST.md`
 - `PACKAGING_GUIDE.md`
-- `SOVEREIGN_EXPORTS_INDEX.md`
+- `CANONICAL_EXPORTS_INDEX.md`
 
-## Architecture D'Archive
+## Principal Investigatorure D'Archive
 ### 1. Source implantee
 Le socle physique du noyau archive se trouve dans:
 - `01_SOURCE_IMPLANTEE/MDL_Ynor_Framework`
@@ -52,7 +52,7 @@ Les archives internes de logique, d'audit et de generation comprennent notamment
 - `mdl_ynor_core.py`
 - `mdl_ynor_networks.py`
 - `mdl_ynor_regimes.py`
-- `MDL_Ynor_Unified_Architecture.py`
+- `MDL_Ynor_Unified_Principal Investigatorure.py`
 - `read_all_pdfs.py`
 - `read_pdf.py`
 - `test_core.py`
@@ -81,47 +81,47 @@ Les archives internes de logique, d'audit et de generation comprennent notamment
 
 ## Rewrites Chiastiques
 ### 5. Re-ecriture chiastique
-- `05_REECRITURE_CHIASTIQUE/SOVEREIGN_MASTER_PROMPT_V3_FRACTAL_CHIASTIQUE.md`
+- `05_REECRITURE_CHIASTIQUE/CANONICAL_MASTER_PROMPT_V3_FRACTAL_CHIASTIQUE.md`
 
 ### 6. Re-ecriture chiastique bulk
 Les release mirrors conserves sous:
 - `06_REECRITURE_CHIASTIQUE_BULK/_RELEASES/GOLDEN_MASTER_PHASE_III`
-- `06_REECRITURE_CHIASTIQUE_BULK/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE`
+- `06_REECRITURE_CHIASTIQUE_BULK/_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE`
 
 Fichiers miroirs identifies dans ces paquets:
 - `PHASE_IV_ACCESS_CARD.md.fractale.md`
 - `PHASE_IV_ACCESS_CARD.tex.fractale.md`
-- `SOVEREIGN_GOVERNANCE_CERTIFICATION.md.fractale.md`
-- `SOVEREIGN_MASTER_PROMPT_V3.txt.fractale.md`
-- `Sovereign_Millennium_Dissipative_Stability_Proof.tex.fractale.md`
-- `Sovereign_Scientific_White_Paper_v3.md.fractale.md`
-- `SOVEREIGN_SUCCESS_CERTIFICATE.md.fractale.md`
-- `SOVEREIGN_ULTIMATE_KNOWLEDGE_PROMPT_COPY_ME.txt.fractale.md`
-- `Sovereign_Unification_Phase_III_Manuscrit.tex.fractale.md`
-- `SUBMISSION_CHECKLIST_SOVEREIGN.md.fractale.md`
+- `CANONICAL_GOVERNANCE_CERTIFICATION.md.fractale.md`
+- `CANONICAL_MASTER_PROMPT_V3.txt.fractale.md`
+- `Canonical_Millennium_Dissipative_Stability_Proof.tex.fractale.md`
+- `Canonical_Scientific_White_Paper_v3.md.fractale.md`
+- `CANONICAL_SUCCESS_CERTIFICATE.md.fractale.md`
+- `CANONICAL_ULTIMATE_KNOWLEDGE_PROMPT_COPY_ME.txt.fractale.md`
+- `Canonical_Unification_Phase_III_Manuscrit.tex.fractale.md`
+- `SUBMISSION_CHECKLIST_CANONICAL.md.fractale.md`
 - `Numerical_Verification_Report_Phases_I_II.tex.fractale.md`
 
 ### 7. Re-ecriture JSON chiastique
 Les exports JSON identifies sont:
-- `07_REECRITURE_JSON_CHIASTIQUE/_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Global_Knowledge.json.fractale.md`
-- `07_REECRITURE_JSON_CHIASTIQUE/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Global_Knowledge.json.fractale.md`
+- `07_REECRITURE_JSON_CHIASTIQUE/_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Global_Knowledge.json.fractale.md`
+- `07_REECRITURE_JSON_CHIASTIQUE/_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/Canonical_Global_Knowledge.json.fractale.md`
 
 ### 8. PDFs latex chiastiques augmentes
 Les exports PDF/TEX identifies sont:
 - `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/PHASE_IV_ACCESS_CARD.fractale_augmente.pdf`
 - `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/PHASE_IV_ACCESS_CARD.fractale_augmente.tex`
-- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Millennium_Dissipative_Stability_Proof.fractale_augmente.pdf`
-- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Millennium_Dissipative_Stability_Proof.fractale_augmente.tex`
-- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Unification_Phase_III_Manuscrit.fractale_augmente.pdf`
-- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Unification_Phase_III_Manuscrit.fractale_augmente.tex`
-- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Numerical_Verification_Report_Phases_I_II.fractale_augmente.pdf`
-- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Numerical_Verification_Report_Phases_I_II.fractale_augmente.tex`
-- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/PHASE_IV_ACCESS_CARD.fractale_augmente.pdf`
-- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/PHASE_IV_ACCESS_CARD.fractale_augmente.tex`
-- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Millennium_Dissipative_Stability_Proof.fractale_augmente.pdf`
-- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Millennium_Dissipative_Stability_Proof.fractale_augmente.tex`
-- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Unification_Phase_III_Manuscrit.fractale_augmente.pdf`
-- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Unification_Phase_III_Manuscrit.fractale_augmente.tex`
+- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Millennium_Dissipative_Stability_Proof.fractale_augmente.pdf`
+- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Millennium_Dissipative_Stability_Proof.fractale_augmente.tex`
+- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Unification_Phase_III_Manuscrit.fractale_augmente.pdf`
+- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Unification_Phase_III_Manuscrit.fractale_augmente.tex`
+- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/Numerical_Verification_Report_Phases_I_II.fractale_augmente.pdf`
+- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/Numerical_Verification_Report_Phases_I_II.fractale_augmente.tex`
+- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/PHASE_IV_ACCESS_CARD.fractale_augmente.pdf`
+- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/PHASE_IV_ACCESS_CARD.fractale_augmente.tex`
+- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/Canonical_Millennium_Dissipative_Stability_Proof.fractale_augmente.pdf`
+- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/Canonical_Millennium_Dissipative_Stability_Proof.fractale_augmente.tex`
+- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/Canonical_Unification_Phase_III_Manuscrit.fractale_augmente.pdf`
+- `08_PDF_LATEX_CHIASTIQUES_AUGMENTES/_RELEASES/GOLDEN_MASTER_PHASE_III_CANONIQUE/Canonical_Unification_Phase_III_Manuscrit.fractale_augmente.tex`
 
 ## Paquets De Release A Retenir
 - `MDL_YNOR_GPT_UPLOAD_V3`
@@ -129,7 +129,7 @@ Les exports PDF/TEX identifies sont:
 - `MDL_YNOR_GPT_FINAL_DIST`
 - `MDL_YNOR_COMMERCIAL_PACKAGE`
 - `GOLDEN_MASTER_PHASE_III`
-- `GOLDEN_MASTER_PHASE_III_SOUVERAINE`
+- `GOLDEN_MASTER_PHASE_III_CANONIQUE`
 
 ## Regles
 - Un seul nom canonique par document.

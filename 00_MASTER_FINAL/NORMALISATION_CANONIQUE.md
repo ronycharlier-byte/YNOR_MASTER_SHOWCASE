@@ -33,7 +33,7 @@ Fixer les noms de travail canoniques et leurs aliases autorises pour eviter les 
 - `STRUCTURE_DE_LIVRAISON.md`
 - `07_A_PRIME_ARCHIVES_ET_RELEASES/README.md`
 - `07_A_PRIME_ARCHIVES_ET_RELEASES/ARCHIVE_MANIFEST.md`
-- `07_A_PRIME_ARCHIVES_ET_RELEASES/SOVEREIGN_EXPORTS_INDEX.md`
+- `07_A_PRIME_ARCHIVES_ET_RELEASES/CANONICAL_EXPORTS_INDEX.md`
 
 ## Application
 Quand plusieurs variantes existent, on garde:

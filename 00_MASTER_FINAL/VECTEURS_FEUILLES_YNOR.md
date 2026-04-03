@@ -70,7 +70,7 @@ Il sert de couche terminale entre les sous-axes et les gestes pratiques.
 - Cycler: faire revenir le motif.
 - Anticiper: ouvrir la suite.
 
-## Axe Architectural
+## Axe Principal Investigatorural
 - Soutenir: tenir la charpente.
 - Articuler: relier les parties.
 - Ouvrir: creer un passage.

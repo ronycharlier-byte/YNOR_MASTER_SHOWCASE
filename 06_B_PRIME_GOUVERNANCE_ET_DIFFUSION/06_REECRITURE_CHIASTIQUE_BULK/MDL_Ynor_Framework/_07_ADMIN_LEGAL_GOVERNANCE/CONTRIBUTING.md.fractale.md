@@ -11,7 +11,7 @@ Le texte se déplie selon les lignes suivantes :
 - Complete the **Technical Assessment Part 1** (Demonstrating understanding of the Mu margin).
 - Sign the **Mutual Non-Disclosure Agreement (NDA)** (See `NDA_TEMPLATE.md`).
 - Receive your unique **Activation Code**.
-- **Reviews**: All code modifications must be reviewed by the **Architect (Rony Charlier)**.
+- **Reviews**: All code modifications must be reviewed by the **Principal Investigator (Rony Charlier)**.
 - **Documentation**: Every new feature must include a corresponding $\mu$-impact analysis.
 
 ## C. Matiere

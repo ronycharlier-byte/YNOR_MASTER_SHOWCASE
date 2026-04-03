@@ -11,7 +11,7 @@ SHA256 : ef3bb2676800d80eb32af84385081451666f98e737662c50a72309f9ca5410c3
 \usepackage{hyperref}
 
 \title{\bf MDL YNOR — Unification Gravitationnelle \\ \large Régulation Dissipative de l'Espace-Temps (Phase III)} 
-\author{Rony Charlier — Souveraineté Numérique MDL Ynor (Alpha Node)} 
+\author{Rony Charlier — Stabilité / Canonicité Numérique MDL Ynor (Alpha Node)} 
 \date{Mars 2026}
 
 \begin{document} 
@@ -41,7 +41,7 @@ Utilisant la fonction de Lyapunov $V(n)=\log n$, nous avons établi $E[V(n_{k+1}
 \section{Synthèse spéciale Goldbach} 
 L'opérateur dipôle $D_{2m}$ admet un vecteur propre unitaire $\psi_{2m}$ avec valeur propre $1$ ssi $2m$ se décompose en somme de deux nombres premiers.
 
-\section{Conclusion souveraine} 
+\section{Conclusion canonique} 
 La viabilité cosmologique est gouvernée par la marge dissipative $\mu$ : une régulation active prévient les singularités et la dérive entropique.
 
 \bigskip 

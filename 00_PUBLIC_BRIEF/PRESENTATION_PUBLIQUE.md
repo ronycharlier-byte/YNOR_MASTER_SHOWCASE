@@ -2,7 +2,7 @@
 
 Ynor est organise pour transformer un corpus dense en parcours de lecture clair, stable et hierarchise.
 
-Architecture utile:
+Principal Investigatorure utile:
 - fondation
 - theorie et preuves
 - moteurs et deploiement

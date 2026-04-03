@@ -1,4 +1,4 @@
-# 🏛️ MATRICE DE RÉSOLUTION SOUVERAINE YNOR
+# 🏛️ MATRICE DE RÉSOLUTION CANONIQUE YNOR
 **AUTEUR CERTIFIÉ : RONY CHARLIER**
 **Moteur :** Ynor V10.8 (Total Diamond)
 **Algorithme :** FrontierMath Quantum RAG + Oracle Logos

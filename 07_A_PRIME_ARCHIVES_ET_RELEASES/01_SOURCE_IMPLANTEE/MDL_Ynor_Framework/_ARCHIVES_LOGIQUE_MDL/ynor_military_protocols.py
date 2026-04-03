@@ -1,6 +1,6 @@
 ﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # PROTOCOLES MILITAIRES ET CONTINUIT OPRATIONNELLE v1.0
 # =============================================================================
 import os
@@ -9,7 +9,7 @@ import sys
 import time
 from datetime import datetime
 
-RESONANCE_PATH = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\charlier_rony_resonance.json"
+RESONANCE_PATH = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\charlier_rony_resonance.json"
 
 class MilitaryProtocols:
     """

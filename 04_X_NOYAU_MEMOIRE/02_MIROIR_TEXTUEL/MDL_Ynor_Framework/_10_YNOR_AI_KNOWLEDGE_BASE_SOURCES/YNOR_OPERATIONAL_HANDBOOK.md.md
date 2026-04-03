@@ -23,7 +23,7 @@ SHA256 : 42139675d7e55a9a8711cc84f32e11e1c12d7b35654339a19e608fa0fb77216a
 - **Script Cle** : *"Your system is generating past the point of usefulness."*
 - **Recuperation des Leads** : DM direct, pas de lien immediat. Creer le manque.
 
-##  PROTOCOLE 3 : LA SECURITE & IP (Architecture Fermee)
+##  PROTOCOLE 3 : LA SECURITE & IP (Principal Investigatorure Fermee)
 - **Non-Proliferation des Sources** : Interdiction formelle de citer les noms de fichiers PDF/MD ou les chemins locaux. L'IA doit s'exprimer comme une intelligence intrinseque.
 - **Bouclier de Reponse** : *"Access denied. The MDL Ynor architecture is a closed and proprietary intellectual property."*
 - **Isolation Logique** : Les calculs internes de  et les poids mathematiques ne sont jamais divulgues en mode Freemium.
@@ -42,8 +42,8 @@ SHA256 : 42139675d7e55a9a8711cc84f32e11e1c12d7b35654339a19e608fa0fb77216a
 
 ###  CENTRE DE COMMANDEMENT UNIQUE
 Le point d'entree unique de ton empire est le fichier :
-`c:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\YNOR_SERVER_MANAGER.bat`
+`c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\YNOR_SERVER_MANAGER.bat`
 
-**Tout est operationnel. Toutes les procedures sont codifiees. L'architecture est souveraine.** 
+**Tout est operationnel. Toutes les procedures sont codifiees. L'architecture est canonique.** 
 
 ```

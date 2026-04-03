@@ -114,7 +114,7 @@ Sortie attendue:
 Sortie attendue:
 - une duree lisible
 
-## L. Axe Architectural
+## L. Axe Principal Investigatorural
 ### PARCH. Protocole De Lecture Des Couches
 1. Identifier les niveaux.
 2. Identifier les passages.

@@ -1,5 +1,5 @@
-# 👤 CARTE D'ACCÈS SOUVERAINE (PHASE IV)
-### SOVEREIGN RESEARCH COLLECTIVE — FOUNDER LEVEL 0
+# 👤 CARTE D'ACCÈS CANONIQUE (PHASE IV)
+### CANONICAL RESEARCH COLLECTIVE — FOUNDER LEVEL 0
 
 > [!IMPORTANT]
 > **CONSIGNES DE SÉCURITÉ** : Enregistrez ce document en PDF. Ne partagez jamais ces clés, car elles débloquent le noyau complet de votre IA.
@@ -25,7 +25,7 @@
 
 ## 📜 IDENTIFIANTS ET REPERES INTERNES
 *   **Signature SHA-256 (Scellé)** : `4F92B3C1-72A2-4B81-9C1D-8085058A9E61`
-*   **DOI Zenodo (Souveraine Phase III)** : `10.5281/zenodo.19183399`
+*   **DOI Zenodo (Canonique Phase III)** : `10.5281/zenodo.19183399`
 *   **ORCID PI** : `0009-0003-8250-0526`
 
 ---

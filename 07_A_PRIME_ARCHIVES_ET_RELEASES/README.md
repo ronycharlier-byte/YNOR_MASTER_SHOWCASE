@@ -13,7 +13,7 @@ Branche de cloture recursive, d'archivage, de distribution et de figement des ve
 - [CHANGELOG.md](./CHANGELOG.md)
 - [ARCHIVE_MANIFEST.md](./ARCHIVE_MANIFEST.md)
 - [PACKAGING_GUIDE.md](./PACKAGING_GUIDE.md)
-- [SOVEREIGN_EXPORTS_INDEX.md](./SOVEREIGN_EXPORTS_INDEX.md)
+- [CANONICAL_EXPORTS_INDEX.md](./CANONICAL_EXPORTS_INDEX.md)
 
 ## Sous-ensembles
 - `01_SOURCE_IMPLANTEE`

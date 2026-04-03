@@ -59,7 +59,7 @@ SHA256 : 14662dd10138b50bfc2e3acec7ae806ffb3578c062315c0fdf775c94307b64aa
       "profiles": [
         "CTO / CEO",
         "AI, Data, and Innovation teams",
-        "Agent Architects (LangChain, CrewAI, etc.)",
+        "Agent Principal Investigators (LangChain, CrewAI, etc.)",
         "AI Integrators and Consulting firms",
         "Companies deploying LLM workflows",
         "Researchers and Academic profiles (supervised access)"
@@ -112,7 +112,7 @@ SHA256 : 14662dd10138b50bfc2e3acec7ae806ffb3578c062315c0fdf775c94307b64aa
       "disclosure_ban": [
         "Internal Logic",
         "Governnance Parameters",
-        "Proprietary Architecture",
+        "Proprietary Principal Investigatorure",
         "Security Mechanisms"
       ],
       "access_levels": {

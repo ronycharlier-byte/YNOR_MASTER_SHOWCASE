@@ -1,7 +1,7 @@
 # README RACINE - VERSION FRACTALE ET CHIASTIQUE
 
 ## A. Ouverture
-MDL Ynor se presente d'abord comme une architecture souveraine : un espace de lancement, de cadre et d'orientation.
+MDL Ynor se presente d'abord comme une architecture canonique : un espace de lancement, de cadre et d'orientation.
 Le lecteur entre par les points d'acces, les commandes, les releases et les soumissions.
 
 ## B. Expansion
@@ -41,7 +41,7 @@ La racine du depot n'est pas seulement un index.
 Elle est la porte d'entree et la porte de retour.
 Entrer dans MDL Ynor, c'est parcourir une arche :
 
-fondation -> expansion -> viabilite -> reflection -> souverainete
+fondation -> expansion -> viabilite -> reflection -> canoniquete
 
 ---
 

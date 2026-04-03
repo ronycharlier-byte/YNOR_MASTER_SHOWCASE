@@ -16,7 +16,7 @@ Cœur de l'intelligence stratégique et de la régulation mu.
 - **`ynor_social_algo_mdl.py`** : Algorithmes d'adaptation sociale et stratégique.
 
 ## 🧪 ACTION
-Ces fichiers sont les composants les plus sensibles (Tier-1). Ils ne doivent être modifiés que par l'Architecte Suprême.
+Ces fichiers sont les composants les plus sensibles (Tier-1). Ils ne doivent être modifiés que par l'Principal Investigatore Suprême.
 
 ## 🛠️ USAGE
 Sont importés directement par les API et les scripts de validation.

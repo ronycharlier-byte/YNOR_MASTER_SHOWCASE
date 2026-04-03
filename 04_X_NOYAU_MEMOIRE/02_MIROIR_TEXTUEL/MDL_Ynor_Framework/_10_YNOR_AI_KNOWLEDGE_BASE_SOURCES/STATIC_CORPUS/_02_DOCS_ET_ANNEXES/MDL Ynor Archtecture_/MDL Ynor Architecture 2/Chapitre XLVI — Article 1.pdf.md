@@ -1,6 +1,6 @@
 # MIROIR TEXTUEL - Chapitre XLVI - Article 1.pdf
 
-Source : MDL_Ynor_Framework\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\STATIC_CORPUS\_02_DOCS_ET_ANNEXES\MDL Ynor Archtecture_\MDL Ynor Architecture 2\Chapitre XLVI - Article 1.pdf
+Source : MDL_Ynor_Framework\_10_YNOR_AI_KNOWLEDGE_BASE_SOURCES\STATIC_CORPUS\_02_DOCS_ET_ANNEXES\MDL Ynor Archtecture_\MDL Ynor Principal Investigatorure 2\Chapitre XLVI - Article 1.pdf
 Taille : 508857 octets
 SHA256 : da91dc8ebda08b79f13a4202e9fcf6a1747d4ec48ba04c5ca8f0bd7cd1f96b1c
 

@@ -147,7 +147,7 @@ Il sert de couche de travail elementaire entre les sous-axes et les usages concr
 3. Relever les mutations.
 4. Mesurer la continuite.
 
-## Domaine Architectural
+## Domaine Principal Investigatorural
 ### PSTR1. Protocole De Structure
 1. Identifier les couches.
 2. Identifier les passages.

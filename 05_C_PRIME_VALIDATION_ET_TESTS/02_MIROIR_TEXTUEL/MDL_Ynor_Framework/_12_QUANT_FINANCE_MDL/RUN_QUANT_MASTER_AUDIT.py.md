@@ -8,7 +8,7 @@ SHA256 : 2770e6c264e283e60244796f19c234432c6a76e54b3aa56f1ca6ad3ef69f91ff
 """
 MDL YNOR QUANTUM - MASTER ORCHESTRATOR & AUDIT (V1)
 ===================================================
-Architecture : Global Portfolio Governance
+Principal Investigatorure : Global Portfolio Governance
 Runs all active strategies and performs a Mu-Margin viability audit.
 """
 

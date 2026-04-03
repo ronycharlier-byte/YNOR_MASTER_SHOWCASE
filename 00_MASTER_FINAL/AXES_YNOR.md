@@ -281,7 +281,7 @@ Fonction:
 - relier antecedence, presence et projection
 - suivre la transformation du corpus dans le temps
 
-### L. Axe Architectural
+### L. Axe Principal Investigatorural
 - axe structure
 - axe niveau
 - axe couche
@@ -470,7 +470,7 @@ Fonction:
 - axe decision collective
 - axe legitimite
 - axe representation
-- axe souverainete
+- axe canoniquete
 - axe conflit
 - axe coalition
 
@@ -634,7 +634,7 @@ Fonction:
 - axe frontiere
 - axe influence
 - axe alliance
-- axe souverainete
+- axe canoniquete
 - axe circulation
 - axe conflit
 - axe positionnement
@@ -793,7 +793,7 @@ mindmap
         anticipation
         cycle
         rythme
-      Architectural
+      Principal Investigatorural
         structure
         niveau
         couche
@@ -885,7 +885,7 @@ mindmap
         decision
         legitimite
         representation
-        souverainete
+        canoniquete
       Civilisationnel
         societe
         culture
@@ -962,7 +962,7 @@ mindmap
       frontiere
       influence
       alliance
-      souverainete
+      canoniquete
       circulation
     Metalogique
       autoreference
@@ -1015,7 +1015,7 @@ Le passage peut se lire ainsi:
 21. axe dialectique -> tension, contradiction, depassement, synthese
 22. axe spirituel -> interiorite, silence, presence, illumination
 23. axe initiatique -> seuil, passage, epreuve, transformation
-24. axe politique -> pouvoir, gouvernance, legitimite, souverainete
+24. axe politique -> pouvoir, gouvernance, legitimite, canoniquete
 25. axe civilisationnel -> societe, culture, transmission, futur commun
 26. axe industriel -> production, chaine, efficience, robustesse
 27. axe systemique -> ensemble, boucle, retroaction, regulation
@@ -1026,7 +1026,7 @@ Le passage peut se lire ainsi:
 32. axe ecologique -> milieu, adaptation, cohabitation, regeneration
 33. axe memoiriel -> souvenir, trace, archive, continuation
 34. axe archivistique -> classement, inventaire, conservation, restoration
-35. axe geopolitique -> territoire, frontiere, influence, souverainete
+35. axe geopolitique -> territoire, frontiere, influence, canoniquete
 36. axe metalogique -> autoreference, coherence, preuve, metacadre
 37. axe auto-reflexif -> miroir, retour, revision, relecture
 38. retour au centre -> recomposition chiastique de Ynor

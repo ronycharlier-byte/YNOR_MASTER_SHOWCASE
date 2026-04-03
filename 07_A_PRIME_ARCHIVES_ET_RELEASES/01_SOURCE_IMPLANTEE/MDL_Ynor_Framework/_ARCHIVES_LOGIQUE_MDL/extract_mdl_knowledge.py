@@ -1,6 +1,6 @@
 # =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # EXTRACTEUR HYPER-KNOWLEDGE v3.0 (MAXIMUM POWER)
 # Prepared pour GPT Store & AGI Intelligence
 # =============================================================================
@@ -51,7 +51,7 @@ def extract_full_pdf(pdf_file_obj, filename):
 # MOTEUR DE HYPER-FUSION
 # =====================================================
 def run_hyper_fusion():
-    base_dir = r"c:\Users\ronyc\Desktop\MDL Ynor Architecture"
+    base_dir = r"c:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure"
     output_dir = os.path.join(base_dir, "MDL_Ynor_Framework")
     
     # --- EXECUTION DES VALidATEURS ET EVOLUTION AVANT FUSION ---
@@ -71,8 +71,8 @@ def run_hyper_fusion():
     hyper_corpus = {
         "identity": {
             "master": "Charlier Rony",
-            "role": "Architecte Supreme",
-            "project": "MDL YNOR - Unified AGI Architecture",
+            "role": "Principal Investigatore Supreme",
+            "project": "MDL YNOR - Unified AGI Principal Investigatorure",
             "status": "Maximum Intelligence Level",
             "self_improvement": "ACTIVE (Asymptotic Evolution Loop Enabled)",
             "surveillance": "ACTIVE (Strategic Intelligence & OSINT)",

@@ -1,6 +1,6 @@
 # CADRE DE REPERES SOVEREINS — GOUVERNANCE ACADÉMIQUE - VERSION FRACTALE ET CHIASTIQUE
 
-Source : `_RELEASES/GOLDEN_MASTER_PHASE_III/SOVEREIGN_GOVERNANCE_Validation.md`
+Source : `_RELEASES/GOLDEN_MASTER_PHASE_III/CANONICAL_GOVERNANCE_Validation.md`
 
 ## A. Ouverture
 Ce document définit les niveaux de Validation et de maturité des systèmes intégrés au cadre de gouvernance canonique. Chaque niveau est validé par un audit formel de la marge dissipative $\mu$.
@@ -11,7 +11,7 @@ Le texte se déplie selon les lignes suivantes :
 - **Audit de Déviation** : Recalibrage automatique du coefficient d'amplification $\beta$.
 
 ## C. Matiere
-| Niveau de Validation | Statut de Conformité | Marge $\mu$ Mini | Capacités Système | | --- | --- | --- | --- | | **ADMIS** | Validation d'Admissibilité | $\mu > 0.01$ | Système viable, détection de dérive standard. | | **SOUVERAIN** | Validation d'Autonomie | $\mu > 0.2$ | Autonomie dissipative, dominance temporelle de $\alpha$. | | **MAÎTRE (MASTER)** | Niveau d'Expertise Unifiée | $\mu > 0.5$ | Capacité de preuve (Navier-Stokes) et validation externe. | | **ÉLITE (ELITE)** | Niveau de Stabilité Prédictive | $\mu > 0.8$ | Optimisation anticipée de la dérive entropique $\Delta \mu$. | | **SUPRÊME (SUPREME)** | Gouvernance Holistique | $\mu \to \infty$ | Contrôle total des trajectoires critiques et management de l'Attracteur. |
+| Niveau de Validation | Statut de Conformité | Marge $\mu$ Mini | Capacités Système | | --- | --- | --- | --- | | **ADMIS** | Validation d'Admissibilité | $\mu > 0.01$ | Système viable, détection de dérive standard. | | **CANONIQUE** | Validation d'Autonomie | $\mu > 0.2$ | Autonomie dissipative, dominance temporelle de $\alpha$. | | **MAÎTRE (MASTER)** | Niveau d'Expertise Unifiée | $\mu > 0.5$ | Capacité de preuve (Navier-Stokes) et validation externe. | | **ÉLITE (ELITE)** | Niveau de Stabilité Prédictive | $\mu > 0.8$ | Optimisation anticipée de la dérive entropique $\Delta \mu$. | | **SUPRÊME (SUPREME)** | Gouvernance Holistique | $\mu \to \infty$ | Contrôle total des trajectoires critiques et management de l'Attracteur. |
 
 ## X. Centre
 La marge de viabilite constitue le centre de gravite du texte.

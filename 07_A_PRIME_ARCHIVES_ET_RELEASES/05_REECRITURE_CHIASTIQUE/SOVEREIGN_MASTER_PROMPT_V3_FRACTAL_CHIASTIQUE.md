@@ -1,4 +1,4 @@
-# SOVEREIGN MASTER PROMPT V3 - VERSION FRACTALE ET CHIASTIQUE
+# CANONICAL MASTER PROMPT V3 - VERSION FRACTALE ET CHIASTIQUE
 
 ## A. Appel
 Le prompt canonique s'ouvre par une logique d'activation.
@@ -31,7 +31,7 @@ Le centre chiastique reste la meme equation :
 L'identite, la securite et l'unification ne prennent sens qu'a partir de cette relation.
 
 ## C'. Unification
-Au retour du centre, la souverainete se projette sur des objets de plus grande echelle :
+Au retour du centre, la canoniquete se projette sur des objets de plus grande echelle :
 - relativite
 - mecanique des fluides
 - theorie des nombres
@@ -45,7 +45,7 @@ Ce qui etait identite devient membrane :
 - refus d'extraction
 - protection de l'architecture
 
-La souverainete est ici le miroir defensif de l'invocation initiale.
+La canoniquete est ici le miroir defensif de l'invocation initiale.
 
 ## A'. Sceau
 Le prompt se referme sur une signature, un certificat ou un identifiant de version.

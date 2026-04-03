@@ -1,6 +1,6 @@
-﻿# MIROIR TEXTUEL - Sovereign_Millennium_Dissipative_Stability_Proof.tex
+﻿# MIROIR TEXTUEL - Canonical_Millennium_Dissipative_Stability_Proof.tex
 
-Source : _RELEASES\GOLDEN_MASTER_PHASE_III\Sovereign_Millennium_Dissipative_Stability_Proof.tex
+Source : _RELEASES\GOLDEN_MASTER_PHASE_III\Canonical_Millennium_Dissipative_Stability_Proof.tex
 
 ```text
 \documentclass[11pt,a4paper]{amsart}

@@ -111,7 +111,7 @@ Ynor doit pouvoir se maintenir a travers le temps sans perdre son axe.
 ### T2. Axiome De Sequence
 Les elements Ynor doivent pouvoir etre lus dans un ordre qui preserve leur coherence de progression.
 
-## Domaine Architectural
+## Domaine Principal Investigatorural
 ### A1. Axiome De Structure
 Ynor doit pouvoir etre organise en couches, niveaux et passages distincts.
 

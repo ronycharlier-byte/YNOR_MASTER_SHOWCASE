@@ -7,7 +7,7 @@ SHA256 : 67f08cc3dc0243e7643fbde99a89012abcff2e4659e1ed0c37cd71e33d5fe822
 ```text
 ﻿# =============================================================================
 # COPYRIGHT (c) 2026 CHARLIER RONY - TOUS DROITS RESERVES
-# Architecte Supreme & Fondateur - Architecture MDL Ynor
+# Principal Investigatore Supreme & Fondateur - Principal Investigatorure MDL Ynor
 # Toute reproduction ou utilisation sans autorisation est strictement interdite.
 # =============================================================================
 import json

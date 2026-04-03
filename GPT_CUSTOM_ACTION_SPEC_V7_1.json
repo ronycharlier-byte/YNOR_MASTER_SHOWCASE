@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "MDL Ynor Canonical API",
-    "description": "Interface d'accès certifiée au Logos MDL V7.1. Requiert une licence souveraine active.",
+    "description": "Interface d'accès certifiée au Logos MDL V7.1. Requiert une licence canonique active.",
     "version": "7.1.0"
   },
   "servers": [
@@ -44,7 +44,7 @@
             "in": "header",
             "required": true,
             "schema": { "type": "string" },
-            "description": "Clé de souveraineté MDL V7.1"
+            "description": "Clé de stabilité MDL V7.1"
           }
         ],
         "requestBody": {

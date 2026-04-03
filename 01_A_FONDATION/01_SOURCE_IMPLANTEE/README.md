@@ -1,6 +1,6 @@
 # ARCHITECTURE MDL YNOR — MOTEUR AGI
 
-Bienvenue dans l'architecture souveraine **MDL YNOR**. Ce répertoire a été réorganisé pour assurer une clarté maximale et une navigation instinctive.
+Bienvenue dans l'architecture canonique **MDL YNOR**. Ce répertoire a été réorganisé pour assurer une clarté maximale et une navigation instinctive.
 
 ## Structure du Projet
 
@@ -27,7 +27,7 @@ Le framework est structuré de manière incrémentale :
 ## Validation Scientifique (DOIs Zenodo)
 
 Les fondements théoriques et mathématiques de MDL Ynor sont certifiés via les publications suivantes :
-*   **Phase III (Souveraine)** : [10.5281/zenodo.19183399](https://doi.org/10.5281/zenodo.19183399)
+*   **Phase III (Canonique)** : [10.5281/zenodo.19183399](https://doi.org/10.5281/zenodo.19183399)
 *   **Résolution du Millénaire** : [10.5281/zenodo.19181947](https://doi.org/10.5281/zenodo.19181947)
 *   **Principe de Viabilité** : [10.5281/zenodo.18855042](https://doi.org/10.5281/zenodo.18855042)
 *   **Analyse d'Entropie** : [10.5281/zenodo.18567115](https://doi.org/10.5281/zenodo.18567115)
@@ -35,4 +35,4 @@ Les fondements théoriques et mathématiques de MDL Ynor sont certifiés via les
 *   **Analyse de Régularité Serrin-BKM** : [10.5281/zenodo.19219487](https://doi.org/10.5281/zenodo.19219487)
 
 ---
-*© 2026 Charlier Rony — Architecte Suprême & Fondateur.*
+*© 2026 Charlier Rony — Principal Investigatore Suprême & Fondateur.*

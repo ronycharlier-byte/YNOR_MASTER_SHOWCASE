@@ -1,6 +1,6 @@
-﻿# Sovereign_Global_Knowledge.json - VERSION FRACTALE ET CHIASTIQUE
+﻿# Canonical_Global_Knowledge.json - VERSION FRACTALE ET CHIASTIQUE
 
-Source : `_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Global_Knowledge.json`
+Source : `_RELEASES/GOLDEN_MASTER_PHASE_III/Canonical_Global_Knowledge.json`
 Type : `dict`
 Amplitude structurelle : `3`
 

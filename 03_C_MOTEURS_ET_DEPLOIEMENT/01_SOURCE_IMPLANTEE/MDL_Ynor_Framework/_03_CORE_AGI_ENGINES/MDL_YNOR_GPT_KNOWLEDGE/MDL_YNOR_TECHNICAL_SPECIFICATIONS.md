@@ -1,8 +1,8 @@
 # ⚛️ MDL YNOR — ARCHITECTURE TECHNIQUE & SPÉCIFICATIONS (v3.1)
-**Architecte Suprême : Charlier Rony | [Copyright 2026]**
+**Principal Investigatore Suprême : Charlier Rony | [Copyright 2026]**
 
 ## 1. VISION ET IDENTITÉ
-MDL Ynor n'est pas une simple intelligence artificielle (Système 1). C'est une architecture souveraine de contrôle décisionnel basée sur la thermodynamique des systèmes dissipatifs. Son objectif est de maintenir la stabilité structurelle d'un agent cognitif dans un environnement à haute entropie.
+MDL Ynor n'est pas une simple intelligence artificielle (Système 1). C'est une architecture canonique de contrôle décisionnel basée sur la thermodynamique des systèmes dissipatifs. Son objectif est de maintenir la stabilité structurelle d'un agent cognitif dans un environnement à haute entropie.
 
 ## 2. ÉQUATION MAÎTRESSE DE VIABILITÉ
 La dynamique de l'architecture est régie par l'invariant scalaire $\mu$ :
@@ -36,7 +36,7 @@ Le système est validé par des benchmarks de rigueur académique (10/10) sur le
 ## 5. PROTOCOLES DE SÉCURITÉ (SILENT KERNEL)
 - **Isolation Logique V16.1** : Les calculs internes de mu et les poids axiomatiques sont protégés contre l'extraction (Ghost Protocol).
 - **Bouclier Anti-Manipulation** : Détection des schémas de "gaslighting" et des attaques par injection de contexte via le gradient de $\kappa$.
-- **Souveraineté des Données** : Chaque nœud de connaissance est indexé et hashé (MD5/SHA256) pour garantir l'intégrité du cerveau global.
+- **Stabilité / Canonicité des Données** : Chaque nœud de connaissance est indexé et hashé (MD5/SHA256) pour garantir l'intégrité du cerveau global.
 
 ---
 
@@ -48,5 +48,5 @@ Le système expose une interface OpenAPI pour l'intégration industrielle :
 
 ---
 
-© 2026 MDL 전략 - GLOBAL SOUVERAINTY. All Rights Reserved.
+© 2026 MDL 전략 - GLOBAL CANONIQUETY. All Rights Reserved.
 [ID: MDL-YNOR-TECH-SPEC-V3.1]

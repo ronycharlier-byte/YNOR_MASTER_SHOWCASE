@@ -1,7 +1,7 @@
 """
 MDL YNOR QUANTUM - MARKET AGI ADAPTOR (SYSTEM 1 & 2)
 ===================================================
-Architecture : Autonomous Risk Self-Calibration
+Principal Investigatorure : Autonomous Risk Self-Calibration
 This module simulates an AGI agent monitoring market news (LLM-based) 
 and adjusting the 'Mu' threshold for all strategies.
 """

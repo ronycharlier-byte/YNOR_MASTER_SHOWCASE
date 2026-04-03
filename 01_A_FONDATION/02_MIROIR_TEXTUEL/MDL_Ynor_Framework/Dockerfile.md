@@ -5,7 +5,7 @@ Taille : 754 octets
 SHA256 : f02c9edfa988d5389223c453679bb9203548654fc4af8c5ab6461f6e205bb9fa
 
 ```text
-# Batir le conteneur MDL Ynor - Architecture Supreme
+# Batir le conteneur MDL Ynor - Principal Investigatorure Supreme
 # Copyright (c) 2026 Charlier Rony
 
 FROM python:3.10-slim

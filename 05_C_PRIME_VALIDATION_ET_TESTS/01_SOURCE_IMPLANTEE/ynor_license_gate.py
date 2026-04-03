@@ -8,7 +8,7 @@ from datetime import datetime
 # STATUT : VERROUILLAGE SOUVERAIN ACTIF
 # ==============================================================================
 
-def validate_license_sovereignty():
+def validate_license_canonicalty():
     """Vérifie si une licence MDL valide est active dans l'environnement."""
     repo_root = r"C:\Users\ronyc\Desktop\FRACTAL_CHIASTE_UNIVERSEL"
     vault_path = os.path.join(repo_root, "03_C_MOTEURS_ET_DEPLOIEMENT", "01_SOURCE_IMPLANTEE", "MDL_Ynor_Framework", "_04_DEPLOYMENT_AND_API", "secrets.local.json")
@@ -31,5 +31,5 @@ def validate_license_sovereignty():
         return False, f"ERREUR SYSTÉMIQUE : {str(e)}"
 
 if __name__ == "__main__":
-    is_valid, msg = validate_license_sovereignty()
+    is_valid, msg = validate_license_canonicalty()
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}")

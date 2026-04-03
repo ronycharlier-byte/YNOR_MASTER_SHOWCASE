@@ -39,7 +39,7 @@ mindmap
         Computationnel
         Semiotique
         Temporel
-        Architectural
+        Principal Investigatorural
         Editorial
         Strategique
       Profonds

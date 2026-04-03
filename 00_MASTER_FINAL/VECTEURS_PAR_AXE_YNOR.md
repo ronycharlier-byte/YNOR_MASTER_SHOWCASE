@@ -70,7 +70,7 @@ Il prolonge les vecteurs fondamentaux et les vecteurs par famille avec des ligne
 - Vecteur De Cycle: faire revenir les motifs.
 - Vecteur D'Anticipation: projeter la suite possible.
 
-## Axe Architectural
+## Axe Principal Investigatorural
 - Vecteur De Structure: organiser les couches.
 - Vecteur D'Interface: relier les parties.
 - Vecteur De Passage: faire circuler entre les niveaux.

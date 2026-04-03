@@ -41,7 +41,7 @@ Rony Charlier / ronycharlier@mdlstrategy
 3. **J+10** : derniere tentative + offre limitee.
 
 Contact : ronycharlier@mdlstrategy
- 2026 MDL  - SOUVERAINT ET EFFICIENCE.
+ 2026 MDL  - CANONIQUET ET EFFICIENCE.
 
 
 

@@ -147,7 +147,7 @@ Il sert de couche la plus granulaire avant l'usage concret ou la mise en oeuvre.
 3. Relever les mutations.
 4. Mesurer la continuite.
 
-## Domaine Architectural
+## Domaine Principal Investigatorural
 ### PSTR1. Protocole De Structure
 1. Identifier les couches.
 2. Identifier les passages.

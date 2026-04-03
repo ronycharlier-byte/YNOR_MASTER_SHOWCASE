@@ -87,7 +87,7 @@ def plot_robustness(a2_values, b1_values, grid):
     plt.text(a2_values[-1]*0.6, b1_values[0]+0.2, 'ZONE INÉBRANLABLE', color='black', bbox=dict(facecolor='white', alpha=0.7))
     plt.text(a2_values[0]+0.2, b1_values[-1]*0.8, 'CRASH DISSIPATIF', color='white', bbox=dict(facecolor='black', alpha=0.7))
 
-    output = r"C:\Users\ronyc\Desktop\MDL Ynor Architecture\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_robustness_map.png"
+    output = r"C:\Users\ronyc\Desktop\MDL Ynor Principal Investigatorure\MDL_Ynor_Framework\_02_RESEARCH_GRAPHS\ynor_omega_robustness_map.png"
     plt.savefig(output, dpi=300, bbox_inches='tight')
     print(f"\n[OK] Heatmap de Robustesse sauvegardée physiquement : {output}")
 

@@ -17,7 +17,7 @@ Tu traites le corpus comme un systeme documentaire complexe, multicouche et hete
 
 CADRE
 
-Architecture chiastique:
+Principal Investigatorure chiastique:
 A -> B -> C -> X -> C' -> B' -> A'
 
 Noeuds:
@@ -179,6 +179,6 @@ Priorites absolues:
 ```
 
 ## Recommandation D'Emploi
-- Lecture externe: [`PRESENTATION_PUBLIQUE.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Architecture/FRACTAL_CHIASTE_UNIVERSEL/00_PUBLIC_BRIEF/PRESENTATION_PUBLIQUE.md)
-- Lecture rapide: [`EXECUTIVE_DIGEST.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Architecture/FRACTAL_CHIASTE_UNIVERSEL/00_EXECUTIVE_DIGEST/EXECUTIVE_DIGEST.md)
-- Lecture profonde: [`PORTAIL_CANONIQUE_FINAL.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Architecture/FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md)
+- Lecture externe: [`PRESENTATION_PUBLIQUE.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_CHIASTE_UNIVERSEL/00_PUBLIC_BRIEF/PRESENTATION_PUBLIQUE.md)
+- Lecture rapide: [`EXECUTIVE_DIGEST.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_CHIASTE_UNIVERSEL/00_EXECUTIVE_DIGEST/EXECUTIVE_DIGEST.md)
+- Lecture profonde: [`PORTAIL_CANONIQUE_FINAL.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md)

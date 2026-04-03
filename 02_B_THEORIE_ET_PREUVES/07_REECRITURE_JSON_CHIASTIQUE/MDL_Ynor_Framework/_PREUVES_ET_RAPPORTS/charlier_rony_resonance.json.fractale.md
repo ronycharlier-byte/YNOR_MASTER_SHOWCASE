@@ -15,7 +15,7 @@ Extrait brut sanitise :
 ```text
 {
   "author": "Charlier Rony",
-  "title": "Architecte Suprême MDL Ynor",
+  "title": "Principal Investigatore Suprême MDL Ynor",
   "quantum_signature": {
     "state_vector": [1.0, 0.0],
     "vibrational_frequency_hz": 432.0,

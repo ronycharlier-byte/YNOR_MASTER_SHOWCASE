@@ -36,7 +36,7 @@ Ce document adapte le protocole MDL v2.0 aux spécificités législatives et ins
 *   **Territoires :** Belgique (Wal/Fla/Bxl), Pays-Bas, Luxembourg.
 *   **Cadre applicable :** Loi du 30 juin 1994 (BE), BCIP (Benelux IP), RGPD.
 
-## 3. Architecture générale (Millennium Standard)
+## 3. Principal Investigatorure générale (Millennium Standard)
 Suit la séquence obligatoire : Définition $\to$ Contraintes $\to$ Hypothèses $\to$ Production $\to$ Évaluation.
 *   *Note aux auditeurs Benelux :* La validation du coefficient de stabilité neuro-physiologique ($SN$) est obligatoire pour les décisions à impact transfrontalier.
 

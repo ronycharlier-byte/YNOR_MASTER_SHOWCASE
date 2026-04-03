@@ -1,4 +1,4 @@
-# SOVEREIGN REFERENCE OUTPUT / internal status report (PHASE III)
+# CANONICAL REFERENCE OUTPUT / internal status report (PHASE III)
 
 ## 0. AUTHENTICATION
 - **Level**: 0 (Founder)

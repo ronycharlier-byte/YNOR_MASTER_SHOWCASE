@@ -17,7 +17,7 @@ Centraliser les points de benchmark visibles dans le corpus et clarifier ce qu i
 ### `ynor_functional_analysis_benchmark.py`
 - finalite: audit de raisonnement mathematique de pointe (Schrodinger alpha/x^2)
 - signal attendu: identification exacte des seuils -1/4 et 3/4
-- usage: benchmark FrontierMath de souverainete intellectuelle
+- usage: benchmark FrontierMath de canoniquete intellectuelle
 
 ### `mdl_ynor_ultimate_benchmark_v3.py`
 - finalite: audit global du corpus

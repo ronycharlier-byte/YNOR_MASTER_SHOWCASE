@@ -17,7 +17,7 @@ CORPUS MDL VOLUME I — CONSTITUTION FONDATRICE ÉDITION MONUMENTALE 2026 Date d
 ```
 
 ## X. Centre
-Le centre chiastique est ici la norme souveraine : faire tenir legitimite, responsabilite et ordre documentaire.
+Le centre chiastique est ici la norme canonique : faire tenir legitimite, responsabilite et ordre documentaire.
 
 ## C'. Retour
 Le retour referme le document sur sa fonction administrative, juridique ou de diffusion.

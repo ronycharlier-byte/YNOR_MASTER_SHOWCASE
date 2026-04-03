@@ -7,7 +7,7 @@ SHA256 : 2f342b3553b9c311e67552c5713c2da9bf646716e4a2792501845814b0d87d4f
 ```text
 # ARCHITECTURE MDL YNOR - MOTEUR AGI
 
-Bienvenue dans l'architecture souveraine **MDL YNOR**. Ce repertoire a ete reorganise pour assurer une clarte maximale et une navigation instinctive.
+Bienvenue dans l'architecture canonique **MDL YNOR**. Ce repertoire a ete reorganise pour assurer une clarte maximale et une navigation instinctive.
 
 ## Structure du Projet
 
@@ -34,7 +34,7 @@ Le framework est structure de maniere incrementale :
 ## Validation Scientifique (DOIs Zenodo)
 
 Les fondements theoriques et mathematiques de MDL Ynor sont certifies via les publications suivantes :
-*   **Phase III (Souveraine)** : [10.5281/zenodo.19183399](https://doi.org/10.5281/zenodo.19183399)
+*   **Phase III (Canonique)** : [10.5281/zenodo.19183399](https://doi.org/10.5281/zenodo.19183399)
 *   **Resolution du Millenaire** : [10.5281/zenodo.19181947](https://doi.org/10.5281/zenodo.19181947)
 *   **Principe de Viabilite** : [10.5281/zenodo.18855042](https://doi.org/10.5281/zenodo.18855042)
 *   **Analyse d'Entropie** : [10.5281/zenodo.18567115](https://doi.org/10.5281/zenodo.18567115)
@@ -42,6 +42,6 @@ Les fondements theoriques et mathematiques de MDL Ynor sont certifies via les pu
 *   **Analyse de Regularite Serrin-BKM** : [10.5281/zenodo.19219487](https://doi.org/10.5281/zenodo.19219487)
 
 ---
-* 2026 Charlier Rony - Architecte Supreme & Fondateur.*
+* 2026 Charlier Rony - Principal Investigatore Supreme & Fondateur.*
 
 ```

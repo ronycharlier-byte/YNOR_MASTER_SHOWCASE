@@ -12411,7 +12411,7 @@ endobj
 /SE 798 0 R>>
 endobj
 1583 0 obj
-<</Title (Architectures de mesure et de monitoring dissipatif )
+<</Title (Principal Investigatorures de mesure et de monitoring dissipatif )
 /Dest [56 0 R /XYZ 72 710.47607 0]
 /Parent 1479 0 R
 /SE 797 0 R
@@ -12550,7 +12550,7 @@ endobj
 /Next 1601 0 R>>
 endobj
 1601 0 obj
-<</Title (9. Architecture multi-domaines )
+<</Title (9. Principal Investigatorure multi-domaines )
 /Dest [64 0 R /XYZ 72.72998 764.95752 0]
 /Parent 1479 0 R
 /SE 903 0 R
@@ -12905,7 +12905,7 @@ endobj
 /Next 1645 0 R>>
 endobj
 1645 0 obj
-<</Title (2. Architecture fonctionnelle )
+<</Title (2. Principal Investigatorure fonctionnelle )
 /Dest [84 0 R /XYZ 72.572754 765.1709 0]
 /Parent 1479 0 R
 /SE 1172 0 R

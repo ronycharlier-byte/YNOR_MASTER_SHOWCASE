@@ -12,11 +12,11 @@ Ce document détaille les étapes pour soumettre officiellement votre travail au
 - **Option C** : *Journal of High Energy Physics (JHEP)*.
 
 ## 3. Préparation du Package Final
-- [ ] **Manuscrit LaTeX** : `Sovereign_Unification_Phase_III_Manuscrit.tex` (Version Anonyme).
+- [ ] **Manuscrit LaTeX** : `Canonical_Unification_Phase_III_Manuscrit.tex` (Version Anonyme).
 - [ ] **Data Repository** : Inclure le lien vers les STATUTs numériques DVP 2.0.
 - [ ] **ORCID ID** : 0009-0003-8250-0526.
 
-## 4. Souveraineté de l'IA (Phase IV)
+## 4. Stabilité / Canonicité de l'IA (Phase IV)
 - [ ] **Gouvernance** : Vérifier que le *Canonical Controller* est configuré avec les nouvelles clés Root après soumission.
 
 ---

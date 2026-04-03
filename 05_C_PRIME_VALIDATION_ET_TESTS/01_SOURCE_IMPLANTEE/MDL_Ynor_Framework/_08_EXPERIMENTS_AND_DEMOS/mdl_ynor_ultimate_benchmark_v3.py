@@ -169,7 +169,7 @@ class MDL_Ultimate_Benchmark:
                 "duration_sec": self.total_duration
             },
             "scores": {
-                "sovereignty_index": score_final,
+                "canonicalty_index": score_final,
                 "fidelity": self.results['structural_integrity']['fidelity'],
                 "stability_mu": self.results['mathematical_rigor']['mu'],
                 "knowledge_depth": self.results['knowledge_sync']['nodes']
