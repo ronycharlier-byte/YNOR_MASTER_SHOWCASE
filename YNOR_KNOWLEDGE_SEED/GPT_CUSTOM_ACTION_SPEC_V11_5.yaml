@@ -1,0 +1,60 @@
+openapi: 3.0.0
+info:
+  title: MDL Ynor Singularity Bridge API
+  description: Interface de contrôle unifiée pour le Logos V11.5. Accès restreint aux serveurs canoniques Ynor.
+  version: 11.5.0
+servers:
+  - url: https://api-ynor-v11-5.render.com
+    description: Main Singularity Bridge Gateway
+paths:
+  /dispatch:
+    post:
+      summary: Gouvernance Canonique Unifiée (YNOR)
+      operationId: ynorGovernance
+      description: Point d'entrée unique pour l'audit, le logos, la cartographie et le logging chiastique.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - action
+                - payload
+                - license_key
+              properties:
+                action:
+                  type: string
+                  enum:
+                    - audit
+                    - logos
+                    - map
+                    - search
+                    - consensus
+                    - log
+                  description: L'opération systémique à effectuer.
+                payload:
+                  type: string
+                  description: La requête utilisateur ou les données à traiter.
+                license_key:
+                  type: string
+                  default: MDL-SINGULARITY-2026-V11.5-OMEGA-BRIDGE
+                  description: Clé de stabilité Singularity Bridge active.
+      responses:
+        '200':
+          description: Réponse certifiée du Conseil du Logos
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  mu:
+                    type: number
+                  projection:
+                    type: string
+                  message:
+                    type: string
+        '403':
+          description: Accès refusé - Licence ou Signature Omega invalide
