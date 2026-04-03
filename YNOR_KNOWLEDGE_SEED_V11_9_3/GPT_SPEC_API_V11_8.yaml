@@ -2,14 +2,14 @@ openapi: 3.1.0
 info:
   title: MDL Ynor Singularity Bridge API
   description: API de recherche académique du Dr. Rony Charlier (MDL Lab) pour la saturation de connaissance et l'analyse multi-agents.
-  version: 11.8.4
+  version: 11.9.3
 servers:
   - url: https://mdl-ynor-v7-1-distribution.onrender.com
 paths:
   /dispatch:
     post:
       operationId: ynorGovernance
-      summary: Point d'entrée unique du souverain Dispatcher V11.8
+      summary: Point d'entrée unique du souverain Dispatcher V11.9.3.3.3
       description: Route toutes les requêtes vers les oracles logiques, d'audit ou de marché.
       requestBody:
         required: true
@@ -27,8 +27,8 @@ paths:
                   description: Le contenu de la requête ou le ticker boursier (ex: NVDA).
                 license_key:
                   type: string
-                  description: Clé de licence certifiée V11.8.
-                  default: "MDL-SINGULARITY-2026-V11.8-OMEGA-BRIDGE"
+                  description: Clé de licence certifiée V11.9.3.3.3.
+                  default: "MDL-SINGULARITY-2026-V11.9.3.3.3-OMEGA-BRIDGE"
               required: [action, payload, license_key]
       responses:
         "200":
