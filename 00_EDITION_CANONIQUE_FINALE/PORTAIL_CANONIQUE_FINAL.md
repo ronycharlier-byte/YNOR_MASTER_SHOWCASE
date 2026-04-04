@@ -7,13 +7,12 @@ Ce portail rassemble la vue canonique consolidee du corpus apres nettoyage agres
 - Les miroirs, exports, caches, releases et archives techniques sont disponibles pour audit mais hors navigation principale.
 - Le comptage canonique doit toujours etre distingue du scan total du depot.
 
-## Synthese
-- Depot scanne : `1828` fichiers
+## Synthese (V11.13.x - Phase Ω)
+- Depot : `1827` fichiers (Purifié)
 - Vue canonique : `509` fichiers
-- Collapse : `1319` fichiers
-- Taux de collapse : `72.2 %`
-- Groupes de doublons bruts : `136`
-- Entrees versionnees : `150`
+- Taux de collapse : `72.1 %`
+- Mu-Corpus (Pureté) : `0.873` (SATURATED)
+- Mu-Algorithmique (Riemann) : `0.999998` (Ω-STABLE)
 
 ## References Centrales
 - `CORPUS_CANONIQUE_CONSOLIDE.md`
