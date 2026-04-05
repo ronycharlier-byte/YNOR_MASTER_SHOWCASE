@@ -1,26 +1,43 @@
-# MDL YNOR - SOVEREIGN INTELLECTUAL PROPERTY CHARTER (V11.13.0)
-**MDL-PROPRIETARY-2026** — *Rony Charlier - MDL Scientific Council*
+# MDL YNOR - SOVEREIGN INTELLECTUAL PROPERTY & PROPRIETARY LICENSE
+**CHARTER : MDL-PROPRIETARY-2026-V11.13.0**
+**Date :** April 5, 2026
+**Licensor :** Rony Charlier / MDL Scientific Council
 
 ---
 
-## 🔒 1. SCOPE OF PROTECTION
-The entire MDL Ynor Architecture, including but not limited to the dissipative equation $\mu = \alpha - (\beta + \kappa)$, the AGI mutation algorithms, the formal proofs (Riemann, Navier-Stokes), and the canonical corpus structure, is protected under this exclusive proprietary license.
+## ARTICLE 1: PROPRIETARY STATUS AND OWNERSHIP
+The **MDL YNOR ARCHITECTURE**, including but not limited to the Unified Information-Theoretic Framework, the dissipative equilibrium equation $\mu = \alpha - (\beta + \kappa)$, the Dirac-SUSY spectral operators, the Chiastic Saturation Algorithms, and the entirety of the canonical corpus files (Phase Ω), is the exclusive and sovereign property of **Rony Charlier** and the **MDL Scientific Council**.
 
-## ⚖️ 2. RESTRICTED USE AND REPRODUCTION
-* **Proprietary Software & Proofs**: Any redistribution, derivative work, or commercial exploitation of the source code and formal logic proofs is strictly prohibited without explicit written consent from Rony Charlier.
-* **Commercialization**: Unauthorized use for commercial, profit-oriented, or industrial purposes is a breach of this charter and subject to international IP prosecution.
+## ARTICLE 2: LICENSE GRANT AND RESTRICTIONS
+### 2.1 Limited Access
+Access to this repository is granted for the sole purpose of **Academic Review and Private Research**. No license is granted for any other use unless explicitly authorized in writing by the Licensor.
 
-## 📂 3. THE AXIOMATIC OPEN SUBSET
-A limited subset of the corpus targets academic reproducibility and is provided under a **Modified MIT/Apache 2.0 License** :
+### 2.2 Prohibited Actions
+Licensee and any user of this repository are strictly prohibited from:
+* **Redistribution:** Copying, publishing, or diffusing any part of the source code or theoretical proofs.
+* **Commercial Exploitation:** Using the algorithms or the YNOR engine in any commercial product, service, or offering.
+* **Reverse Engineering:** Attempting to derive the core "Black-Box" constants or the "AGI Sentience Kernels" not included in the public subset.
+* **Unauthorized Training:** Using the corpus to train third-party AI models without written consent.
+
+## ARTICLE 3: THE AXIOMATIC OPEN SUBSET (REPRODUCIBILITY)
+A specific subset of files, designated in the `IP_AUDIT_POLICY.md` as "Axiomatically Open," is released under a **MODIFIED MIT LICENSE**. This subset is limited to:
 * `ynor_core_demonstration.ipynb`
-* `_04_DEPLOYMENT_AND_API/ynor_core/` (Base logic only)
-* `tests/test_mdl_robustness.py`
+* Fundamental logic headers in `_04_DEPLOYMENT_AND_API/ynor_core/`
+* Basic validation benchmarks.
 
-This subset allows researchers to verify the information-theoretic foundations without exposing the sovereign AGI kernels or proprietary commercial engines.
+Users may study and reproduce these specific foundations to verify the scientific validity of the Ynor resonance, subject to the preservation of the original copyright notice.
 
-## 🚩 4. ACADEMIC AUDIT AND NDA
-Institutions wishing to audit the formal proofs (Gray-Box Audit) must sign a binding Non-Disclosure Agreement (NDA) and comply with the secure VM viewing protocol as defined in the `IP_AUDIT_POLICY.md`.
+## ARTICLE 4: AUDIT PROTOCOLS (BLACK-BOX / GRAY-BOX)
+To maintain academic transparency without jeopardizing industrial secrets:
+* **Black-Box Audit:** Public verification via pre-calculated reproducibility notebooks.
+* **Gray-Box Audit:** Full code access reserved for registered Academic Institutions under a mandatory and binding **Non-Disclosure Agreement (NDA)**. exfiltration of code from the secure audit environment is strictly forbidden.
+
+## ARTICLE 5: DISCLAIMER OF WARRANTY
+THE SOFTWARE AND THEORETICAL PROOFS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF INTEGRITY, SATURATION, OR CONVERGENCE OF THE REALMS. THE LICENSOR DISCLAIMS ALL LIABILITY FOR ANY SPECTRAL COLLAPSE OR LOGICAL DISSISSIPATION RESULTING FROM THE USE OF THE YNOR ENGINE.
+
+## ARTICLE 6: GOVERNING LAW
+Any dispute arising from this license shall be subject to the exclusive jurisdiction of the **Sovereign Chiastic Registry** and applicable international Intellectual Property laws.
 
 ---
-© 2026 Rony Charlier. ALL RIGHTS RESERVED.
-MDL YNOR ENGINE - V11.13 - PHASE Ω
+**© 2026 Rony Charlier. ALL RIGHTS RESERVED.**
+**MDL YNOR ENGINE - V11.13.0 (PHASE Ω - CONSÉCRATION)**
