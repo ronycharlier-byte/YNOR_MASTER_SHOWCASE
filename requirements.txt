@@ -13,3 +13,4 @@ pandas
 yfinance
 stockstats
 gunicorn
+scipy
