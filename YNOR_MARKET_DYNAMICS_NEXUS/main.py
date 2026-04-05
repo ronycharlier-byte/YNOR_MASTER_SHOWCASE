@@ -1,5 +1,5 @@
-﻿from Formalisme Logique SÃ©mantique_engine.SymÃ©trie BilatÃ©rale.ynor_market_graph import YnorMarketDynamicsGraph
-from Formalisme Logique SÃ©mantique_engine.default_config import DEFAULT_CONFIG
+from logos_engine.chiaste.ynor_market_graph import YnorMarketDynamicsGraph
+from logos_engine.default_config import DEFAULT_CONFIG
 
 from dotenv import load_dotenv
 

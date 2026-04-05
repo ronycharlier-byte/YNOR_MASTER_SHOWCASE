@@ -1,4 +1,4 @@
-﻿# Ynor_Dynamics/graph/ynor_market_graph.py
+# Ynor_Dynamics/graph/ynor_market_graph.py
 
 import os
 from pathlib import Path
@@ -8,20 +8,20 @@ from typing import Dict, Any, Tuple, List, Optional
 
 from langgraph.prebuilt import ToolNode
 
-from Formalisme Logique SÃ©mantique_engine.llm_clients import create_llm_client
+from logos_engine.oracles.factory import create_llm_client
 
-from Formalisme Logique SÃ©mantique_engine.agents import *
-from Formalisme Logique SÃ©mantique_engine.default_config import DEFAULT_CONFIG
-from Formalisme Logique SÃ©mantique_engine.agents.utils.memory import FinancialSituationMemory
-from Formalisme Logique SÃ©mantique_engine.agents.utils.agent_states import (
+from logos_engine.pilliers.analysts import *
+from logos_engine.default_config import DEFAULT_CONFIG
+from logos_engine.pilliers.utils.memory import FinancialSituationMemory
+from logos_engine.pilliers.utils.agent_states import (
     AgentState,
     InvestDebateState,
     RiskDebateState,
 )
-from Formalisme Logique SÃ©mantique_engine.dataflows.config import set_config
+from logos_engine.pilliers.utils.agent_utils import set_config
 
 # Import the new abstract tool methods from agent_utils
-from Formalisme Logique SÃ©mantique_engine.agents.utils.agent_utils import (
+from logos_engine.pilliers.utils.agent_utils import (
     get_stock_data,
     get_indicators,
     get_fundamentals,
