@@ -21,8 +21,11 @@ app = FastAPI(title="MDL YNOR ACADEMIC V11.13.0")
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
-JWT_SECRET = os.getenv("YNOR_JWT_SECRET", "YNOR-MASTER-OMEGA-CORE-KEY-2026")
+JWT_SECRET = os.getenv("YNOR_JWT_SECRET")
 JWT_ALGO = "HS256"
+
+if not JWT_SECRET:
+    raise RuntimeError("MDL FATAL ERROR: YNOR_JWT_SECRET NOT DEFINED. SOVEREIGN LOCK ENGAGED.")
 
 # CORE SEC: CORS Restrictions (Env-driven)
 allowed_origins = os.getenv("YNOR_ALLOWED_ORIGINS", "*").split(",")
@@ -59,8 +62,8 @@ class LoginRequest(BaseModel):
 @app.post("/login")
 @limiter.limit("5/minute")
 async def login(request: LoginRequest, r: Request):
-    master_key = os.getenv("YNOR_API_KEY", "MDL-SINGULARITY-2026-V11.8-OMEGA-BRIDGE")
-    if request.license_key != master_key:
+    master_key = os.getenv("YNOR_API_KEY")
+    if not master_key or request.license_key != master_key:
         return JSONResponse(status_code=403, content={"status": "FORBIDDEN"})
     
     expires = datetime.now() + timedelta(hours=1)
