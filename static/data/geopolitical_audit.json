@@ -1,0 +1,30 @@
+{
+    "title": "IRAN-USA TIPPING AUDIT",
+    "results": [
+        {
+            "scenario": "Status Quo (Sanetions & Proxies)",
+            "mu_resonance": 0.36,
+            "lambda_alignment": 0.199001,
+            "status": "ZONE DE TENSION (BRUIT SPECTRAL)"
+        },
+        {
+            "scenario": "D\u00e9sescalade Diplomatique (Accord Nucl\u00e9aire)",
+            "mu_resonance": 0.84,
+            "lambda_alignment": 0.8,
+            "status": "STABLE (DISSIPATION ABSORB\u00c9E)"
+        },
+        {
+            "scenario": "Escalade Directe (D\u00e9troit d'Ormuz)",
+            "mu_resonance": 0.24,
+            "lambda_alignment": 0.04975,
+            "status": "EFFONDREMENT SPECTRAL IMMINENT (CONFLIT OUVERT)"
+        },
+        {
+            "scenario": "Guerre Totale (Collapsage Spectral)",
+            "mu_resonance": 0.2,
+            "lambda_alignment": 0.0,
+            "status": "EFFONDREMENT SPECTRAL IMMINENT (CONFLIT OUVERT)"
+        }
+    ],
+    "timestamp": "Sun Apr  5 10:02:25 2026"
+}
