@@ -55,6 +55,8 @@ Fill in:
 - `BITGET_PASSPHRASE`
 - `LIVE_TRADING=false` for testing first
 
+The VPS installer now uses `03_C_MOTEURS_ET_DEPLOIEMENT/requirements-bitget.txt`, which keeps the Python install minimal.
+
 ## 5. Whitelist the VPS IP in Bitget
 
 Use the VPS public IPv4 only, for example `123.123.123.123`.

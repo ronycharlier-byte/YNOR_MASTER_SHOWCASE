@@ -93,8 +93,8 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 echo "[5/8] Installing Python dependencies"
-pip install --upgrade pip
-pip install -r requirements.txt
+pip install --upgrade pip setuptools wheel
+pip install --no-cache-dir -r 03_C_MOTEURS_ET_DEPLOIEMENT/requirements-bitget.txt
 
 echo "[6/8] Ensuring environment file exists"
 if [[ ! -f .env ]]; then
