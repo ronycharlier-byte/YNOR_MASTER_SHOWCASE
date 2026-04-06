@@ -12,7 +12,18 @@ import sys
 
 import json
 
+import numpy as np
+
 import traceback
+
+import sys
+
+# YNOR REPO: DYNAMIC PYTHONPATH INJECTION
+current_module_dir = os.path.dirname(os.path.abspath(__file__))
+repo_root = os.path.dirname(current_module_dir)
+for path in [current_module_dir, repo_root, os.path.join(repo_root, "05_C_PRIME_VALIDATION_ET_TESTS")]:
+    if path not in sys.path:
+        sys.path.append(path)
 
 from typing import Optional, Any
 

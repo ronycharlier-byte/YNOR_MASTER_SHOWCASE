@@ -142,11 +142,11 @@ To achieve a formal resolution, we define a basis of three orthogonal axes:
 
 
 
-2. **Axe de Symtrie ($\chi$)**: The chiastic mirror securing the spectral stability.
+2. **Axe de Symétrie ($\chi$)**: The chiastic mirror securing the spectral stability.
 
 
 
-3. **Axe de Rsonance ($\Lambda$)**: The sequence of physical eigenvalues matching the Riemann zeros.
+3. **Axe de Résonance ($\Lambda$)**: The sequence of physical eigenvalues matching the Riemann zeros.
 
 
 
