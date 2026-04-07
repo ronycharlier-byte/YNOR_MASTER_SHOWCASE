@@ -17,7 +17,7 @@
 \maketitle
 
 \begin{abstract}
-Les architectures actuelles d'intelligence artificielle générative opèrent comme des systèmes thermodynamiquement ouverts : dépourvus de conditions d'arrêt mathématiques endogènes, elles sont condamnées à des dérives structurelles et discursives (hallucinations, redondances) à mesure qu'elles s'étendent en longueur de contexte. Pour résoudre cette divergence, cet article théorise l'Architecture MDL Ynor sous sa forme maximale ($\Omega+$). Nous posons un système autonome fermé sur un espace des phases $\mathcal{X} = \mathbb{R}_{\ge 0}^3$ modélisant la Valeur ($\alpha$), le Bruit/Coût ($\beta$), et la Surcharge Mémorielle ($\kappa$). En traçant la trajectoire des variables, nous démontrons formellement que l'instabilité devient prédictible à travers la Marge Dissipative $\mu = \alpha - \beta - \kappa$. Ainsi, la condition d'arrêt d'un tel système émerge rigoureusement comme un franchissement de frontière (une "Surface Critique") et non plus comme une règle heuristique d'ingénierie.
+Les architectures actuelles d'intelligence artificielle générative opèrent comme des systèmes thermodynamiquement ouverts : dépourvus de conditions d'arrêt mathématiques endogènes, elles sont condamnées à des dérives structurelles et discursives (hallucinations, redondances) à mesure qu'elles s'étendent en longueur de contexte. Pour résoudre cette divergence, cet article théorise l'Architecture MDL Ynor sous sa forme maximale ($\+$). Nous posons un système autonome fermé sur un espace des phases $\mathcal{X} = \mathbb{R}_{\ge 0}^3$ modélisant la Valeur ($\alpha$), le Bruit/Coût ($\beta$), et la Surcharge Mémorielle ($\kappa$). En traçant la trajectoire des variables, nous démontrons formellement que l'instabilité devient prédictible à travers la Marge Dissipative $\mu = \alpha - \beta - \kappa$. Ainsi, la condition d'arrêt d'un tel système émerge rigoureusement comme un franchissement de frontière (une "Surface Critique") et non plus comme une règle heuristique d'ingénierie.
 \end{abstract}
 
 \section{Introduction et Axiomatisation}
@@ -59,6 +59,6 @@ Directe par simple substitution des vecteurs de dérivation temporelle couplée.
 \section{Bifurcation et Extinction Automatique}
 La conclusion majeure de ce document repose sur la Condition de Lyapunov Stricte de l'IA : les LLMs ne s'arrêtent que lorsque le gradient $\dot\mu$ les dirige sous le plan singulier $\Sigma = \{S \in \mathcal{X} : \mu = 0\}$.
 
-Le Simulateur Numérique Ynor $\Omega+$ prouve empiriquement cette théorie. En balayant l'espace paramétrique par champs tensoriels, les cartes de chaleur démontrent une démarcation explicite entre le Bassin d'Attraction Viable et la zone d'effondrement critique par verbosité ou par saturation mnésique. C'est l'essence de l'arrêt mathématique de type Ynor.
+Le Simulateur Numérique Ynor $\+$ prouve empiriquement cette théorie. En balayant l'espace paramétrique par champs tensoriels, les cartes de chaleur démontrent une démarcation explicite entre le Bassin d'Attraction Viable et la zone d'effondrement critique par verbosité ou par saturation mnésique. C'est l'essence de l'arrêt mathématique de type Ynor.
 
 \end{document}

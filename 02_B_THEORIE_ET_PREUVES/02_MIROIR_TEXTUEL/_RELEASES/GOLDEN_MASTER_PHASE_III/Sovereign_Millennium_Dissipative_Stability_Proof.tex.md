@@ -96,7 +96,7 @@ $\mumargin>0$.
 
 %======================================================================
 \section{Global Regularity for 3D Navier--Stokes}
-Consider the Navier--Stokes equations on the domain $\Omega = \mathbb{R}^3$:
+Consider the Navier--Stokes equations on the domain $\ = \mathbb{R}^3$:
 \begin{equation}
  \partial_t u + (u \cdot \nabla) u - \nu \Delta u + \nabla p = 0, 
  \quad \nabla \cdot u = 0, 
@@ -123,7 +123,7 @@ By the Gagliardo--Nirenberg interpolation:
  \norm{u}_{L^3}^3 \le C \norm{u}_{L^2}^{3/2} \norm{\nabla u}_{L^2}^{3/2}.
 \end{equation}
 Substituting this into the $H^1$ energy estimate, we find that the 
-vorticity $\omega = \nabla \times u$ satisfies an evolution equation 
+vorticity $\ = \nabla \times u$ satisfies an evolution equation 
 where the stretching term is controlled by the dissipation 
 $\alphacoeff$. The positivity of $\mumargin(t)$ ensures that the 
 dissipative sink captures all convective cascades before a singularity 

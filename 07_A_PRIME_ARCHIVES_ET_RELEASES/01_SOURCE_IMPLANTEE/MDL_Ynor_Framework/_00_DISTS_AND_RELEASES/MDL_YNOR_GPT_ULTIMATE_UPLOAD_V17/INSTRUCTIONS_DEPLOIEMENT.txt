@@ -1,5 +1,5 @@
 =====================================================================
- GUIDE DE DÉPLOIEMENT : MDL YNOR Ω+ (V19.2 OMEGA)
+ GUIDE DE DÉPLOIEMENT : MDL YNOR Ω+ (V19.2)
 =====================================================================
 
 Ce pack contient tout le nécessaire pour une mise en service SOUVERAINE.
@@ -13,7 +13,7 @@ présents dans ce dossier INDIVIDUELLEMENT.
 ETAPE 2 : INSTRUCTIONS (LA LOI)
 ---------------------------------
 Copiez l'intégralité du texte du fichier : 
-'MASTER_PROMPT_V19_2_OMEGA.txt' 
+'MASTER_PROMPT_V19_2.txt' 
 dans le champ "Instructions" de votre GPT. 
 Ce prompt contient le GHOST PROTOCOL et la logique de raisonnement μ.
 

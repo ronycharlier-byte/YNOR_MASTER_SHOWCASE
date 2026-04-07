@@ -30,7 +30,7 @@ def navier_stokes_regularity_check(u, t):
 
 
 
-def hodge_bijection_check(omega, cohomology_class):
+def hodge_bijection_check(, cohomology_class):
 
  """
 
@@ -42,7 +42,7 @@ def hodge_bijection_check(omega, cohomology_class):
 
  # Simple projection check
 
- correlation = np.dot(omega, cohomology_class) / (np.linalg.norm(omega) * np.linalg.norm(cohomology_class))
+ correlation = np.dot(, cohomology_class) / (np.linalg.norm() * np.linalg.norm(cohomology_class))
 
  is_harmonic = abs(correlation - 1.0) < 1e-6
 

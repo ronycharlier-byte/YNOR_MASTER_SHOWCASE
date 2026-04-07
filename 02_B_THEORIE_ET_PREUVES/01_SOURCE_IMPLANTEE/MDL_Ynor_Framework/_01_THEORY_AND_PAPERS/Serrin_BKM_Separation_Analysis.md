@@ -8,7 +8,7 @@ Le document récemment intégré à l'architecture (`impulse_serrin_bkm.pdf`) ex
 L'article construit des champs de vitesse explicites qui sont :
 1. **Lisse et à divergence nulle** sur un tore 3D.
 2. **Conformes aux conditions d'intégrabilité de type Serrin** ($L^q(0, T; L^p)$).
-3. **Exhibent une vorticité intégrée en temps non bornée** ($\int_0^T \|\omega\|_{L^\infty} dt = \infty$).
+3. **Exhibent une vorticité intégrée en temps non bornée** ($\int_0^T \|\\|_{L^\infty} dt = \infty$).
 
 ### Implications pour MDL Ynor
 Dans le cadre de l'architecture **MDL Ynor**, cela signifie que le contrôle de la "Marge de Dissipation" ($\mu$) basé uniquement sur des normes d'énergie ou de vitesse critique (Type Serrin) peut ne pas suffire à capturer les mécanismes de concentration intermittente si la vorticité s'échappe (Type BKM).

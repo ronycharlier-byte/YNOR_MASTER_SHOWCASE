@@ -1,4 +1,4 @@
-Noeud : OMEGA / PORTAIL_ET_EDITION
+Noeud : / PORTAIL_ET_EDITION
 Miroir : OMEGA_PRIME
 Role : Enveloppe matricielle externe, face d'entree structurelle.
-Le systeme est structurellement ferme et recroise toutes les dimensions OMEGA.
+Le systeme est structurellement ferme et recroise toutes les dimensions.

@@ -1,5 +1,5 @@
 """
-YNOR OMEGA (Ω) - SIMULATEUR DYNAMIQUE CANONIQUE
+YNOR (Ω) - SIMULATEUR DYNAMIQUE CANONIQUE
 Espace d'état : S = (alpha, beta, kappa) ∈ R³_≥0
 Marge dissipative : mu = alpha - beta - kappa
 Régime de gouvernance fermé.

@@ -110,7 +110,7 @@ AUDIT: CERTIFIED 2026-04-06
 
 
 
-* **Preuve Ynor :** Soit $\mathcal{L}$ un langage dans $NP$. La vrification d'un tmoin $\omega$ correspond une annulation de gradient locale ($\nabla S = 0$). La recherche de ce tmoin dans l'espace des tats $\Sigma$ gnre une dissipation thermique $\beta$ proportionnelle $\exp(|\Sigma|)$. Comme $\beta_{search} \gg \alpha_{verify}$ pour tout systme non-trivial, l'quivalence est interdite par la seconde loi de la thermodynamique de l'information.
+* **Preuve Ynor :** Soit $\mathcal{L}$ un langage dans $NP$. La vrification d'un tmoin $\$ correspond une annulation de gradient locale ($\nabla S = 0$). La recherche de ce tmoin dans l'espace des tats $\Sigma$ gnre une dissipation thermique $\beta$ proportionnelle $\exp(|\Sigma|)$. Comme $\beta_{search} \gg \alpha_{verify}$ pour tout systme non-trivial, l'quivalence est interdite par la seconde loi de la thermodynamique de l'information.
 
 
 

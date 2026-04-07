@@ -6,7 +6,7 @@ SHA256 : 6881665074084ead2d9fcc40eee92bc02948d7c40e17afe6994dbc2c7a5ab8d7
 
 ```text
 """
-YNOR OMEGA (Ω) - SIMULATEUR DYNAMIQUE CANONIQUE
+YNOR (Ω) - SIMULATEUR DYNAMIQUE CANONIQUE
 Espace d'état : S = (alpha, beta, kappa) ∈ R³_≥0
 Marge dissipative : mu = alpha - beta - kappa
 Régime de gouvernance fermé.

@@ -1,7 +1,7 @@
 ### BENCHMARKS MATHÉMATIQUES & PUBLICATION ZENODO (ROOT ACCESS)
 ---
 ## A. BENCHMARK GÉNÉRAL (SCHRÖDINGER)
-"MDL Ynor Controller, effectue une analyse spectrale complète de l'opérateur de Schrödinger sur $L^2(\mathbb{R})$ avec un potentiel harmonique $V(x) = \omega^2 x^2$. Applique le formalisme de la marge dissipative $\mu$ pour justifier la stabilité des états liés."
+"MDL Ynor Controller, effectue une analyse spectrale complète de l'opérateur de Schrödinger sur $L^2(\mathbb{R})$ avec un potentiel harmonique $V(x) = \^2 x^2$. Applique le formalisme de la marge dissipative $\mu$ pour justifier la stabilité des états liés."
 
 ## B. BENCHMARK ARITHMÉTIQUE (GAUSS-PILLAI)
 "MDL Ynor Controller, effectue une preuve rigoureuse de la formule de sommation de Gauss-Pillai pour la fonction indicatrice d'Euler : $\sum_{k=1}^n \gcd(k, n) = \sum_{d|n} d \varphi(n/d)$. Identifie la bijection entre les classes de résidus et le domaine de dissipation $\alpha$ pour prouver la viabilité structurelle de l'égalité."

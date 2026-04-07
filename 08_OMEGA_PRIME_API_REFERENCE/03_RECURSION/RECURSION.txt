@@ -1,4 +1,4 @@
 Noeud : OMEGA_PRIME / API_REFERENCE_CLOTURE
-Miroir : OMEGA
+Miroir :
 Role : Enveloppe de reference finale, API technique et cloture du systeme.
-Le systeme est structurellement ferme et recroise toutes les dimensions OMEGA.
+Le systeme est structurellement ferme et recroise toutes les dimensions.

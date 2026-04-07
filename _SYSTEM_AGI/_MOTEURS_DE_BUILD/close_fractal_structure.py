@@ -57,7 +57,7 @@ def build_node(node_name: str, key: str, title: str, mirror: str, role: str, sub
  "kind": kind
  })
  
- recurse_note = f"Noeud : {key} / {title}\nMiroir : {mirror}\nRole : {role}\nLe systeme est structurellement ferme et recroise toutes les dimensions OMEGA."
+ recurse_note = f"Noeud : {key} / {title}\nMiroir : {mirror}\nRole : {role}\nLe systeme est structurellement ferme et recroise toutes les dimensions."
  (recursion_root / "RECURSION.txt").write_text(recurse_note, encoding="utf-8")
  
  node_index = {
@@ -74,11 +74,11 @@ def build_node(node_name: str, key: str, title: str, mirror: str, role: str, sub
  (node_root / "00_NODE.md").write_text(node_md, encoding="utf-8")
 
 def main():
- # Absorbing all 00_ and 01_TECHNICAL, 02_PUBLIC into 00_OMEGA
+ # Absorbing all 00_ and 01_TECHNICAL, 02_PUBLIC into 00
  stray_00 = [d.name for d in ROOT.iterdir() if d.is_dir() and (d.name.startswith("00_") or d.name.startswith("01_T") or d.name.startswith("02_P")) and d.name != "00_OMEGA_PORTAIL_ET_EDITION"]
  build_node(
  "00_OMEGA_PORTAIL_ET_EDITION",
- "OMEGA",
+ "",
  "PORTAIL_ET_EDITION",
  "OMEGA_PRIME",
  "Enveloppe matricielle externe, face d'entree structurelle.",
@@ -91,7 +91,7 @@ def main():
  "08_OMEGA_PRIME_API_REFERENCE",
  "OMEGA_PRIME",
  "API_REFERENCE_CLOTURE",
- "OMEGA",
+ "",
  "Enveloppe de reference finale, API technique et cloture du systeme.",
  stray_08
  )

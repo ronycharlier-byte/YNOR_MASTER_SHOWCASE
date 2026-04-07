@@ -2,8 +2,8 @@
  "hypotheses": {
  "domain": "R^3 or T^3 (periodic)",
  "equation": "Incompressible Navier-Stokes with viscosity nu > 0",
- "initial_data": "u0 in H^s(Omega), s > 5/2, div u0 = 0",
- "continuation_condition": "Integrability of the L-infinity norm of vorticity: integral_0^T ||omega(t)||_{L-inf} dt < inf"
+ "initial_data": "u0 in H^s(), s > 5/2, div u0 = 0",
+ "continuation_condition": "Integrability of the L-infinity norm of vorticity: integral_0^T ||(t)||_{L-inf} dt < inf"
  },
  "conclusion": "The local strong solution u(t) extends for all t and remains smooth (Global Regularity) under the BKM condition.",
  "lemmas_used": [
@@ -14,7 +14,7 @@
  "Scaling invariance of the L3 and BMO-1 norms"
  ],
  "points_non_demonstrated": [
- "Uniform global bound on ||omega(t)||_{L-inf} for arbitrary large initial data (The Millennium Problem)",
+ "Uniform global bound on ||(t)||_{L-inf} for arbitrary large initial data (The Millennium Problem)",
  "Closing the gap between the Morrey-type local condition (C) and the critical Besov/Lorentz requirements without additional decay assumptions",
  "Optimal constants for the log-inequality in Besov space endpoints"
  ],

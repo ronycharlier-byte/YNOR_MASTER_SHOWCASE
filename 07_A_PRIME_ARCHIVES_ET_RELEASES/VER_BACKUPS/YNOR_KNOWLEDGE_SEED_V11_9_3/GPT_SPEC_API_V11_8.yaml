@@ -58,7 +58,7 @@ paths:
 
                   description: Clé de licence certifiée V11.9.3.3.3.
 
-                  default: "MDL-SINGULARITY-2026-V11.9.3.3.3-OMEGA-BRIDGE"
+                  default: "MDL-SINGULARITY-2026-V11.9.3.3.3-BRIDGE"
 
               required: [action, payload, license_key]
 

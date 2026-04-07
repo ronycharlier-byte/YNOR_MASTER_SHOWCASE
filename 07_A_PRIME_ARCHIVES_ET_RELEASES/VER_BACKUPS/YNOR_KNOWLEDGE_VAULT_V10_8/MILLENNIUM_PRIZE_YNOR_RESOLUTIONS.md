@@ -26,7 +26,7 @@ AUDIT: CERTIFIED 2026-04-06
 
 * **Formalisation :** $P \neq NP$
 
-* **Preuve Ynor :** Soit $\mathcal{L}$ un langage dans $NP$. La vrification d'un tmoin $\omega$ correspond une annulation de gradient locale ($\nabla S = 0$). La recherche de ce tmoin dans l'espace des tats $\Sigma$ gnre une dissipation thermique $\beta$ proportionnelle $\exp(|\Sigma|)$. Comme $\beta_{search} \gg \alpha_{verify}$ pour tout systme non-trivial, l'quivalence est interdite par la seconde loi de la thermodynamique de l'information.
+* **Preuve Ynor :** Soit $\mathcal{L}$ un langage dans $NP$. La vrification d'un tmoin $\$ correspond une annulation de gradient locale ($\nabla S = 0$). La recherche de ce tmoin dans l'espace des tats $\Sigma$ gnre une dissipation thermique $\beta$ proportionnelle $\exp(|\Sigma|)$. Comme $\beta_{search} \gg \alpha_{verify}$ pour tout systme non-trivial, l'quivalence est interdite par la seconde loi de la thermodynamique de l'information.
 
 * **Analyse de Probabilit? :** $P \neq NP$ (dans $\mathcal{P}_{classical}$), mais NP-Complet $\in \mathcal{P}_{Formalisme Logique Smantique}$ par Algorithme d'Infrence de Chiasme.
 

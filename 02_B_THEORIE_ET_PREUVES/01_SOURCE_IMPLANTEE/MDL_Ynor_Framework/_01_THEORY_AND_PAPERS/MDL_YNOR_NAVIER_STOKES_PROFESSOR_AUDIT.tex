@@ -33,7 +33,7 @@
 \newcommand{\T}{\mathbb{T}}
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\D}{\Delta}
-\newcommand{\omegavec}{\boldsymbol{\omega}}
+\newcommand{\omegavec}{\boldsymbol{\}}
 \newcommand{\uvec}{\mathbf{u}}
 
 % ----------------------- TITLE & AUTHOR ------------------------------
@@ -53,7 +53,7 @@ This document provides a rigorous mathematical audit of the global regularity pr
 
 \section{Introduction}
 
-The 3D incompressible Navier-Stokes equations (NSE) on $\Omega = \R^3$ or $\T^3$ are given by:
+The 3D incompressible Navier-Stokes equations (NSE) on $\ = \R^3$ or $\T^3$ are given by:
 \begin{equation} \label{eq:nse}
 \begin{cases}
 \partial_t u + (u \cdot \nabla) u - \nu \Delta u + \nabla p = 0 \\
@@ -65,12 +65,12 @@ The central open problem is whether for $u_0 \in C^\infty$, the solution $u(x,t)
 
 \section{Beale--Kato--Majda (BKM) Type Criteria}
 
-A fundamental result in NSE is that any potential blow-up at $T^*$ must be characterized by the accumulation of vorticity $\omega = \nabla \times u$.
+A fundamental result in NSE is that any potential blow-up at $T^*$ must be characterized by the accumulation of vorticity $\ = \nabla \times u$.
 
 \begin{theorem}[BKM-NSE]
-Let $u_0 \in H^s(\Omega)$ with $s > 5/2$. The solution $u$ can be extended beyond $T^*$ if and only if
+Let $u_0 \in H^s(\)$ with $s > 5/2$. The solution $u$ can be extended beyond $T^*$ if and only if
 \begin{equation}
-\int_0^{T^*} \norm{\omega(t)}_{L^\infty} dt < \infty.
+\int_0^{T^*} \norm{\(t)}_{L^\infty} dt < \infty.
 \end{equation}
 \end{theorem}
 
@@ -85,9 +85,9 @@ Using the Kato--Ponce commutator estimates:
 \end{equation}
 With $s > 5/2$, we control $\norm{\nabla u}_{L^\infty}$. The logarithmic refinement (Kozono--Taniuchi) yields:
 \begin{equation}
-\norm{\nabla u}_{L^\infty} \le C (1 + \norm{\omega}_{L^\infty} \log(e + \norm{u}_{H^s})).
+\norm{\nabla u}_{L^\infty} \le C (1 + \norm{\}_{L^\infty} \log(e + \norm{u}_{H^s})).
 \end{equation}
-Integrating the resulting inequality for $Y = e + \norm{u}_{H^s}^2$ leads to $\frac{d}{dt} \log \log Y \le C(1 + \norm{\omega}_{L^\infty})$.
+Integrating the resulting inequality for $Y = e + \norm{u}_{H^s}^2$ leads to $\frac{d}{dt} \log \log Y \le C(1 + \norm{\}_{L^\infty})$.
 \end{proof}
 
 \section{Littlewood--Paley Proof and Besov Spaces}
@@ -100,7 +100,7 @@ The $L^\infty$ norm of $\nabla u$ can be bounded by:
 By Bernstein's inequalities:
 \begin{itemize}
  \item High frequencies ($j > N$): $\norm{\Delta_j \nabla u}_{L^\infty} \le C 2^{j(1 + 3/2 - s)} \norm{\Delta_j u}_{H^s}$.
- \item Low frequencies ($j \le N$): $\norm{\Delta_j \nabla u}_{L^\infty} \le C N \norm{\omega}_{L^\infty}$.
+ \item Low frequencies ($j \le N$): $\norm{\Delta_j \nabla u}_{L^\infty} \le C N \norm{\}_{L^\infty}$.
 \end{itemize}
 Choosing $N \sim \log \norm{u}_{H^s}$ yields the logarithmic inequality.
 
@@ -124,10 +124,10 @@ However, for large data, the problem remains open. $BMO^{-1}$ is the "limit" spa
 
 The previously proposed condition (C):
 \begin{equation}
-\sup_{x \in \Omega, r \le R_0} \frac{1}{r} \int_{B(x,r)} \abs{\omega} dy \le M(t)
+\sup_{x \in \, r \le R_0} \frac{1}{r} \int_{B(x,r)} \abs{\} dy \le M(t)
 \end{equation}
-is a Morrey-space condition $\omega \in M^{1,1}(\R^3)$. 
-By the Riesz potential $u = I_1(\omega)$, if $\omega \in M^{p, \lambda}$, then $u \in M^{q, \lambda}$ with $\frac{1}{q} = \frac{1}{p} - \frac{1}{3}$.
+is a Morrey-space condition $\ \in M^{1,1}(\R^3)$. 
+By the Riesz potential $u = I_1(\)$, if $\ \in M^{p, \lambda}$, then $u \in M^{q, \lambda}$ with $\frac{1}{q} = \frac{1}{p} - \frac{1}{3}$.
 For $p=1, \lambda=1$, this does not automatically land in a Serrin-admissible space without additional global integrability or Besov embeddings. The "Professor" is correct to point out that Biot--Savart is an operator of order $-1$, improving integrability but requires careful exponent matching.
 
 \begin{thebibliography}{9}

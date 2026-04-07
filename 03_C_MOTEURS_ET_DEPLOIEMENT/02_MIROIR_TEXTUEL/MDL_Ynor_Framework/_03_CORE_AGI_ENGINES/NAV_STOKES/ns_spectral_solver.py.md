@@ -138,11 +138,11 @@ class NavierStokes3DSpectral:
  def compute_metrics(self):
  # L2 Energy: 0.5 * integral |u|^2 dx
  energy = 0.5 * np.sum(np.abs(self.u_hat)**2 + np.abs(self.v_hat)**2 + np.abs(self.w_hat)**2) / (self.N**6)
- # Enstrophy: 0.5 * integral |omega|^2 dx = 0.5 * integral |k|^2 |u_hat|^2
+ # Enstrophy: 0.5 * integral ||^2 dx = 0.5 * integral |k|^2 |u_hat|^2
  enstrophy = 0.5 * np.sum(self.k2 * (np.abs(self.u_hat)**2 + np.abs(self.v_hat)**2 + np.abs(self.w_hat)**2)) / (self.N**6)
  
  # Vorticity supremum for BKM check
- # omega = curl u
+ # = curl u
  wx_hat = 1j * (self.ky * self.w_hat - self.kz * self.v_hat)
  wy_hat = 1j * (self.kz * self.u_hat - self.kx * self.w_hat)
  wz_hat = 1j * (self.kx * self.v_hat - self.ky * self.u_hat)

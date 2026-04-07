@@ -28,8 +28,8 @@ paths:
                   description: Le contenu de la requête ou le ticker boursier (ex: NVDA, BTC, TSLA).
                 license_key:
                   type: string
-                  description: Clé de licence certifiée V11.8 OMEGA.
-                  default: "MDL-SINGULARITY-2026-V11.8-OMEGA-BRIDGE"
+                  description: Clé de licence certifiée V11.8.
+                  default: "MDL-SINGULARITY-2026-V11.8-BRIDGE"
               required: [action, payload, license_key]
       responses:
         "200":
