@@ -3,7 +3,7 @@
 ```text
 {
  "stage": "step_14_master_final",
- "master_final_root": "FRACTAL_CHIASTE_UNIVERSEL/00_MASTER_FINAL",
+ "master_final_root": "FRACTAL_CHIASTE/00_MASTER_FINAL",
  "stats": {
  "unique_sources": 117,
  "total_entries": 127,
@@ -33,21 +33,21 @@
  }
  },
  "linked_steps": {
- "step_7_master_index": "FRACTAL_CHIASTE_UNIVERSEL/manifest_step7_master_index.json",
- "step_8_visual_navigation": "FRACTAL_CHIASTE_UNIVERSEL/manifest_step8_visual_navigation.json",
- "step_9_canonical_edition": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json",
- "step_10_executive_digest": "FRACTAL_CHIASTE_UNIVERSEL/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json",
- "step_11_public_brief": "FRACTAL_CHIASTE_UNIVERSEL/00_PUBLIC_BRIEF/manifest_step11_public_brief.json",
- "step_12_submission_pack": "FRACTAL_CHIASTE_UNIVERSEL/00_SUBMISSION_PACK/manifest_step12_submission_pack.json",
- "step_13_homepage": "FRACTAL_CHIASTE_UNIVERSEL/00_HOMEPAGE/manifest_step13_homepage.json"
+ "step_7_master_index": "FRACTAL_CHIASTE/manifest_step7_master_index.json",
+ "step_8_visual_navigation": "FRACTAL_CHIASTE/manifest_step8_visual_navigation.json",
+ "step_9_canonical_edition": "FRACTAL_CHIASTE/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json",
+ "step_10_executive_digest": "FRACTAL_CHIASTE/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json",
+ "step_11_public_brief": "FRACTAL_CHIASTE/00_PUBLIC_BRIEF/manifest_step11_public_brief.json",
+ "step_12_submission_pack": "FRACTAL_CHIASTE/00_SUBMISSION_PACK/manifest_step12_submission_pack.json",
+ "step_13_homepage": "FRACTAL_CHIASTE/00_HOMEPAGE/manifest_step13_homepage.json"
  },
  "primary_entrypoints": {
- "homepage": "FRACTAL_CHIASTE_UNIVERSEL/00_HOMEPAGE/HOMEPAGE_DU_CORPUS.md",
- "public_brief": "FRACTAL_CHIASTE_UNIVERSEL/00_PUBLIC_BRIEF/PRESENTATION_PUBLIQUE.md",
- "executive_digest": "FRACTAL_CHIASTE_UNIVERSEL/00_EXECUTIVE_DIGEST/EXECUTIVE_DIGEST.md",
- "canonical_portal": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md",
- "submission_summary": "FRACTAL_CHIASTE_UNIVERSEL/00_SUBMISSION_PACK/RESUME_DE_SOUMISSION.md",
- "master_final": "FRACTAL_CHIASTE_UNIVERSEL/00_MASTER_FINAL/MASTER_FINAL.md"
+ "homepage": "FRACTAL_CHIASTE/00_HOMEPAGE/HOMEPAGE_DU_CORPUS.md",
+ "public_brief": "FRACTAL_CHIASTE/00_PUBLIC_BRIEF/PRESENTATION_PUBLIQUE.md",
+ "executive_digest": "FRACTAL_CHIASTE/00_EXECUTIVE_DIGEST/EXECUTIVE_DIGEST.md",
+ "canonical_portal": "FRACTAL_CHIASTE/00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md",
+ "submission_summary": "FRACTAL_CHIASTE/00_SUBMISSION_PACK/RESUME_DE_SOUMISSION.md",
+ "master_final": "FRACTAL_CHIASTE/00_MASTER_FINAL/MASTER_FINAL.md"
  }
 }
 ```

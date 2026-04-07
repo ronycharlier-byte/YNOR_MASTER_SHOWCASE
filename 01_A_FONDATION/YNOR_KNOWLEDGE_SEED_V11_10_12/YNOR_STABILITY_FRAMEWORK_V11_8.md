@@ -142,7 +142,7 @@ Ce document formalise les principes thoriques de l'architecture Ynor V11.5. Il s
 
 
 
-* **Invariance d'Échelle :** L'oprateur $\alpha$ prserve la densitd'information entre les chelles infinitsimales (Planck) et macroscopiques (Universel).
+* **Invariance d'Échelle :** L'oprateur $\alpha$ prserve la densitd'information entre les chelles infinitsimales (Planck) et macroscopiques ().
 
 
 

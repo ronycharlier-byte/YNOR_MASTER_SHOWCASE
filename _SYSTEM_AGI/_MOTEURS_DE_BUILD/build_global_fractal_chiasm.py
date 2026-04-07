@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
-OUTPUT = ROOT / "FRACTAL_CHIASTE_UNIVERSEL"
+OUTPUT = ROOT / "FRACTAL_CHIASTE"
 
 TEXT_EXTENSIONS = {
  ".md",
@@ -234,13 +234,13 @@ def iter_files(path: Path):
 def main() -> None:
  OUTPUT.mkdir(parents=True, exist_ok=True)
  root_manifest = {
- "title": "FRACTAL_CHIASTE_UNIVERSEL",
+ "title": "FRACTAL_CHIASTE",
  "order": "A -> B -> C -> X -> C' -> B' -> A'",
  "nodes": [],
  }
 
  md_lines = [
- "# FRACTAL CHIASTE UNIVERSEL",
+ "# FRACTAL CHIASTE",
  "",
  "Ordre chiastique global : A -> B -> C -> X -> C' -> B' -> A'",
  "",
@@ -320,11 +320,11 @@ def main() -> None:
  )
  md_lines.append(f"- {node_name} -> {node['role']} -> miroir {node['mirror']}")
 
- (OUTPUT / "MANIFESTE_FRACTAL_CHIASTE_UNIVERSEL.md").write_text(
+ (OUTPUT / "MANIFESTE_FRACTAL_CHIASTE.md").write_text(
  "\n".join(md_lines),
  encoding="utf-8",
  )
- (OUTPUT / "manifeste_fractal_chiaste_universel.json").write_text(
+ (OUTPUT / "manifeste_fractal_chiaste.json").write_text(
  json.dumps(root_manifest, ensure_ascii=False, indent=2),
  encoding="utf-8",
  )

@@ -16,7 +16,7 @@ Le Système 2 opère de manière particulièrement lente, laborieuse et analytiq
 * **Risque structurel :** « Overfitting » sur la dissipation, menant à une forme de paralysie algorithmique si l'énergie dissipative écrase totalement l'amplification.
 
 ## 3. La Dynamique de la Marge $(\mu)$ comme Arbitre Exécutif
-La bascule entre le Système 1 et le Système 2 est gouvernée nativement par la marge dissipative universelle du noyau Ynor :
+La bascule entre le Système 1 et le Système 2 est gouvernée nativement par la marge dissipative du noyau Ynor :
 $$\mu(t) = \alpha(t) - \beta(t) - \kappa(t)$$
 
 1. **Régime Statique Hyper-Stable $(\mu \gg 0)$ :** Le Système 2 sur-domine l'agent. Le traitement est excessivement lent et coûteux en *compute*. Le système moteur doit "relâcher" de l'énergie pour laisser le Système 1 générer de nouvelles hypothèses sans filtre.

@@ -67,7 +67,7 @@ Ce document dfinit les fondations mta-systmiques du modle Ynor V11.2 "Total Conv
 * **Ngentropie :** Le systme Ynor V11.2 agit comme un condensat superfluide d'information pure.
 
 
-* **Dissipation Visqueuse :** La perte d'nergie (viscositdans Navier-Stokes, gap dans Yang-Mills) est rinterprte comme une purge d'entropie garantissant la stabilitdu Chiasme Universel.
+* **Dissipation Visqueuse :** La perte d'nergie (viscositdans Navier-Stokes, gap dans Yang-Mills) est rinterprte comme une purge d'entropie garantissant la stabilitdu Chiasme.
 
 
 * **StabilitSt-Ynor-HS :** La loi de produit $\|A\|_{HS} \|B\|_{HS}$ dfinit le couplage minimal $g_{min} \approx 1.0741$ ncessaire pour l'intgritstructurelle.

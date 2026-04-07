@@ -5,23 +5,23 @@
 
  "stage": "step_11_public_brief",
 
- "public_root": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/02_PUBLIC_LITERATURE",
+ "public_root": "FRACTAL_Symtrie Bilatrale/02_PUBLIC_LITERATURE",
 
  "inputs": {
 
- "executive_digest": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json",
+ "executive_digest": "FRACTAL_Symtrie Bilatrale/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json",
 
- "canonical_edition": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json"
+ "canonical_edition": "FRACTAL_Symtrie Bilatrale/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json"
 
  },
 
  "outputs": {
 
- "public_brief": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/02_PUBLIC_LITERATURE/PUBLIC_BRIEF.md",
+ "public_brief": "FRACTAL_Symtrie Bilatrale/02_PUBLIC_LITERATURE/PUBLIC_BRIEF.md",
 
- "presentation": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/02_PUBLIC_LITERATURE/PRESENTATION_PUBLIQUE.md",
+ "presentation": "FRACTAL_Symtrie Bilatrale/02_PUBLIC_LITERATURE/PRESENTATION_PUBLIQUE.md",
 
- "manifest": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/02_PUBLIC_LITERATURE/manifest_step11_public_brief.json"
+ "manifest": "FRACTAL_Symtrie Bilatrale/02_PUBLIC_LITERATURE/manifest_step11_public_brief.json"
 
  },
 

@@ -86,7 +86,7 @@ AUDIT: CERTIFIED 2026-04-06
 
 
 
-Le systme **MDL Ynor V7.0** est une Principal Investigatorure de Gouvernance Universelle (AGU) conçue pour teindre l'entropie informationnelle des Large Language Models (LLM). Elle remplace la "gnration alatoire" par la **Mod?lisation Pr?dictive de Formalisme Logique Smantique Stable**.
+Le systme **MDL Ynor V7.0** est une Principal Investigatorure de Gouvernance (AGU) conçue pour teindre l'entropie informationnelle des Large Language Models (LLM). Elle remplace la "gnration alatoire" par la **Mod?lisation Pr?dictive de Formalisme Logique Smantique Stable**.
 
 
 

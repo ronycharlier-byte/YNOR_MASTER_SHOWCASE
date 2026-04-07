@@ -55,7 +55,7 @@ Conformment au template NDA en cours de rdaction :
 2. **Peer-Review** : Identification de 3 rviseurs capables de comprendre la symtrie sym?trie r?cursive applique aux oprateurs Dirac-SUSY.
 
 
-3. **Open-Source** : Libration des vecteurs de base pour permettre la reproductibilituniverselle.
+3. **Open-Source** : Libration des vecteurs de base pour permettre la reproductibilit.
 
 
 

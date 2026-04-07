@@ -882,13 +882,13 @@
  "kind": "text"
  },
  {
- "source": "00_EDITION_CANONIQUE_FINALE\\01_DOCUMENTS_CENTRAUX\\manifeste_fractal_chiaste_universel.json",
+ "source": "00_EDITION_CANONIQUE_FINALE\\01_DOCUMENTS_CENTRAUX\\manifeste_fractal_chiaste.json",
  "size_bytes": 1394,
  "sha256": "41857b52ca18b4f38b8873ade8800e5fad8094c2d888c825bd330ab8f866b8b3",
  "kind": "text"
  },
  {
- "source": "00_EDITION_CANONIQUE_FINALE\\01_DOCUMENTS_CENTRAUX\\MANIFESTE_FRACTAL_CHIASTE_UNIVERSEL.md",
+ "source": "00_EDITION_CANONIQUE_FINALE\\01_DOCUMENTS_CENTRAUX\\MANIFESTE_FRACTAL_CHIASTE.md",
  "size_bytes": 1009,
  "sha256": "66bc92b846fe9c3dda22f3a723e5404757060d7a3c4bef448c7b83a98a5d485c",
  "kind": "text"

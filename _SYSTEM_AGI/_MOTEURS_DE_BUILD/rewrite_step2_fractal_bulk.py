@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-UNIVERSE = ROOT / "FRACTAL_CHIASTE_UNIVERSEL"
+UNIVERSE = ROOT / "FRACTAL_CHIASTE"
 
 TARGETS = [
  ROOT / "_RELEASES",

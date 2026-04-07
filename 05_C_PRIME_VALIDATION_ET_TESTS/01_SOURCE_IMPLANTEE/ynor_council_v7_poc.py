@@ -208,7 +208,7 @@ def run_council_audit_v7_1(query: str):
  # [RÉCUPÉRATION API KEY]
 
 
- repo_root = r"C:\Users\ronyc\Desktop\FRACTAL_Symtrie Bilatrale_UNIVERSEL"
+ repo_root = r"C:\Users\ronyc\Desktop\FRACTAL_Symtrie Bilatrale"
 
 
  vault_path = os.path.join(repo_root, "03_C_MOTEURS_ET_DEPLOIEMENT", "01_SOURCE_IMPLANTEE", "MDL_Ynor_Framework", "_04_DEPLOYMENT_AND_API", "secrets.local.json")

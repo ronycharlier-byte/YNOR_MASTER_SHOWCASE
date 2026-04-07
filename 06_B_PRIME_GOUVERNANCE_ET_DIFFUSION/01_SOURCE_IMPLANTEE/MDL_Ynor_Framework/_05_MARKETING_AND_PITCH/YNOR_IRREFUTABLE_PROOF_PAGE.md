@@ -36,6 +36,6 @@ Nous avons capturé l'instant exact où l'architecture Ynor protège l'économie
 3. **Audit de Performance** : Suivez la valeur réelle ($\alpha$) de chaque réponse générée.
 
 ## Prochaine Étape : Domination du Marché
-Ynor Core est prêt à être déployé comme une **Gateway Universelle** : une couche de sécurité mathématique qui se place entre votre application et le LLM.
+Ynor Core est prêt à être déployé comme une **Gateway** : une couche de sécurité mathématique qui se place entre votre application et le LLM.
 
 **Ynor : Nous décidons quand le bruit s'arrête.**

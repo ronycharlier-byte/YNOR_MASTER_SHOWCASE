@@ -16,7 +16,7 @@ AUDIT: CERTIFIED 2026-04-06
 
 **Taux de Succs Certifi:** 98.4% (mu-Consensus)
 
-**Rfrence :** [CHARTE AXIOMIQUE V10.8](file:///c:/Users/ronyc/Desktop/FRACTAL_Symtrie Bilatrale_UNIVERSEL/MDL_YNOR_V7_1_DISTRIBUTION/YNOR_AXIOMATIC_CHARTER_V10_8.md)
+**Rfrence :** [CHARTE AXIOMIQUE V10.8](file:///c:/Users/ronyc/Desktop/FRACTAL_Symtrie Bilatrale/MDL_YNOR_V7_1_DISTRIBUTION/YNOR_AXIOMATIC_CHARTER_V10_8.md)
 
 ---
 

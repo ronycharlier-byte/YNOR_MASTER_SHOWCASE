@@ -23,7 +23,7 @@ def main():
     manifest_lines = [
         "# 🛡️ MANIFESTE CRYPTOGRAPHIQUE CANONIQUE (SHA-256)",
         f"**Date de génération :** {datetime.now().astimezone().isoformat()}",
-        "**Objectif :** Ancrage temporel du Corpus Chiaste Universel (Phase III)",
+        "**Objectif :** Ancrage temporel du Corpus Chiaste (Phase III)",
         "**Niveau SOUVERAIN (L0)**",
         "\n| Fichier | Empreinte CPH-SHA256 |",
         "| :--- | :--- |"

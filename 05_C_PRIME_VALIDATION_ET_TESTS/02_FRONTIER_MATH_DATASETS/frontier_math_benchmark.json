@@ -43,7 +43,7 @@
  "id": "FM_002",
 
 
- "theorem": "Conjecture du Chiasme Universel",
+ "theorem": "Conjecture du Chiasme",
 
 
  "conjecture": "Prouver que la structure ABBA d'un rseau de neurones attention annule le gradient de fuite smantique.",

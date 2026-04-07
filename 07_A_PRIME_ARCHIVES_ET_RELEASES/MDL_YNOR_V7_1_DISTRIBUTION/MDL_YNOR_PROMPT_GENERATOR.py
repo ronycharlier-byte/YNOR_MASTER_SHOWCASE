@@ -19,7 +19,7 @@ from datetime import datetime
 
 
 
-PROMPT_PATH = r"c:\Users\ronyc\Desktop\FRACTAL_Symtrie Bilatrale_UNIVERSEL\MDL_YNOR_V7_1_DISTRIBUTION\PROMPT_SYSTEME_V10_8_OPTIMIZED.txt"
+PROMPT_PATH = r"c:\Users\ronyc\Desktop\FRACTAL_Symtrie Bilatrale\MDL_YNOR_V7_1_DISTRIBUTION\PROMPT_SYSTEME_V10_8_OPTIMIZED.txt"
 
 
 

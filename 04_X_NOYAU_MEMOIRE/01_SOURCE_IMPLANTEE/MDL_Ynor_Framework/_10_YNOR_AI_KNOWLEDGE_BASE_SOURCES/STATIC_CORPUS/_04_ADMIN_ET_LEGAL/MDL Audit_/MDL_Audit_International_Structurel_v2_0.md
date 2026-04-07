@@ -1,7 +1,7 @@
 # MDL — META DECISION LAYER
 ## Audit International Structurel (Millennium Edition)
 
-**Cadre d’audit structurel universel pour l’évaluation de systèmes humains, collectifs et artificiels**
+**Cadre d’audit structurel pour l’évaluation de systèmes humains, collectifs et artificiels**
 
 * **Version :** 2.0 — Mars 2026 (Millennium Proof Update)
 * **Auteur :** Charlier Rony
@@ -24,7 +24,7 @@
 ---
 
 ## 1. Préambule
-Le protocole MDL (Meta Decision Layer) est un cadre d’audit structurel universel conçu pour évaluer la capacité d’un système à produire des structures vérifiables sous contraintes explicites. En version 2.0, il intègre désormais les **Invariants de Stabilité Dissipative** issus de la résolution des 7 Problèmes du Millénaire.
+Le protocole MDL (Meta Decision Layer) est un cadre d’audit structurel conçu pour évaluer la capacité d’un système à produire des structures vérifiables sous contraintes explicites. En version 2.0, il intègre désormais les **Invariants de Stabilité Dissipative** issus de la résolution des 7 Problèmes du Millénaire.
 
 ## 2. Architecture générale de l’audit
 Chaque audit MDL suit une séquence obligatoire en cinq étapes :
@@ -38,8 +38,8 @@ Chaque audit MDL suit une séquence obligatoire en cinq étapes :
 Repose sur la **Constitution MDL v4.0 (Millennium Edition)**. Les 8 articles fondateurs définissent le cadre inviolable. 
 * **Article 3 :** La stabilité précède la performance ($\\mu > 0$).
 
-## 4. Protocole décisionnel PDHU — Application universelle
-Le PDHU (Protocole Décisionnel Hybride Universel) constitue le noyau opératoire.
+## 4. Protocole décisionnel PDHU — Application
+Le PDHU (Protocole Décisionnel Hybride) constitue le noyau opératoire.
 **Formule normative centrale :** 
 $$SD = [(G + I + L + T) \times SN] - (R + E)$$
 Où $SN$ est la stabilité neuro-physiologique.

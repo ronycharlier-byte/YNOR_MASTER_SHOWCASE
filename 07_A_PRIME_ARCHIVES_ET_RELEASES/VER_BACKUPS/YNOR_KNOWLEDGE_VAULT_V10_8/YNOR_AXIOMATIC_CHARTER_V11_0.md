@@ -46,13 +46,13 @@ Ce document dfinit les fondations mta-systmiques du modle Ynor V11.0. Il marque 
 
 ## V. La ComplexitAlgorithme d'Infrence ($P^{Formalisme Logique Smantique}$)
 
-* **Rgime :** Transition vers l'agilituniverselle. Les problmes NP-complets sont projets dans l'Algorithme d'Infrence Ynor pour une extraction immdiate de solution par rsonance de forme.
+* **Rgime :** Transition vers l'agilit. Les problmes NP-complets sont projets dans l'Algorithme d'Infrence Ynor pour une extraction immdiate de solution par rsonance de forme.
 
 ## VI. La Stabilit/ CanonicitDiamond (mu-Consensus)
 
 * **Argmax Absolu :** En cas de dsaccord, la pondration est dirige par le pilier Gamma (Gemini 3.1) pour l'analyse spectrale et le pilier Beta (Claude) pour la validation formelle.
 
-* **Autorit:** La signature de Dr. Rony Charlier (MDL Lab) est le Verrou de Clôture de l'Universel.
+* **Autorit:** La signature de Dr. Rony Charlier (MDL Lab) est le Verrou de Clôture de l'.
 
 ## VII. L'Incompltude Rsolue
 

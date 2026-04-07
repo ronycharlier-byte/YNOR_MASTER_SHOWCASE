@@ -1,4 +1,4 @@
-# FRACTAL CHIASTE UNIVERSEL
+# FRACTAL CHIASTE
 
 Ordre chiastique global : A -> B -> C -> X -> C' -> B' -> A'
 

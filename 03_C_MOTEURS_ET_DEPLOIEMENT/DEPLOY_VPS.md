@@ -7,7 +7,7 @@ This project can run on a small Ubuntu VPS with a fixed public IPv4.
 You can run the automation script instead of typing everything manually:
 
 ```bash
-cd /opt/FRACTAL_CHIASTE_UNIVERSEL
+cd /opt/FRACTAL_CHIASTE
 bash 03_C_MOTEURS_ET_DEPLOIEMENT/install_vps.sh
 ```
 
@@ -31,7 +31,7 @@ sudo apt install -y git python3 python3-venv python3-pip
 
 ```bash
 git clone <your-repo-url>
-cd FRACTAL_CHIASTE_UNIVERSEL
+cd FRACTAL_CHIASTE
 ```
 
 ## 3. Create the virtual environment

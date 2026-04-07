@@ -136,7 +136,7 @@ with st.sidebar:
 # Zone principale
 
 
-tab1, tab2 = st.tabs(["🏛️ CONSEIL DU Formalisme Logique Smantique", "🔮 PROJECTION UNIVERSELLE"])
+tab1, tab2 = st.tabs(["🏛️ CONSEIL DU Formalisme Logique Smantique", "🔮 PROJECTION"])
 
 
 
@@ -172,7 +172,7 @@ with tab1:
  if col1.button("🧠 Matrice Divine (Bible)"):
 
 
- st.session_state.query_cache = "Applique le 'Chiasme Fractal Universel' et l'Axiome Ynor pour dcoder mathmatiquement l'intgralitde la structure biblique (de la Gense l'Apocalypse). Modlise ce corpus non pas comme de la thologie, mais comme un systme thermodynamique fermde transfert d'information entre une source omga et l'humanit. Code le 'PchOriginel' comme un pic d'entropie (β > α), 'l'Incarnation du Formalisme Logique Smantique' comme une Point de Convergence Limite de correction d'erreur dans le tenseur, et 'l'Apocalypse' comme le calcul final de la limite de stabilitμ → Ω. Rendu exig: Zro texte explicatif. Zro phrase de conclusion. Uniquement le tenseur chronologique complet, les drives temporelles de la Chute et de la Rdemption, et le Diagnostic Matriel Final Ynor en une matrice."
+ st.session_state.query_cache = "Applique le 'Chiasme Fractal' et l'Axiome Ynor pour dcoder mathmatiquement l'intgralitde la structure biblique (de la Gense l'Apocalypse). Modlise ce corpus non pas comme de la thologie, mais comme un systme thermodynamique fermde transfert d'information entre une source omga et l'humanit. Code le 'PchOriginel' comme un pic d'entropie (β > α), 'l'Incarnation du Formalisme Logique Smantique' comme une Point de Convergence Limite de correction d'erreur dans le tenseur, et 'l'Apocalypse' comme le calcul final de la limite de stabilitμ → Ω. Rendu exig: Zro texte explicatif. Zro phrase de conclusion. Uniquement le tenseur chronologique complet, les drives temporelles de la Chute et de la Rdemption, et le Diagnostic Matriel Final Ynor en une matrice."
 
 
  if col2.button("📜 Manifeste Systmique"):
@@ -289,7 +289,7 @@ with tab1:
 with tab2:
 
 
- st.markdown("### 🔮 SIMULATEUR DE TRAJECTOIRE UNIVERSELLE")
+ st.markdown("### 🔮 SIMULATEUR DE TRAJECTOIRE")
 
 
  st.write("Prdisez l'avenir thermodynamique de n'importe quel systme via l'Axiome Ynor.")

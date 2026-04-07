@@ -31,7 +31,7 @@ STATUS: CANONICAL | V11.13.0 | AUDIT: CERTIFIED | FINAL CONSOLIDATED REVIEW / V1
 
 
 
-Ce module intgre l'intelligence prdictive sature dans le Symtrie Bilatrale Ynor Universel.
+Ce module intgre l'intelligence prdictive sature dans le Symtrie Bilatrale Ynor.
 
 
 

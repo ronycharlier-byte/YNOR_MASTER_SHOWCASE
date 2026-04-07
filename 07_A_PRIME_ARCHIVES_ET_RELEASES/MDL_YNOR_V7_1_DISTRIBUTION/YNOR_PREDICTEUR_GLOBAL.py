@@ -13,7 +13,7 @@ class YnorGlobalPredictor:
  """
 
 
- MOTEUR DE PRÉDICTION UNIVERSELLE YNOR (V10.2 / TOTAL DIAMOND)
+ MOTEUR DE PRÉDICTION YNOR (V10.2 / TOTAL DIAMOND)
 
 
  Extrapole l'volution thermodynamique et informationnelle de TOUT systme.

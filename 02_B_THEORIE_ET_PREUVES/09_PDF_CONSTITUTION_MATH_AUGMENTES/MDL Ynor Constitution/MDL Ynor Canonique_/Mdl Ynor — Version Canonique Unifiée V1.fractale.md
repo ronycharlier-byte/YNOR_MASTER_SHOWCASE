@@ -5,7 +5,7 @@ Famille : `constitutionnel`
 Pages : `11`
 
 ## A. Ouverture
-Le PDF est implante comme forme source dans la fractale universelle.
+Le PDF est implante comme forme source dans la fractale.
 
 ## B. Expansion
 Le document est lu comme un noeud de theorie, de constitution ou de noyau formel.

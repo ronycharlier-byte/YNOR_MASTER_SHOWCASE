@@ -8,133 +8,133 @@
  {
  "source": "MDL_Ynor_Framework/_05_DATA_AND_MEMORY/hardcore_dataset.json",
  "node": "04_X_NOYAU_MEMOIRE",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/hardcore_dataset.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/hardcore_dataset.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_05_DATA_AND_MEMORY/mdl_global_knowledge.json",
  "node": "04_X_NOYAU_MEMOIRE",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/mdl_global_knowledge.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/mdl_global_knowledge.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_05_DATA_AND_MEMORY/mdl_ynor_manifesto_governance.json",
  "node": "04_X_NOYAU_MEMOIRE",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/mdl_ynor_manifesto_governance.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/mdl_ynor_manifesto_governance.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_05_DATA_AND_MEMORY/obfuscation_mapping_PRIVATE.json",
  "node": "04_X_NOYAU_MEMOIRE",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/obfuscation_mapping_PRIVATE.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/obfuscation_mapping_PRIVATE.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_05_DATA_AND_MEMORY/server_pids.json",
  "node": "04_X_NOYAU_MEMOIRE",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/server_pids.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/server_pids.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_05_DATA_AND_MEMORY/YNOR_FRACTAL_ULTIMATE_FRAMEWORK.json",
  "node": "04_X_NOYAU_MEMOIRE",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/YNOR_FRACTAL_ULTIMATE_FRAMEWORK.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/YNOR_FRACTAL_ULTIMATE_FRAMEWORK.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_05_DATA_AND_MEMORY/ynor_unified_prompts.json",
  "node": "04_X_NOYAU_MEMOIRE",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/ynor_unified_prompts.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_05_DATA_AND_MEMORY/ynor_unified_prompts.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/charlier_rony_resonance.json",
  "node": "02_B_THEORIE_ET_PREUVES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/charlier_rony_resonance.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/charlier_rony_resonance.json.fractale.md",
  "mode": "fallback_raw"
  },
  {
  "source": "MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/mdl_offensive_report.json",
  "node": "02_B_THEORIE_ET_PREUVES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/mdl_offensive_report.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/mdl_offensive_report.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/mdl_openai_stress_benchmark.json",
  "node": "02_B_THEORIE_ET_PREUVES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/mdl_openai_stress_benchmark.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/mdl_openai_stress_benchmark.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/mdl_theorique_mapping.json",
  "node": "02_B_THEORIE_ET_PREUVES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/mdl_theorique_mapping.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/mdl_theorique_mapping.json.fractale.md",
  "mode": "fallback_raw"
  },
  {
  "source": "MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/mdl_user_resonance.json",
  "node": "02_B_THEORIE_ET_PREUVES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/mdl_user_resonance.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/mdl_user_resonance.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/MDL_YNOR_LEARNED_KNOWLEDGE.json",
  "node": "02_B_THEORIE_ET_PREUVES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/MDL_YNOR_LEARNED_KNOWLEDGE.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/MDL_YNOR_LEARNED_KNOWLEDGE.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/openapi_mdl_ynor.json",
  "node": "02_B_THEORIE_ET_PREUVES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/openapi_mdl_ynor.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/openapi_mdl_ynor.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/server_pids.json",
  "node": "02_B_THEORIE_ET_PREUVES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/server_pids.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/server_pids.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/ynor_audit_snapshot.json",
  "node": "02_B_THEORIE_ET_PREUVES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/ynor_audit_snapshot.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/ynor_audit_snapshot.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/ynor_crisis_log.json",
  "node": "02_B_THEORIE_ET_PREUVES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/ynor_crisis_log.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/ynor_crisis_log.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/ynor_learning_experience_log.json",
  "node": "02_B_THEORIE_ET_PREUVES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/ynor_learning_experience_log.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/ynor_learning_experience_log.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/ynor_validation_report.json",
  "node": "02_B_THEORIE_ET_PREUVES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/ynor_validation_report.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/02_B_THEORIE_ET_PREUVES/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/_PREUVES_ET_RAPPORTS/ynor_validation_report.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "MDL_Ynor_Framework/mdl_intelligence_report.json",
  "node": "04_X_NOYAU_MEMOIRE",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/mdl_intelligence_report.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/04_X_NOYAU_MEMOIRE/07_REECRITURE_JSON_CHIASTIQUE/MDL_Ynor_Framework/mdl_intelligence_report.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Global_Knowledge.json",
  "node": "07_A_PRIME_ARCHIVES_ET_RELEASES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/07_REECRITURE_JSON_CHIASTIQUE/_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Global_Knowledge.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/07_A_PRIME_ARCHIVES_ET_RELEASES/07_REECRITURE_JSON_CHIASTIQUE/_RELEASES/GOLDEN_MASTER_PHASE_III/Sovereign_Global_Knowledge.json.fractale.md",
  "mode": "parsed_json"
  },
  {
  "source": "_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Global_Knowledge.json",
  "node": "07_A_PRIME_ARCHIVES_ET_RELEASES",
- "rewrite": "FRACTAL_CHIASTE_UNIVERSEL/07_A_PRIME_ARCHIVES_ET_RELEASES/07_REECRITURE_JSON_CHIASTIQUE/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Global_Knowledge.json.fractale.md",
+ "rewrite": "FRACTAL_CHIASTE/07_A_PRIME_ARCHIVES_ET_RELEASES/07_REECRITURE_JSON_CHIASTIQUE/_RELEASES/GOLDEN_MASTER_PHASE_III_SOUVERAINE/Sovereign_Global_Knowledge.json.fractale.md",
  "mode": "parsed_json"
  }
  ]

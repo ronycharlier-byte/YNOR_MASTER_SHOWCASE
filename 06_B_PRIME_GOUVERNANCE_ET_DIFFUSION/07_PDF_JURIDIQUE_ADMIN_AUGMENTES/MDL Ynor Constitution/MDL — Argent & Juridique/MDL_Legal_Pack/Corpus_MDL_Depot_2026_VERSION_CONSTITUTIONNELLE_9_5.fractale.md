@@ -5,7 +5,7 @@ Famille : `constitution_juridique`
 Pages : `8`
 
 ## A. Ouverture
-Le PDF est projete dans la branche gouvernance et diffusion de la fractale universelle.
+Le PDF est projete dans la branche gouvernance et diffusion de la fractale.
 
 ## B. Expansion
 Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition monumentale.
@@ -13,7 +13,7 @@ Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition 
 ## C. Matiere
 Extrait textuel interpretable :
 ```text
-CORPUS MDL — VERSION CONSTITUTIONNELLE 2026 Version 2.0 — Niveau 9.5/10 — Document Maître Intégral de Dépôt Date d’édition : 17/02/2026 Architecture Décisionnelle Universelle Hybride PRÉAMBULE Le présent document formalise l’architecture complète du Corpus MDL. Il constitue une structure normative organisée en articles, annexes et définitions codifiées.
+CORPUS MDL — VERSION CONSTITUTIONNELLE 2026 Version 2.0 — Niveau 9.5/10 — Document Maître Intégral de Dépôt Date d’édition : 17/02/2026 Architecture Décisionnelle Hybride PRÉAMBULE Le présent document formalise l’architecture complète du Corpus MDL. Il constitue une structure normative organisée en articles, annexes et définitions codifiées.
 ```
 
 ## X. Centre

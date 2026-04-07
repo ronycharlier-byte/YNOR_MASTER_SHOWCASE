@@ -3,7 +3,7 @@
 > *Toute reproduction ou utilisation sans autorisation ecrite est strictement interdite.*
 
 ---
-# MASTER MDL YNOR : THÉORIE UNIVERSELLE DES SYSTÈMES COMPLEXES
+# MASTER MDL YNOR : THÉORIE DES SYSTÈMES COMPLEXES
 
 ## 🪐 1. ASTROPHYSIQUE ET THERMODYNAMIQUE (ENTROPIE)
 Tout système complexe, des étoiles aux cellules, meurt s'il ne dissipe pas son énergie.

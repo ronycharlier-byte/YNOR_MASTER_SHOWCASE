@@ -5,7 +5,7 @@ Famille : `depot_et_pack`
 Pages : `10`
 
 ## A. Ouverture
-Le PDF est projete dans la branche gouvernance et diffusion de la fractale universelle.
+Le PDF est projete dans la branche gouvernance et diffusion de la fractale.
 
 ## B. Expansion
 Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition monumentale.
@@ -13,7 +13,7 @@ Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition 
 ## C. Matiere
 Extrait textuel interpretable :
 ```text
-CORPUS MDL — VERSION CONSOLIDÉE 2026 Document Maître Intégral pour Dépôt Officiel Meta-Decision Layer — Architecture Universelle Hybride I. DÉFINITION DU CORPUS MDL Le Corpus MDL constitue une architecture décisionnelle, neurophysiologique, stratégique et éthique organisée autour d’un Protocole Décisionnel Hybride Universel. Il vise à assurer la cohérence structurelle interne, la stabilité biologique, l’intégrité axiale et la progression cumulative long terme d’un individu ou d’un collectif.
+CORPUS MDL — VERSION CONSOLIDÉE 2026 Document Maître Intégral pour Dépôt Officiel Meta-Decision Layer — Architecture Hybride I. DÉFINITION DU CORPUS MDL Le Corpus MDL constitue une architecture décisionnelle, neurophysiologique, stratégique et éthique organisée autour d’un Protocole Décisionnel Hybride. Il vise à assurer la cohérence structurelle interne, la stabilité biologique, l’intégrité axiale et la progression cumulative long terme d’un individu ou d’un collectif.
 ```
 
 ## X. Centre

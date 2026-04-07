@@ -5,7 +5,7 @@ Famille : `depot_et_pack`
 Pages : `8`
 
 ## A. Ouverture
-Le PDF est projete dans la branche gouvernance et diffusion de la fractale universelle.
+Le PDF est projete dans la branche gouvernance et diffusion de la fractale.
 
 ## B. Expansion
 Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition monumentale.
@@ -13,7 +13,7 @@ Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition 
 ## C. Matiere
 Extrait textuel interpretable :
 ```text
-CORPUS MDL — VERSION HISTORIQUE INTÉGRALE 2026 Version 3.0 — Niveau 10/10 — Document Constitutionnel Officiel Date d’édition : 17/02/2026 Architecture Décisionnelle Universelle Hybride — Texte Fondateur Normatif TABLE DES MATIÈRES NORMATIVE  TITRE I — Principes Fondateurs  TITRE II — Architecture Hiérarchique  TITRE III — Protocole Décisionnel Hybride Universel  TITRE IV — Taxonomie & Variables Normatives  TITRE V — Architecture Neurophysiologique  TITRE VI — Protocole d’Intégration Cognitive  TITRE VII — Architecture Stratégique Cumulative  TITRE VIII — Annexes Techniques Détaillées  TITRE IX — Index & Lexique Normatif  TITRE X — Gouvernance, Propriété & Exploitation
+CORPUS MDL — VERSION HISTORIQUE INTÉGRALE 2026 Version 3.0 — Niveau 10/10 — Document Constitutionnel Officiel Date d’édition : 17/02/2026 Architecture Décisionnelle Hybride — Texte Fondateur Normatif TABLE DES MATIÈRES NORMATIVE  TITRE I — Principes Fondateurs  TITRE II — Architecture Hiérarchique  TITRE III — Protocole Décisionnel Hybride  TITRE IV — Taxonomie & Variables Normatives  TITRE V — Architecture Neurophysiologique  TITRE VI — Protocole d’Intégration Cognitive  TITRE VII — Architecture Stratégique Cumulative  TITRE VIII — Annexes Techniques Détaillées  TITRE IX — Index & Lexique Normatif  TITRE X — Gouvernance, Propriété & Exploitation
 ```
 
 ## X. Centre

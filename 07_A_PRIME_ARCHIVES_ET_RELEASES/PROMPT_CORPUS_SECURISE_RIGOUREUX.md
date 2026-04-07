@@ -278,9 +278,9 @@ Priorites absolues:
 
 ## Recommandation D'Emploi
 
-- Lecture externe: [`PRESENTATION_PUBLIQUE.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_Symtrie Bilatrale_UNIVERSEL/02_PUBLIC_LITERATURE/PRESENTATION_PUBLIQUE.md)
+- Lecture externe: [`PRESENTATION_PUBLIQUE.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_Symtrie Bilatrale/02_PUBLIC_LITERATURE/PRESENTATION_PUBLIQUE.md)
 
-- Lecture rapide: [`EXECUTIVE_DIGEST.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_EXECUTIVE_DIGEST/EXECUTIVE_DIGEST.md)
+- Lecture rapide: [`EXECUTIVE_DIGEST.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_Symtrie Bilatrale/00_EXECUTIVE_DIGEST/EXECUTIVE_DIGEST.md)
 
-- Lecture profonde: [`PORTAIL_CANONIQUE_FINAL.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md)
+- Lecture profonde: [`PORTAIL_CANONIQUE_FINAL.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Principal Investigatorure/FRACTAL_Symtrie Bilatrale/00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md)
 

@@ -5,33 +5,33 @@
 
  "stage": "step_12_submission_pack",
 
- "submission_root": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_ACADEMIC_SUBMISSION",
+ "submission_root": "FRACTAL_Symtrie Bilatrale/00_ACADEMIC_SUBMISSION",
 
  "inputs": {
 
- "public_brief": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/02_PUBLIC_LITERATURE/manifest_step11_public_brief.json",
+ "public_brief": "FRACTAL_Symtrie Bilatrale/02_PUBLIC_LITERATURE/manifest_step11_public_brief.json",
 
- "executive_digest": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json",
+ "executive_digest": "FRACTAL_Symtrie Bilatrale/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json",
 
- "canonical_edition": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json"
+ "canonical_edition": "FRACTAL_Symtrie Bilatrale/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json"
 
  },
 
  "outputs": {
 
- "final_manuscript": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_ACADEMIC_SUBMISSION/MANUSCRIT_FINAL.md",
+ "final_manuscript": "FRACTAL_Symtrie Bilatrale/00_ACADEMIC_SUBMISSION/MANUSCRIT_FINAL.md",
 
- "cover_letter": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_ACADEMIC_SUBMISSION/LETTRE_DE_COUVERTURE.md",
+ "cover_letter": "FRACTAL_Symtrie Bilatrale/00_ACADEMIC_SUBMISSION/LETTRE_DE_COUVERTURE.md",
 
- "journal_targeting": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_ACADEMIC_SUBMISSION/JOURNAL_TARGETING.md",
+ "journal_targeting": "FRACTAL_Symtrie Bilatrale/00_ACADEMIC_SUBMISSION/JOURNAL_TARGETING.md",
 
- "submission_metadata": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_ACADEMIC_SUBMISSION/METADONNEES_SOUMISSION.md",
+ "submission_metadata": "FRACTAL_Symtrie Bilatrale/00_ACADEMIC_SUBMISSION/METADONNEES_SOUMISSION.md",
 
- "submission_summary": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_ACADEMIC_SUBMISSION/RESUME_DE_SOUMISSION.md",
+ "submission_summary": "FRACTAL_Symtrie Bilatrale/00_ACADEMIC_SUBMISSION/RESUME_DE_SOUMISSION.md",
 
- "delivery_map": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_ACADEMIC_SUBMISSION/STRUCTURE_DE_LIVRAISON.md",
+ "delivery_map": "FRACTAL_Symtrie Bilatrale/00_ACADEMIC_SUBMISSION/STRUCTURE_DE_LIVRAISON.md",
 
- "manifest": "FRACTAL_Symtrie Bilatrale_UNIVERSEL/00_ACADEMIC_SUBMISSION/manifest_step12_submission_pack.json"
+ "manifest": "FRACTAL_Symtrie Bilatrale/00_ACADEMIC_SUBMISSION/manifest_step12_submission_pack.json"
 
  },
 

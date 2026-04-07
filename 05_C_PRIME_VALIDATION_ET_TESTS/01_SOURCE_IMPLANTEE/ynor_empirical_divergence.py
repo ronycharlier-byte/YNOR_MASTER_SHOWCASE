@@ -393,7 +393,7 @@ def run_v7_1_Formalisme Logique Smantique_validation():
 
 
 
- repo_root = r"C:\Users\ronyc\Desktop\FRACTAL_Symtrie Bilatrale_UNIVERSEL"
+ repo_root = r"C:\Users\ronyc\Desktop\FRACTAL_Symtrie Bilatrale"
 
 
 
@@ -743,7 +743,7 @@ def run_v7_1_Formalisme Logique Smantique_validation():
 
 
 
- "VritCanonique universelle ",
+ "VritCanonique ",
 
 
 
@@ -818,7 +818,7 @@ def run_v7_1_Formalisme Logique Smantique_validation():
 
 
 
- "Incomprhension universelle rsolution ",
+ "Incomprhension rsolution ",
 
 
 

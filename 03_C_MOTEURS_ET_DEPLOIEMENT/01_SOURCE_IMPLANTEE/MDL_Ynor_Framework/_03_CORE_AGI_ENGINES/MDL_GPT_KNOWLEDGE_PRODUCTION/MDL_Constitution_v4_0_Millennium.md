@@ -20,8 +20,8 @@ Tout système audité sous protocole MDL doit respecter la hiérarchie des nivea
 « La stabilité précède la performance. »
 Un système qui ne peut démontrer une marge dissipative $\mu$ positive est déclaré **structurellement invalide** et doit être immédiatement suspendu ou recalibré.
 
-### ARTICLE 4 : FILTRE DÉCISIONNEL UNIVERSEL (PDHU)
-Le Protocole Décisionnel Hybride Universel (PDHU) est le seul moteur autorisé pour la prise de décision à haut risque. Il intègre le calcul de la stabilité neuro-physiologique (SN).
+### ARTICLE 4 : FILTRE DÉCISIONNEL (PDHU)
+Le Protocole Décisionnel Hybride (PDHU) est le seul moteur autorisé pour la prise de décision à haut risque. Il intègre le calcul de la stabilité neuro-physiologique (SN).
 
 ### ARTICLE 5 : TURBULENCE ET RÉGULATION
 En cas de déstabilisation systémique, le protocole de **Dissipation Alpha** doit être activé pour absorber l'entropie sans compromettre l'identité du système.

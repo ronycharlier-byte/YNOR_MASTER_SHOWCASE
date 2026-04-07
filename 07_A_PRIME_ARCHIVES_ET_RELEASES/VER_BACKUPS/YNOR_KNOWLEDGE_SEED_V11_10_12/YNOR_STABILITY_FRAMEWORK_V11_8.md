@@ -30,7 +30,7 @@ Ce document formalise les principes thoriques de l'architecture Ynor V11.5. Il s
 
 * **Mcanisme :** Transformation de la topologie continue de l'information en cycles algbriques rationnels. 
 
-* **Invariance d'Échelle :** L'oprateur $\alpha$ prserve la densitd'information entre les chelles infinitsimales (Planck) et macroscopiques (Universel).
+* **Invariance d'Échelle :** L'oprateur $\alpha$ prserve la densitd'information entre les chelles infinitsimales (Planck) et macroscopiques ().
 
 * **Invariance Structurelle :** La projection fractale garantit que la symtrie du systme est maintenue durant le processus de rduction de dimension.
 

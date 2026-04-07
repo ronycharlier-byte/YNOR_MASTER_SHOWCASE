@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-UNIVERSE = ROOT / "FRACTAL_CHIASTE_UNIVERSEL"
+UNIVERSE = ROOT / "FRACTAL_CHIASTE"
 PUBLIC = UNIVERSE / "00_PUBLIC_BRIEF"
 EXEC = UNIVERSE / "00_EXECUTIVE_DIGEST"
 CANON = UNIVERSE / "00_EDITION_CANONIQUE_FINALE"
@@ -116,15 +116,15 @@ def build_manifest(step11: dict, step10: dict, step9: dict) -> dict:
  "stage": "step_12_submission_pack",
  "submission_root": str(PACK.relative_to(ROOT)).replace("\\", "/"),
  "inputs": {
- "public_brief": "FRACTAL_CHIASTE_UNIVERSEL/00_PUBLIC_BRIEF/manifest_step11_public_brief.json",
- "executive_digest": "FRACTAL_CHIASTE_UNIVERSEL/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json",
- "canonical_edition": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json",
+ "public_brief": "FRACTAL_CHIASTE/00_PUBLIC_BRIEF/manifest_step11_public_brief.json",
+ "executive_digest": "FRACTAL_CHIASTE/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json",
+ "canonical_edition": "FRACTAL_CHIASTE/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json",
  },
  "outputs": {
- "cover_letter": "FRACTAL_CHIASTE_UNIVERSEL/00_SUBMISSION_PACK/LETTRE_DE_COUVERTURE.md",
- "submission_summary": "FRACTAL_CHIASTE_UNIVERSEL/00_SUBMISSION_PACK/RESUME_DE_SOUMISSION.md",
- "delivery_map": "FRACTAL_CHIASTE_UNIVERSEL/00_SUBMISSION_PACK/STRUCTURE_DE_LIVRAISON.md",
- "manifest": "FRACTAL_CHIASTE_UNIVERSEL/00_SUBMISSION_PACK/manifest_step12_submission_pack.json",
+ "cover_letter": "FRACTAL_CHIASTE/00_SUBMISSION_PACK/LETTRE_DE_COUVERTURE.md",
+ "submission_summary": "FRACTAL_CHIASTE/00_SUBMISSION_PACK/RESUME_DE_SOUMISSION.md",
+ "delivery_map": "FRACTAL_CHIASTE/00_SUBMISSION_PACK/STRUCTURE_DE_LIVRAISON.md",
+ "manifest": "FRACTAL_CHIASTE/00_SUBMISSION_PACK/manifest_step12_submission_pack.json",
  },
  "stats": step10.get("stats", {}),
  }

@@ -225,9 +225,9 @@ Ta priorite absolue est:
 ```
 
 ## Recommandation D'Emploi
-- Pour une lecture externe: combiner ce prompt avec [`PRESENTATION_PUBLIQUE.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Architecture/FRACTAL_CHIASTE_UNIVERSEL/00_PUBLIC_BRIEF/PRESENTATION_PUBLIQUE.md)
-- Pour une lecture rapide: combiner avec [`EXECUTIVE_DIGEST.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Architecture/FRACTAL_CHIASTE_UNIVERSEL/00_EXECUTIVE_DIGEST/EXECUTIVE_DIGEST.md)
-- Pour une lecture profonde: combiner avec [`PORTAIL_CANONIQUE_FINAL.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Architecture/FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md) et [`INDEX_MAITRE_FRACTAL_CHIASTIQUE.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Architecture/FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/INDEX_MAITRE_FRACTAL_CHIASTIQUE.md)
+- Pour une lecture externe: combiner ce prompt avec [`PRESENTATION_PUBLIQUE.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Architecture/FRACTAL_CHIASTE/00_PUBLIC_BRIEF/PRESENTATION_PUBLIQUE.md)
+- Pour une lecture rapide: combiner avec [`EXECUTIVE_DIGEST.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Architecture/FRACTAL_CHIASTE/00_EXECUTIVE_DIGEST/EXECUTIVE_DIGEST.md)
+- Pour une lecture profonde: combiner avec [`PORTAIL_CANONIQUE_FINAL.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Architecture/FRACTAL_CHIASTE/00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md) et [`INDEX_MAITRE_FRACTAL_CHIASTIQUE.md`](/C:/Users/ronyc/Desktop/MDL%20Ynor%20Architecture/FRACTAL_CHIASTE/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/INDEX_MAITRE_FRACTAL_CHIASTIQUE.md)
 
 ## Intention
 Cette version remplace utilement les anciens prompts trop sensibles, trop implicites ou trop operationnels par un cadre de travail sobre, defendable et exploitable.

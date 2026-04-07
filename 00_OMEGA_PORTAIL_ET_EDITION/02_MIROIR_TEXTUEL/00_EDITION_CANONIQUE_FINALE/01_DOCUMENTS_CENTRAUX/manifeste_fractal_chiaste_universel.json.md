@@ -1,8 +1,8 @@
-# MIROIR TEXTUEL - manifeste_fractal_chiaste_universel.json
+# MIROIR TEXTUEL - manifeste_fractal_chiaste.json
 
 ```text
 {
- "title": "FRACTAL_CHIASTE_UNIVERSEL",
+ "title": "FRACTAL_CHIASTE",
  "order": "A -> B -> C -> X -> C' -> B' -> A'",
  "nodes": [
  {

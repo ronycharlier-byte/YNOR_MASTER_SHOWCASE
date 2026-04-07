@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-UNIVERSE = ROOT / "FRACTAL_CHIASTE_UNIVERSEL"
+UNIVERSE = ROOT / "FRACTAL_CHIASTE"
 PUBLIC = UNIVERSE / "00_PUBLIC_BRIEF"
 EXEC = UNIVERSE / "00_EXECUTIVE_DIGEST"
 CANON = UNIVERSE / "00_EDITION_CANONIQUE_FINALE"
@@ -93,16 +93,16 @@ def build_manifest(step7: dict) -> dict:
  "stage": "step_13_homepage",
  "homepage_root": str(HOMEPAGE.relative_to(ROOT)).replace("\\", "/"),
  "inputs": {
- "master_index": "FRACTAL_CHIASTE_UNIVERSEL/manifest_step7_master_index.json",
- "public_brief": "FRACTAL_CHIASTE_UNIVERSEL/00_PUBLIC_BRIEF/manifest_step11_public_brief.json",
- "executive_digest": "FRACTAL_CHIASTE_UNIVERSEL/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json",
- "canonical_edition": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json",
- "submission_pack": "FRACTAL_CHIASTE_UNIVERSEL/00_SUBMISSION_PACK/manifest_step12_submission_pack.json",
+ "master_index": "FRACTAL_CHIASTE/manifest_step7_master_index.json",
+ "public_brief": "FRACTAL_CHIASTE/00_PUBLIC_BRIEF/manifest_step11_public_brief.json",
+ "executive_digest": "FRACTAL_CHIASTE/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json",
+ "canonical_edition": "FRACTAL_CHIASTE/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json",
+ "submission_pack": "FRACTAL_CHIASTE/00_SUBMISSION_PACK/manifest_step12_submission_pack.json",
  },
  "outputs": {
- "homepage": "FRACTAL_CHIASTE_UNIVERSEL/00_HOMEPAGE/HOMEPAGE_DU_CORPUS.md",
- "site_map": "FRACTAL_CHIASTE_UNIVERSEL/00_HOMEPAGE/SITE_MAP.md",
- "manifest": "FRACTAL_CHIASTE_UNIVERSEL/00_HOMEPAGE/manifest_step13_homepage.json",
+ "homepage": "FRACTAL_CHIASTE/00_HOMEPAGE/HOMEPAGE_DU_CORPUS.md",
+ "site_map": "FRACTAL_CHIASTE/00_HOMEPAGE/SITE_MAP.md",
+ "manifest": "FRACTAL_CHIASTE/00_HOMEPAGE/manifest_step13_homepage.json",
  },
  "stats": {
  "total_entries": step7.get("total_entries", 0),

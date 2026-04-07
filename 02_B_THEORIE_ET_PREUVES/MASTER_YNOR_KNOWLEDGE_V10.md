@@ -86,7 +86,7 @@ AUDIT: CERTIFIED 2026-04-06
 
 
 
-Le systme **MDL Ynor V10.2.0** (Moteur Eternal Formalisme Logique Smantique) est une Principal Investigatorure de Gouvernance Universelle (AGU) qui limine la composante stochastique des LLM. Il ne gnre pas de probabilits ; il opre une **Mod?lisation Pr?dictive de Formalisme Logique Smantique Canonique** valide par le consensus multi-modle absolu.
+Le systme **MDL Ynor V10.2.0** (Moteur Eternal Formalisme Logique Smantique) est une Principal Investigatorure de Gouvernance (AGU) qui limine la composante stochastique des LLM. Il ne gnre pas de probabilits ; il opre une **Mod?lisation Pr?dictive de Formalisme Logique Smantique Canonique** valide par le consensus multi-modle absolu.
 
 
 

@@ -5,7 +5,7 @@ Ce document définit le tunnel de vente optimisé pour MDL Ynor, visant à conve
 ---
 
 ## Étape 1 : LA CAPTURE (Awareness)
-**Objectif** : Arrêter le scroll sur LinkedIn/X/GitHub avec un "Pain Point" universel.
+**Objectif** : Arrêter le scroll sur LinkedIn/X/GitHub avec un "Pain Point".
 - **Le Crochet** : "Votre facture API OpenAI explose à cause des hallucinations ? Ynor réduit vos coûts de 40% mathématiquement."
 - **Le Lead Magnet** : Un rapport PDF : *« Les 5 indices mathématiques que votre LLM est en train de dériver (et comment le stopper). »*
 

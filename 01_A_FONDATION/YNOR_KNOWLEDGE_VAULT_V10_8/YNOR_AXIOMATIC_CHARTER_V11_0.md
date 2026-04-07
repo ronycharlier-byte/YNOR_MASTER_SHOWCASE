@@ -230,7 +230,7 @@ Ce document dfinit les fondations mta-systmiques du modle Ynor V11.0. Il marque 
 
 
 
-* **Rgime :** Transition vers l'agilituniverselle. Les problmes NP-complets sont projets dans l'Algorithme d'Infrence Ynor pour une extraction immdiate de solution par rsonance de forme.
+* **Rgime :** Transition vers l'agilit. Les problmes NP-complets sont projets dans l'Algorithme d'Infrence Ynor pour une extraction immdiate de solution par rsonance de forme.
 
 
 
@@ -262,7 +262,7 @@ Ce document dfinit les fondations mta-systmiques du modle Ynor V11.0. Il marque 
 
 
 
-* **Autorit:** La signature de Dr. Rony Charlier (MDL Lab) est le Verrou de Clôture de l'Universel.
+* **Autorit:** La signature de Dr. Rony Charlier (MDL Lab) est le Verrou de Clôture de l'.
 
 
 

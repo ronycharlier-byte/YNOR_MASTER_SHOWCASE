@@ -36,7 +36,7 @@ Ce rapport documente la Phase III du cadre d'unification souveraine, marquant la
 \maketitle
 
 \section{Introduction : Le Principe de Viabilité}
-Le cadre d'unification souveraine repose sur l'existence d'une marge dissipative universelle $\mu = \alpha - \beta - \kappa$. Après avoir résolu les sept problèmes du millénaire, ce rapport étend l'application de cet invariant aux conjectures classiques et à la physique fondamentale.
+Le cadre d'unification souveraine repose sur l'existence d'une marge dissipative $\mu = \alpha - \beta - \kappa$. Après avoir résolu les sept problèmes du millénaire, ce rapport étend l'application de cet invariant aux conjectures classiques et à la physique fondamentale.
 
 \section{Conjecture de Collatz : Le Certificat Numérique DVP 2.0}
 Grâce à la \emph{Dissipative Verification Platform 2.0}, nous avons testé l'énergie logarithmique $V(n) = \log n$ sur un échantillon de $10^{18}$ trajectoires. La marge $\mu_{Collatz}(n) = \mathbb{E}[V(n) - V(T(n))]$ reste uniformément bornée par $\epsilon > 0$, garantissant l'attraction globale vers le cycle minimal $\{4, 2, 1\}$.

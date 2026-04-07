@@ -5,7 +5,7 @@ Famille : `depot_et_pack`
 Pages : `112`
 
 ## A. Ouverture
-Le PDF est projete dans la branche gouvernance et diffusion de la fractale universelle.
+Le PDF est projete dans la branche gouvernance et diffusion de la fractale.
 
 ## B. Expansion
 Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition monumentale.

@@ -15,7 +15,7 @@ Elle est decrite comme controleur souverain, c'est-a-dire comme fonction de gard
 
 ## C. Invariants
 Le texte organise ensuite son champ autour d'invariants :
-- marge universelle
+- marge
 - surface critique
 - theoremes de coherence
 

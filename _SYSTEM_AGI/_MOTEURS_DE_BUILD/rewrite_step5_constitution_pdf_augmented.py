@@ -12,7 +12,7 @@ from reportlab.pdfgen import canvas
 
 
 ROOT = Path(__file__).resolve().parent
-UNIVERSE = ROOT / "FRACTAL_CHIASTE_UNIVERSEL"
+UNIVERSE = ROOT / "FRACTAL_CHIASTE"
 OUT_ROOT = UNIVERSE / "02_B_THEORIE_ET_PREUVES" / "09_PDF_CONSTITUTION_MATH_AUGMENTES"
 
 def resolve_targets() -> list[Path]:
@@ -39,7 +39,7 @@ def resolve_targets() -> list[Path]:
  filtered: list[Path] = []
  for path in found:
  probe = str(path)
- if "FRACTAL_CHIASTE_UNIVERSEL" in probe or "FRACTAL_CHIASME_MDL_YNOR" in probe:
+ if "FRACTAL_CHIASTE" in probe or "FRACTAL_CHIASME_MDL_YNOR" in probe:
  continue
  if path.name == "YNOR_FULL_CORPUS_FORMAL_SPEC_V2.3.pdf":
  filtered.append(path)
@@ -108,7 +108,7 @@ def build_markdown(rel_path: str, title: str, family: str, pages: int, excerpt: 
  f"Pages : `{pages}`",
  "",
  "## A. Ouverture",
- "Le PDF est implante comme forme source dans la fractale universelle.",
+ "Le PDF est implante comme forme source dans la fractale.",
  "",
  "## B. Expansion",
  "Le document est lu comme un noeud de theorie, de constitution ou de noyau formel.",
@@ -193,7 +193,7 @@ def build_pdf(output_path: Path, title: str, rel_path: str, family: str, pages: 
  draw_block("X. Centre", center)
  draw_block("C'. Retour", "Le retour convertit la source en objet partageable et archivable.")
  draw_block("B'. Miroir", "Le miroir relie le document original, sa version textuelle et sa version PDF compagnon.")
- draw_block("A'. Cloture", "Cette cloture confirme l'implantation du PDF dans la fractale universelle.")
+ draw_block("A'. Cloture", "Cette cloture confirme l'implantation du PDF dans la fractale.")
  c.save()
 
 

@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-UNIVERSE = ROOT / "FRACTAL_CHIASTE_UNIVERSEL"
+UNIVERSE = ROOT / "FRACTAL_CHIASTE"
 EXEC = UNIVERSE / "00_EXECUTIVE_DIGEST"
 CANON = UNIVERSE / "00_EDITION_CANONIQUE_FINALE"
 PUBLIC = UNIVERSE / "00_PUBLIC_BRIEF"
@@ -76,13 +76,13 @@ def build_manifest(step10: dict, step9: dict) -> dict:
  "stage": "step_11_public_brief",
  "public_root": str(PUBLIC.relative_to(ROOT)).replace("\\", "/"),
  "inputs": {
- "executive_digest": "FRACTAL_CHIASTE_UNIVERSEL/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json",
- "canonical_edition": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json",
+ "executive_digest": "FRACTAL_CHIASTE/00_EXECUTIVE_DIGEST/manifest_step10_executive_digest.json",
+ "canonical_edition": "FRACTAL_CHIASTE/00_EDITION_CANONIQUE_FINALE/manifest_step9_canonical_edition.json",
  },
  "outputs": {
- "public_brief": "FRACTAL_CHIASTE_UNIVERSEL/00_PUBLIC_BRIEF/PUBLIC_BRIEF.md",
- "presentation": "FRACTAL_CHIASTE_UNIVERSEL/00_PUBLIC_BRIEF/PRESENTATION_PUBLIQUE.md",
- "manifest": "FRACTAL_CHIASTE_UNIVERSEL/00_PUBLIC_BRIEF/manifest_step11_public_brief.json",
+ "public_brief": "FRACTAL_CHIASTE/00_PUBLIC_BRIEF/PUBLIC_BRIEF.md",
+ "presentation": "FRACTAL_CHIASTE/00_PUBLIC_BRIEF/PRESENTATION_PUBLIQUE.md",
+ "manifest": "FRACTAL_CHIASTE/00_PUBLIC_BRIEF/manifest_step11_public_brief.json",
  },
  "public_stats": {
  "unique_sources": step10.get("stats", {}).get("unique_sources", 0),

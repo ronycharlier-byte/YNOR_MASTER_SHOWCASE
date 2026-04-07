@@ -5,7 +5,7 @@ Famille : `depot_et_pack`
 Pages : `12`
 
 ## A. Ouverture
-Le PDF est projete dans la branche gouvernance et diffusion de la fractale universelle.
+Le PDF est projete dans la branche gouvernance et diffusion de la fractale.
 
 ## B. Expansion
 Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition monumentale.
@@ -13,7 +13,7 @@ Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition 
 ## C. Matiere
 Extrait textuel interpretable :
 ```text
-CORPUS MDL — VERSION le modèle canonique CONSOLIDÉE 2026 Document Maître Intégral — Version Dépôt Niveau 9/10 Architecture Décisionnelle Universelle Hybride TABLE DES MATIÈRES STRUCTURELLE  I. Fondements Normatifs  II. Architecture Hiérarchique Codifiée  III. Protocole Décisionnel Hybride Universel (PDHU)  IV. Taxonomie Officielle des Variables  V. Architecture Neurophysiologique Adaptative  VI. Protocole d’Intégration Cognitive Tri■niveaux  VII. Architecture Stratégique Cumulative  VIII. Annexes Techniques & Matrices  IX. Lexique Normatif Officiel  X. Gouvernance & Protection Structurelle
+CORPUS MDL — VERSION le modèle canonique CONSOLIDÉE 2026 Document Maître Intégral — Version Dépôt Niveau 9/10 Architecture Décisionnelle Hybride TABLE DES MATIÈRES STRUCTURELLE  I. Fondements Normatifs  II. Architecture Hiérarchique Codifiée  III. Protocole Décisionnel Hybride (PDHU)  IV. Taxonomie Officielle des Variables  V. Architecture Neurophysiologique Adaptative  VI. Protocole d’Intégration Cognitive Tri■niveaux  VII. Architecture Stratégique Cumulative  VIII. Annexes Techniques & Matrices  IX. Lexique Normatif Officiel  X. Gouvernance & Protection Structurelle
 ```
 
 ## X. Centre

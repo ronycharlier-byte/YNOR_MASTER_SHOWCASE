@@ -268,7 +268,7 @@ Soient A et B deux modules sur un anneau commutatif R.
 
 Taches :
 
-- Prouver la propriete universelle du produit tensoriel A tensor_R B.
+- Prouver la propriete du produit tensoriel A tensor_R B.
 
 - Etablir l'adjunction Hom_R(A tensor_R B, C) simeq Hom_R(A, Hom_R(B, C)).
 

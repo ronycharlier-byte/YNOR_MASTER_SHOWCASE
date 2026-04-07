@@ -6,12 +6,12 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-UNIVERSE = ROOT / "FRACTAL_CHIASTE_UNIVERSEL"
+UNIVERSE = ROOT / "FRACTAL_CHIASTE"
 CANON = UNIVERSE / "00_EDITION_CANONIQUE_FINALE"
 
 SOURCE_FILES = [
- UNIVERSE / "MANIFESTE_FRACTAL_CHIASTE_UNIVERSEL.md",
- UNIVERSE / "manifeste_fractal_chiaste_universel.json",
+ UNIVERSE / "MANIFESTE_FRACTAL_CHIASTE.md",
+ UNIVERSE / "manifeste_fractal_chiaste.json",
  UNIVERSE / "INDEX_MAITRE_FRACTAL_CHIASTIQUE.md",
  UNIVERSE / "manifest_step7_master_index.json",
  UNIVERSE / "CARTE_VISUELLE_FRACTALE_CHIASTIQUE.md",
@@ -52,7 +52,7 @@ def build_portal(master: dict, navigation: dict, copied: list[str]) -> str:
  f"- Axe chiastique : `{' -> '.join(master.get('chiastic_axis', []))}`",
  "",
  "## Documents Cles",
- "- `01_DOCUMENTS_CENTRAUX/MANIFESTE_FRACTAL_CHIASTE_UNIVERSEL.md`",
+ "- `01_DOCUMENTS_CENTRAUX/MANIFESTE_FRACTAL_CHIASTE.md`",
  "- `01_DOCUMENTS_CENTRAUX/INDEX_MAITRE_FRACTAL_CHIASTIQUE.md`",
  "- `01_DOCUMENTS_CENTRAUX/CARTE_VISUELLE_FRACTALE_CHIASTIQUE.md`",
  "",
@@ -107,10 +107,10 @@ def build_readme_json(master: dict, navigation: dict, copied: list[str]) -> dict
  "chiastic_axis": master.get("chiastic_axis", []),
  "node_counts": master.get("node_counts", {}),
  "stage_counts": master.get("stage_counts", {}),
- "primary_portal": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md",
- "visual_map": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/CARTE_VISUELLE_FRACTALE_CHIASTIQUE.md",
- "master_index": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/INDEX_MAITRE_FRACTAL_CHIASTIQUE.md",
- "navigation_manifest": "FRACTAL_CHIASTE_UNIVERSEL/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/manifest_step8_visual_navigation.json",
+ "primary_portal": "FRACTAL_CHIASTE/00_EDITION_CANONIQUE_FINALE/PORTAIL_CANONIQUE_FINAL.md",
+ "visual_map": "FRACTAL_CHIASTE/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/CARTE_VISUELLE_FRACTALE_CHIASTIQUE.md",
+ "master_index": "FRACTAL_CHIASTE/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/INDEX_MAITRE_FRACTAL_CHIASTIQUE.md",
+ "navigation_manifest": "FRACTAL_CHIASTE/00_EDITION_CANONIQUE_FINALE/01_DOCUMENTS_CENTRAUX/manifest_step8_visual_navigation.json",
  }
 
 

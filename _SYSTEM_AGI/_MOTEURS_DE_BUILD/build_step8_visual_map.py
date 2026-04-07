@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-UNIVERSE = ROOT / "FRACTAL_CHIASTE_UNIVERSEL"
+UNIVERSE = ROOT / "FRACTAL_CHIASTE"
 MASTER_INDEX = UNIVERSE / "manifest_step7_master_index.json"
 
 NODE_TITLES = {
@@ -120,7 +120,7 @@ def build_navigation_json(master: dict) -> dict:
  }
  for node in NODE_ORDER
  },
- "mermaid_path": "FRACTAL_CHIASTE_UNIVERSEL/CARTE_VISUELLE_FRACTALE_CHIASTIQUE.md",
+ "mermaid_path": "FRACTAL_CHIASTE/CARTE_VISUELLE_FRACTALE_CHIASTIQUE.md",
  }
 
 

@@ -1265,7 +1265,7 @@ Taches :
 
 
 
-- Prouver la propriete universelle du produit tensoriel A tensor_R B.
+- Prouver la propriete du produit tensoriel A tensor_R B.
 
 
 

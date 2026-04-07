@@ -104,7 +104,7 @@ def fractal_expand():
 
  print(f"\n=== EXPANSION TERMINÉE : {expanded_count} NODES FRACTALISÉS ===")
 
- print("STATUT : HIERACHIE UNIVERSELLE INITIALISÉE.")
+ print("STATUT : HIERACHIE INITIALISÉE.")
 
 
 

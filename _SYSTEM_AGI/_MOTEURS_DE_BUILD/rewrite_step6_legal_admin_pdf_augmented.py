@@ -11,7 +11,7 @@ from reportlab.pdfgen import canvas
 
 
 ROOT = Path(__file__).resolve().parent
-UNIVERSE = ROOT / "FRACTAL_CHIASTE_UNIVERSEL"
+UNIVERSE = ROOT / "FRACTAL_CHIASTE"
 SOURCE_ROOT = ROOT / "MDL Ynor Constitution" / "MDL — Argent & Juridique"
 OUT_ROOT = (
  UNIVERSE
@@ -100,7 +100,7 @@ def build_markdown(rel_path: str, title: str, family: str, pages: int, excerpt: 
  f"Pages : `{pages}`",
  "",
  "## A. Ouverture",
- "Le PDF est projete dans la branche gouvernance et diffusion de la fractale universelle.",
+ "Le PDF est projete dans la branche gouvernance et diffusion de la fractale.",
  "",
  "## B. Expansion",
  "Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition monumentale.",

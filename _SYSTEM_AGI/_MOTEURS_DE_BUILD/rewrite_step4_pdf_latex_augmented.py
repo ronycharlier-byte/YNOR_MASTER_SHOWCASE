@@ -11,7 +11,7 @@ from reportlab.pdfgen import canvas
 
 
 ROOT = Path(__file__).resolve().parent
-UNIVERSE = ROOT / "FRACTAL_CHIASTE_UNIVERSEL"
+UNIVERSE = ROOT / "FRACTAL_CHIASTE"
 
 TARGETS = [
  ROOT / "_RELEASES" / "GOLDEN_MASTER_PHASE_III" / "Sovereign_Millennium_Dissipative_Stability_Proof.tex",
@@ -215,7 +215,7 @@ def build_pdf(pdf_path: Path, title: str, rel_path: str, sections: list[str], ce
  draw_block("B. Expansion", "Sections detectees : " + (", ".join(sections) if sections else "structure implicite"))
  draw_block("C. Matiere", excerpt)
  draw_block("X. Centre", center)
- draw_block("C'. Retour", "Le retour du centre transforme le texte en objet transmissible, lisible et archivable dans la fractale universelle.")
+ draw_block("C'. Retour", "Le retour du centre transforme le texte en objet transmissible, lisible et archivable dans la fractale.")
  draw_block("B'. Miroir", "Le miroir fait correspondre preuves, posture editoriale et usage souverain.")
  draw_block("A'. Cloture", "Cette version augmente sans ecraser l'original et sert de compagnon PDF a la version LaTeX augmentee.")
 

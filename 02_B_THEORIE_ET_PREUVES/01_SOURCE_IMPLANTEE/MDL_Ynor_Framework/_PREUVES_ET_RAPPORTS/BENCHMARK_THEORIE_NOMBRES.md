@@ -92,7 +92,7 @@ Vérifions que $f$ est bien définie :
 Soit $k \in A_d$. Par définition, $\gcd(k,n) = d$.
 Donc $d|k$, ce qui implique que $k/d \in \mathbb{N}$.
 Les bornes $1 \le k \le n$ divisées par $d$ donnent $1/d \le k/d \le n/d$. Puisque $k/d$ est entier et $1/d > 0$, on a $1 \le k/d \le n/d$.
-De plus, la propriété universelle de factorisation du PGCD indique : $\gcd(k,n) = d \iff \gcd(k/d, n/d) = 1$.
+De plus, la propriété de factorisation du PGCD indique : $\gcd(k,n) = d \iff \gcd(k/d, n/d) = 1$.
 Donc $f(k)$ satisfait toutes les conditions d'appartenance à $B_{n/d}$.
 
 2. Audit Ynor :

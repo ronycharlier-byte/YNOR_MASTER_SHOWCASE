@@ -1538,7 +1538,7 @@ Lecture :
 
 
 
-**IA :** Il devient insuffisant comme cadre universel. Le realisme classique suppose des proprietes preexistantes, totalement definies, independantes du contexte. Bohr soutient plutot qu'en quantique, la theorie ne permet pas toujours ce type d'attribution sans reference au dispositif experimental.
+**IA :** Il devient insuffisant comme cadre. Le realisme classique suppose des proprietes preexistantes, totalement definies, independantes du contexte. Bohr soutient plutot qu'en quantique, la theorie ne permet pas toujours ce type d'attribution sans reference au dispositif experimental.
 
 
 

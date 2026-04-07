@@ -5,7 +5,7 @@ Famille : `volume_monumental`
 Pages : `57`
 
 ## A. Ouverture
-Le PDF est projete dans la branche gouvernance et diffusion de la fractale universelle.
+Le PDF est projete dans la branche gouvernance et diffusion de la fractale.
 
 ## B. Expansion
 Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition monumentale.
@@ -13,7 +13,7 @@ Le document est lu comme un acte de depot, de norme, de prospectus ou d'edition 
 ## C. Matiere
 Extrait textuel interpretable :
 ```text
-CORPUS MDL VOLUME II — PROTOCOLE DÉCISIONNEL HYBRIDE UNIVERSEL ÉDITION MONUMENTALE TECHNIQUE & DOCTRINALE 2026 Date d’édition : 17 February 2026 Développement exhaustif du moteur décisionnel central du Corpus MDL. INTRODUCTION GÉNÉRALE Le présent Volume II constitue le cœur opérationnel du Corpus MDL. Il formalise la structure décisionnelle, les variables normatives, les extensions mathématiques et la doctrine d’application détaillée.
+CORPUS MDL VOLUME II — PROTOCOLE DÉCISIONNEL HYBRIDE ÉDITION MONUMENTALE TECHNIQUE & DOCTRINALE 2026 Date d’édition : 17 February 2026 Développement exhaustif du moteur décisionnel central du Corpus MDL. INTRODUCTION GÉNÉRALE Le présent Volume II constitue le cœur opérationnel du Corpus MDL. Il formalise la structure décisionnelle, les variables normatives, les extensions mathématiques et la doctrine d’application détaillée.
 ```
 
 ## X. Centre

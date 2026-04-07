@@ -50,7 +50,7 @@ Pour le nettoyage du corpus, voir le script d'audit :
 
 - `build_corpus_audit.py`
 
-Il genere un rapport sur les doublons, les miroirs et les problemes d'encodage dans `FRACTAL_CHIASTE_UNIVERSEL/00_CORPUS_AUDIT/`.
+Il genere un rapport sur les doublons, les miroirs et les problemes d'encodage dans `FRACTAL_CHIASTE/00_CORPUS_AUDIT/`.
 
 ---
 
